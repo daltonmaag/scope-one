@@ -9,8 +9,11 @@ See `LICENSE.txt` for licensing information. Essentially, the fonts and related 
 ## Repository tree
 
 doc - project documentation
+
 source - UFO 2
+
 test - font testing documents
+
 scripts - build scripts
 
 ## Planned
