@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CR" format="1">
+	<unicode hex="000D"/>
+	<advance width="500"/>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>170</integer>
+		</dict>
+	</lib>
+</glyph>
