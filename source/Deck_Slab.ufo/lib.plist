@@ -2,6 +2,66 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>org.robofab.fontlab.guides</key>
+	<dict>
+		<key>hguides</key>
+		<array>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>979</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>-195</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>510</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>-10</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>530</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>540</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>655</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>322</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>250</integer>
+			</dict>
+		</array>
+	</dict>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>
@@ -53,10 +113,10 @@
 		<string>Y</string>
 		<string>exclam</string>
 		<string>quotedbl</string>
+		<string>quotesingle</string>
 		<string>numbersign</string>
 		<string>dollar</string>
 		<string>percent</string>
-		<string>quotesingle</string>
 		<string>parenleft</string>
 		<string>parenright</string>
 		<string>asterisk</string>
