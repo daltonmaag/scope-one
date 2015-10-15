@@ -62,6 +62,60 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>org.robofab.fontlab.guides</key>
+			<dict>
+				<key>vguides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<real>-28.5019607544</real>
+						<key>position</key>
+						<integer>394</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>-28.5019607544</real>
+						<key>position</key>
+						<integer>454</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>28.5019607544</real>
+						<key>position</key>
+						<integer>201</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>28.5019607544</real>
+						<key>position</key>
+						<integer>146</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>-28.5019607544</real>
+						<key>position</key>
+						<integer>394</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>-28.5019607544</real>
+						<key>position</key>
+						<integer>454</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>28.5019607544</real>
+						<key>position</key>
+						<integer>201</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>28.5019607544</real>
+						<key>position</key>
+						<integer>146</integer>
+					</dict>
+				</array>
+			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>130</integer>
 			<key>org.robofab.fontlab.maskData</key>
