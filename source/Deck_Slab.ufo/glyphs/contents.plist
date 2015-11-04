@@ -138,10 +138,18 @@
 		<string>emdash.glif</string>
 		<key>emdash.case</key>
 		<string>emdash.case.glif</string>
+		<key>emquad</key>
+		<string>emquad.glif</string>
+		<key>emspace</key>
+		<string>emspace.glif</string>
 		<key>endash</key>
 		<string>endash.glif</string>
 		<key>endash.case</key>
 		<string>endash.case.glif</string>
+		<key>enquad</key>
+		<string>enquad.glif</string>
+		<key>enspace</key>
+		<string>enspace.glif</string>
 		<key>equal</key>
 		<string>equal.glif</string>
 		<key>exclam</key>
@@ -154,6 +162,8 @@
 		<string>f.glif</string>
 		<key>figuredash</key>
 		<string>figuredash.glif</string>
+		<key>figurespace</key>
+		<string>figurespace.glif</string>
 		<key>five</key>
 		<string>five.glif</string>
 		<key>five.pnum.lnum</key>
@@ -172,6 +182,8 @@
 		<string>four.pnum.onum.glif</string>
 		<key>four.tnum.onum</key>
 		<string>four.tnum.onum.glif</string>
+		<key>fourthemspace</key>
+		<string>fourthemspace.glif</string>
 		<key>fraction</key>
 		<string>fraction.glif</string>
 		<key>g</key>
@@ -196,6 +208,8 @@
 		<string>guilsinglright.case.glif</string>
 		<key>h</key>
 		<string>h.glif</string>
+		<key>hairspace</key>
+		<string>hairspace.glif</string>
 		<key>horizontalbar</key>
 		<string>horizontalbar.glif</string>
 		<key>hyphen</key>
@@ -224,6 +238,8 @@
 		<string>nbhyphen.glif</string>
 		<key>nbhyphen.case</key>
 		<string>nbhyphen.case.glif</string>
+		<key>nbspace</key>
+		<string>nbspace.glif</string>
 		<key>nine</key>
 		<string>nine.glif</string>
 		<key>nine.pnum.lnum</key>
@@ -268,6 +284,8 @@
 		<string>periodcentered.case.glif</string>
 		<key>plus</key>
 		<string>plus.glif</string>
+		<key>punctuationspace</key>
+		<string>punctuationspace.glif</string>
 		<key>q</key>
 		<string>q.glif</string>
 		<key>question</key>
@@ -314,6 +332,8 @@
 		<string>six.pnum.onum.glif</string>
 		<key>six.tnum.onum</key>
 		<string>six.tnum.onum.glif</string>
+		<key>sixthemspace</key>
+		<string>sixthemspace.glif</string>
 		<key>slash</key>
 		<string>slash.glif</string>
 		<key>slash.case</key>
@@ -322,6 +342,10 @@
 		<string>space.glif</string>
 		<key>t</key>
 		<string>t.glif</string>
+		<key>thinspace</key>
+		<string>thinspace.glif</string>
+		<key>thirdemspace</key>
+		<string>thirdemspace.glif</string>
 		<key>three</key>
 		<string>three.glif</string>
 		<key>three.pnum.lnum</key>
@@ -362,5 +386,9 @@
 		<string>zero.pnum.onum.glif</string>
 		<key>zero.tnum.onum</key>
 		<string>zero.tnum.onum.glif</string>
+		<key>zerowidthnbspace</key>
+		<string>zerowidthnbspace.glif</string>
+		<key>zerowidthspace</key>
+		<string>zerowidthspace.glif</string>
 	</dict>
 </plist>
