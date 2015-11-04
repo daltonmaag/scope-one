@@ -2499,6 +2499,20 @@
 		<string>seven.pnum.onum</string>
 		<string>eight.pnum.onum</string>
 		<string>nine.pnum.onum</string>
+		<string>nbspace</string>
+		<string>enquad</string>
+		<string>emquad</string>
+		<string>enspace</string>
+		<string>emspace</string>
+		<string>thirdemspace</string>
+		<string>fourthemspace</string>
+		<string>sixthemspace</string>
+		<string>figurespace</string>
+		<string>punctuationspace</string>
+		<string>thinspace</string>
+		<string>hairspace</string>
+		<string>zerowidthspace</string>
+		<string>zerowidthnbspace</string>
 	</array>
 </dict>
 </plist>
