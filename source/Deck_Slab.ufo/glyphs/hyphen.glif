@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen" format="1">
 	<unicode hex="002D"/>
-	<advance width="334"/>
+	<advance width="344"/>
 	<outline>
 		<contour>
 			<point x="290" y="235" type="line"/>
@@ -41,7 +41,7 @@
 				</array>
 			</dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>170</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>

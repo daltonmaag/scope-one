@@ -31,11 +31,17 @@
 			<point x="526" y="-10"/>
 			<point x="644" y="122"/>
 		</contour>
+		<contour>
+			<point name="top.UC" x="347" y="670" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.UC" x="347" y="-40" type="move"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>170</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>

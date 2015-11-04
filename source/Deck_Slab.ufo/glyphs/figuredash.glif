@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figuredash" format="1">
+	<unicode hex="2012"/>
+	<advance width="580"/>
+	<outline>
+		<contour>
+			<point x="540" y="298" type="line"/>
+			<point x="540" y="346" type="line"/>
+			<point x="40" y="346" type="line"/>
+			<point x="40" y="298" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

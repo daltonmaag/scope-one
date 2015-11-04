@@ -50,6 +50,12 @@
 			<point x="317" y="299" type="curve" smooth="yes"/>
 			<point x="181" y="299" type="line"/>
 		</contour>
+		<contour>
+			<point name="top.UC" x="290" y="670" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.UC" x="178" y="-40" type="move"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
@@ -84,7 +90,7 @@
 				</array>
 			</dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>170</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>
