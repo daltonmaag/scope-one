@@ -11,20 +11,20 @@
 			<point x="309" y="633"/>
 			<point x="341" y="629"/>
 			<point x="365" y="624" type="curve"/>
-			<point x="372" y="635"/>
-			<point x="376" y="648"/>
+			<point x="372" y="636"/>
+			<point x="375" y="648"/>
 			<point x="376" y="662" type="curve"/>
 			<point x="347" y="673"/>
 			<point x="308" y="680"/>
 			<point x="274" y="680" type="curve" smooth="yes"/>
-			<point x="174" y="680"/>
-			<point x="115" y="621"/>
+			<point x="176" y="680"/>
+			<point x="115" y="618"/>
 			<point x="115" y="520" type="curve" smooth="yes"/>
 			<point x="115" y="499" type="line"/>
 			<point x="42" y="490" type="line"/>
 			<point x="38" y="483"/>
-			<point x="36" y="477"/>
-			<point x="36" y="471" type="curve" smooth="yes"/>
+			<point x="36" y="476"/>
+			<point x="36" y="470" type="curve" smooth="yes"/>
 			<point x="36" y="466"/>
 			<point x="37" y="461"/>
 			<point x="39" y="456" type="curve"/>
@@ -57,11 +57,29 @@
 			<point x="307" y="500" type="curve" smooth="yes"/>
 			<point x="169" y="500" type="line"/>
 		</contour>
+		<contour>
+			<point name="top.ASC" x="247" y="700" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.LC" x="162" y="-20" type="move"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>org.robofab.fontlab.guides</key>
+			<dict>
+				<key>vguides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>206</integer>
+					</dict>
+				</array>
+			</dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>170</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>
@@ -149,7 +167,7 @@
 					<key>pt</key>
 					<array>
 						<integer>372</integer>
-						<integer>635</integer>
+						<integer>636</integer>
 					</array>
 				</dict>
 				<dict>
@@ -157,7 +175,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>376</integer>
+						<integer>375</integer>
 						<integer>648</integer>
 					</array>
 				</dict>
@@ -220,7 +238,7 @@
 					<key>pt</key>
 					<array>
 						<integer>115</integer>
-						<integer>621</integer>
+						<integer>616</integer>
 					</array>
 				</dict>
 				<dict>
@@ -277,7 +295,7 @@
 					<key>pt</key>
 					<array>
 						<integer>36</integer>
-						<integer>477</integer>
+						<integer>476</integer>
 					</array>
 				</dict>
 				<dict>
@@ -286,7 +304,7 @@
 					<key>pt</key>
 					<array>
 						<integer>36</integer>
-						<integer>471</integer>
+						<integer>470</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>

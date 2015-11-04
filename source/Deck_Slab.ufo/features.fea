@@ -1,0 +1,15 @@
+feature lnum {
+  sub @figOnum by @figDef ;
+} lnum;
+feature onum {
+  sub @figDef by @figOnum ;
+} onum;
+feature pnum {
+  sub @figDef by @figPnum ;
+  sub @figOnum by @figPOnum ;
+} pnum;
+feature tnum {
+  sub @figPnum by @figDef;
+  sub @figPOnum by @figOnum;
+} tnum;
+

@@ -57,6 +57,12 @@
 			<point x="408" y="357"/>
 			<point x="335" y="357" type="curve" smooth="yes"/>
 		</contour>
+		<contour>
+			<point name="top.UC" x="285" y="670" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.UC" x="305" y="-40" type="move"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
@@ -77,9 +83,24 @@
 						<integer>480</integer>
 					</dict>
 				</array>
+				<key>vguides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>285</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>305</integer>
+					</dict>
+				</array>
 			</dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>130</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>

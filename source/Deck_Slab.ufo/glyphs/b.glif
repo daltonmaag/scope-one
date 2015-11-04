@@ -4,10 +4,10 @@
 	<advance width="563"/>
 	<outline>
 		<contour>
-			<point x="144" y="650" type="line"/>
-			<point x="136" y="661"/>
-			<point x="125" y="669"/>
-			<point x="110" y="675" type="curve"/>
+			<point x="144" y="653" type="line"/>
+			<point x="137" y="661"/>
+			<point x="127" y="669"/>
+			<point x="116" y="675" type="curve"/>
 			<point x="12" y="656" type="line"/>
 			<point x="8" y="649"/>
 			<point x="6" y="643"/>
@@ -17,12 +17,15 @@
 			<point x="9" y="623" type="curve"/>
 			<point x="90" y="623" type="line"/>
 			<point x="90" y="0" type="line"/>
-			<point x="101" y="-2"/>
-			<point x="113" y="-2"/>
-			<point x="124" y="0" type="curve"/>
-			<point x="138" y="46" type="line"/>
-			<point x="180" y="9"/>
-			<point x="230" y="-10"/>
+			<point x="94" y="-1"/>
+			<point x="104" y="-2"/>
+			<point x="109" y="-2" type="curve" smooth="yes"/>
+			<point x="114" y="-2"/>
+			<point x="124" y="-1"/>
+			<point x="128" y="0" type="curve"/>
+			<point x="139" y="46" type="line"/>
+			<point x="179" y="10"/>
+			<point x="229" y="-10"/>
 			<point x="285" y="-10" type="curve" smooth="yes"/>
 			<point x="427" y="-10"/>
 			<point x="520" y="95"/>
@@ -35,7 +38,7 @@
 			<point x="144" y="399" type="curve"/>
 		</contour>
 		<contour>
-			<point x="463" y="258" type="curve" smooth="yes"/>
+			<point x="463" y="255" type="curve" smooth="yes"/>
 			<point x="463" y="119"/>
 			<point x="395" y="35"/>
 			<point x="285" y="35" type="curve" smooth="yes"/>
@@ -46,8 +49,14 @@
 			<point x="144" y="373"/>
 			<point x="223" y="466"/>
 			<point x="315" y="466" type="curve" smooth="yes"/>
-			<point x="404" y="466"/>
-			<point x="463" y="383"/>
+			<point x="402" y="466"/>
+			<point x="463" y="379"/>
+		</contour>
+		<contour>
+			<point name="top.ASC" x="102" y="700" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.LC" x="285" y="-20" type="move"/>
 		</contour>
 	</outline>
 	<lib>
@@ -71,7 +80,7 @@
 				</array>
 			</dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>130</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>
@@ -97,7 +106,7 @@
 					<key>pt</key>
 					<array>
 						<integer>144</integer>
-						<integer>650</integer>
+						<integer>653</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -109,7 +118,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>136</integer>
+						<integer>137</integer>
 						<integer>661</integer>
 					</array>
 				</dict>
@@ -118,7 +127,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>125</integer>
+						<integer>127</integer>
 						<integer>669</integer>
 					</array>
 				</dict>
@@ -127,7 +136,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>110</integer>
+						<integer>116</integer>
 						<integer>675</integer>
 					</array>
 					<key>segmentType</key>
@@ -241,7 +250,16 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>101</integer>
+						<integer>94</integer>
+						<integer>-1</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>104</integer>
 						<integer>-2</integer>
 					</array>
 				</dict>
@@ -250,7 +268,20 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>113</integer>
+						<integer>109</integer>
+						<integer>-2</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>114</integer>
 						<integer>-2</integer>
 					</array>
 				</dict>
@@ -260,6 +291,15 @@
 					<key>pt</key>
 					<array>
 						<integer>124</integer>
+						<integer>-1</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>128</integer>
 						<integer>0</integer>
 					</array>
 					<key>segmentType</key>
@@ -272,8 +312,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>145</integer>
-						<integer>68</integer>
+						<integer>142</integer>
+						<integer>58</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -285,8 +325,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>124</integer>
-						<integer>60</integer>
+						<integer>127</integer>
+						<integer>58</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -299,7 +339,7 @@
 					<key>pt</key>
 					<array>
 						<integer>169</integer>
-						<integer>14</integer>
+						<integer>15</integer>
 					</array>
 				</dict>
 				<dict>
@@ -431,7 +471,7 @@
 					<key>pt</key>
 					<array>
 						<integer>463</integer>
-						<integer>258</integer>
+						<integer>255</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -549,7 +589,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>404</integer>
+						<integer>402</integer>
 						<integer>466</integer>
 					</array>
 				</dict>
@@ -559,7 +599,7 @@
 					<key>pt</key>
 					<array>
 						<integer>463</integer>
-						<integer>383</integer>
+						<integer>379</integer>
 					</array>
 				</dict>
 				<dict>

@@ -4,10 +4,10 @@
 	<advance width="616"/>
 	<outline>
 		<contour>
-			<point x="169" y="650" type="line"/>
-			<point x="161" y="661"/>
-			<point x="150" y="669"/>
-			<point x="135" y="675" type="curve"/>
+			<point x="169" y="653" type="line"/>
+			<point x="162" y="661"/>
+			<point x="152" y="669"/>
+			<point x="141" y="675" type="curve"/>
 			<point x="37" y="656" type="line"/>
 			<point x="33" y="649"/>
 			<point x="31" y="643"/>
@@ -65,11 +65,17 @@
 			<point x="202" y="459"/>
 			<point x="169" y="397" type="curve"/>
 		</contour>
+		<contour>
+			<point name="top.ASC" x="127" y="700" type="move"/>
+		</contour>
+		<contour>
+			<point name="bottom.LC" x="315" y="-20" type="move"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>org.robofab.fontlab.mark</key>
-			<integer>170</integer>
+			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
 			<array>
 				<dict>
@@ -95,7 +101,7 @@
 					<key>pt</key>
 					<array>
 						<integer>169</integer>
-						<integer>650</integer>
+						<integer>653</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -107,7 +113,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>161</integer>
+						<integer>162</integer>
 						<integer>661</integer>
 					</array>
 				</dict>
@@ -116,7 +122,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>150</integer>
+						<integer>152</integer>
 						<integer>669</integer>
 					</array>
 				</dict>
@@ -125,7 +131,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>135</integer>
+						<integer>141</integer>
 						<integer>675</integer>
 					</array>
 					<key>segmentType</key>

@@ -72,20 +72,38 @@
 		<string>asterisk.glif</string>
 		<key>at</key>
 		<string>at.glif</string>
+		<key>at.case</key>
+		<string>at.case.glif</string>
 		<key>b</key>
 		<string>b.glif</string>
 		<key>backslash</key>
 		<string>backslash.glif</string>
+		<key>backslash.case</key>
+		<string>backslash.case.glif</string>
 		<key>bar</key>
 		<string>bar.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
+		<key>braceleft.case</key>
+		<string>braceleft.case.glif</string>
 		<key>braceright</key>
 		<string>braceright.glif</string>
+		<key>braceright.case</key>
+		<string>braceright.case.glif</string>
 		<key>bracketleft</key>
 		<string>bracketleft.glif</string>
+		<key>bracketleft.case</key>
+		<string>bracketleft.case.glif</string>
 		<key>bracketright</key>
 		<string>bracketright.glif</string>
+		<key>bracketright.case</key>
+		<string>bracketright.case.glif</string>
+		<key>brokenbar</key>
+		<string>brokenbar.glif</string>
+		<key>bullet</key>
+		<string>bullet.glif</string>
+		<key>bullet.case</key>
+		<string>bullet.case.glif</string>
 		<key>c</key>
 		<string>c.glif</string>
 		<key>colon</key>
@@ -94,32 +112,100 @@
 		<string>comma.glif</string>
 		<key>d</key>
 		<string>d.glif</string>
+		<key>dagger</key>
+		<string>dagger.glif</string>
+		<key>daggerdbl</key>
+		<string>daggerdbl.glif</string>
 		<key>dollar</key>
 		<string>dollar.glif</string>
+		<key>dotlessi</key>
+		<string>dotlessi.glif</string>
+		<key>dotlessj</key>
+		<string>dotlessj.glif</string>
 		<key>e</key>
 		<string>e.glif</string>
 		<key>eight</key>
 		<string>eight.glif</string>
+		<key>eight.pnum.lnum</key>
+		<string>eight.pnum.lnum.glif</string>
+		<key>eight.pnum.onum</key>
+		<string>eight.pnum.onum.glif</string>
+		<key>eight.tnum.onum</key>
+		<string>eight.tnum.onum.glif</string>
+		<key>ellipsis</key>
+		<string>ellipsis.glif</string>
+		<key>emdash</key>
+		<string>emdash.glif</string>
+		<key>emdash.case</key>
+		<string>emdash.case.glif</string>
+		<key>endash</key>
+		<string>endash.glif</string>
+		<key>endash.case</key>
+		<string>endash.case.glif</string>
 		<key>equal</key>
 		<string>equal.glif</string>
 		<key>exclam</key>
 		<string>exclam.glif</string>
+		<key>exclamdown</key>
+		<string>exclamdown.glif</string>
+		<key>exclamdown.case</key>
+		<string>exclamdown.case.glif</string>
 		<key>f</key>
 		<string>f.glif</string>
+		<key>figuredash</key>
+		<string>figuredash.glif</string>
 		<key>five</key>
 		<string>five.glif</string>
+		<key>five.pnum.lnum</key>
+		<string>five.pnum.lnum.glif</string>
+		<key>five.pnum.onum</key>
+		<string>five.pnum.onum.glif</string>
+		<key>five.tnum.onum</key>
+		<string>five.tnum.onum.glif</string>
+		<key>florin</key>
+		<string>florin.glif</string>
 		<key>four</key>
 		<string>four.glif</string>
+		<key>four.pnum.lnum</key>
+		<string>four.pnum.lnum.glif</string>
+		<key>four.pnum.onum</key>
+		<string>four.pnum.onum.glif</string>
+		<key>four.tnum.onum</key>
+		<string>four.tnum.onum.glif</string>
+		<key>fraction</key>
+		<string>fraction.glif</string>
 		<key>g</key>
 		<string>g.glif</string>
-		<key>grave</key>
-		<string>grave.glif</string>
 		<key>greater</key>
 		<string>greater.glif</string>
+		<key>guillemotleft</key>
+		<string>guillemotleft.glif</string>
+		<key>guillemotleft.case</key>
+		<string>guillemotleft.case.glif</string>
+		<key>guillemotright</key>
+		<string>guillemotright.glif</string>
+		<key>guillemotright.case</key>
+		<string>guillemotright.case.glif</string>
+		<key>guilsinglleft</key>
+		<string>guilsinglleft.glif</string>
+		<key>guilsinglleft.case</key>
+		<string>guilsinglleft.case.glif</string>
+		<key>guilsinglright</key>
+		<string>guilsinglright.glif</string>
+		<key>guilsinglright.case</key>
+		<string>guilsinglright.case.glif</string>
 		<key>h</key>
 		<string>h.glif</string>
+		<key>horizontalbar</key>
+		<string>horizontalbar.glif</string>
 		<key>hyphen</key>
 		<string>hyphen.glif</string>
+		<key>hyphen.case</key>
+		<string>hyphen.case.glif</string>
+		<key>hyphentwo</key>
+		<string>hyphentwo.glif</string>
+		<key>hyphentwo.case</key>
+		<string>hyphentwo.case.glif</string>
 		<key>i</key>
 		<string>i.glif</string>
 		<key>j</key>
@@ -134,32 +220,76 @@
 		<string>m.glif</string>
 		<key>n</key>
 		<string>n.glif</string>
+		<key>nbhyphen</key>
+		<string>nbhyphen.glif</string>
+		<key>nbhyphen.case</key>
+		<string>nbhyphen.case.glif</string>
 		<key>nine</key>
 		<string>nine.glif</string>
+		<key>nine.pnum.lnum</key>
+		<string>nine.pnum.lnum.glif</string>
+		<key>nine.pnum.onum</key>
+		<string>nine.pnum.onum.glif</string>
+		<key>nine.tnum.onum</key>
+		<string>nine.tnum.onum.glif</string>
 		<key>numbersign</key>
 		<string>numbersign.glif</string>
 		<key>o</key>
 		<string>o.glif</string>
 		<key>one</key>
 		<string>one.glif</string>
+		<key>one.pnum.lnum</key>
+		<string>one.pnum.lnum.glif</string>
+		<key>one.pnum.onum</key>
+		<string>one.pnum.onum.glif</string>
+		<key>one.tnum.onum</key>
+		<string>one.tnum.onum.glif</string>
+		<key>ordfeminine</key>
+		<string>ordfeminine.glif</string>
+		<key>ordmasculine</key>
+		<string>ordmasculine.glif</string>
 		<key>p</key>
 		<string>p.glif</string>
 		<key>parenleft</key>
 		<string>parenleft.glif</string>
+		<key>parenleft.case</key>
+		<string>parenleft.case.glif</string>
 		<key>parenright</key>
 		<string>parenright.glif</string>
+		<key>parenright.case</key>
+		<string>parenright.case.glif</string>
 		<key>percent</key>
 		<string>percent.glif</string>
 		<key>period</key>
 		<string>period.glif</string>
+		<key>periodcentered</key>
+		<string>periodcentered.glif</string>
+		<key>periodcentered.case</key>
+		<string>periodcentered.case.glif</string>
 		<key>plus</key>
 		<string>plus.glif</string>
 		<key>q</key>
 		<string>q.glif</string>
 		<key>question</key>
 		<string>question.glif</string>
+		<key>questiondown</key>
+		<string>questiondown.glif</string>
+		<key>questiondown.case</key>
+		<string>questiondown.case.glif</string>
 		<key>quotedbl</key>
 		<string>quotedbl.glif</string>
+		<key>quotedblbase</key>
+		<string>quotedblbase.glif</string>
+		<key>quotedblleft</key>
+		<string>quotedblleft.glif</string>
+		<key>quotedblright</key>
+		<string>quotedblright.glif</string>
+		<key>quoteleft</key>
+		<string>quoteleft.glif</string>
+		<key>quoteright</key>
+		<string>quoteright.glif</string>
+		<key>quotesinglbase</key>
+		<string>quotesinglbase.glif</string>
 		<key>quotesingle</key>
 		<string>quotesingle.glif</string>
 		<key>r</key>
@@ -170,22 +300,46 @@
 		<string>semicolon.glif</string>
 		<key>seven</key>
 		<string>seven.glif</string>
+		<key>seven.pnum.lnum</key>
+		<string>seven.pnum.lnum.glif</string>
+		<key>seven.pnum.onum</key>
+		<string>seven.pnum.onum.glif</string>
+		<key>seven.tnum.onum</key>
+		<string>seven.tnum.onum.glif</string>
 		<key>six</key>
 		<string>six.glif</string>
+		<key>six.pnum.lnum</key>
+		<string>six.pnum.lnum.glif</string>
+		<key>six.pnum.onum</key>
+		<string>six.pnum.onum.glif</string>
+		<key>six.tnum.onum</key>
+		<string>six.tnum.onum.glif</string>
 		<key>slash</key>
 		<string>slash.glif</string>
+		<key>slash.case</key>
+		<string>slash.case.glif</string>
 		<key>space</key>
 		<string>space.glif</string>
 		<key>t</key>
 		<string>t.glif</string>
 		<key>three</key>
 		<string>three.glif</string>
+		<key>three.pnum.lnum</key>
+		<string>three.pnum.lnum.glif</string>
+		<key>three.pnum.onum</key>
+		<string>three.pnum.onum.glif</string>
+		<key>three.tnum.onum</key>
+		<string>three.tnum.onum.glif</string>
 		<key>two</key>
 		<string>two.glif</string>
+		<key>two.pnum.lnum</key>
+		<string>two.pnum.lnum.glif</string>
+		<key>two.pnum.onum</key>
+		<string>two.pnum.onum.glif</string>
+		<key>two.tnum.onum</key>
+		<string>two.tnum.onum.glif</string>
 		<key>u</key>
 		<string>u.glif</string>
-		<key>underscore</key>
-		<string>underscore.glif</string>
 		<key>v</key>
 		<string>v.glif</string>
 		<key>w</key>
@@ -198,5 +352,15 @@
 		<string>z.glif</string>
 		<key>zero</key>
 		<string>zero.glif</string>
+		<key>zero.dnom</key>
+		<string>zero.dnom.glif</string>
+		<key>zero.numr</key>
+		<string>zero.numr.glif</string>
+		<key>zero.pnum.lnum</key>
+		<string>zero.pnum.lnum.glif</string>
+		<key>zero.pnum.onum</key>
+		<string>zero.pnum.onum.glif</string>
+		<key>zero.tnum.onum</key>
+		<string>zero.tnum.onum.glif</string>
 	</dict>
 </plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="1">
+	<unicode hex="2026"/>
+	<advance width="1000"/>
+	<outline>
+		<component base="period" xOffset="57"/>
+		<component base="period" xOffset="390"/>
+		<component base="period" xOffset="723"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>
