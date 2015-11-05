@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gcommabelow" format="1">
+	<unicode hex="0122"/>
+	<advance width="678"/>
+	<outline>
+		<component base="G"/>
+		<component base="commabelowcomb.cap" xOffset="355"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

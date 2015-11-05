@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="otilde" format="1">
+	<unicode hex="00F5"/>
+	<advance width="548"/>
+	<outline>
+		<component base="o"/>
+		<component base="tildecomb" xOffset="274"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

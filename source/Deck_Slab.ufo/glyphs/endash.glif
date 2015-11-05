@@ -3,12 +3,7 @@
 	<unicode hex="2013"/>
 	<advance width="500"/>
 	<outline>
-		<contour>
-			<point x="500" y="226" type="line"/>
-			<point x="500" y="274" type="line"/>
-			<point x="0" y="274" type="line"/>
-			<point x="0" y="226" type="line"/>
-		</contour>
+		<component base="underscore" yOffset="337"/>
 	</outline>
 	<lib>
 		<dict>

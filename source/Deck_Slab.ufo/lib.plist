@@ -2329,8 +2329,27 @@
 		<string>semicolon</string>
 		<string>question</string>
 		<string>exclam</string>
+		<string>questiondown</string>
+		<string>exclamdown</string>
 		<string>quotesingle</string>
 		<string>quotedbl</string>
+		<string>ellipsis</string>
+		<string>questiondown.case</string>
+		<string>exclamdown.case</string>
+		<string>nbspace</string>
+		<string>enquad</string>
+		<string>emquad</string>
+		<string>enspace</string>
+		<string>emspace</string>
+		<string>thirdemspace</string>
+		<string>fourthemspace</string>
+		<string>sixthemspace</string>
+		<string>figurespace</string>
+		<string>punctuationspace</string>
+		<string>thinspace</string>
+		<string>hairspace</string>
+		<string>zerowidthspace</string>
+		<string>zerowidthnbspace</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -2341,18 +2360,59 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
-		<string>percent</string>
+		<string>zero.tnum.onum</string>
+		<string>one.tnum.onum</string>
+		<string>two.tnum.onum</string>
+		<string>three.tnum.onum</string>
+		<string>four.tnum.onum</string>
+		<string>five.tnum.onum</string>
+		<string>six.tnum.onum</string>
+		<string>seven.tnum.onum</string>
+		<string>eight.tnum.onum</string>
+		<string>nine.tnum.onum</string>
+		<string>zero.pnum.lnum</string>
+		<string>one.pnum.lnum</string>
+		<string>two.pnum.lnum</string>
+		<string>three.pnum.lnum</string>
+		<string>four.pnum.lnum</string>
+		<string>five.pnum.lnum</string>
+		<string>six.pnum.lnum</string>
+		<string>seven.pnum.lnum</string>
+		<string>eight.pnum.lnum</string>
+		<string>nine.pnum.lnum</string>
+		<string>zero.pnum.onum</string>
+		<string>one.pnum.onum</string>
+		<string>two.pnum.onum</string>
+		<string>three.pnum.onum</string>
+		<string>four.pnum.onum</string>
+		<string>five.pnum.onum</string>
+		<string>six.pnum.onum</string>
+		<string>seven.pnum.onum</string>
+		<string>eight.pnum.onum</string>
+		<string>nine.pnum.onum</string>
+		<string>zero.dnom</string>
+		<string>zero.numr</string>
 		<string>fraction</string>
+		<string>percent</string>
 		<string>dollar</string>
 		<string>asciicircum</string>
 		<string>plus</string>
+		<string>minus</string>
 		<string>equal</string>
 		<string>less</string>
 		<string>greater</string>
 		<string>asciitilde</string>
+		<string>underscore</string>
 		<string>numbersign</string>
 		<string>bar</string>
+		<string>brokenbar</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
 		<string>hyphen</string>
+		<string>hyphentwo</string>
+		<string>nbhyphen</string>
+		<string>endash</string>
+		<string>emdash</string>
 		<string>parenleft</string>
 		<string>parenright</string>
 		<string>slash</string>
@@ -2361,9 +2421,37 @@
 		<string>bracketright</string>
 		<string>braceleft</string>
 		<string>braceright</string>
+		<string>bullet</string>
+		<string>guilsinglleft</string>
+		<string>guilsinglright</string>
+		<string>guillemotleft</string>
+		<string>guillemotright</string>
 		<string>at</string>
+		<string>periodcentered</string>
 		<string>ampersand</string>
 		<string>asterisk</string>
+		<string>hyphen.case</string>
+		<string>hyphentwo.case</string>
+		<string>nbhyphen.case</string>
+		<string>endash.case</string>
+		<string>emdash.case</string>
+		<string>parenleft.case</string>
+		<string>parenright.case</string>
+		<string>slash.case</string>
+		<string>backslash.case</string>
+		<string>bracketleft.case</string>
+		<string>bracketright.case</string>
+		<string>braceleft.case</string>
+		<string>braceright.case</string>
+		<string>bullet.case</string>
+		<string>guilsinglleft.case</string>
+		<string>guilsinglright.case</string>
+		<string>guillemotleft.case</string>
+		<string>guillemotright.case</string>
+		<string>at.case</string>
+		<string>periodcentered.case</string>
+		<string>figuredash</string>
+		<string>horizontalbar</string>
 		<string>A</string>
 		<string>B</string>
 		<string>C</string>
@@ -2416,103 +2504,256 @@
 		<string>x</string>
 		<string>y</string>
 		<string>z</string>
-		<string>dotlessi</string>
-		<string>dotlessj</string>
-		<string>ellipsis</string>
-		<string>questiondown</string>
-		<string>exclamdown</string>
-		<string>bullet</string>
-		<string>parenleft.case</string>
-		<string>parenright.case</string>
-		<string>slash.case</string>
-		<string>backslash.case</string>
-		<string>bracketleft.case</string>
-		<string>bracketright.case</string>
-		<string>braceleft.case</string>
-		<string>braceright.case</string>
-		<string>bullet.case</string>
-		<string>at.case</string>
-		<string>endash</string>
-		<string>endash.case</string>
-		<string>periodcentered</string>
-		<string>periodcentered.case</string>
-		<string>emdash</string>
-		<string>emdash.case</string>
-		<string>horizontalbar</string>
-		<string>figuredash</string>
-		<string>hyphentwo</string>
-		<string>nbhyphen</string>
-		<string>nbhyphen.case</string>
-		<string>hyphentwo.case</string>
-		<string>hyphen.case</string>
-		<string>guilsinglleft</string>
-		<string>guilsinglright</string>
-		<string>guillemotleft</string>
-		<string>guillemotright</string>
-		<string>guillemotright.case</string>
-		<string>guillemotleft.case</string>
-		<string>guilsinglright.case</string>
-		<string>guilsinglleft.case</string>
-		<string>brokenbar</string>
-		<string>dagger</string>
-		<string>daggerdbl</string>
-		<string>questiondown.case</string>
-		<string>exclamdown.case</string>
-		<string>florin</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
+		<string>florin</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
-		<string>eight.tnum.onum</string>
-		<string>five.tnum.onum</string>
-		<string>four.tnum.onum</string>
-		<string>nine.tnum.onum</string>
-		<string>one.tnum.onum</string>
-		<string>seven.tnum.onum</string>
-		<string>six.tnum.onum</string>
-		<string>three.tnum.onum</string>
-		<string>two.tnum.onum</string>
-		<string>zero.tnum.onum</string>
-		<string>zero.dnom</string>
-		<string>zero.numr</string>
-		<string>zero.pnum.lnum</string>
-		<string>one.pnum.lnum</string>
-		<string>two.pnum.lnum</string>
-		<string>three.pnum.lnum</string>
-		<string>four.pnum.lnum</string>
-		<string>five.pnum.lnum</string>
-		<string>six.pnum.lnum</string>
-		<string>seven.pnum.lnum</string>
-		<string>eight.pnum.lnum</string>
-		<string>nine.pnum.lnum</string>
-		<string>zero.pnum.onum</string>
-		<string>one.pnum.onum</string>
-		<string>two.pnum.onum</string>
-		<string>three.pnum.onum</string>
-		<string>four.pnum.onum</string>
-		<string>five.pnum.onum</string>
-		<string>six.pnum.onum</string>
-		<string>seven.pnum.onum</string>
-		<string>eight.pnum.onum</string>
-		<string>nine.pnum.onum</string>
-		<string>nbspace</string>
-		<string>enquad</string>
-		<string>emquad</string>
-		<string>enspace</string>
-		<string>emspace</string>
-		<string>thirdemspace</string>
-		<string>fourthemspace</string>
-		<string>sixthemspace</string>
-		<string>figurespace</string>
-		<string>punctuationspace</string>
-		<string>thinspace</string>
-		<string>hairspace</string>
-		<string>zerowidthspace</string>
-		<string>zerowidthnbspace</string>
+		<string>dotlessi</string>
+		<string>dotlessj</string>
+		<string>IJ</string>
+		<string>ij</string>
+		<string>fi</string>
+		<string>fl</string>
+		<string>Thorn</string>
+		<string>AE</string>
+		<string>OE</string>
+		<string>Germandbls</string>
+		<string>thorn</string>
+		<string>ae</string>
+		<string>oe</string>
+		<string>germandbls</string>
+		<string>longs</string>
+		<string>kgreenlandic</string>
+		<string>Eth</string>
+		<string>Dcroat</string>
+		<string>Hbar</string>
+		<string>Lslash</string>
+		<string>Oslash</string>
+		<string>eth</string>
+		<string>dcroat</string>
+		<string>hbar</string>
+		<string>lslash</string>
+		<string>oslash</string>
+		<string>cedillacomb</string>
+		<string>cedillacomb.cap</string>
+		<string>cedillacomb.dsc</string>
+		<string>cedilla</string>
+		<string>commabelowcomb</string>
+		<string>commabelowcomb.cap</string>
+		<string>commabelowcomb.dsc</string>
+		<string>commaturnedabovecomb</string>
+		<string>ogonekcomb</string>
+		<string>ogonekcomb.cap</string>
+		<string>ogonekcomb.round</string>
+		<string>ogonekcomb.round.cap</string>
+		<string>ogonek</string>
+		<string>Ccedilla</string>
+		<string>Scedilla</string>
+		<string>Tcedilla</string>
+		<string>Gcommabelow</string>
+		<string>Kcommabelow</string>
+		<string>Lcommabelow</string>
+		<string>Ncommabelow</string>
+		<string>Scommabelow</string>
+		<string>Tcommabelow</string>
+		<string>Aogonek</string>
+		<string>Eogonek</string>
+		<string>Iogonek</string>
+		<string>Uogonek</string>
+		<string>ccedilla</string>
+		<string>scedilla</string>
+		<string>tcedilla</string>
+		<string>gcommaabove</string>
+		<string>kcommabelow</string>
+		<string>lcommabelow</string>
+		<string>ncommabelow</string>
+		<string>scommabelow</string>
+		<string>tcommabelow</string>
+		<string>aogonek</string>
+		<string>eogonek</string>
+		<string>iogonek</string>
+		<string>uogonek</string>
+		<string>acutecomb</string>
+		<string>acutecomb.cap</string>
+		<string>acutecomb.asc</string>
+		<string>acute</string>
+		<string>hungarumlautcomb</string>
+		<string>hungarumlautcomb.cap</string>
+		<string>hungarumlautcomb.asc</string>
+		<string>hungarumlaut</string>
+		<string>Aacute</string>
+		<string>Cacute</string>
+		<string>Eacute</string>
+		<string>Iacute</string>
+		<string>Lacute</string>
+		<string>Nacute</string>
+		<string>Oacute</string>
+		<string>Racute</string>
+		<string>Sacute</string>
+		<string>Uacute</string>
+		<string>Wacute</string>
+		<string>Yacute</string>
+		<string>Zacute</string>
+		<string>IJacute</string>
+		<string>Ohungarumlaut</string>
+		<string>Uhungarumlaut</string>
+		<string>aacute</string>
+		<string>cacute</string>
+		<string>eacute</string>
+		<string>iacute</string>
+		<string>lacute</string>
+		<string>nacute</string>
+		<string>oacute</string>
+		<string>racute</string>
+		<string>sacute</string>
+		<string>uacute</string>
+		<string>wacute</string>
+		<string>yacute</string>
+		<string>zacute</string>
+		<string>ijacute</string>
+		<string>ohungarumlaut</string>
+		<string>uhungarumlaut</string>
+		<string>gravecomb</string>
+		<string>gravecomb.cap</string>
+		<string>gravecomb.asc</string>
+		<string>gravemod</string>
+		<string>grave</string>
+		<string>Agrave</string>
+		<string>Egrave</string>
+		<string>Igrave</string>
+		<string>Ograve</string>
+		<string>Ugrave</string>
+		<string>Wgrave</string>
+		<string>Ygrave</string>
+		<string>agrave</string>
+		<string>egrave</string>
+		<string>igrave</string>
+		<string>ograve</string>
+		<string>ugrave</string>
+		<string>wgrave</string>
+		<string>ygrave</string>
+		<string>circumflexcomb</string>
+		<string>circumflexcomb.cap</string>
+		<string>circumflexcomb.asc</string>
+		<string>circumflex</string>
+		<string>tildecomb</string>
+		<string>tildecomb.cap</string>
+		<string>tildecomb.asc</string>
+		<string>tilde</string>
+		<string>Acircumflex</string>
+		<string>Ecircumflex</string>
+		<string>Icircumflex</string>
+		<string>Ocircumflex</string>
+		<string>Ucircumflex</string>
+		<string>Wcircumflex</string>
+		<string>Ycircumflex</string>
+		<string>Atilde</string>
+		<string>Itilde</string>
+		<string>Ntilde</string>
+		<string>Otilde</string>
+		<string>Utilde</string>
+		<string>acircumflex</string>
+		<string>ecircumflex</string>
+		<string>icircumflex</string>
+		<string>ocircumflex</string>
+		<string>ucircumflex</string>
+		<string>wcircumflex</string>
+		<string>ycircumflex</string>
+		<string>atilde</string>
+		<string>itilde</string>
+		<string>ntilde</string>
+		<string>otilde</string>
+		<string>utilde</string>
+		<string>caroncomb</string>
+		<string>caroncomb.cap</string>
+		<string>caroncomb.asc</string>
+		<string>caron</string>
+		<string>commaaboverightcomb</string>
+		<string>commaaboverightcomb.short</string>
+		<string>macroncomb</string>
+		<string>macroncomb.cap</string>
+		<string>macroncomb.asc</string>
+		<string>macron</string>
+		<string>Ccaron</string>
+		<string>Dcaron</string>
+		<string>Ecaron</string>
+		<string>Lcaron</string>
+		<string>Ncaron</string>
+		<string>Rcaron</string>
+		<string>Scaron</string>
+		<string>Tcaron</string>
+		<string>Zcaron</string>
+		<string>Amacron</string>
+		<string>Emacron</string>
+		<string>Imacron</string>
+		<string>Omacron</string>
+		<string>Umacron</string>
+		<string>ccaron</string>
+		<string>dcaron</string>
+		<string>ecaron</string>
+		<string>lcaron</string>
+		<string>ncaron</string>
+		<string>rcaron</string>
+		<string>scaron</string>
+		<string>tcaron</string>
+		<string>zcaron</string>
+		<string>amacron</string>
+		<string>emacron</string>
+		<string>imacron</string>
+		<string>omacron</string>
+		<string>umacron</string>
+		<string>dieresiscomb</string>
+		<string>dieresiscomb.cap</string>
+		<string>dieresiscomb.asc</string>
+		<string>dieresis</string>
+		<string>brevecomb</string>
+		<string>brevecomb.cap</string>
+		<string>brevecomb.asc</string>
+		<string>breve</string>
+		<string>Adieresis</string>
+		<string>Edieresis</string>
+		<string>Idieresis</string>
+		<string>Odieresis</string>
+		<string>Udieresis</string>
+		<string>Wdieresis</string>
+		<string>Ydieresis</string>
+		<string>Abreve</string>
+		<string>Gbreve</string>
+		<string>adieresis</string>
+		<string>edieresis</string>
+		<string>idieresis</string>
+		<string>odieresis</string>
+		<string>udieresis</string>
+		<string>wdieresis</string>
+		<string>ydieresis</string>
+		<string>abreve</string>
+		<string>gbreve</string>
+		<string>dotaccentcomb</string>
+		<string>dotaccentcomb.cap</string>
+		<string>dotaccentcomb.asc</string>
+		<string>dotaccent</string>
+		<string>Cdotaccent</string>
+		<string>Edotaccent</string>
+		<string>Gdotaccent</string>
+		<string>Idotaccent</string>
+		<string>Zdotaccent</string>
+		<string>cdotaccent</string>
+		<string>edotaccent</string>
+		<string>gdotaccent</string>
+		<string>zdotaccent</string>
+		<string>ringcomb</string>
+		<string>ringcomb.cap</string>
+		<string>ringcomb.asc</string>
+		<string>ring</string>
+		<string>Aring</string>
+		<string>Uring</string>
+		<string>aring</string>
+		<string>uring</string>
 	</array>
 </dict>
 </plist>

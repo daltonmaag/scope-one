@@ -2,12 +2,7 @@
 <glyph name="endash.case" format="1">
 	<advance width="500"/>
 	<outline>
-		<contour>
-			<point x="500" y="298" type="line"/>
-			<point x="500" y="346" type="line"/>
-			<point x="0" y="346" type="line"/>
-			<point x="0" y="298" type="line"/>
-		</contour>
+		<component base="underscore" yOffset="409"/>
 	</outline>
 	<lib>
 		<dict>

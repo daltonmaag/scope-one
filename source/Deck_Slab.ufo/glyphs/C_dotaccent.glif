@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Cdotaccent" format="1">
+	<unicode hex="010A"/>
+	<advance width="593"/>
+	<outline>
+		<component base="C"/>
+		<component base="dotaccentcomb.cap" xOffset="330"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

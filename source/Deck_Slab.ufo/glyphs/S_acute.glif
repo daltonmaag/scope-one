@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sacute" format="1">
+	<unicode hex="015A"/>
+	<advance width="548"/>
+	<outline>
+		<component base="S"/>
+		<component base="acutecomb.cap" xOffset="270"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

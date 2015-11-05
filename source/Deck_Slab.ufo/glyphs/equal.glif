@@ -3,38 +3,8 @@
 	<unicode hex="003D"/>
 	<advance width="580"/>
 	<outline>
-		<contour>
-			<point x="502" y="211" type="line"/>
-			<point x="506" y="224"/>
-			<point x="507" y="229"/>
-			<point x="507" y="236" type="curve" smooth="yes"/>
-			<point x="507" y="242"/>
-			<point x="506" y="248"/>
-			<point x="504" y="259" type="curve"/>
-			<point x="78" y="259" type="line"/>
-			<point x="74" y="246"/>
-			<point x="73" y="241"/>
-			<point x="73" y="234" type="curve" smooth="yes"/>
-			<point x="73" y="228"/>
-			<point x="74" y="222"/>
-			<point x="76" y="211" type="curve"/>
-		</contour>
-		<contour>
-			<point x="502" y="385" type="line"/>
-			<point x="506" y="398"/>
-			<point x="507" y="403"/>
-			<point x="507" y="410" type="curve" smooth="yes"/>
-			<point x="507" y="416"/>
-			<point x="506" y="422"/>
-			<point x="504" y="433" type="curve"/>
-			<point x="78" y="433" type="line"/>
-			<point x="74" y="420"/>
-			<point x="73" y="415"/>
-			<point x="73" y="408" type="curve" smooth="yes"/>
-			<point x="73" y="402"/>
-			<point x="74" y="396"/>
-			<point x="76" y="385" type="curve"/>
-		</contour>
+		<component base="minus" yOffset="-87"/>
+		<component base="minus" yOffset="87"/>
 	</outline>
 	<lib>
 		<dict>
