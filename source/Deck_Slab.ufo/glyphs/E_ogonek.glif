@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek" format="1">
+	<unicode hex="0118"/>
+	<advance width="596"/>
+	<outline>
+		<component base="E"/>
+		<component base="ogonekcomb.cap" xOffset="502"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

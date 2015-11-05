@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="d" format="1">
 	<unicode hex="0064"/>
-	<advance width="593"/>
+	<advance width="588"/>
 	<outline>
 		<contour>
 			<point x="278" y="510" type="curve" smooth="yes"/>
@@ -64,7 +64,7 @@
 			<point name="bottom.LC" x="285" y="-20" type="move"/>
 		</contour>
 		<contour>
-			<point name="top_right" x="499" y="510" type="move"/>
+			<point name="top_right" x="504" y="510" type="move"/>
 		</contour>
 	</outline>
 	<lib>

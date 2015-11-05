@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ygrave" format="1">
+	<unicode hex="1EF2"/>
+	<advance width="594"/>
+	<outline>
+		<component base="Y"/>
+		<component base="gravecomb.cap" xOffset="297"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

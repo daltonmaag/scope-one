@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcedilla" format="1">
+	<unicode hex="0162"/>
+	<advance width="622"/>
+	<outline>
+		<component base="T"/>
+		<component base="cedillacomb.cap" xOffset="311"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

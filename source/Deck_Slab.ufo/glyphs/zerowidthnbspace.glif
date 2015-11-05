@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerowidthnbspace" format="1">
+	<unicode hex="FEFF"/>
 	<lib>
 		<dict>
 			<key>org.robofab.fontlab.mark</key>
