@@ -2,7 +2,7 @@
 <glyph name="three.tnum.onum" format="1">
 	<advance width="560"/>
 	<outline>
-		<component base="three" xOffset="-4" yOffset="-115"/>
+		<component base="three" xOffset="-9" yOffset="-115"/>
 	</outline>
 	<lib>
 		<dict>

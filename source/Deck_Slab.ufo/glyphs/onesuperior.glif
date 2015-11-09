@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onesuperior" format="1">
+	<unicode hex="00B9"/>
+	<advance width="348"/>
+	<outline>
+		<component base="oneinferior" yOffset="501"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.guides</key>
+			<dict>
+				<key>hguides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>1516</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>1516</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

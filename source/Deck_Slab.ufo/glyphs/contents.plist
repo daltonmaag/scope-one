@@ -414,12 +414,20 @@
 		<string>egrave.glif</string>
 		<key>eight</key>
 		<string>eight.glif</string>
+		<key>eight.dnom</key>
+		<string>eight.dnom.glif</string>
+		<key>eight.numr</key>
+		<string>eight.numr.glif</string>
 		<key>eight.pnum.lnum</key>
 		<string>eight.pnum.lnum.glif</string>
 		<key>eight.pnum.onum</key>
 		<string>eight.pnum.onum.glif</string>
 		<key>eight.tnum.onum</key>
 		<string>eight.tnum.onum.glif</string>
+		<key>eightinferior</key>
+		<string>eightinferior.glif</string>
+		<key>eightsuperior</key>
+		<string>eightsuperior.glif</string>
 		<key>ellipsis</key>
 		<string>ellipsis.glif</string>
 		<key>emacron</key>
@@ -462,24 +470,40 @@
 		<string>figurespace.glif</string>
 		<key>five</key>
 		<string>five.glif</string>
+		<key>five.dnom</key>
+		<string>five.dnom.glif</string>
+		<key>five.numr</key>
+		<string>five.numr.glif</string>
 		<key>five.pnum.lnum</key>
 		<string>five.pnum.lnum.glif</string>
 		<key>five.pnum.onum</key>
 		<string>five.pnum.onum.glif</string>
 		<key>five.tnum.onum</key>
 		<string>five.tnum.onum.glif</string>
+		<key>fiveinferior</key>
+		<string>fiveinferior.glif</string>
+		<key>fivesuperior</key>
+		<string>fivesuperior.glif</string>
 		<key>fl</key>
 		<string>fl.glif</string>
 		<key>florin</key>
 		<string>florin.glif</string>
 		<key>four</key>
 		<string>four.glif</string>
+		<key>four.dnom</key>
+		<string>four.dnom.glif</string>
+		<key>four.numr</key>
+		<string>four.numr.glif</string>
 		<key>four.pnum.lnum</key>
 		<string>four.pnum.lnum.glif</string>
 		<key>four.pnum.onum</key>
 		<string>four.pnum.onum.glif</string>
 		<key>four.tnum.onum</key>
 		<string>four.tnum.onum.glif</string>
+		<key>fourinferior</key>
+		<string>fourinferior.glif</string>
+		<key>foursuperior</key>
+		<string>foursuperior.glif</string>
 		<key>fourthemspace</key>
 		<string>fourthemspace.glif</string>
 		<key>fraction</key>
@@ -616,12 +640,20 @@
 		<string>ncommabelow.glif</string>
 		<key>nine</key>
 		<string>nine.glif</string>
+		<key>nine.dnom</key>
+		<string>nine.dnom.glif</string>
+		<key>nine.numr</key>
+		<string>nine.numr.glif</string>
 		<key>nine.pnum.lnum</key>
 		<string>nine.pnum.lnum.glif</string>
 		<key>nine.pnum.onum</key>
 		<string>nine.pnum.onum.glif</string>
 		<key>nine.tnum.onum</key>
 		<string>nine.tnum.onum.glif</string>
+		<key>nineinferior</key>
+		<string>nineinferior.glif</string>
+		<key>ninesuperior</key>
+		<string>ninesuperior.glif</string>
 		<key>ntilde</key>
 		<string>ntilde.glif</string>
 		<key>numbersign</key>
@@ -654,12 +686,20 @@
 		<string>omacron.glif</string>
 		<key>one</key>
 		<string>one.glif</string>
+		<key>one.dnom</key>
+		<string>one.dnom.glif</string>
+		<key>one.numr</key>
+		<string>one.numr.glif</string>
 		<key>one.pnum.lnum</key>
 		<string>one.pnum.lnum.glif</string>
 		<key>one.pnum.onum</key>
 		<string>one.pnum.onum.glif</string>
 		<key>one.tnum.onum</key>
 		<string>one.tnum.onum.glif</string>
+		<key>oneinferior</key>
+		<string>oneinferior.glif</string>
+		<key>onesuperior</key>
+		<string>onesuperior.glif</string>
 		<key>ordfeminine</key>
 		<string>ordfeminine.glif</string>
 		<key>ordmasculine</key>
@@ -742,20 +782,36 @@
 		<string>semicolon.glif</string>
 		<key>seven</key>
 		<string>seven.glif</string>
+		<key>seven.dnom</key>
+		<string>seven.dnom.glif</string>
+		<key>seven.numr</key>
+		<string>seven.numr.glif</string>
 		<key>seven.pnum.lnum</key>
 		<string>seven.pnum.lnum.glif</string>
 		<key>seven.pnum.onum</key>
 		<string>seven.pnum.onum.glif</string>
 		<key>seven.tnum.onum</key>
 		<string>seven.tnum.onum.glif</string>
+		<key>seveninferior</key>
+		<string>seveninferior.glif</string>
+		<key>sevensuperior</key>
+		<string>sevensuperior.glif</string>
 		<key>six</key>
 		<string>six.glif</string>
+		<key>six.dnom</key>
+		<string>six.dnom.glif</string>
+		<key>six.numr</key>
+		<string>six.numr.glif</string>
 		<key>six.pnum.lnum</key>
 		<string>six.pnum.lnum.glif</string>
 		<key>six.pnum.onum</key>
 		<string>six.pnum.onum.glif</string>
 		<key>six.tnum.onum</key>
 		<string>six.tnum.onum.glif</string>
+		<key>sixinferior</key>
+		<string>sixinferior.glif</string>
+		<key>sixsuperior</key>
+		<string>sixsuperior.glif</string>
 		<key>sixthemspace</key>
 		<string>sixthemspace.glif</string>
 		<key>slash</key>
@@ -780,12 +836,20 @@
 		<string>thorn.glif</string>
 		<key>three</key>
 		<string>three.glif</string>
+		<key>three.dnom</key>
+		<string>three.dnom.glif</string>
+		<key>three.numr</key>
+		<string>three.numr.glif</string>
 		<key>three.pnum.lnum</key>
 		<string>three.pnum.lnum.glif</string>
 		<key>three.pnum.onum</key>
 		<string>three.pnum.onum.glif</string>
 		<key>three.tnum.onum</key>
 		<string>three.tnum.onum.glif</string>
+		<key>threeinferior</key>
+		<string>threeinferior.glif</string>
+		<key>threesuperior</key>
+		<string>threesuperior.glif</string>
 		<key>tilde</key>
 		<string>tilde.glif</string>
 		<key>tildecomb</key>
@@ -796,12 +860,20 @@
 		<string>tildecomb.cap.glif</string>
 		<key>two</key>
 		<string>two.glif</string>
+		<key>two.dnom</key>
+		<string>two.dnom.glif</string>
+		<key>two.numr</key>
+		<string>two.numr.glif</string>
 		<key>two.pnum.lnum</key>
 		<string>two.pnum.lnum.glif</string>
 		<key>two.pnum.onum</key>
 		<string>two.pnum.onum.glif</string>
 		<key>two.tnum.onum</key>
 		<string>two.tnum.onum.glif</string>
+		<key>twoinferior</key>
+		<string>twoinferior.glif</string>
+		<key>twosuperior</key>
+		<string>twosuperior.glif</string>
 		<key>u</key>
 		<string>u.glif</string>
 		<key>uacute</key>
@@ -868,6 +940,10 @@
 		<string>zero.pnum.onum.glif</string>
 		<key>zero.tnum.onum</key>
 		<string>zero.tnum.onum.glif</string>
+		<key>zeroinferior</key>
+		<string>zeroinferior.glif</string>
+		<key>zerosuperior</key>
+		<string>zerosuperior.glif</string>
 		<key>zerowidthnbspace</key>
 		<string>zerowidthnbspace.glif</string>
 		<key>zerowidthspace</key>

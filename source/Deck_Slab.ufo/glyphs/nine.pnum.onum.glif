@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nine.pnum.onum" format="1">
-	<advance width="507"/>
+	<advance width="512"/>
 	<outline>
 		<component base="nine" xOffset="-23" yOffset="-115"/>
 	</outline>
