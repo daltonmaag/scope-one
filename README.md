@@ -20,8 +20,8 @@ scripts - build scripts
 
 - [x] Concept
 - [ ] Design
-  - [ ] ASCII
-  - [ ] Full glyphset
+  - [x] ASCII
+  - [x] Full glyphset
   - [ ] Kerning
   - [ ] Design testing
 - [ ] OT Features
