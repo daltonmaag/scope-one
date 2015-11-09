@@ -2391,6 +2391,7 @@
 		<string>eight.pnum.onum</string>
 		<string>nine.pnum.onum</string>
 		<string>zero.dnom</string>
+		<string>zeroinferior</string>
 		<string>zero.numr</string>
 		<string>fraction</string>
 		<string>percent</string>
@@ -2754,7 +2755,6 @@
 		<string>Uring</string>
 		<string>aring</string>
 		<string>uring</string>
-		<string>zeroinferior</string>
 		<string>oneinferior</string>
 		<string>twoinferior</string>
 		<string>threeinferior</string>
@@ -2792,6 +2792,33 @@
 		<string>seven.dnom</string>
 		<string>eight.dnom</string>
 		<string>nine.dnom</string>
+		<string>cent</string>
+		<string>sterling</string>
+		<string>currency</string>
+		<string>yen</string>
+		<string>eucurrency</string>
+		<string>colonmonetary</string>
+		<string>cruzeiro</string>
+		<string>lira</string>
+		<string>mill</string>
+		<string>naira</string>
+		<string>peseta</string>
+		<string>rupee</string>
+		<string>won</string>
+		<string>hNewsheqel</string>
+		<string>dong</string>
+		<string>Euro</string>
+		<string>kip</string>
+		<string>tugrik</string>
+		<string>drachma</string>
+		<string>pfennig</string>
+		<string>peso</string>
+		<string>guarani</string>
+		<string>austral</string>
+		<string>hryvnia</string>
+		<string>cedi</string>
+		<string>rupeeindian</string>
+		<string>liraturkish</string>
 	</array>
 </dict>
 </plist>
