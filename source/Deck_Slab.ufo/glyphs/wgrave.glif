@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wgrave" format="1">
 	<unicode hex="1E81"/>
-	<advance width="808"/>
+	<advance width="830"/>
 	<outline>
 		<component base="w"/>
-		<component base="gravecomb" xOffset="404"/>
+		<component base="gravecomb" xOffset="415"/>
 	</outline>
 	<lib>
 		<dict>

@@ -2,10 +2,10 @@
 <glyph name="ogonekcomb.round" format="1">
 	<outline>
 		<contour>
-			<point x="-5" y="37" type="line"/>
-			<point x="-74" y="-5"/>
-			<point x="-113" y="-57"/>
-			<point x="-113" y="-106" type="curve" smooth="yes"/>
+			<point x="2" y="37" type="line"/>
+			<point x="-71" y="-7"/>
+			<point x="-113" y="-60"/>
+			<point x="-113" y="-107" type="curve" smooth="yes"/>
 			<point x="-113" y="-150"/>
 			<point x="-85" y="-178"/>
 			<point x="-41" y="-178" type="curve" smooth="yes"/>
@@ -15,14 +15,14 @@
 			<point x="23" y="-150"/>
 			<point x="21" y="-142"/>
 			<point x="14" y="-130" type="curve"/>
-			<point x="3" y="-132"/>
-			<point x="-7" y="-133"/>
-			<point x="-16" y="-133" type="curve" smooth="yes"/>
-			<point x="-47" y="-133"/>
-			<point x="-60" y="-121"/>
-			<point x="-60" y="-95" type="curve" smooth="yes"/>
-			<point x="-60" y="-58"/>
-			<point x="-36" y="-23"/>
+			<point x="4" y="-133"/>
+			<point x="-6" y="-134"/>
+			<point x="-17" y="-134" type="curve" smooth="yes"/>
+			<point x="-48" y="-134"/>
+			<point x="-63" y="-121"/>
+			<point x="-63" y="-95" type="curve" smooth="yes"/>
+			<point x="-63" y="-59"/>
+			<point x="-39" y="-26"/>
 			<point x="31" y="37" type="curve"/>
 		</contour>
 		<contour>
@@ -44,7 +44,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-5</integer>
+						<integer>2</integer>
 						<integer>37</integer>
 					</array>
 					<key>segmentType</key>
@@ -57,8 +57,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-74</integer>
-						<integer>-5</integer>
+						<integer>-71</integer>
+						<integer>-7</integer>
 					</array>
 				</dict>
 				<dict>
@@ -67,7 +67,7 @@
 					<key>pt</key>
 					<array>
 						<integer>-113</integer>
-						<integer>-57</integer>
+						<integer>-60</integer>
 					</array>
 				</dict>
 				<dict>
@@ -76,7 +76,7 @@
 					<key>pt</key>
 					<array>
 						<integer>-113</integer>
-						<integer>-106</integer>
+						<integer>-107</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -181,16 +181,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>3</integer>
-						<integer>-132</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-7</integer>
+						<integer>4</integer>
 						<integer>-133</integer>
 					</array>
 				</dict>
@@ -199,8 +190,17 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-16</integer>
-						<integer>-133</integer>
+						<integer>-6</integer>
+						<integer>-134</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-17</integer>
+						<integer>-134</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -212,8 +212,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-47</integer>
-						<integer>-133</integer>
+						<integer>-48</integer>
+						<integer>-134</integer>
 					</array>
 				</dict>
 				<dict>
@@ -221,7 +221,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-60</integer>
+						<integer>-63</integer>
 						<integer>-121</integer>
 					</array>
 				</dict>
@@ -230,7 +230,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-60</integer>
+						<integer>-63</integer>
 						<integer>-95</integer>
 					</array>
 					<key>segmentType</key>
@@ -243,8 +243,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-60</integer>
-						<integer>-58</integer>
+						<integer>-63</integer>
+						<integer>-59</integer>
 					</array>
 				</dict>
 				<dict>
@@ -252,8 +252,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-36</integer>
-						<integer>-23</integer>
+						<integer>-39</integer>
+						<integer>-26</integer>
 					</array>
 				</dict>
 				<dict>

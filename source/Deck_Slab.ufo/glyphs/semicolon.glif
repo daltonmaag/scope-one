@@ -3,11 +3,23 @@
 	<unicode hex="003B"/>
 	<advance width="220"/>
 	<outline>
-		<component base="comma" xOffset="2"/>
+		<component base="comma"/>
 		<component base="period" yOffset="365"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>org.robofab.fontlab.guides</key>
+			<dict>
+				<key>vguides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<real>0</real>
+						<key>position</key>
+						<integer>110</integer>
+					</dict>
+				</array>
+			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 		</dict>

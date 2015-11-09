@@ -4,8 +4,8 @@
 	<advance width="788"/>
 	<outline>
 		<component base="fraction" xOffset="394"/>
-		<component base="zero.dnom" xOffset="440"/>
-		<component base="zero.dnom" yOffset="301"/>
+		<component base="zeroinferior" xOffset="440" yOffset="100"/>
+		<component base="zeroinferior" yOffset="401"/>
 	</outline>
 	<lib>
 		<dict>

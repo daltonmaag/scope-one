@@ -21,9 +21,9 @@
 			<point x="118" y="490" type="curve"/>
 			<point x="143" y="596" type="line"/>
 			<point x="441" y="596" type="line"/>
-			<point x="146" y="19" type="line"/>
-			<point x="158" y="3"/>
-			<point x="174" y="-3"/>
+			<point x="143" y="22" type="line"/>
+			<point x="155" y="5"/>
+			<point x="171" y="-3"/>
 			<point x="194" y="-5" type="curve"/>
 		</contour>
 	</outline>
@@ -244,8 +244,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>146</integer>
-						<integer>19</integer>
+						<integer>143</integer>
+						<integer>22</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -257,8 +257,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>158</integer>
-						<integer>3</integer>
+						<integer>155</integer>
+						<integer>5</integer>
 					</array>
 				</dict>
 				<dict>
@@ -266,7 +266,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>174</integer>
+						<integer>171</integer>
 						<integer>-3</integer>
 					</array>
 				</dict>

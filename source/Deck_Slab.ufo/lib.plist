@@ -2754,6 +2754,44 @@
 		<string>Uring</string>
 		<string>aring</string>
 		<string>uring</string>
+		<string>zeroinferior</string>
+		<string>oneinferior</string>
+		<string>twoinferior</string>
+		<string>threeinferior</string>
+		<string>fourinferior</string>
+		<string>fiveinferior</string>
+		<string>sixinferior</string>
+		<string>seveninferior</string>
+		<string>eightinferior</string>
+		<string>nineinferior</string>
+		<string>zerosuperior</string>
+		<string>onesuperior</string>
+		<string>twosuperior</string>
+		<string>threesuperior</string>
+		<string>foursuperior</string>
+		<string>fivesuperior</string>
+		<string>sixsuperior</string>
+		<string>sevensuperior</string>
+		<string>eightsuperior</string>
+		<string>ninesuperior</string>
+		<string>one.numr</string>
+		<string>two.numr</string>
+		<string>three.numr</string>
+		<string>four.numr</string>
+		<string>five.numr</string>
+		<string>six.numr</string>
+		<string>seven.numr</string>
+		<string>eight.numr</string>
+		<string>nine.numr</string>
+		<string>one.dnom</string>
+		<string>two.dnom</string>
+		<string>three.dnom</string>
+		<string>four.dnom</string>
+		<string>five.dnom</string>
+		<string>six.dnom</string>
+		<string>seven.dnom</string>
+		<string>eight.dnom</string>
+		<string>nine.dnom</string>
 	</array>
 </dict>
 </plist>

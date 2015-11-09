@@ -16,16 +16,16 @@
 			<point x="7" y="628"/>
 			<point x="9" y="623" type="curve"/>
 			<point x="90" y="623" type="line"/>
-			<point x="90" y="0" type="line"/>
-			<point x="94" y="-1"/>
-			<point x="104" y="-2"/>
-			<point x="109" y="-2" type="curve" smooth="yes"/>
-			<point x="114" y="-2"/>
-			<point x="124" y="-1"/>
-			<point x="128" y="0" type="curve"/>
+			<point x="90" y="-3" type="line"/>
+			<point x="94" y="-4"/>
+			<point x="104" y="-5"/>
+			<point x="109" y="-5" type="curve" smooth="yes"/>
+			<point x="114" y="-5"/>
+			<point x="124" y="-4"/>
+			<point x="128" y="-3" type="curve"/>
 			<point x="139" y="46" type="line"/>
 			<point x="179" y="10"/>
-			<point x="229" y="-10"/>
+			<point x="230" y="-10"/>
 			<point x="285" y="-10" type="curve" smooth="yes"/>
 			<point x="427" y="-10"/>
 			<point x="520" y="95"/>
@@ -238,7 +238,7 @@
 					<key>pt</key>
 					<array>
 						<integer>90</integer>
-						<integer>0</integer>
+						<integer>-3</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -251,7 +251,7 @@
 					<key>pt</key>
 					<array>
 						<integer>94</integer>
-						<integer>-1</integer>
+						<integer>-4</integer>
 					</array>
 				</dict>
 				<dict>
@@ -260,7 +260,7 @@
 					<key>pt</key>
 					<array>
 						<integer>104</integer>
-						<integer>-2</integer>
+						<integer>-5</integer>
 					</array>
 				</dict>
 				<dict>
@@ -269,7 +269,7 @@
 					<key>pt</key>
 					<array>
 						<integer>109</integer>
-						<integer>-2</integer>
+						<integer>-5</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -282,7 +282,7 @@
 					<key>pt</key>
 					<array>
 						<integer>114</integer>
-						<integer>-2</integer>
+						<integer>-5</integer>
 					</array>
 				</dict>
 				<dict>
@@ -291,7 +291,7 @@
 					<key>pt</key>
 					<array>
 						<integer>124</integer>
-						<integer>-1</integer>
+						<integer>-4</integer>
 					</array>
 				</dict>
 				<dict>
@@ -300,7 +300,7 @@
 					<key>pt</key>
 					<array>
 						<integer>128</integer>
-						<integer>0</integer>
+						<integer>-3</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
