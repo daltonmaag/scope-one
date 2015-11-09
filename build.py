@@ -3,7 +3,7 @@ import sys
 import os
 from io import open
 from ufo2fdk import OTFCompiler
-from robofab.world import OpenFont
+from defcon import Font
 
 try:
     from plistlib import load
@@ -72,7 +72,7 @@ def build(family, styles):
 
         groups_to_features(ufo_path)
 
-        font = OpenFont(ufo_path)
+        font = Font(ufo_path)
         compiler = OTFCompiler(
             savePartsNextToUFO=len(sys.argv) > 1 and sys.argv[1] == "debug")
         reports = compiler.compile(font, family + "-" + w + ".otf",
