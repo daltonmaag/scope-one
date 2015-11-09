@@ -56,12 +56,19 @@ def groups_to_features(ufo_path):
         f.writelines(newFeatures)
 
 
+def clean_up_features(ufo_path):
+    path = os.path.join(ufo_path, "features.fea")
+    if os.path.exists(path + ".bak"):
+        os.rename(path + ".bak", path)
+
+
 def build(family, styles):
+    family = family.replace(" ", "_")
     for w in styles:
         if w == "Regular":
-            ufo_path = "source/{}.ufo".format(family.replace(" ", "_"))
+            ufo_path = "source/{}.ufo".format(family)
         else:
-            ufo_path = "source/{}-{}.ufo".format(family.replace(" ", "_"), w)
+            ufo_path = "source/{}-{}.ufo".format(family, w)
 
         groups_to_features(ufo_path)
 
@@ -74,6 +81,7 @@ def build(family, styles):
 
         print(reports["autohint"])
         print(reports["makeotf"])
+        clean_up_features(ufo_path)
 
 
 if __name__ == "__main__":
