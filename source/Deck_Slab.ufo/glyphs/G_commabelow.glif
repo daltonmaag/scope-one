@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gcommabelow" format="1">
 	<unicode hex="0122"/>
-	<advance width="678"/>
+	<advance width="667"/>
 	<outline>
 		<component base="G"/>
 		<component base="commabelowcomb.cap" xOffset="355"/>
