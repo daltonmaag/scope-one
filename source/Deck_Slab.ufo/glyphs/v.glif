@@ -48,32 +48,14 @@
 			<point x="136" y="459" type="line"/>
 		</contour>
 		<contour>
-			<point name="top.LC" x="291" y="530" type="move"/>
+			<point name="top.LC" x="289" y="530" type="move"/>
 		</contour>
 		<contour>
-			<point name="bottom.LC" x="291" y="-20" type="move"/>
+			<point name="bottom.LC" x="289" y="-20" type="move"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>vguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>65</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>65</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>

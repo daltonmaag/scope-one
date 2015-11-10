@@ -2,7 +2,7 @@
 <glyph name="bracketleft.case" format="1">
 	<advance width="352"/>
 	<outline>
-		<component base="bracketleft" yOffset="45"/>
+		<component base="bracketleft" yOffset="44"/>
 	</outline>
 	<lib>
 		<dict>

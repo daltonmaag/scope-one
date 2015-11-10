@@ -54,10 +54,10 @@
 			<point x="214" y="255" type="line"/>
 		</contour>
 		<contour>
-			<point name="top.UC" x="334" y="670" type="move"/>
+			<point name="top.UC" x="336" y="670" type="move"/>
 		</contour>
 		<contour>
-			<point name="bottom.UC" x="334" y="-40" type="move"/>
+			<point name="bottom.UC" x="336" y="-40" type="move"/>
 		</contour>
 		<contour>
 			<point name="ogonek.UC" x="640" y="-40" type="move"/>
@@ -65,72 +65,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>vguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>21.4994812012</real>
-						<key>position</key>
-						<integer>63</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>21.4994812012</real>
-						<key>position</key>
-						<integer>117</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>-21.4994812012</real>
-						<key>position</key>
-						<integer>609</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>-21.4994812012</real>
-						<key>position</key>
-						<integer>550</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>333</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>21.4994812012</real>
-						<key>position</key>
-						<integer>63</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>21.4994812012</real>
-						<key>position</key>
-						<integer>117</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>-21.4994812012</real>
-						<key>position</key>
-						<integer>609</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>-21.4994812012</real>
-						<key>position</key>
-						<integer>550</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>333</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>

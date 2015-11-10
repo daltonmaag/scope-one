@@ -2,31 +2,10 @@
 <glyph name="four.dnom" format="1">
 	<advance width="348"/>
 	<outline>
-		<component base="fourinferior" yOffset="100"/>
+		<component base="fourinferior" xOffset="-1" yOffset="100"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>133</integer>
-					</dict>
-				</array>
-				<key>vguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>39.8281059265</real>
-						<key>position</key>
-						<integer>-15</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 		</dict>

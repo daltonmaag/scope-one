@@ -2819,6 +2819,40 @@
 		<string>cedi</string>
 		<string>rupeeindian</string>
 		<string>liraturkish</string>
+		<string>plusminus</string>
+		<string>notequal</string>
+		<string>divide</string>
+		<string>lessequal</string>
+		<string>greaterequal</string>
+		<string>approxequal</string>
+		<string>multiply</string>
+		<string>section</string>
+		<string>degree</string>
+		<string>micro</string>
+		<string>paragraph</string>
+		<string>logicalnot</string>
+		<string>softhyphen</string>
+		<string>litre</string>
+		<string>estimated</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>partialdiff</string>
+		<string>product</string>
+		<string>summation</string>
+		<string>divisionslash</string>
+		<string>bulletoperator</string>
+		<string>radical</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>lozenge</string>
+		<string>increment</string>
+		<string>ohm</string>
+		<string>minute</string>
+		<string>second</string>
+		<string>trademark</string>
+		<string>periodcentered.loclCAT</string>
+		<string>periodcentered.loclCAT.cap</string>
+		<string>pi</string>
 	</array>
 </dict>
 </plist>

@@ -2,7 +2,6 @@
 <glyph name="commaaboverightcomb.short" format="1">
 	<outline>
 		<contour>
-			<point x="120" y="669" type="line"/>
 			<point x="120" y="703" type="line"/>
 			<point x="111" y="704"/>
 			<point x="99" y="705"/>
@@ -31,19 +30,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>120</integer>
-						<integer>669</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>

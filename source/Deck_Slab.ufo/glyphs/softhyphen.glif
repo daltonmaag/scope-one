@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="softhyphen" format="1">
+	<unicode hex="00AD"/>
+	<advance width="344"/>
+	<outline>
+		<component base="hyphen"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

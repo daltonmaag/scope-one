@@ -2,7 +2,7 @@
 <glyph name="two.dnom" format="1">
 	<advance width="348"/>
 	<outline>
-		<component base="twoinferior" yOffset="100"/>
+		<component base="twoinferior" xOffset="-4" yOffset="100"/>
 	</outline>
 	<lib>
 		<dict>

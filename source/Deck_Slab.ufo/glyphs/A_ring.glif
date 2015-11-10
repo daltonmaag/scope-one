@@ -4,7 +4,7 @@
 	<advance width="672"/>
 	<outline>
 		<component base="A"/>
-		<component base="ringcomb.cap" xOffset="334"/>
+		<component base="ringcomb.cap" xOffset="336"/>
 	</outline>
 	<lib>
 		<dict>

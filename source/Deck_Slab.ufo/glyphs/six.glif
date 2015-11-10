@@ -5,40 +5,40 @@
 	<outline>
 		<contour>
 			<point x="421" y="615" type="curve"/>
-			<point x="418" y="630"/>
-			<point x="410" y="647"/>
+			<point x="418" y="631"/>
+			<point x="409" y="648"/>
 			<point x="400" y="655" type="curve"/>
-			<point x="200" y="580"/>
-			<point x="75" y="419"/>
+			<point x="201" y="580"/>
+			<point x="75" y="420"/>
 			<point x="75" y="241" type="curve" smooth="yes"/>
-			<point x="75" y="116"/>
-			<point x="136" y="-10"/>
+			<point x="75" y="88"/>
+			<point x="158" y="-10"/>
 			<point x="289" y="-10" type="curve" smooth="yes"/>
-			<point x="431" y="-10"/>
-			<point x="497" y="100"/>
+			<point x="410" y="-10"/>
+			<point x="497" y="77"/>
 			<point x="497" y="199" type="curve" smooth="yes"/>
-			<point x="497" y="307"/>
-			<point x="419" y="410"/>
+			<point x="497" y="317"/>
+			<point x="409" y="410"/>
 			<point x="297" y="410" type="curve" smooth="yes"/>
-			<point x="216" y="410"/>
-			<point x="151" y="364"/>
-			<point x="119" y="290" type="curve"/>
-			<point x="156" y="451"/>
-			<point x="278" y="553"/>
+			<point x="215" y="410"/>
+			<point x="150" y="364"/>
+			<point x="119" y="289" type="curve"/>
+			<point x="150" y="430"/>
+			<point x="255" y="544"/>
 		</contour>
 		<contour>
 			<point x="288" y="363" type="curve" smooth="yes"/>
-			<point x="379" y="363"/>
-			<point x="439" y="294"/>
+			<point x="377" y="363"/>
+			<point x="439" y="296"/>
 			<point x="439" y="200" type="curve" smooth="yes"/>
-			<point x="439" y="105"/>
-			<point x="380" y="37"/>
+			<point x="439" y="103"/>
+			<point x="378" y="37"/>
 			<point x="289" y="37" type="curve" smooth="yes"/>
-			<point x="198" y="37"/>
-			<point x="135" y="105"/>
+			<point x="199" y="37"/>
+			<point x="135" y="104"/>
 			<point x="135" y="200" type="curve" smooth="yes"/>
-			<point x="135" y="294"/>
-			<point x="197" y="363"/>
+			<point x="135" y="295"/>
+			<point x="198" y="363"/>
 		</contour>
 	</outline>
 	<lib>
@@ -56,8 +56,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>110</integer>
-						<integer>228</integer>
+						<integer>111</integer>
+						<integer>237</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -69,8 +69,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>127</integer>
-						<integer>425</integer>
+						<integer>126</integer>
+						<integer>402</integer>
 					</array>
 				</dict>
 				<dict>
@@ -78,8 +78,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>261</integer>
-						<integer>546</integer>
+						<integer>235</integer>
+						<integer>536</integer>
 					</array>
 				</dict>
 				<dict>
@@ -101,7 +101,7 @@
 					<key>pt</key>
 					<array>
 						<integer>418</integer>
-						<integer>630</integer>
+						<integer>631</integer>
 					</array>
 				</dict>
 				<dict>
@@ -109,8 +109,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>410</integer>
-						<integer>647</integer>
+						<integer>409</integer>
+						<integer>648</integer>
 					</array>
 				</dict>
 				<dict>
@@ -131,7 +131,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>200</integer>
+						<integer>201</integer>
 						<integer>580</integer>
 					</array>
 				</dict>
@@ -141,7 +141,7 @@
 					<key>pt</key>
 					<array>
 						<integer>75</integer>
-						<integer>419</integer>
+						<integer>420</integer>
 					</array>
 				</dict>
 				<dict>
@@ -163,7 +163,7 @@
 					<key>pt</key>
 					<array>
 						<integer>75</integer>
-						<integer>116</integer>
+						<integer>88</integer>
 					</array>
 				</dict>
 				<dict>
@@ -171,7 +171,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>136</integer>
+						<integer>158</integer>
 						<integer>-10</integer>
 					</array>
 				</dict>
@@ -193,7 +193,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>431</integer>
+						<integer>410</integer>
 						<integer>-10</integer>
 					</array>
 				</dict>
@@ -203,7 +203,7 @@
 					<key>pt</key>
 					<array>
 						<integer>497</integer>
-						<integer>100</integer>
+						<integer>77</integer>
 					</array>
 				</dict>
 				<dict>
@@ -225,7 +225,7 @@
 					<key>pt</key>
 					<array>
 						<integer>497</integer>
-						<integer>307</integer>
+						<integer>317</integer>
 					</array>
 				</dict>
 				<dict>
@@ -233,7 +233,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>419</integer>
+						<integer>409</integer>
 						<integer>410</integer>
 					</array>
 				</dict>
@@ -307,7 +307,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>379</integer>
+						<integer>377</integer>
 						<integer>363</integer>
 					</array>
 				</dict>
@@ -317,7 +317,7 @@
 					<key>pt</key>
 					<array>
 						<integer>439</integer>
-						<integer>294</integer>
+						<integer>296</integer>
 					</array>
 				</dict>
 				<dict>
@@ -339,7 +339,7 @@
 					<key>pt</key>
 					<array>
 						<integer>439</integer>
-						<integer>105</integer>
+						<integer>103</integer>
 					</array>
 				</dict>
 				<dict>
@@ -347,7 +347,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>380</integer>
+						<integer>378</integer>
 						<integer>37</integer>
 					</array>
 				</dict>
@@ -369,7 +369,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>198</integer>
+						<integer>199</integer>
 						<integer>37</integer>
 					</array>
 				</dict>
@@ -379,7 +379,7 @@
 					<key>pt</key>
 					<array>
 						<integer>135</integer>
-						<integer>105</integer>
+						<integer>104</integer>
 					</array>
 				</dict>
 				<dict>
@@ -401,7 +401,7 @@
 					<key>pt</key>
 					<array>
 						<integer>135</integer>
-						<integer>294</integer>
+						<integer>295</integer>
 					</array>
 				</dict>
 				<dict>
@@ -409,7 +409,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>197</integer>
+						<integer>198</integer>
 						<integer>363</integer>
 					</array>
 				</dict>
