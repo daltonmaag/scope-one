@@ -2,16 +2,16 @@
 <glyph name="acutecomb.asc" format="1">
 	<outline>
 		<contour>
-			<point x="63" y="794" type="line"/>
-			<point x="121" y="840" type="line"/>
-			<point x="109" y="859"/>
-			<point x="103" y="866"/>
-			<point x="86" y="883" type="curve"/>
-			<point x="30" y="840" type="line"/>
-			<point x="-71" y="750" type="line"/>
-			<point x="-66" y="740"/>
-			<point x="-59" y="732"/>
-			<point x="-46" y="722" type="curve"/>
+			<point x="68" y="794" type="line"/>
+			<point x="126" y="840" type="line"/>
+			<point x="114" y="859"/>
+			<point x="108" y="866"/>
+			<point x="91" y="883" type="curve"/>
+			<point x="35" y="840" type="line"/>
+			<point x="-66" y="750" type="line"/>
+			<point x="-61" y="740"/>
+			<point x="-54" y="732"/>
+			<point x="-41" y="722" type="curve"/>
 		</contour>
 		<contour>
 			<point name="_top.ASC" x="0" y="700" type="move"/>
@@ -19,145 +19,8 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>726</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
-			<key>org.robofab.fontlab.maskData</key>
-			<array>
-				<dict>
-					<key>method</key>
-					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>63</integer>
-						<integer>794</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>121</integer>
-						<integer>840</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>109</integer>
-						<integer>859</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>103</integer>
-						<integer>866</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>86</integer>
-						<integer>883</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>30</integer>
-						<integer>840</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-71</integer>
-						<integer>750</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-66</integer>
-						<integer>740</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-59</integer>
-						<integer>732</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-46</integer>
-						<integer>722</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>endPath</string>
-				</dict>
-			</array>
 		</dict>
 	</lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotleft.case" format="1">
-	<advance width="574"/>
+	<advance width="554"/>
 	<outline>
 		<component base="guilsinglleft" yOffset="72"/>
 		<component base="guilsinglleft" xOffset="215" yOffset="72"/>

@@ -54,7 +54,7 @@
 			<point x="164" y="-141"/>
 		</contour>
 		<contour>
-			<point name="top.LC" x="291" y="530" type="move"/>
+			<point name="top.LC" x="289" y="530" type="move"/>
 		</contour>
 		<contour>
 			<point name="bottom.DSC" x="195" y="-205" type="move"/>

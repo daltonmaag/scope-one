@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="1">
+	<unicode hex="2264"/>
+	<advance width="560"/>
+	<outline>
+		<component base="minus" yOffset="-298"/>
+		<component base="less" xOffset="10"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

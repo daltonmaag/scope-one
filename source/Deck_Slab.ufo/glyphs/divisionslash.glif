@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash" format="1">
+	<unicode hex="2215"/>
+	<advance width="560"/>
+	<outline>
+		<component base="fraction" xOffset="280"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.robofab.fontlab.mark</key>
+			<integer>1</integer>
+		</dict>
+	</lib>
+</glyph>

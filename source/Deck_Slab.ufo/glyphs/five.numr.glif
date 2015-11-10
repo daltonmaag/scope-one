@@ -2,55 +2,10 @@
 <glyph name="five.numr" format="1">
 	<advance width="348"/>
 	<outline>
-		<component base="fiveinferior" yOffset="401"/>
+		<component base="fiveinferior" xOffset="3" yOffset="401"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>32</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>32</integer>
-					</dict>
-				</array>
-				<key>vguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>9.497625351</real>
-						<key>position</key>
-						<integer>-27</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>9.497625351</real>
-						<key>position</key>
-						<integer>330</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>9.497625351</real>
-						<key>position</key>
-						<integer>-27</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>9.497625351</real>
-						<key>position</key>
-						<integer>330</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 		</dict>

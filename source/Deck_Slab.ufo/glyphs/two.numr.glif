@@ -2,7 +2,7 @@
 <glyph name="two.numr" format="1">
 	<advance width="348"/>
 	<outline>
-		<component base="twoinferior" yOffset="401"/>
+		<component base="twoinferior" xOffset="-4" yOffset="401"/>
 	</outline>
 	<lib>
 		<dict>

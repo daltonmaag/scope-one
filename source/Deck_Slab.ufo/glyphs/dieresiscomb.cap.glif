@@ -2,32 +2,32 @@
 <glyph name="dieresiscomb.cap" format="1">
 	<outline>
 		<contour>
-			<point x="-90" y="732" type="curve" smooth="yes"/>
-			<point x="-63" y="732"/>
-			<point x="-46" y="747"/>
-			<point x="-46" y="773" type="curve" smooth="yes"/>
-			<point x="-46" y="799"/>
-			<point x="-63" y="814"/>
-			<point x="-90" y="814" type="curve" smooth="yes"/>
-			<point x="-117" y="814"/>
-			<point x="-134" y="799"/>
-			<point x="-134" y="773" type="curve" smooth="yes"/>
-			<point x="-134" y="747"/>
-			<point x="-117" y="732"/>
+			<point x="-85" y="732" type="curve" smooth="yes"/>
+			<point x="-58" y="732"/>
+			<point x="-41" y="747"/>
+			<point x="-41" y="773" type="curve" smooth="yes"/>
+			<point x="-41" y="799"/>
+			<point x="-58" y="814"/>
+			<point x="-85" y="814" type="curve" smooth="yes"/>
+			<point x="-112" y="814"/>
+			<point x="-129" y="799"/>
+			<point x="-129" y="773" type="curve" smooth="yes"/>
+			<point x="-129" y="747"/>
+			<point x="-112" y="732"/>
 		</contour>
 		<contour>
-			<point x="90" y="732" type="curve" smooth="yes"/>
-			<point x="117" y="732"/>
-			<point x="134" y="747"/>
-			<point x="134" y="773" type="curve" smooth="yes"/>
-			<point x="134" y="799"/>
-			<point x="117" y="814"/>
-			<point x="90" y="814" type="curve" smooth="yes"/>
-			<point x="63" y="814"/>
-			<point x="46" y="799"/>
-			<point x="46" y="773" type="curve" smooth="yes"/>
-			<point x="46" y="747"/>
-			<point x="63" y="732"/>
+			<point x="85" y="732" type="curve" smooth="yes"/>
+			<point x="112" y="732"/>
+			<point x="129" y="747"/>
+			<point x="129" y="773" type="curve" smooth="yes"/>
+			<point x="129" y="799"/>
+			<point x="112" y="814"/>
+			<point x="85" y="814" type="curve" smooth="yes"/>
+			<point x="58" y="814"/>
+			<point x="41" y="799"/>
+			<point x="41" y="773" type="curve" smooth="yes"/>
+			<point x="41" y="747"/>
+			<point x="58" y="732"/>
 		</contour>
 		<contour>
 			<point name="_top.UC" x="0" y="670" type="move"/>
@@ -35,18 +35,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>764</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
@@ -60,7 +48,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-90</integer>
+						<integer>-85</integer>
 						<integer>732</integer>
 					</array>
 					<key>segmentType</key>
@@ -73,7 +61,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-63</integer>
+						<integer>-58</integer>
 						<integer>732</integer>
 					</array>
 				</dict>
@@ -82,7 +70,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-46</integer>
+						<integer>-41</integer>
 						<integer>747</integer>
 					</array>
 				</dict>
@@ -91,7 +79,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-46</integer>
+						<integer>-41</integer>
 						<integer>773</integer>
 					</array>
 					<key>segmentType</key>
@@ -104,7 +92,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-46</integer>
+						<integer>-41</integer>
 						<integer>799</integer>
 					</array>
 				</dict>
@@ -113,7 +101,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-63</integer>
+						<integer>-58</integer>
 						<integer>814</integer>
 					</array>
 				</dict>
@@ -122,7 +110,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-90</integer>
+						<integer>-85</integer>
 						<integer>814</integer>
 					</array>
 					<key>segmentType</key>
@@ -135,7 +123,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-117</integer>
+						<integer>-112</integer>
 						<integer>814</integer>
 					</array>
 				</dict>
@@ -144,7 +132,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-134</integer>
+						<integer>-129</integer>
 						<integer>799</integer>
 					</array>
 				</dict>
@@ -153,7 +141,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-134</integer>
+						<integer>-129</integer>
 						<integer>773</integer>
 					</array>
 					<key>segmentType</key>
@@ -166,7 +154,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-134</integer>
+						<integer>-129</integer>
 						<integer>747</integer>
 					</array>
 				</dict>
@@ -175,7 +163,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-117</integer>
+						<integer>-112</integer>
 						<integer>732</integer>
 					</array>
 				</dict>
@@ -192,7 +180,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>90</integer>
+						<integer>85</integer>
 						<integer>732</integer>
 					</array>
 					<key>segmentType</key>
@@ -205,7 +193,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>117</integer>
+						<integer>112</integer>
 						<integer>732</integer>
 					</array>
 				</dict>
@@ -214,7 +202,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>134</integer>
+						<integer>129</integer>
 						<integer>747</integer>
 					</array>
 				</dict>
@@ -223,7 +211,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>134</integer>
+						<integer>129</integer>
 						<integer>773</integer>
 					</array>
 					<key>segmentType</key>
@@ -236,7 +224,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>134</integer>
+						<integer>129</integer>
 						<integer>799</integer>
 					</array>
 				</dict>
@@ -245,7 +233,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>117</integer>
+						<integer>112</integer>
 						<integer>814</integer>
 					</array>
 				</dict>
@@ -254,7 +242,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>90</integer>
+						<integer>85</integer>
 						<integer>814</integer>
 					</array>
 					<key>segmentType</key>
@@ -267,7 +255,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>63</integer>
+						<integer>58</integer>
 						<integer>814</integer>
 					</array>
 				</dict>
@@ -276,7 +264,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>46</integer>
+						<integer>41</integer>
 						<integer>799</integer>
 					</array>
 				</dict>
@@ -285,7 +273,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>46</integer>
+						<integer>41</integer>
 						<integer>773</integer>
 					</array>
 					<key>segmentType</key>
@@ -298,7 +286,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>46</integer>
+						<integer>41</integer>
 						<integer>747</integer>
 					</array>
 				</dict>
@@ -307,7 +295,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>63</integer>
+						<integer>58</integer>
 						<integer>732</integer>
 					</array>
 				</dict>
