@@ -76,7 +76,7 @@ def build(family, styles):
         compiler = OTFCompiler(
             savePartsNextToUFO=len(sys.argv) > 1 and sys.argv[1] == "debug")
         reports = compiler.compile(font, family + "-" + w + ".otf",
-                                   checkOutlines=False, autohint=True,
+                                   checkOutlines=False, autohint=False,
                                    releaseMode=True)
 
         print(reports["autohint"])
