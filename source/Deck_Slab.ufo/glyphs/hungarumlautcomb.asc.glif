@@ -2,7 +2,6 @@
 <glyph name="hungarumlautcomb.asc" format="1">
 	<outline>
 		<contour>
-			<point x="6" y="794" type="line"/>
 			<point x="64" y="840" type="line"/>
 			<point x="52" y="859"/>
 			<point x="46" y="866"/>
@@ -12,9 +11,9 @@
 			<point x="-123" y="740"/>
 			<point x="-116" y="732"/>
 			<point x="-103" y="722" type="curve"/>
+			<point x="6" y="794" type="line"/>
 		</contour>
 		<contour>
-			<point x="171" y="794" type="line"/>
 			<point x="229" y="840" type="line"/>
 			<point x="217" y="859"/>
 			<point x="211" y="866"/>
@@ -24,6 +23,7 @@
 			<point x="42" y="740"/>
 			<point x="49" y="732"/>
 			<point x="62" y="722" type="curve"/>
+			<point x="171" y="794" type="line"/>
 		</contour>
 		<contour>
 			<point name="_top.ASC" x="0" y="700" type="move"/>
@@ -31,18 +31,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>802</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
@@ -50,19 +38,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>6</integer>
-						<integer>794</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -167,24 +142,24 @@
 				</dict>
 				<dict>
 					<key>method</key>
-					<string>endPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>171</integer>
+						<integer>6</integer>
 						<integer>794</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
 					<key>smooth</key>
 					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>endPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>beginPath</string>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -284,6 +259,19 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>171</integer>
+						<integer>794</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>

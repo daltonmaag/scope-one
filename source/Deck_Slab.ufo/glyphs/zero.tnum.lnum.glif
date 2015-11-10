@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight.pnum.lnum" format="1">
-	<advance width="524"/>
+<glyph name="zero.tnum.lnum" format="1">
+	<advance width="560"/>
 	<outline>
-		<component base="eight" xOffset="-18"/>
+		<component base="zero" xOffset="-10"/>
 	</outline>
 	<lib>
 		<dict>

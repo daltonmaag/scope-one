@@ -4,11 +4,6 @@
 	<advance width="763"/>
 	<outline>
 		<contour>
-			<point x="136" y="599" type="line"/>
-			<point x="282" y="599" type="line" smooth="yes"/>
-			<point x="391" y="599"/>
-			<point x="448" y="541"/>
-			<point x="448" y="433" type="curve" smooth="yes"/>
 			<point x="448" y="198" type="line"/>
 			<point x="455" y="197"/>
 			<point x="467" y="196"/>
@@ -31,8 +26,17 @@
 			<point x="117" y="-2"/>
 			<point x="129" y="-1"/>
 			<point x="136" y="0" type="curve"/>
+			<point x="136" y="599" type="line"/>
+			<point x="282" y="599" type="line" smooth="yes"/>
+			<point x="391" y="599"/>
+			<point x="448" y="541"/>
+			<point x="448" y="433" type="curve" smooth="yes"/>
 		</contour>
 		<contour>
+			<point x="466" y="0" type="line" smooth="yes"/>
+			<point x="609" y="0"/>
+			<point x="688" y="74"/>
+			<point x="688" y="212" type="curve" smooth="yes"/>
 			<point x="688" y="645" type="line"/>
 			<point x="681" y="646"/>
 			<point x="669" y="647"/>
@@ -56,10 +60,6 @@
 			<point x="270" y="17"/>
 			<point x="279" y="7"/>
 			<point x="288" y="0" type="curve"/>
-			<point x="466" y="0" type="line" smooth="yes"/>
-			<point x="609" y="0"/>
-			<point x="688" y="74"/>
-			<point x="688" y="212" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
 	<lib>
@@ -71,63 +71,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>136</integer>
-						<integer>599</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>282</integer>
-						<integer>599</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>391</integer>
-						<integer>599</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>448</integer>
-						<integer>541</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>448</integer>
-						<integer>433</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -369,11 +312,112 @@
 				</dict>
 				<dict>
 					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>136</integer>
+						<integer>599</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>282</integer>
+						<integer>599</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>391</integer>
+						<integer>599</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>448</integer>
+						<integer>541</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>448</integer>
+						<integer>433</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
 					<string>endPath</string>
 				</dict>
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>466</integer>
+						<integer>0</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>609</integer>
+						<integer>0</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>688</integer>
+						<integer>74</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>688</integer>
+						<integer>212</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -625,50 +669,6 @@
 					<string>curve</string>
 					<key>smooth</key>
 					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>466</integer>
-						<integer>0</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>609</integer>
-						<integer>0</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>688</integer>
-						<integer>74</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>688</integer>
-						<integer>212</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
 				</dict>
 				<dict>
 					<key>method</key>

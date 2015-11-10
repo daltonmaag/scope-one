@@ -2,6 +2,7 @@
 <glyph name="cedillacomb.cap" format="1">
 	<outline>
 		<contour>
+			<point x="20" y="10" type="line"/>
 			<point x="-19" y="10" type="line"/>
 			<point x="-57" y="-74" type="line"/>
 			<point x="-55" y="-85"/>
@@ -28,7 +29,6 @@
 			<point x="72" y="-102"/>
 			<point x="44" y="-72"/>
 			<point x="-3" y="-65" type="curve"/>
-			<point x="20" y="10" type="line"/>
 		</contour>
 		<contour>
 			<point name="_bottom.UC" x="0" y="-40" type="move"/>
@@ -43,6 +43,32 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-8</integer>
+						<integer>-82</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>20</integer>
+						<integer>10</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -315,32 +341,6 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-8</integer>
-						<integer>-82</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>20</integer>
-						<integer>10</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>

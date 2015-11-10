@@ -2,9 +2,6 @@
 <glyph name="dieresiscomb.cap" format="1">
 	<outline>
 		<contour>
-			<point x="-85" y="732" type="curve" smooth="yes"/>
-			<point x="-58" y="732"/>
-			<point x="-41" y="747"/>
 			<point x="-41" y="773" type="curve" smooth="yes"/>
 			<point x="-41" y="799"/>
 			<point x="-58" y="814"/>
@@ -14,11 +11,11 @@
 			<point x="-129" y="773" type="curve" smooth="yes"/>
 			<point x="-129" y="747"/>
 			<point x="-112" y="732"/>
+			<point x="-85" y="732" type="curve" smooth="yes"/>
+			<point x="-58" y="732"/>
+			<point x="-41" y="747"/>
 		</contour>
 		<contour>
-			<point x="85" y="732" type="curve" smooth="yes"/>
-			<point x="112" y="732"/>
-			<point x="129" y="747"/>
 			<point x="129" y="773" type="curve" smooth="yes"/>
 			<point x="129" y="799"/>
 			<point x="112" y="814"/>
@@ -28,6 +25,9 @@
 			<point x="41" y="773" type="curve" smooth="yes"/>
 			<point x="41" y="747"/>
 			<point x="58" y="732"/>
+			<point x="85" y="732" type="curve" smooth="yes"/>
+			<point x="112" y="732"/>
+			<point x="129" y="747"/>
 		</contour>
 		<contour>
 			<point name="_top.UC" x="0" y="670" type="move"/>
@@ -48,37 +48,6 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-85</integer>
-						<integer>732</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-58</integer>
-						<integer>732</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-41</integer>
-						<integer>747</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
 						<integer>-41</integer>
 						<integer>773</integer>
 					</array>
@@ -165,6 +134,37 @@
 					<array>
 						<integer>-112</integer>
 						<integer>732</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-85</integer>
+						<integer>732</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-58</integer>
+						<integer>732</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-41</integer>
+						<integer>747</integer>
 					</array>
 				</dict>
 				<dict>
@@ -180,37 +180,6 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>85</integer>
-						<integer>732</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>112</integer>
-						<integer>732</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>129</integer>
-						<integer>747</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
 						<integer>129</integer>
 						<integer>773</integer>
 					</array>
@@ -297,6 +266,37 @@
 					<array>
 						<integer>58</integer>
 						<integer>732</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>85</integer>
+						<integer>732</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>112</integer>
+						<integer>732</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>129</integer>
+						<integer>747</integer>
 					</array>
 				</dict>
 				<dict>

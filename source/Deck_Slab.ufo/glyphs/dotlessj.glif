@@ -4,7 +4,6 @@
 	<advance width="239"/>
 	<outline>
 		<contour>
-			<point x="100" y="453" type="line"/>
 			<point x="100" y="134" type="line" smooth="yes"/>
 			<point x="100" y="-4"/>
 			<point x="65" y="-70"/>
@@ -26,6 +25,7 @@
 			<point x="16" y="463"/>
 			<point x="17" y="458"/>
 			<point x="19" y="453" type="curve"/>
+			<point x="100" y="453" type="line"/>
 		</contour>
 		<contour>
 			<point name="top.LC" x="112" y="530" type="move"/>
@@ -43,19 +43,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>100</integer>
-						<integer>453</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -279,6 +266,19 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>100</integer>
+						<integer>453</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>

@@ -4,7 +4,6 @@
 	<advance width="560"/>
 	<outline>
 		<contour>
-			<point x="85" y="121" type="curve"/>
 			<point x="504" y="296" type="line"/>
 			<point x="506" y="307"/>
 			<point x="507" y="314"/>
@@ -20,6 +19,7 @@
 			<point x="73" y="165" type="line"/>
 			<point x="73" y="149"/>
 			<point x="78" y="130"/>
+			<point x="85" y="121" type="curve"/>
 		</contour>
 	</outline>
 	<lib>
@@ -31,19 +31,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>85</integer>
-						<integer>121</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -207,6 +194,19 @@
 						<integer>78</integer>
 						<integer>130</integer>
 					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>85</integer>
+						<integer>121</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<false/>
 				</dict>
 				<dict>
 					<key>method</key>

@@ -2,7 +2,6 @@
 <glyph name="acutecomb.asc" format="1">
 	<outline>
 		<contour>
-			<point x="68" y="794" type="line"/>
 			<point x="126" y="840" type="line"/>
 			<point x="114" y="859"/>
 			<point x="108" y="866"/>
@@ -12,6 +11,7 @@
 			<point x="-61" y="740"/>
 			<point x="-54" y="732"/>
 			<point x="-41" y="722" type="curve"/>
+			<point x="68" y="794" type="line"/>
 		</contour>
 		<contour>
 			<point name="_top.ASC" x="0" y="700" type="move"/>
@@ -21,6 +21,131 @@
 		<dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
+			<key>org.robofab.fontlab.maskData</key>
+			<array>
+				<dict>
+					<key>method</key>
+					<string>beginPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>126</integer>
+						<integer>840</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>114</integer>
+						<integer>859</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>108</integer>
+						<integer>866</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>91</integer>
+						<integer>883</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>35</integer>
+						<integer>840</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-66</integer>
+						<integer>750</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-61</integer>
+						<integer>740</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-54</integer>
+						<integer>732</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-41</integer>
+						<integer>722</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>68</integer>
+						<integer>794</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>endPath</string>
+				</dict>
+			</array>
 		</dict>
 	</lib>
 </glyph>
