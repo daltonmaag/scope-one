@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcommabelow" format="1">
 	<unicode hex="021B"/>
-	<advance width="354"/>
+	<advance width="344"/>
 	<outline>
 		<component base="t"/>
 		<component base="commabelowcomb" xOffset="207"/>

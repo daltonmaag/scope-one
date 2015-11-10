@@ -2568,7 +2568,9 @@
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
 		<string>periodcentered.loclCAT</string>
+		<string>dotaccentcomb</string>
 		<string>periodcentered.loclCAT.cap</string>
+		<string>dotaccentcomb.cap</string>
 		<string>dotlessi</string>
 		<string>dotlessj</string>
 		<string>IJ</string>
@@ -2789,8 +2791,6 @@
 		<string>ydieresis</string>
 		<string>abreve</string>
 		<string>gbreve</string>
-		<string>dotaccentcomb</string>
-		<string>dotaccentcomb.cap</string>
 		<string>dotaccentcomb.asc</string>
 		<string>dotaccent</string>
 		<string>Cdotaccent</string>
