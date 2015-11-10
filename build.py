@@ -59,6 +59,8 @@ def groups_to_features(ufo_path):
 def clean_up_features(ufo_path):
     path = os.path.join(ufo_path, "features.fea")
     if os.path.exists(path + ".bak"):
+        if os.path.exists(path):
+            os.remove(path)
         os.rename(path + ".bak", path)
 
 
