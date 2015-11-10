@@ -178,38 +178,6 @@
 		<string>glyph171</string>
 		<string>glyph172</string>
 		<string>glyph173</string>
-		<string>zero.tnum.onum</string>
-		<string>one.tnum.onum</string>
-		<string>two.tnum.onum</string>
-		<string>three.tnum.onum</string>
-		<string>four.tnum.onum</string>
-		<string>five.tnum.onum</string>
-		<string>six.tnum.onum</string>
-		<string>seven.tnum.onum</string>
-		<string>eight.tnum.onum</string>
-		<string>nine.tnum.onum</string>
-		<string>glyph184</string>
-		<string>glyph185</string>
-		<string>glyph186</string>
-		<string>glyph187</string>
-		<string>glyph188</string>
-		<string>glyph189</string>
-		<string>glyph190</string>
-		<string>glyph191</string>
-		<string>zero.pnum.lnum</string>
-		<string>one.pnum.lnum</string>
-		<string>two.pnum.lnum</string>
-		<string>three.pnum.lnum</string>
-		<string>four.pnum.lnum</string>
-		<string>five.pnum.lnum</string>
-		<string>six.pnum.lnum</string>
-		<string>seven.pnum.lnum</string>
-		<string>eight.pnum.lnum</string>
-		<string>nine.pnum.lnum</string>
-		<string>glyph202</string>
-		<string>glyph203</string>
-		<string>glyph204</string>
-		<string>glyph205</string>
 		<string>zero.pnum.onum</string>
 		<string>one.pnum.onum</string>
 		<string>two.pnum.onum</string>
@@ -220,6 +188,38 @@
 		<string>seven.pnum.onum</string>
 		<string>eight.pnum.onum</string>
 		<string>nine.pnum.onum</string>
+		<string>glyph184</string>
+		<string>glyph185</string>
+		<string>glyph186</string>
+		<string>glyph187</string>
+		<string>glyph188</string>
+		<string>glyph189</string>
+		<string>glyph190</string>
+		<string>glyph191</string>
+		<string>zero.tnum.lnum</string>
+		<string>one.tnum.lnum</string>
+		<string>two.tnum.lnum</string>
+		<string>three.tnum.lnum</string>
+		<string>four.tnum.lnum</string>
+		<string>five.num.lnum</string>
+		<string>six.tnum.lnum</string>
+		<string>seven.tnum.lnum</string>
+		<string>eight.tnum.lnum</string>
+		<string>nine.tnum.lnum</string>
+		<string>glyph202</string>
+		<string>glyph203</string>
+		<string>glyph204</string>
+		<string>glyph205</string>
+		<string>zero.tnum.onum</string>
+		<string>one.tnum.onum</string>
+		<string>two.tnum.onum</string>
+		<string>three.tnum.onum</string>
+		<string>four.tnum.onum</string>
+		<string>five.tnum.onum</string>
+		<string>six.tnum.onum</string>
+		<string>seven.tnum.onum</string>
+		<string>eight.tnum.onum</string>
+		<string>nine.tnum.onum</string>
 		<string>glyph216</string>
 		<string>glyph217</string>
 		<string>glyph218</string>
@@ -1695,7 +1695,7 @@
 		<string>macroncomb</string>
 		<string>macroncomb.cap</string>
 		<string>macroncomb.asc</string>
-		<string>macronmod</string>
+		<string>glyph1691</string>
 		<string>macron</string>
 		<string>glyph1693</string>
 		<string>glyph1694</string>
@@ -2253,13 +2253,7 @@
 				<key>angle</key>
 				<real>0.0</real>
 				<key>position</key>
-				<integer>979</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>-195</integer>
+				<integer>655</integer>
 			</dict>
 			<dict>
 				<key>angle</key>
@@ -2277,43 +2271,7 @@
 				<key>angle</key>
 				<real>0.0</real>
 				<key>position</key>
-				<integer>530</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>540</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>655</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>322</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>250</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>675</integer>
-			</dict>
-			<dict>
-				<key>angle</key>
-				<real>0.0</real>
-				<key>position</key>
-				<integer>1025</integer>
+				<integer>680</integer>
 			</dict>
 		</array>
 	</dict>
@@ -2360,26 +2318,6 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
-		<string>zero.tnum.onum</string>
-		<string>one.tnum.onum</string>
-		<string>two.tnum.onum</string>
-		<string>three.tnum.onum</string>
-		<string>four.tnum.onum</string>
-		<string>five.tnum.onum</string>
-		<string>six.tnum.onum</string>
-		<string>seven.tnum.onum</string>
-		<string>eight.tnum.onum</string>
-		<string>nine.tnum.onum</string>
-		<string>zero.pnum.lnum</string>
-		<string>one.pnum.lnum</string>
-		<string>two.pnum.lnum</string>
-		<string>three.pnum.lnum</string>
-		<string>four.pnum.lnum</string>
-		<string>five.pnum.lnum</string>
-		<string>six.pnum.lnum</string>
-		<string>seven.pnum.lnum</string>
-		<string>eight.pnum.lnum</string>
-		<string>nine.pnum.lnum</string>
 		<string>zero.pnum.onum</string>
 		<string>one.pnum.onum</string>
 		<string>two.pnum.onum</string>
@@ -2390,25 +2328,121 @@
 		<string>seven.pnum.onum</string>
 		<string>eight.pnum.onum</string>
 		<string>nine.pnum.onum</string>
-		<string>zero.dnom</string>
+		<string>zero.tnum.lnum</string>
+		<string>one.tnum.lnum</string>
+		<string>two.tnum.lnum</string>
+		<string>three.tnum.lnum</string>
+		<string>four.tnum.lnum</string>
+		<string>five.num.lnum</string>
+		<string>six.tnum.lnum</string>
+		<string>seven.tnum.lnum</string>
+		<string>eight.tnum.lnum</string>
+		<string>nine.tnum.lnum</string>
+		<string>zero.tnum.onum</string>
+		<string>one.tnum.onum</string>
+		<string>two.tnum.onum</string>
+		<string>three.tnum.onum</string>
+		<string>four.tnum.onum</string>
+		<string>five.tnum.onum</string>
+		<string>six.tnum.onum</string>
+		<string>seven.tnum.onum</string>
+		<string>eight.tnum.onum</string>
+		<string>nine.tnum.onum</string>
 		<string>zeroinferior</string>
+		<string>oneinferior</string>
+		<string>twoinferior</string>
+		<string>threeinferior</string>
+		<string>fourinferior</string>
+		<string>fiveinferior</string>
+		<string>sixinferior</string>
+		<string>seveninferior</string>
+		<string>eightinferior</string>
+		<string>nineinferior</string>
+		<string>zerosuperior</string>
+		<string>onesuperior</string>
+		<string>twosuperior</string>
+		<string>threesuperior</string>
+		<string>foursuperior</string>
+		<string>fivesuperior</string>
+		<string>sixsuperior</string>
+		<string>sevensuperior</string>
+		<string>eightsuperior</string>
+		<string>ninesuperior</string>
+		<string>zero.dnom</string>
+		<string>one.dnom</string>
+		<string>two.dnom</string>
+		<string>three.dnom</string>
+		<string>four.dnom</string>
+		<string>five.dnom</string>
+		<string>six.dnom</string>
+		<string>seven.dnom</string>
+		<string>eight.dnom</string>
+		<string>nine.dnom</string>
 		<string>zero.numr</string>
+		<string>one.numr</string>
+		<string>two.numr</string>
+		<string>three.numr</string>
+		<string>four.numr</string>
+		<string>five.numr</string>
+		<string>six.numr</string>
+		<string>seven.numr</string>
+		<string>eight.numr</string>
+		<string>nine.numr</string>
 		<string>fraction</string>
 		<string>percent</string>
 		<string>dollar</string>
+		<string>cent</string>
+		<string>sterling</string>
+		<string>currency</string>
+		<string>yen</string>
+		<string>eucurrency</string>
+		<string>colonmonetary</string>
+		<string>cruzeiro</string>
+		<string>lira</string>
+		<string>mill</string>
+		<string>naira</string>
+		<string>peseta</string>
+		<string>rupee</string>
+		<string>won</string>
+		<string>hNewsheqel</string>
+		<string>dong</string>
+		<string>Euro</string>
+		<string>kip</string>
+		<string>tugrik</string>
+		<string>drachma</string>
+		<string>pfennig</string>
+		<string>peso</string>
+		<string>guarani</string>
+		<string>austral</string>
+		<string>hryvnia</string>
+		<string>cedi</string>
+		<string>rupeeindian</string>
+		<string>liraturkish</string>
 		<string>asciicircum</string>
 		<string>plus</string>
 		<string>minus</string>
+		<string>plusminus</string>
 		<string>equal</string>
+		<string>notequal</string>
+		<string>divide</string>
 		<string>less</string>
 		<string>greater</string>
+		<string>lessequal</string>
+		<string>greaterequal</string>
 		<string>asciitilde</string>
+		<string>approxequal</string>
+		<string>multiply</string>
 		<string>underscore</string>
+		<string>section</string>
+		<string>degree</string>
+		<string>micro</string>
+		<string>paragraph</string>
 		<string>numbersign</string>
 		<string>bar</string>
 		<string>brokenbar</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
+		<string>logicalnot</string>
 		<string>hyphen</string>
 		<string>hyphentwo</string>
 		<string>nbhyphen</string>
@@ -2451,6 +2485,7 @@
 		<string>guillemotright.case</string>
 		<string>at.case</string>
 		<string>periodcentered.case</string>
+		<string>softhyphen</string>
 		<string>figuredash</string>
 		<string>horizontalbar</string>
 		<string>A</string>
@@ -2505,8 +2540,26 @@
 		<string>x</string>
 		<string>y</string>
 		<string>z</string>
+		<string>minute</string>
+		<string>second</string>
+		<string>trademark</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
+		<string>litre</string>
+		<string>estimated</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>partialdiff</string>
+		<string>product</string>
+		<string>summation</string>
+		<string>divisionslash</string>
+		<string>bulletoperator</string>
+		<string>radical</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>lozenge</string>
+		<string>increment</string>
+		<string>ohm</string>
 		<string>florin</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
@@ -2514,6 +2567,8 @@
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
+		<string>periodcentered.loclCAT</string>
+		<string>periodcentered.loclCAT.cap</string>
 		<string>dotlessi</string>
 		<string>dotlessj</string>
 		<string>IJ</string>
@@ -2755,103 +2810,6 @@
 		<string>Uring</string>
 		<string>aring</string>
 		<string>uring</string>
-		<string>oneinferior</string>
-		<string>twoinferior</string>
-		<string>threeinferior</string>
-		<string>fourinferior</string>
-		<string>fiveinferior</string>
-		<string>sixinferior</string>
-		<string>seveninferior</string>
-		<string>eightinferior</string>
-		<string>nineinferior</string>
-		<string>zerosuperior</string>
-		<string>onesuperior</string>
-		<string>twosuperior</string>
-		<string>threesuperior</string>
-		<string>foursuperior</string>
-		<string>fivesuperior</string>
-		<string>sixsuperior</string>
-		<string>sevensuperior</string>
-		<string>eightsuperior</string>
-		<string>ninesuperior</string>
-		<string>one.numr</string>
-		<string>two.numr</string>
-		<string>three.numr</string>
-		<string>four.numr</string>
-		<string>five.numr</string>
-		<string>six.numr</string>
-		<string>seven.numr</string>
-		<string>eight.numr</string>
-		<string>nine.numr</string>
-		<string>one.dnom</string>
-		<string>two.dnom</string>
-		<string>three.dnom</string>
-		<string>four.dnom</string>
-		<string>five.dnom</string>
-		<string>six.dnom</string>
-		<string>seven.dnom</string>
-		<string>eight.dnom</string>
-		<string>nine.dnom</string>
-		<string>cent</string>
-		<string>sterling</string>
-		<string>currency</string>
-		<string>yen</string>
-		<string>eucurrency</string>
-		<string>colonmonetary</string>
-		<string>cruzeiro</string>
-		<string>lira</string>
-		<string>mill</string>
-		<string>naira</string>
-		<string>peseta</string>
-		<string>rupee</string>
-		<string>won</string>
-		<string>hNewsheqel</string>
-		<string>dong</string>
-		<string>Euro</string>
-		<string>kip</string>
-		<string>tugrik</string>
-		<string>drachma</string>
-		<string>pfennig</string>
-		<string>peso</string>
-		<string>guarani</string>
-		<string>austral</string>
-		<string>hryvnia</string>
-		<string>cedi</string>
-		<string>rupeeindian</string>
-		<string>liraturkish</string>
-		<string>plusminus</string>
-		<string>notequal</string>
-		<string>divide</string>
-		<string>lessequal</string>
-		<string>greaterequal</string>
-		<string>approxequal</string>
-		<string>multiply</string>
-		<string>section</string>
-		<string>degree</string>
-		<string>micro</string>
-		<string>paragraph</string>
-		<string>logicalnot</string>
-		<string>softhyphen</string>
-		<string>litre</string>
-		<string>estimated</string>
-		<string>copyright</string>
-		<string>registered</string>
-		<string>partialdiff</string>
-		<string>product</string>
-		<string>summation</string>
-		<string>divisionslash</string>
-		<string>bulletoperator</string>
-		<string>radical</string>
-		<string>infinity</string>
-		<string>integral</string>
-		<string>lozenge</string>
-		<string>increment</string>
-		<string>ohm</string>
-		<string>minute</string>
-		<string>second</string>
-		<string>trademark</string>
-		<string>periodcentered.loclCAT</string>
-		<string>periodcentered.loclCAT.cap</string>
 		<string>pi</string>
 	</array>
 </dict>

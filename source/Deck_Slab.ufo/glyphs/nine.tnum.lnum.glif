@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="1">
-	<unicode hex="00AF"/>
-	<advance width="616"/>
+<glyph name="nine.tnum.lnum" format="1">
+	<advance width="560"/>
 	<outline>
-		<component base="macroncomb" xOffset="308"/>
+		<component base="nine" xOffset="18"/>
 	</outline>
 	<lib>
 		<dict>

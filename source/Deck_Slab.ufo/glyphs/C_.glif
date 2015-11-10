@@ -4,7 +4,6 @@
 	<advance width="593"/>
 	<outline>
 		<contour>
-			<point x="467" y="621" type="line"/>
 			<point x="503" y="460" type="line"/>
 			<point x="508" y="456"/>
 			<point x="516" y="453"/>
@@ -40,9 +39,9 @@
 			<point x="109" y="495"/>
 			<point x="203" y="608"/>
 			<point x="348" y="608" type="curve" smooth="yes"/>
-			<point x="391" y="608"/>
-			<point x="431" y="600"/>
-			<point x="477" y="582" type="curve"/>
+			<point x="390" y="608"/>
+			<point x="430" y="600"/>
+			<point x="475" y="582" type="curve"/>
 		</contour>
 		<contour>
 			<point name="top.UC" x="330" y="670" type="move"/>
@@ -53,36 +52,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>vguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>1015</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>549</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>1015</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>549</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>

@@ -4,9 +4,6 @@
 	<advance width="384"/>
 	<outline>
 		<contour>
-			<point x="192" y="125" type="curve" smooth="yes"/>
-			<point x="272" y="125"/>
-			<point x="324" y="175"/>
 			<point x="324" y="250" type="curve" smooth="yes"/>
 			<point x="324" y="325"/>
 			<point x="272" y="375"/>
@@ -16,6 +13,9 @@
 			<point x="60" y="250" type="curve" smooth="yes"/>
 			<point x="60" y="175"/>
 			<point x="112" y="125"/>
+			<point x="192" y="125" type="curve" smooth="yes"/>
+			<point x="272" y="125"/>
+			<point x="324" y="175"/>
 		</contour>
 	</outline>
 	<lib>
@@ -33,37 +33,6 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>192</integer>
-						<integer>125</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>272</integer>
-						<integer>125</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>324</integer>
-						<integer>175</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
 						<integer>324</integer>
 						<integer>250</integer>
 					</array>
@@ -150,6 +119,37 @@
 					<array>
 						<integer>112</integer>
 						<integer>125</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>192</integer>
+						<integer>125</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>272</integer>
+						<integer>125</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>324</integer>
+						<integer>175</integer>
 					</array>
 				</dict>
 				<dict>

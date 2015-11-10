@@ -3,14 +3,6 @@
 	<unicode hex="030C"/>
 	<outline>
 		<contour>
-			<point x="-140" y="689" type="curve"/>
-			<point x="-22" y="558" type="line"/>
-			<point x="-16" y="557"/>
-			<point x="-8" y="556"/>
-			<point x="-1" y="556" type="curve" smooth="yes"/>
-			<point x="6" y="556"/>
-			<point x="14" y="557"/>
-			<point x="20" y="558" type="curve"/>
 			<point x="140" y="691" type="line"/>
 			<point x="135" y="700"/>
 			<point x="130" y="706"/>
@@ -19,6 +11,14 @@
 			<point x="-115" y="716" type="line"/>
 			<point x="-128" y="706"/>
 			<point x="-135" y="698"/>
+			<point x="-140" y="689" type="curve"/>
+			<point x="-22" y="558" type="line"/>
+			<point x="-16" y="557"/>
+			<point x="-8" y="556"/>
+			<point x="-1" y="556" type="curve" smooth="yes"/>
+			<point x="6" y="556"/>
+			<point x="14" y="557"/>
+			<point x="20" y="558" type="curve"/>
 		</contour>
 		<contour>
 			<point name="_top.LC" x="0" y="530" type="move"/>
@@ -26,18 +26,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>632</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
@@ -45,6 +33,63 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>140</integer>
+						<integer>691</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>135</integer>
+						<integer>700</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>130</integer>
+						<integer>706</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>117</integer>
+						<integer>716</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-11</integer>
+						<integer>602</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -175,63 +220,6 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>140</integer>
-						<integer>691</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>135</integer>
-						<integer>700</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>130</integer>
-						<integer>706</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>117</integer>
-						<integer>716</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-11</integer>
-						<integer>602</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>

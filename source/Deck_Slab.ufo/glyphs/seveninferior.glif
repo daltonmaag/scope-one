@@ -4,6 +4,9 @@
 	<advance width="348"/>
 	<outline>
 		<contour>
+			<point x="121" y="-84" type="line"/>
+			<point x="131" y="-96"/>
+			<point x="151" y="-103"/>
 			<point x="165" y="-105" type="curve"/>
 			<point x="317" y="217" type="line"/>
 			<point x="314" y="224"/>
@@ -22,9 +25,6 @@
 			<point x="82" y="125" type="curve"/>
 			<point x="99" y="202" type="line"/>
 			<point x="264" y="202" type="line"/>
-			<point x="121" y="-84" type="line"/>
-			<point x="131" y="-96"/>
-			<point x="151" y="-103"/>
 		</contour>
 	</outline>
 	<lib>
@@ -36,6 +36,37 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>121</integer>
+						<integer>-84</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>131</integer>
+						<integer>-96</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>151</integer>
+						<integer>-103</integer>
+					</array>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -251,37 +282,6 @@
 					<string>line</string>
 					<key>smooth</key>
 					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>121</integer>
-						<integer>-84</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>131</integer>
-						<integer>-96</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>151</integer>
-						<integer>-103</integer>
-					</array>
 				</dict>
 				<dict>
 					<key>method</key>

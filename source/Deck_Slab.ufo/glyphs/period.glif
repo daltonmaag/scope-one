@@ -4,9 +4,6 @@
 	<advance width="220"/>
 	<outline>
 		<contour>
-			<point x="110" y="-10" type="curve" smooth="yes"/>
-			<point x="141" y="-10"/>
-			<point x="160" y="9"/>
 			<point x="160" y="37" type="curve" smooth="yes"/>
 			<point x="160" y="65"/>
 			<point x="141" y="84"/>
@@ -16,6 +13,9 @@
 			<point x="60" y="37" type="curve" smooth="yes"/>
 			<point x="60" y="9"/>
 			<point x="79" y="-10"/>
+			<point x="110" y="-10" type="curve" smooth="yes"/>
+			<point x="141" y="-10"/>
+			<point x="160" y="9"/>
 		</contour>
 	</outline>
 	<lib>
@@ -33,37 +33,6 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>110</integer>
-						<integer>-10</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>141</integer>
-						<integer>-10</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>160</integer>
-						<integer>9</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
 						<integer>160</integer>
 						<integer>37</integer>
 					</array>
@@ -150,6 +119,37 @@
 					<array>
 						<integer>79</integer>
 						<integer>-10</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>110</integer>
+						<integer>-10</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>141</integer>
+						<integer>-10</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>160</integer>
+						<integer>9</integer>
 					</array>
 				</dict>
 				<dict>

@@ -38,19 +38,6 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-13</integer>
-						<integer>816</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
 						<integer>114</integer>
 						<integer>722</integer>
 					</array>
@@ -215,6 +202,19 @@
 					<key>pt</key>
 					<array>
 						<integer>11</integer>
+						<integer>816</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>-13</integer>
 						<integer>816</integer>
 					</array>
 					<key>segmentType</key>

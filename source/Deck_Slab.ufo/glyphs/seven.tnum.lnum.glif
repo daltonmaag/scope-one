@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four.pnum.lnum" format="1">
+<glyph name="seven.tnum.lnum" format="1">
 	<advance width="560"/>
 	<outline>
-		<component base="four"/>
+		<component base="seven" xOffset="62"/>
 	</outline>
 	<lib>
 		<dict>

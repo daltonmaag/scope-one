@@ -2,7 +2,6 @@
 <glyph name="acutecomb.cap" format="1">
 	<outline>
 		<contour>
-			<point x="66" y="765" type="line"/>
 			<point x="124" y="811" type="line"/>
 			<point x="114" y="828"/>
 			<point x="107" y="837"/>
@@ -12,6 +11,7 @@
 			<point x="-64" y="712"/>
 			<point x="-55" y="702"/>
 			<point x="-43" y="692" type="curve"/>
+			<point x="66" y="765" type="line"/>
 		</contour>
 		<contour>
 			<point name="_top.UC" x="0" y="670" type="move"/>
@@ -26,19 +26,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>66</integer>
-						<integer>765</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -138,6 +125,19 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>66</integer>
+						<integer>765</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>

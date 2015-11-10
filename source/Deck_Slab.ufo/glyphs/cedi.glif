@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedi" format="1">
+	<unicode hex="20B5"/>
 	<advance width="560"/>
 	<outline>
 		<contour>
@@ -68,63 +69,6 @@
 				<dict>
 					<key>method</key>
 					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>335</integer>
-						<integer>608</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>368</integer>
-						<integer>608</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>404</integer>
-						<integer>606</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>450</integer>
-						<integer>588</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>440</integer>
-						<integer>627</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -482,24 +426,68 @@
 				</dict>
 				<dict>
 					<key>method</key>
-					<string>endPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>beginPath</string>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>335</integer>
+						<integer>608</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>method</key>
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>307</integer>
-						<integer>619</integer>
+						<integer>368</integer>
+						<integer>608</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>404</integer>
+						<integer>606</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>450</integer>
+						<integer>588</integer>
+					</array>
+					<key>segmentType</key>
+					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>440</integer>
+						<integer>627</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
 					<key>smooth</key>
 					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>endPath</string>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>beginPath</string>
 				</dict>
 				<dict>
 					<key>method</key>
@@ -586,6 +574,19 @@
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
+					<key>smooth</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>method</key>
+					<string>addPoint</string>
+					<key>pt</key>
+					<array>
+						<integer>307</integer>
+						<integer>619</integer>
+					</array>
+					<key>segmentType</key>
+					<string>line</string>
 					<key>smooth</key>
 					<false/>
 				</dict>
