@@ -3,8 +3,8 @@
 	<unicode hex="0312"/>
 	<outline>
 		<contour>
-			<point x="7" y="672" type="line"/>
-			<point x="11" y="703"/>
+			<point x="6" y="670" type="line"/>
+			<point x="10" y="701"/>
 			<point x="22" y="736"/>
 			<point x="38" y="768" type="curve"/>
 			<point x="30" y="775"/>
@@ -17,11 +17,11 @@
 			<point x="-29" y="590"/>
 			<point x="0" y="590" type="curve" smooth="yes"/>
 			<point x="27" y="590"/>
-			<point x="45" y="608"/>
-			<point x="45" y="633" type="curve" smooth="yes"/>
-			<point x="45" y="639"/>
-			<point x="43" y="647"/>
-			<point x="41" y="651" type="curve"/>
+			<point x="44" y="608"/>
+			<point x="44" y="631" type="curve" smooth="yes"/>
+			<point x="44" y="637"/>
+			<point x="42" y="645"/>
+			<point x="40" y="649" type="curve"/>
 		</contour>
 		<contour>
 			<point name="_top.LC" x="0" y="530" type="move"/>
@@ -42,8 +42,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>7</integer>
-						<integer>672</integer>
+						<integer>6</integer>
+						<integer>670</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -55,8 +55,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>11</integer>
-						<integer>703</integer>
+						<integer>10</integer>
+						<integer>701</integer>
 					</array>
 				</dict>
 				<dict>
@@ -188,7 +188,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>45</integer>
+						<integer>44</integer>
 						<integer>608</integer>
 					</array>
 				</dict>
@@ -197,8 +197,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>45</integer>
-						<integer>633</integer>
+						<integer>44</integer>
+						<integer>631</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -210,8 +210,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>45</integer>
-						<integer>639</integer>
+						<integer>44</integer>
+						<integer>637</integer>
 					</array>
 				</dict>
 				<dict>
@@ -219,8 +219,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>43</integer>
-						<integer>647</integer>
+						<integer>42</integer>
+						<integer>645</integer>
 					</array>
 				</dict>
 				<dict>
@@ -228,8 +228,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>41</integer>
-						<integer>651</integer>
+						<integer>40</integer>
+						<integer>649</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
