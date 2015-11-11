@@ -372,12 +372,10 @@
 		<key>_LAT_d_LC_1ST</key>
 		<array>
 			<string>d</string>
-			<string>dcaron</string>
 			<string>dcroat</string>
 			<string>l</string>
 			<string>lcommabelow</string>
 			<string>lacute</string>
-			<string>lcaron</string>
 			<string>i</string>
 			<string>iogonek</string>
 			<string>iacute</string>
@@ -385,6 +383,11 @@
 			<string>fi</string>
 			<string>fl</string>
 			<string>lslash</string>
+		</array>
+		<key>_LAT_dcaron_LC_1ST</key>
+		<array>
+			<string>dcaron</string>
+			<string>lcaron</string>
 		</array>
 		<key>_LAT_dotlessj_LC_1ST</key>
 		<array>
@@ -700,13 +703,153 @@
 			<string>zcaron</string>
 			<string>zdotaccent</string>
 		</array>
-		<key>_PUNCT_ampersand_1ST</key>
+		<key>_NUM_eight.onum_1ST</key>
 		<array>
-			<string>ampersand</string>
+			<string>eight.pnum.onum</string>
 		</array>
-		<key>_PUNCT_ampersand_2ND</key>
+		<key>_NUM_eight.onum_2ND</key>
 		<array>
-			<string>ampersand</string>
+			<string>eight.pnum.onum</string>
+		</array>
+		<key>_NUM_eight_1ST</key>
+		<array>
+			<string>eight</string>
+		</array>
+		<key>_NUM_eight_2ND</key>
+		<array>
+			<string>eight</string>
+		</array>
+		<key>_NUM_five.onum_1ST</key>
+		<array>
+			<string>five.pnum.onum</string>
+		</array>
+		<key>_NUM_five.onum_2ND</key>
+		<array>
+			<string>five.pnum.onum</string>
+		</array>
+		<key>_NUM_five_1ST</key>
+		<array>
+			<string>five</string>
+		</array>
+		<key>_NUM_five_2ND</key>
+		<array>
+			<string>five</string>
+		</array>
+		<key>_NUM_four.onum_1ST</key>
+		<array>
+			<string>four.pnum.onum</string>
+		</array>
+		<key>_NUM_four.onum_2ND</key>
+		<array>
+			<string>four.pnum.onum</string>
+		</array>
+		<key>_NUM_four_1ST</key>
+		<array>
+			<string>four</string>
+		</array>
+		<key>_NUM_four_2ND</key>
+		<array>
+			<string>four</string>
+		</array>
+		<key>_NUM_nine.onum_1ST</key>
+		<array>
+			<string>nine.pnum.onum</string>
+		</array>
+		<key>_NUM_nine.onum_2ND</key>
+		<array>
+			<string>nine.pnum.onum</string>
+		</array>
+		<key>_NUM_nine_1ST</key>
+		<array>
+			<string>nine</string>
+		</array>
+		<key>_NUM_nine_2ND</key>
+		<array>
+			<string>nine</string>
+		</array>
+		<key>_NUM_one.onum_1ST</key>
+		<array>
+			<string>one.pnum.onum</string>
+		</array>
+		<key>_NUM_one.onum_2ND</key>
+		<array>
+			<string>one.pnum.onum</string>
+		</array>
+		<key>_NUM_one_1ST</key>
+		<array>
+			<string>one</string>
+		</array>
+		<key>_NUM_one_2ND</key>
+		<array>
+			<string>one</string>
+		</array>
+		<key>_NUM_seven.onum_1ST</key>
+		<array>
+			<string>seven.pnum.onum</string>
+		</array>
+		<key>_NUM_seven.onum_2ND</key>
+		<array>
+			<string>seven.pnum.onum</string>
+		</array>
+		<key>_NUM_seven_1ST</key>
+		<array>
+			<string>seven</string>
+		</array>
+		<key>_NUM_seven_2ND</key>
+		<array>
+			<string>seven</string>
+		</array>
+		<key>_NUM_six.onum_1ST</key>
+		<array>
+			<string>six.pnum.onum</string>
+		</array>
+		<key>_NUM_six.onum_2ND</key>
+		<array>
+			<string>six.pnum.onum</string>
+		</array>
+		<key>_NUM_six_1ST</key>
+		<array>
+			<string>six</string>
+		</array>
+		<key>_NUM_six_2ND</key>
+		<array>
+			<string>six</string>
+		</array>
+		<key>_NUM_three.onum_1ST</key>
+		<array>
+			<string>three.pnum.onum</string>
+		</array>
+		<key>_NUM_three.onum_2ND</key>
+		<array>
+			<string>three.pnum.onum</string>
+		</array>
+		<key>_NUM_three_1ST</key>
+		<array>
+			<string>three</string>
+		</array>
+		<key>_NUM_three_2ND</key>
+		<array>
+			<string>three</string>
+		</array>
+		<key>_NUM_two.onum_1ST</key>
+		<array>
+			<string>two.pnum.onum</string>
+		</array>
+		<key>_NUM_two.onum_2ND</key>
+		<array>
+			<string>two.pnum.onum</string>
+		</array>
+		<key>_NUM_two_1ST</key>
+		<array>
+			<string>two</string>
+		</array>
+		<key>_NUM_two_2ND</key>
+		<array>
+			<string>two</string>
+		</array>
+		<key>_PUNCT_Euro_2ND</key>
+		<array>
+			<string>Euro</string>
 		</array>
 		<key>_PUNCT_asterisk_1ST</key>
 		<array>
@@ -716,21 +859,23 @@
 		<array>
 			<string>asterisk</string>
 		</array>
-		<key>_PUNCT_at.case_1ST</key>
-		<array>
-			<string>at.case</string>
-		</array>
-		<key>_PUNCT_at.case_2ND</key>
-		<array>
-			<string>at.case</string>
-		</array>
 		<key>_PUNCT_at_1ST</key>
 		<array>
 			<string>at</string>
+			<string>at.case</string>
 		</array>
 		<key>_PUNCT_at_2ND</key>
 		<array>
 			<string>at</string>
+			<string>at.case</string>
+		</array>
+		<key>_PUNCT_austral_1ST</key>
+		<array>
+			<string>austral</string>
+		</array>
+		<key>_PUNCT_austral_2ND</key>
+		<array>
+			<string>austral</string>
 		</array>
 		<key>_PUNCT_backslash_1ST</key>
 		<array>
@@ -742,61 +887,13 @@
 			<string>backslash</string>
 			<string>backslash.case</string>
 		</array>
-		<key>_PUNCT_bracketleft.case_1ST</key>
+		<key>_PUNCT_cent_1ST</key>
 		<array>
-			<string>bracketleft.case</string>
-			<string>braceleft.case</string>
+			<string>cent</string>
 		</array>
-		<key>_PUNCT_bracketleft.case_2ND</key>
+		<key>_PUNCT_cent_2ND</key>
 		<array>
-			<string>bracketleft.case</string>
-			<string>braceleft.case</string>
-		</array>
-		<key>_PUNCT_bracketleft_1ST</key>
-		<array>
-			<string>bracketleft</string>
-			<string>braceleft</string>
-		</array>
-		<key>_PUNCT_bracketleft_2ND</key>
-		<array>
-			<string>bracketleft</string>
-			<string>braceleft</string>
-		</array>
-		<key>_PUNCT_bracketright.case_1ST</key>
-		<array>
-			<string>bracketright.case</string>
-			<string>braceright.case</string>
-		</array>
-		<key>_PUNCT_bracketright.case_2ND</key>
-		<array>
-			<string>bracketright.case</string>
-			<string>braceright.case</string>
-		</array>
-		<key>_PUNCT_bracketright_1ST</key>
-		<array>
-			<string>bracketright</string>
-			<string>braceright</string>
-		</array>
-		<key>_PUNCT_bracketright_2ND</key>
-		<array>
-			<string>bracketright</string>
-			<string>braceright</string>
-		</array>
-		<key>_PUNCT_bullet.case_1ST</key>
-		<array>
-			<string>bullet.case</string>
-		</array>
-		<key>_PUNCT_bullet.case_2ND</key>
-		<array>
-			<string>bullet.case</string>
-		</array>
-		<key>_PUNCT_bullet_1ST</key>
-		<array>
-			<string>bullet</string>
-		</array>
-		<key>_PUNCT_bullet_2ND</key>
-		<array>
-			<string>bullet</string>
+			<string>cent</string>
 		</array>
 		<key>_PUNCT_colon_1ST</key>
 		<array>
@@ -807,6 +904,60 @@
 		<array>
 			<string>colon</string>
 			<string>semicolon</string>
+		</array>
+		<key>_PUNCT_colonmonetary_1ST</key>
+		<array>
+			<string>colonmonetary</string>
+			<string>Euro</string>
+			<string>cedi</string>
+			<string>cruzeiro</string>
+		</array>
+		<key>_PUNCT_colonmonetary_2ND</key>
+		<array>
+			<string>colonmonetary</string>
+			<string>cedi</string>
+			<string>cruzeiro</string>
+			<string>guarani</string>
+		</array>
+		<key>_PUNCT_currency_1ST</key>
+		<array>
+			<string>currency</string>
+		</array>
+		<key>_PUNCT_currency_2ND</key>
+		<array>
+			<string>currency</string>
+		</array>
+		<key>_PUNCT_dollar_1ST</key>
+		<array>
+			<string>dollar</string>
+		</array>
+		<key>_PUNCT_dollar_2ND</key>
+		<array>
+			<string>dollar</string>
+		</array>
+		<key>_PUNCT_dong_1ST</key>
+		<array>
+			<string>dong</string>
+		</array>
+		<key>_PUNCT_dong_2ND</key>
+		<array>
+			<string>dong</string>
+		</array>
+		<key>_PUNCT_drachma_1ST</key>
+		<array>
+			<string>drachma</string>
+		</array>
+		<key>_PUNCT_drachma_2ND</key>
+		<array>
+			<string>drachma</string>
+		</array>
+		<key>_PUNCT_eucurrency_1ST</key>
+		<array>
+			<string>eucurrency</string>
+		</array>
+		<key>_PUNCT_eucurrency_2ND</key>
+		<array>
+			<string>eucurrency</string>
 		</array>
 		<key>_PUNCT_exclam_1ST</key>
 		<array>
@@ -832,25 +983,23 @@
 		<array>
 			<string>exclamdown</string>
 		</array>
-		<key>_PUNCT_guilsinglleft.case_1ST</key>
+		<key>_PUNCT_guarani_1ST</key>
 		<array>
-			<string>guilsinglleft.case</string>
-			<string>guillemotleft.case</string>
-		</array>
-		<key>_PUNCT_guilsinglleft.case_2ND</key>
-		<array>
-			<string>guilsinglleft.case</string>
-			<string>guillemotleft.case</string>
+			<string>guarani</string>
 		</array>
 		<key>_PUNCT_guilsinglleft_1ST</key>
 		<array>
 			<string>guilsinglleft</string>
 			<string>guillemotleft</string>
+			<string>guilsinglleft.case</string>
+			<string>guillemotleft.case</string>
 		</array>
 		<key>_PUNCT_guilsinglleft_2ND</key>
 		<array>
 			<string>guilsinglleft</string>
 			<string>guillemotleft</string>
+			<string>guilsinglleft.case</string>
+			<string>guillemotleft.case</string>
 		</array>
 		<key>_PUNCT_guilsinglright_1ST</key>
 		<array>
@@ -866,21 +1015,21 @@
 			<string>guilsinglright.case</string>
 			<string>guillemotright.case</string>
 		</array>
-		<key>_PUNCT_hyphen.case_1ST</key>
+		<key>_PUNCT_hNewsheqel_1ST</key>
 		<array>
-			<string>hyphen.case</string>
-			<string>hyphentwo.case</string>
-			<string>nbhyphen.case</string>
-			<string>endash.case</string>
-			<string>emdash.case</string>
+			<string>hNewsheqel</string>
 		</array>
-		<key>_PUNCT_hyphen.case_2ND</key>
+		<key>_PUNCT_hNewsheqel_2ND</key>
 		<array>
-			<string>hyphen.case</string>
-			<string>hyphentwo.case</string>
-			<string>nbhyphen.case</string>
-			<string>endash.case</string>
-			<string>emdash.case</string>
+			<string>hNewsheqel</string>
+		</array>
+		<key>_PUNCT_hryvnia_1ST</key>
+		<array>
+			<string>hryvnia</string>
+		</array>
+		<key>_PUNCT_hryvnia_2ND</key>
+		<array>
+			<string>hryvnia</string>
 		</array>
 		<key>_PUNCT_hyphen_1ST</key>
 		<array>
@@ -889,6 +1038,11 @@
 			<string>nbhyphen</string>
 			<string>endash</string>
 			<string>emdash</string>
+			<string>hyphen.case</string>
+			<string>hyphentwo.case</string>
+			<string>nbhyphen.case</string>
+			<string>endash.case</string>
+			<string>emdash.case</string>
 		</array>
 		<key>_PUNCT_hyphen_2ND</key>
 		<array>
@@ -897,26 +1051,58 @@
 			<string>nbhyphen</string>
 			<string>endash</string>
 			<string>emdash</string>
+			<string>hyphen.case</string>
+			<string>hyphentwo.case</string>
+			<string>nbhyphen.case</string>
+			<string>endash.case</string>
+			<string>emdash.case</string>
+		</array>
+		<key>_PUNCT_kip_1ST</key>
+		<array>
+			<string>kip</string>
+		</array>
+		<key>_PUNCT_liraturkish_1ST</key>
+		<array>
+			<string>liraturkish</string>
+		</array>
+		<key>_PUNCT_mill_1ST</key>
+		<array>
+			<string>mill</string>
+		</array>
+		<key>_PUNCT_mill_2ND</key>
+		<array>
+			<string>mill</string>
+		</array>
+		<key>_PUNCT_naira_1ST</key>
+		<array>
+			<string>naira</string>
+		</array>
+		<key>_PUNCT_naira_2ND</key>
+		<array>
+			<string>naira</string>
+			<string>kip</string>
+			<string>liraturkish</string>
+			<string>peso</string>
 		</array>
 		<key>_PUNCT_parenleft_1ST</key>
 		<array>
 			<string>parenleft</string>
+			<string></string>
+			<string>bracketleft</string>
+			<string>braceleft</string>
 			<string>parenleft.case</string>
-		</array>
-		<key>_PUNCT_parenleft_2ND</key>
-		<array>
-			<string>parenleft</string>
-			<string>parenleft.case</string>
-		</array>
-		<key>_PUNCT_parenright_1ST</key>
-		<array>
-			<string>parenright</string>
-			<string>parenright.case</string>
+			<string>bracketleft.case</string>
+			<string>braceleft.case</string>
 		</array>
 		<key>_PUNCT_parenright_2ND</key>
 		<array>
 			<string>parenright</string>
+			<string></string>
+			<string>bracketright</string>
+			<string>braceright</string>
 			<string>parenright.case</string>
+			<string>bracketright.case</string>
+			<string>braceright.case</string>
 		</array>
 		<key>_PUNCT_period_1ST</key>
 		<array>
@@ -934,15 +1120,27 @@
 			<string>quotesinglbase</string>
 			<string>quotedblbase</string>
 		</array>
-		<key>_PUNCT_periodcentered_1ST</key>
+		<key>_PUNCT_peseta_1ST</key>
 		<array>
-			<string>periodcentered</string>
-			<string>periodcentered.case</string>
+			<string>peseta</string>
+			<string>rupee</string>
 		</array>
-		<key>_PUNCT_periodcentered_2ND</key>
+		<key>_PUNCT_peseta_2ND</key>
 		<array>
-			<string>periodcentered</string>
-			<string>periodcentered.case</string>
+			<string>peseta</string>
+			<string>rupee</string>
+		</array>
+		<key>_PUNCT_peso_1ST</key>
+		<array>
+			<string>peso</string>
+		</array>
+		<key>_PUNCT_pfenning_1ST</key>
+		<array>
+			<string>pfennig</string>
+		</array>
+		<key>_PUNCT_pfenning_2ND</key>
+		<array>
+			<string>pfennig</string>
 		</array>
 		<key>_PUNCT_question_1ST</key>
 		<array>
@@ -986,6 +1184,14 @@
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
 		</array>
+		<key>_PUNCT_rupeeindian_1ST</key>
+		<array>
+			<string>rupeeindian</string>
+		</array>
+		<key>_PUNCT_rupeeindian_2ND</key>
+		<array>
+			<string>rupeeindian</string>
+		</array>
 		<key>_PUNCT_slash_1ST</key>
 		<array>
 			<string>slash</string>
@@ -996,7 +1202,41 @@
 			<string>slash</string>
 			<string>slash.case</string>
 		</array>
-		<key>figDef</key>
+		<key>_PUNCT_sterling_1ST</key>
+		<array>
+			<string>sterling</string>
+			<string>lira</string>
+		</array>
+		<key>_PUNCT_sterling_2ND</key>
+		<array>
+			<string>sterling</string>
+			<string>lira</string>
+		</array>
+		<key>_PUNCT_tugrik_1ST</key>
+		<array>
+			<string>tugrik</string>
+		</array>
+		<key>_PUNCT_tugrik_2ND</key>
+		<array>
+			<string>tugrik</string>
+		</array>
+		<key>_PUNCT_won_1ST</key>
+		<array>
+			<string>won</string>
+		</array>
+		<key>_PUNCT_won_2ND</key>
+		<array>
+			<string>won</string>
+		</array>
+		<key>_PUNCT_yen_1ST</key>
+		<array>
+			<string>yen</string>
+		</array>
+		<key>_PUNCT_yen_2ND</key>
+		<array>
+			<string>yen</string>
+		</array>
+		<key>figPLnum</key>
 		<array>
 			<string>zero</string>
 			<string>one</string>
@@ -1008,19 +1248,6 @@
 			<string>seven</string>
 			<string>eight</string>
 			<string>nine</string>
-		</array>
-		<key>figOnum</key>
-		<array>
-			<string>zero.tnum.onum</string>
-			<string>one.tnum.onum</string>
-			<string>two.tnum.onum</string>
-			<string>three.tnum.onum</string>
-			<string>four.tnum.onum</string>
-			<string>five.tnum.onum</string>
-			<string>six.tnum.onum</string>
-			<string>seven.tnum.onum</string>
-			<string>eight.tnum.onum</string>
-			<string>nine.tnum.onum</string>
 		</array>
 		<key>figPOnum</key>
 		<array>
@@ -1035,18 +1262,31 @@
 			<string>eight.pnum.onum</string>
 			<string>nine.pnum.onum</string>
 		</array>
-		<key>figPnum</key>
+		<key>figTLnum</key>
 		<array>
-			<string>zero.pnum.lnum</string>
-			<string>one.pnum.lnum</string>
-			<string>two.pnum.lnum</string>
-			<string>three.pnum.lnum</string>
-			<string>four.pnum.lnum</string>
-			<string>five.pnum.lnum</string>
-			<string>six.pnum.lnum</string>
-			<string>seven.pnum.lnum</string>
-			<string>eight.pnum.lnum</string>
-			<string>nine.pnum.lnum</string>
+			<string>zero.tnum.lnum</string>
+			<string>one.tnum.lnum</string>
+			<string>two.tnum.lnum</string>
+			<string>three.tnum.lnum</string>
+			<string>four.tnum.lnum</string>
+			<string>five.num.lnum</string>
+			<string>six.tnum.lnum</string>
+			<string>seven.tnum.lnum</string>
+			<string>eight.tnum.lnum</string>
+			<string>nine.tnum.lnum</string>
+		</array>
+		<key>figTOnum</key>
+		<array>
+			<string>zero.tnum.onum</string>
+			<string>one.tnum.onum</string>
+			<string>two.tnum.onum</string>
+			<string>three.tnum.onum</string>
+			<string>four.tnum.onum</string>
+			<string>five.tnum.onum</string>
+			<string>six.tnum.onum</string>
+			<string>seven.tnum.onum</string>
+			<string>eight.tnum.onum</string>
+			<string>nine.tnum.onum</string>
 		</array>
 	</dict>
 </plist>

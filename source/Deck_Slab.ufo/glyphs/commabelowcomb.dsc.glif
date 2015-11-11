@@ -2,8 +2,8 @@
 <glyph name="commabelowcomb.dsc" format="1">
 	<outline>
 		<contour>
-			<point x="-7" y="-347" type="line"/>
-			<point x="-11" y="-378"/>
+			<point x="-6" y="-345" type="line"/>
+			<point x="-10" y="-376"/>
 			<point x="-22" y="-411"/>
 			<point x="-38" y="-443" type="curve"/>
 			<point x="-30" y="-450"/>
@@ -16,11 +16,11 @@
 			<point x="29" y="-265"/>
 			<point x="0" y="-265" type="curve" smooth="yes"/>
 			<point x="-27" y="-265"/>
-			<point x="-45" y="-283"/>
-			<point x="-45" y="-308" type="curve" smooth="yes"/>
-			<point x="-45" y="-314"/>
-			<point x="-43" y="-322"/>
-			<point x="-41" y="-326" type="curve"/>
+			<point x="-44" y="-283"/>
+			<point x="-44" y="-306" type="curve" smooth="yes"/>
+			<point x="-44" y="-312"/>
+			<point x="-42" y="-320"/>
+			<point x="-40" y="-324" type="curve"/>
 		</contour>
 		<contour>
 			<point name="_bottom.DSC" x="0" y="-205" type="move"/>
@@ -41,8 +41,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-7</integer>
-						<integer>-347</integer>
+						<integer>-6</integer>
+						<integer>-345</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -54,8 +54,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-11</integer>
-						<integer>-378</integer>
+						<integer>-10</integer>
+						<integer>-376</integer>
 					</array>
 				</dict>
 				<dict>
@@ -187,7 +187,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-45</integer>
+						<integer>-44</integer>
 						<integer>-283</integer>
 					</array>
 				</dict>
@@ -196,8 +196,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-45</integer>
-						<integer>-308</integer>
+						<integer>-44</integer>
+						<integer>-306</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -209,8 +209,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-45</integer>
-						<integer>-314</integer>
+						<integer>-44</integer>
+						<integer>-312</integer>
 					</array>
 				</dict>
 				<dict>
@@ -218,8 +218,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-43</integer>
-						<integer>-322</integer>
+						<integer>-42</integer>
+						<integer>-320</integer>
 					</array>
 				</dict>
 				<dict>
@@ -227,8 +227,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>-41</integer>
-						<integer>-326</integer>
+						<integer>-40</integer>
+						<integer>-324</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>

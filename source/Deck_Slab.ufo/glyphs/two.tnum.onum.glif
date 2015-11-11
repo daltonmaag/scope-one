@@ -2,7 +2,7 @@
 <glyph name="two.tnum.onum" format="1">
 	<advance width="560"/>
 	<outline>
-		<component base="two.pnum.onum" xOffset="30"/>
+		<component base="two.pnum.onum" xOffset="11"/>
 	</outline>
 	<lib>
 		<dict>
