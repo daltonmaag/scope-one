@@ -506,12 +506,12 @@
 		<string>five.glif</string>
 		<key>five.dnom</key>
 		<string>five.dnom.glif</string>
-		<key>five.num.lnum</key>
-		<string>five.num.lnum.glif</string>
 		<key>five.numr</key>
 		<string>five.numr.glif</string>
 		<key>five.pnum.onum</key>
 		<string>five.pnum.onum.glif</string>
+		<key>five.tnum.lnum</key>
+		<string>five.tnum.lnum.glif</string>
 		<key>five.tnum.onum</key>
 		<string>five.tnum.onum.glif</string>
 		<key>fiveinferior</key>
