@@ -377,10 +377,6 @@
 		</dict>
 		<key>Oslash</key>
 		<dict>
-			<key>V</key>
-			<integer>0</integer>
-			<key>W</key>
-			<integer>0</integer>
 			<key>Y</key>
 			<integer>20</integer>
 		</dict>
@@ -1405,13 +1401,6 @@
 			<integer>15</integer>
 			<key>two.pnum.onum</key>
 			<integer>10</integer>
-		</dict>
-		<key>oslash</key>
-		<dict>
-			<key>v</key>
-			<integer>0</integer>
-			<key>w</key>
-			<integer>0</integer>
 		</dict>
 		<key>parenleft</key>
 		<dict>

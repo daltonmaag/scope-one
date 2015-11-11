@@ -1,17 +1,19 @@
 feature lnum {
-  sub @figOnum by @figDef ;
+  sub @figPOnum by @figPLnum ;
 } lnum;
 feature onum {
-  sub @figDef by @figOnum ;
+  sub @figPLnum by @figPOnum ;
 } onum;
 feature pnum {
-  sub @figDef by @figPnum ;
-  sub @figOnum by @figPOnum ;
+  sub @figTLnum by @figPLnum ;
+  sub @figTOnum by @figPOnum ;
 } pnum;
 feature tnum {
-  sub @figPnum by @figDef;
-  sub @figPOnum by @figOnum;
+  sub @figPLnum by @figTLnum;
+  sub @figPOnum by @figTOnum;
 } tnum;
+
+
 
 
 

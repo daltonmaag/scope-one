@@ -847,6 +847,22 @@
 		<array>
 			<string>two</string>
 		</array>
+		<key>_NUM_zero.onum_1ST</key>
+		<array>
+			<string>zero.pnum.onum</string>
+		</array>
+		<key>_NUM_zero.onum_2ND</key>
+		<array>
+			<string>zero.pnum.onum</string>
+		</array>
+		<key>_NUM_zero_1ST</key>
+		<array>
+			<string>zero</string>
+		</array>
+		<key>_NUM_zero_2ND</key>
+		<array>
+			<string>zero</string>
+		</array>
 		<key>_PUNCT_Euro_2ND</key>
 		<array>
 			<string>Euro</string>
@@ -926,6 +942,14 @@
 		<key>_PUNCT_currency_2ND</key>
 		<array>
 			<string>currency</string>
+		</array>
+		<key>_PUNCT_degree_1ST</key>
+		<array>
+			<string>degree</string>
+		</array>
+		<key>_PUNCT_degree_2ND</key>
+		<array>
+			<string>degree</string>
 		</array>
 		<key>_PUNCT_dollar_1ST</key>
 		<array>
@@ -1269,7 +1293,7 @@
 			<string>two.tnum.lnum</string>
 			<string>three.tnum.lnum</string>
 			<string>four.tnum.lnum</string>
-			<string>five.num.lnum</string>
+			<string>five.tnum.lnum</string>
 			<string>six.tnum.lnum</string>
 			<string>seven.tnum.lnum</string>
 			<string>eight.tnum.lnum</string>
