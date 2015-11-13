@@ -292,6 +292,8 @@
 		<string>backslash.case.glif</string>
 		<key>bar</key>
 		<string>bar.glif</string>
+		<key>bitcoin</key>
+		<string>bitcoin.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
 		<key>braceleft.case</key>

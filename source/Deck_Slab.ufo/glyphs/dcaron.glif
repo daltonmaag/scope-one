@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron" format="1">
 	<unicode hex="010F"/>
-	<advance width="622"/>
+	<advance width="632"/>
 	<outline>
 		<component base="d"/>
-		<component base="commaaboverightcomb" xOffset="504"/>
+		<component base="commaaboverightcomb" xOffset="514"/>
 	</outline>
 	<lib>
 		<dict>

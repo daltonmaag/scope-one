@@ -2,7 +2,7 @@
 <glyph name="two.tnum.lnum" format="1">
 	<advance width="560"/>
 	<outline>
-		<component base="two" xOffset="19"/>
+		<component base="two" xOffset="22"/>
 	</outline>
 	<lib>
 		<dict>

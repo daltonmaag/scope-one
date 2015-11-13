@@ -384,7 +384,7 @@
 		<string>cedi</string>
 		<string>rupeeindian</string>
 		<string>liraturkish</string>
-		<string>glyph380</string>
+		<string>bitcoin</string>
 		<string>glyph381</string>
 		<string>glyph382</string>
 		<string>glyph383</string>
@@ -2309,6 +2309,18 @@
 				<key>position</key>
 				<integer>984</integer>
 			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>989</integer>
+			</dict>
+			<dict>
+				<key>angle</key>
+				<real>0.0</real>
+				<key>position</key>
+				<integer>980</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>public.glyphOrder</key>
@@ -2369,6 +2381,7 @@
 		<string>two.tnum.lnum</string>
 		<string>three.tnum.lnum</string>
 		<string>four.tnum.lnum</string>
+		<string>five.tnum.lnum</string>
 		<string>six.tnum.lnum</string>
 		<string>seven.tnum.lnum</string>
 		<string>eight.tnum.lnum</string>
@@ -2453,6 +2466,7 @@
 		<string>cedi</string>
 		<string>rupeeindian</string>
 		<string>liraturkish</string>
+		<string>bitcoin</string>
 		<string>asciicircum</string>
 		<string>plus</string>
 		<string>minus</string>
@@ -2603,9 +2617,7 @@
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
 		<string>periodcentered.loclCAT</string>
-		<string>dotaccentcomb</string>
 		<string>periodcentered.loclCAT.cap</string>
-		<string>dotaccentcomb.cap</string>
 		<string>dotlessi</string>
 		<string>dotlessj</string>
 		<string>IJ</string>
@@ -2826,6 +2838,8 @@
 		<string>ydieresis</string>
 		<string>abreve</string>
 		<string>gbreve</string>
+		<string>dotaccentcomb</string>
+		<string>dotaccentcomb.cap</string>
 		<string>dotaccentcomb.asc</string>
 		<string>dotaccent</string>
 		<string>Cdotaccent</string>
@@ -2846,7 +2860,6 @@
 		<string>aring</string>
 		<string>uring</string>
 		<string>pi</string>
-		<string>five.tnum.lnum</string>
 	</array>
 </dict>
 </plist>
