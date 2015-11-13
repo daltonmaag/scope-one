@@ -38,7 +38,7 @@ def groups_to_features(ufo_path):
         groups = load(f)
 
     output = []
-    for group, lst in groups.items():
+    for group, lst in sorted(groups.items()):
         if group.startswith("@"):
             output.append("{} = [{}]".format(group, " ".join(lst)) + ";\n")
         else:
