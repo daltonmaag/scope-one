@@ -54,7 +54,7 @@
 			<point name="bottom.LC" x="213" y="-20" type="move"/>
 		</contour>
 		<contour>
-			<point name="top_right.short" x="141" y="510" type="move"/>
+			<point name="top_right.short" x="151" y="510" type="move"/>
 		</contour>
 	</outline>
 	<lib>

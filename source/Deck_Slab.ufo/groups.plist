@@ -903,6 +903,10 @@
 			<string>backslash</string>
 			<string>backslash.case</string>
 		</array>
+		<key>_PUNCT_bitcoin_1ST</key>
+		<array>
+			<string>bitcoin</string>
+		</array>
 		<key>_PUNCT_cent_1ST</key>
 		<array>
 			<string>cent</string>
@@ -1153,6 +1157,7 @@
 		<array>
 			<string>peseta</string>
 			<string>rupee</string>
+			<string>bitcoin</string>
 		</array>
 		<key>_PUNCT_peso_1ST</key>
 		<array>
