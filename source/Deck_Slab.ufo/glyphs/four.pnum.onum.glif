@@ -31,9 +31,9 @@
 			<point x="351" y="39" type="line"/>
 		</contour>
 		<contour>
+			<point x="351" y="84" type="line"/>
 			<point x="97" y="84" type="line"/>
 			<point x="351" y="431" type="line"/>
-			<point x="351" y="84" type="line"/>
 		</contour>
 	</outline>
 	<lib>

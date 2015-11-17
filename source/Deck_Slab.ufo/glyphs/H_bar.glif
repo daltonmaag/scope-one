@@ -96,10 +96,10 @@
 			<point x="473" y="0" type="curve"/>
 		</contour>
 		<contour>
+			<point x="543" y="353" type="line"/>
 			<point x="181" y="353" type="line"/>
 			<point x="181" y="457" type="line"/>
 			<point x="543" y="457" type="line"/>
-			<point x="543" y="353" type="line"/>
 		</contour>
 	</outline>
 	<lib>

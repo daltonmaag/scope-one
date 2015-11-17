@@ -3,8 +3,6 @@
 	<unicode hex="0327"/>
 	<outline>
 		<contour>
-			<point x="19" y="10" type="line"/>
-			<point x="-18" y="10" type="line"/>
 			<point x="-56" y="-75" type="line"/>
 			<point x="-54" y="-87"/>
 			<point x="-52" y="-92"/>
@@ -30,6 +28,8 @@
 			<point x="71" y="-102"/>
 			<point x="43" y="-73"/>
 			<point x="-4" y="-66" type="curve"/>
+			<point x="19" y="10" type="line"/>
+			<point x="-18" y="10" type="line"/>
 		</contour>
 		<contour>
 			<point name="_bottom.LC" x="0" y="-20" type="move"/>

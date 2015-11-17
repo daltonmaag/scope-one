@@ -42,9 +42,9 @@
 			<point x="262" y="0" type="curve"/>
 		</contour>
 		<contour>
+			<point x="362" y="219" type="line"/>
 			<point x="109" y="219" type="line"/>
 			<point x="362" y="547" type="line"/>
-			<point x="362" y="219" type="line"/>
 		</contour>
 	</outline>
 	<lib>

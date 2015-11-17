@@ -62,20 +62,20 @@
 			<point x="355" y="37"/>
 			<point x="258" y="37" type="curve" smooth="yes"/>
 			<point x="211" y="37"/>
-			<point x="170" y="44"/>
-			<point x="131" y="60" type="curve"/>
-			<point x="104" y="178" type="line"/>
-			<point x="99" y="182"/>
-			<point x="91" y="185"/>
-			<point x="84" y="185" type="curve" smooth="yes"/>
-			<point x="80" y="185"/>
-			<point x="71" y="183"/>
-			<point x="68" y="181" type="curve"/>
-			<point x="70" y="56" type="line"/>
-			<point x="74" y="47"/>
-			<point x="81" y="35"/>
-			<point x="89" y="26" type="curve"/>
-			<point x="131" y="4"/>
+			<point x="171" y="44"/>
+			<point x="132" y="59" type="curve"/>
+			<point x="104" y="182" type="line"/>
+			<point x="99" y="186"/>
+			<point x="91" y="189"/>
+			<point x="84" y="189" type="curve" smooth="yes"/>
+			<point x="80" y="189"/>
+			<point x="71" y="187"/>
+			<point x="68" y="185" type="curve"/>
+			<point x="70" y="60" type="line"/>
+			<point x="74" y="51"/>
+			<point x="81" y="39"/>
+			<point x="89" y="30" type="curve"/>
+			<point x="131" y="8"/>
 			<point x="188" y="-10"/>
 			<point x="259" y="-10" type="curve"/>
 		</contour>
@@ -314,7 +314,7 @@
 					<key>pt</key>
 					<array>
 						<integer>140</integer>
-						<integer>22</integer>
+						<integer>26</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -327,7 +327,7 @@
 					<key>pt</key>
 					<array>
 						<integer>104</integer>
-						<integer>178</integer>
+						<integer>182</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -340,7 +340,7 @@
 					<key>pt</key>
 					<array>
 						<integer>99</integer>
-						<integer>182</integer>
+						<integer>186</integer>
 					</array>
 				</dict>
 				<dict>
@@ -349,7 +349,7 @@
 					<key>pt</key>
 					<array>
 						<integer>91</integer>
-						<integer>185</integer>
+						<integer>189</integer>
 					</array>
 				</dict>
 				<dict>
@@ -358,7 +358,7 @@
 					<key>pt</key>
 					<array>
 						<integer>84</integer>
-						<integer>185</integer>
+						<integer>189</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -371,7 +371,7 @@
 					<key>pt</key>
 					<array>
 						<integer>80</integer>
-						<integer>185</integer>
+						<integer>189</integer>
 					</array>
 				</dict>
 				<dict>
@@ -380,7 +380,7 @@
 					<key>pt</key>
 					<array>
 						<integer>71</integer>
-						<integer>183</integer>
+						<integer>187</integer>
 					</array>
 				</dict>
 				<dict>
@@ -389,7 +389,7 @@
 					<key>pt</key>
 					<array>
 						<integer>68</integer>
-						<integer>181</integer>
+						<integer>185</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -402,7 +402,7 @@
 					<key>pt</key>
 					<array>
 						<integer>70</integer>
-						<integer>56</integer>
+						<integer>60</integer>
 					</array>
 					<key>segmentType</key>
 					<string>line</string>
@@ -415,7 +415,7 @@
 					<key>pt</key>
 					<array>
 						<integer>74</integer>
-						<integer>47</integer>
+						<integer>51</integer>
 					</array>
 				</dict>
 				<dict>
@@ -424,7 +424,7 @@
 					<key>pt</key>
 					<array>
 						<integer>81</integer>
-						<integer>35</integer>
+						<integer>39</integer>
 					</array>
 				</dict>
 				<dict>
@@ -433,7 +433,7 @@
 					<key>pt</key>
 					<array>
 						<integer>89</integer>
-						<integer>26</integer>
+						<integer>30</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>
@@ -446,7 +446,7 @@
 					<key>pt</key>
 					<array>
 						<integer>131</integer>
-						<integer>4</integer>
+						<integer>8</integer>
 					</array>
 				</dict>
 				<dict>

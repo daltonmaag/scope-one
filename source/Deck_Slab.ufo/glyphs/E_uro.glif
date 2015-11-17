@@ -29,8 +29,8 @@
 			<point x="179" y="529"/>
 			<point x="260" y="608"/>
 			<point x="367" y="608" type="curve" smooth="yes"/>
-			<point x="399" y="608"/>
-			<point x="435" y="606"/>
+			<point x="410" y="608"/>
+			<point x="444" y="602"/>
 			<point x="480" y="588" type="curve"/>
 			<point x="508" y="466" type="line"/>
 			<point x="513" y="462"/>
@@ -90,18 +90,6 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<real>0</real>
-						<key>position</key>
-						<integer>323</integer>
-					</dict>
-				</array>
-			</dict>
 			<key>org.robofab.fontlab.mark</key>
 			<integer>1</integer>
 			<key>org.robofab.fontlab.maskData</key>
@@ -482,7 +470,7 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>400</integer>
+						<integer>411</integer>
 						<integer>608</integer>
 					</array>
 				</dict>
@@ -491,8 +479,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>436</integer>
-						<integer>606</integer>
+						<integer>445</integer>
+						<integer>602</integer>
 					</array>
 				</dict>
 				<dict>

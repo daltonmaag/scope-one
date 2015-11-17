@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered.loclCAT" format="1">
-	<advance width="210"/>
+	<advance width="70"/>
 	<outline>
-		<component base="dotaccentcomb" xOffset="105" yOffset="-295"/>
+		<component base="dotaccentcomb" xOffset="35" yOffset="-295"/>
 	</outline>
 	<lib>
 		<dict>
