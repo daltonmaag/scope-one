@@ -88,12 +88,12 @@
 			<point x="333" y="536"/>
 			<point x="337" y="539" type="curve"/>
 			<point x="336" y="625" type="line"/>
-			<point x="328" y="634"/>
-			<point x="323" y="639"/>
+			<point x="327" y="635"/>
+			<point x="322" y="640"/>
 			<point x="314" y="645" type="curve"/>
 			<point x="38" y="645" type="line"/>
-			<point x="29" y="639"/>
-			<point x="24" y="634"/>
+			<point x="30" y="640"/>
+			<point x="25" y="635"/>
 			<point x="16" y="625" type="curve"/>
 			<point x="15" y="539" type="line"/>
 			<point x="19" y="536"/>
@@ -344,8 +344,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>328</integer>
-						<integer>634</integer>
+						<integer>327</integer>
+						<integer>635</integer>
 					</array>
 				</dict>
 				<dict>
@@ -353,8 +353,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>323</integer>
-						<integer>639</integer>
+						<integer>322</integer>
+						<integer>640</integer>
 					</array>
 				</dict>
 				<dict>
@@ -388,8 +388,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>29</integer>
-						<integer>639</integer>
+						<integer>30</integer>
+						<integer>640</integer>
 					</array>
 				</dict>
 				<dict>
@@ -397,8 +397,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>24</integer>
-						<integer>634</integer>
+						<integer>25</integer>
+						<integer>635</integer>
 					</array>
 				</dict>
 				<dict>

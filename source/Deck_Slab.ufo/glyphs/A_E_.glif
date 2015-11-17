@@ -87,10 +87,10 @@
 			<point x="389" y="0" type="curve"/>
 		</contour>
 		<contour>
-			<point x="406" y="599" type="line"/>
-			<point x="459" y="599" type="line"/>
 			<point x="459" y="254" type="line"/>
 			<point x="236" y="254" type="line"/>
+			<point x="406" y="599" type="line"/>
+			<point x="459" y="599" type="line"/>
 		</contour>
 	</outline>
 	<lib>

@@ -5,11 +5,8 @@
 	<outline>
 		<contour>
 			<point x="474" y="92" type="line"/>
-			<point x="479" y="95"/>
-			<point x="487" y="102"/>
-			<point x="494" y="109" type="curve" smooth="yes"/>
-			<point x="501" y="116"/>
-			<point x="508" y="124"/>
+			<point x="484" y="98"/>
+			<point x="500" y="114"/>
 			<point x="511" y="129" type="curve"/>
 			<point x="421" y="213" type="line"/>
 			<point x="445" y="241"/>
@@ -19,11 +16,8 @@
 			<point x="445" y="405"/>
 			<point x="421" y="433" type="curve"/>
 			<point x="511" y="517" type="line"/>
-			<point x="508" y="522"/>
-			<point x="501" y="530"/>
-			<point x="494" y="537" type="curve" smooth="yes"/>
-			<point x="487" y="544"/>
-			<point x="479" y="551"/>
+			<point x="500" y="532"/>
+			<point x="484" y="548"/>
 			<point x="474" y="554" type="curve"/>
 			<point x="389" y="461" type="line"/>
 			<point x="360" y="480"/>
@@ -33,11 +27,8 @@
 			<point x="200" y="480"/>
 			<point x="171" y="461" type="curve"/>
 			<point x="86" y="554" type="line"/>
-			<point x="81" y="551"/>
-			<point x="73" y="544"/>
-			<point x="66" y="537" type="curve" smooth="yes"/>
-			<point x="59" y="530"/>
-			<point x="52" y="522"/>
+			<point x="76" y="548"/>
+			<point x="60" y="532"/>
 			<point x="49" y="517" type="curve"/>
 			<point x="139" y="433" type="line"/>
 			<point x="115" y="405"/>
@@ -47,11 +38,8 @@
 			<point x="115" y="241"/>
 			<point x="139" y="213" type="curve"/>
 			<point x="49" y="129" type="line"/>
-			<point x="52" y="124"/>
-			<point x="59" y="116"/>
-			<point x="66" y="109" type="curve" smooth="yes"/>
-			<point x="73" y="102"/>
-			<point x="81" y="95"/>
+			<point x="60" y="114"/>
+			<point x="76" y="98"/>
 			<point x="86" y="92" type="curve"/>
 			<point x="171" y="185" type="line"/>
 			<point x="200" y="166"/>
@@ -104,8 +92,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>479</integer>
-						<integer>95</integer>
+						<integer>484</integer>
+						<integer>98</integer>
 					</array>
 				</dict>
 				<dict>
@@ -113,39 +101,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>487</integer>
-						<integer>102</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>494</integer>
-						<integer>109</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>501</integer>
-						<integer>116</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>508</integer>
-						<integer>124</integer>
+						<integer>500</integer>
+						<integer>114</integer>
 					</array>
 				</dict>
 				<dict>
@@ -254,8 +211,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>508</integer>
-						<integer>522</integer>
+						<integer>500</integer>
+						<integer>532</integer>
 					</array>
 				</dict>
 				<dict>
@@ -263,39 +220,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>501</integer>
-						<integer>530</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>494</integer>
-						<integer>537</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>487</integer>
-						<integer>544</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>479</integer>
-						<integer>551</integer>
+						<integer>484</integer>
+						<integer>548</integer>
 					</array>
 				</dict>
 				<dict>
@@ -404,8 +330,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>81</integer>
-						<integer>551</integer>
+						<integer>76</integer>
+						<integer>548</integer>
 					</array>
 				</dict>
 				<dict>
@@ -413,39 +339,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>73</integer>
-						<integer>544</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>66</integer>
-						<integer>537</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>59</integer>
-						<integer>530</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>52</integer>
-						<integer>522</integer>
+						<integer>60</integer>
+						<integer>532</integer>
 					</array>
 				</dict>
 				<dict>
@@ -554,8 +449,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>52</integer>
-						<integer>124</integer>
+						<integer>60</integer>
+						<integer>114</integer>
 					</array>
 				</dict>
 				<dict>
@@ -563,39 +458,8 @@
 					<string>addPoint</string>
 					<key>pt</key>
 					<array>
-						<integer>59</integer>
-						<integer>116</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>66</integer>
-						<integer>109</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>73</integer>
-						<integer>102</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>81</integer>
-						<integer>95</integer>
+						<integer>76</integer>
+						<integer>98</integer>
 					</array>
 				</dict>
 				<dict>

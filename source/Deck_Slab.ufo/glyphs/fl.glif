@@ -27,8 +27,8 @@
 			<point x="115" y="499" type="line"/>
 			<point x="42" y="490" type="line"/>
 			<point x="38" y="483"/>
-			<point x="36" y="477"/>
-			<point x="36" y="471" type="curve" smooth="yes"/>
+			<point x="36" y="476"/>
+			<point x="36" y="470" type="curve" smooth="yes"/>
 			<point x="36" y="466"/>
 			<point x="37" y="461"/>
 			<point x="39" y="456" type="curve"/>
@@ -348,7 +348,7 @@
 					<key>pt</key>
 					<array>
 						<integer>36</integer>
-						<integer>477</integer>
+						<integer>476</integer>
 					</array>
 				</dict>
 				<dict>
@@ -357,7 +357,7 @@
 					<key>pt</key>
 					<array>
 						<integer>36</integer>
-						<integer>471</integer>
+						<integer>470</integer>
 					</array>
 					<key>segmentType</key>
 					<string>curve</string>

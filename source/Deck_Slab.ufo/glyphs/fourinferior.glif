@@ -32,9 +32,9 @@
 			<point x="264" y="-22" type="line"/>
 		</contour>
 		<contour>
+			<point x="220" y="15" type="line"/>
 			<point x="82" y="15" type="line"/>
 			<point x="220" y="174" type="line"/>
-			<point x="220" y="15" type="line"/>
 		</contour>
 	</outline>
 	<lib>
