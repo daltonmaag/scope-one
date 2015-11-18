@@ -1,92 +1,151 @@
 from __future__ import print_function, unicode_literals
-import sys
 import os
-from io import open
 from ufo2fdk import OTFCompiler
 from defcon import Font
-
-try:
-    from plistlib import load
-except ImportError:
-    from plistlib import readPlist as load
+from collections import defaultdict
+import argparse
 
 
-def groups_to_features(ufo_path):
-    """
-    Translate and copy UFO groups.list file to FEA features groups.
-    For example:
-    <dict>
-        <key>figDef</key>
-        <array>
-            <string>zero</string>
-            <string>one</string>
-            <string>two</string>
-            <string>three</string>
-            <string>four</string>
-            <string>five</string>
-            <string>six</string>
-            <string>seven</string>
-            <string>eight</string>
-            <string>nine</string>
-        </array>
-    </dict>
-    becomes
-    @figDef = [zero one two three four five six seven eight nine];
-    """
-    path = os.path.join(ufo_path, "groups.plist")
-    with open(path, "rb") as f:
-        groups = load(f)
-
-    output = []
-    for group, lst in sorted(groups.items()):
-        if group.startswith("@"):
-            output.append("{} = [{}]".format(group, " ".join(lst)) + ";\n")
-        else:
-            output.append("@{} = [{}]".format(group, " ".join(lst)) + ";\n")
-
-    path = os.path.join(ufo_path, "features.fea")
-    with open(path, "r") as f:
-        features = f.readlines()
-
-    newFeatures = output + [""] + features
-
-    with open(path + ".bak", "w") as f:
-        f.writelines(features)
-    with open(path, "w") as f:
-        f.writelines(newFeatures)
+STYLE_MAP = {
+    "Regular": "Rg",
+    "Italic": "It",
+    "Bold": "Bd",
+    "Bold Italic": "BdIt",
+}
 
 
-def clean_up_features(ufo_path):
-    path = os.path.join(ufo_path, "features.fea")
-    if os.path.exists(path + ".bak"):
-        if os.path.exists(path):
-            os.remove(path)
-        os.rename(path + ".bak", path)
+class MarkFeatureWriter(object):
+
+    tag = "mark"
+
+    def __init__(self, font):
+        self.font = font
+        self._setupAnchorGroups()
+
+    def _setupAnchorGroups(self):
+        anchorGroups = defaultdict(list)
+        anchorNames = set()
+        for glyph in self.font:
+            for anchor in glyph.anchors:
+                anchorNames.add(anchor.name)
+        for anchorName in sorted(anchorNames):
+            if not anchorName.startswith("_"):
+                break
+            baseName = anchorName[1:]
+            if baseName in anchorNames:
+                anchorGroupName = baseName.split(".", 1)[0]
+                anchorGroups[anchorGroupName].append(baseName)
+        self.anchorGroups = anchorGroups
+
+    def _createAccentAndBaseGlyphLists(self, anchorName):
+        """Return two lists of <glyphName, x, y> tuples: one for accent glyphs, and
+        one for base glyphs containing an anchor with the given name.
+        """
+        accentAnchorName = "_" + anchorName
+        accentGlyphs = []
+        for glyph in self.font:
+            for anchor in glyph.anchors:
+                if accentAnchorName == anchor.name:
+                    accentGlyphs.append((glyph.name, anchor.x, anchor.y))
+                    break
+        accentGlyphNames = set(glyphName for glyphName, _, _ in accentGlyphs)
+        baseGlyphs = []
+        for glyph in self.font:
+            # XXX handle mkmk?
+            if glyph.name in accentGlyphNames:
+                continue
+            for anchor in glyph.anchors:
+                if anchorName == anchor.name:
+                    baseGlyphs.append((glyph.name, anchor.x, anchor.y))
+                    break
+        return accentGlyphs, baseGlyphs
+
+    def _addMarkLookup(self, lines, lookupName, anchorGroup):
+        """Add a mark lookup for one group of anchors having the same name."""
+        anchorGroupName = anchorGroup[0].split(".", 1)[0]
+
+        lines.append("  lookup %s {" % lookupName)
+
+        className = "@MC_%s_%s" % (self.tag, anchorGroupName)
+
+        groupAccentGlyphs = []
+        groupBaseGlyphs = []
+        for anchorName in anchorGroup:
+            accents, bases = self._createAccentAndBaseGlyphLists(anchorName)
+            groupAccentGlyphs.extend(accents)
+            groupBaseGlyphs.extend(bases)
+
+        for accentName, x, y in sorted(groupAccentGlyphs):
+            lines.append(
+                "    markClass %s <anchor %d %d> %s;" %
+                (accentName, x, y, className))
+
+        for accentName, x, y in sorted(groupBaseGlyphs):
+            lines.append(
+                "    pos base %s <anchor %d %d> mark %s;" %
+                (accentName, x, y, className))
+
+        lines.append("  } %s;" % lookupName)
+
+    def write(self):
+        """Write the feature."""
+        lines = ["feature %s {" % self.tag]
+
+        for i, (name, group) in enumerate(sorted(self.anchorGroups.items())):
+            lookupName = "%s%d" % (self.tag, i + 1)
+            self._addMarkLookup(lines, lookupName, group)
+
+        lines.append("} %s;" % self.tag)
+        return "" if len([ln for ln in lines if ln]) == 2 else "\n".join(lines)
 
 
-def build(family, styles):
-    family = family.replace(" ", "_")
-    for w in styles:
-        if w == "Regular":
-            ufo_path = "source/{}.ufo".format(family)
-        else:
-            ufo_path = "source/{}-{}.ufo".format(family, w)
+def make_output_name(font, ext="otf"):
+    # strip spaces from family name
+    family = font.info.familyName.replace(" ", "")
+    # try to shorten the style name using default mapping
+    style = font.info.styleName
+    shortstyle = STYLE_MAP[style] if style in STYLE_MAP else style
+    return family + "_" + shortstyle + "." + ext
 
-        groups_to_features(ufo_path)
 
-        font = Font(ufo_path)
-        compiler = OTFCompiler(
-            savePartsNextToUFO=len(sys.argv) > 1 and sys.argv[1] == "debug")
-        reports = compiler.compile(font, family + "-" + w + ".otf",
-                                   checkOutlines=False, autohint=False,
-                                   releaseMode=True)
+def build(ufopath, flavor='otf', debug=False, verbose=True):
+    font = Font(ufopath)
 
-        print(reports["autohint"])
+    dirname = os.path.dirname(ufopath)
+    outfile = os.path.join(dirname, make_output_name(font, flavor))
+
+    mark_feature = MarkFeatureWriter(font).write()
+    font.features.text += "\n\n" + mark_feature
+
+    compiler = OTFCompiler(savePartsNextToUFO=debug)
+    reports = compiler.compile(font, outfile,
+                               checkOutlines=False, autohint=False,
+                               releaseMode=True,
+                               glyphOrder=font.glyphOrder)
+    if verbose:
         print(reports["makeotf"])
-        clean_up_features(ufo_path)
+
+
+def parse_options(args):
+    parser = argparse.ArgumentParser(
+        description="Compile UFO to OpenType font.")
+    parser.add_argument('infiles', metavar='INPUT', nargs="+",
+                        help='input UFO font files.')
+    parser.add_argument('-f', '--flavor', default='otf',
+                        choices=['otf', 'ttf'],
+                        help='output font flavor ("otf" or "ttf").')
+    parser.add_argument('-d', '--debug', action='store_true',
+                        help='keep temporary FDK files.')
+    parser.add_argument('-v', '--verbose', action='store_true',
+                        help='print makeotf output to console.')
+    return parser.parse_args(args)
+
+
+def main(args=None):
+    options = parse_options(args)
+    for ufopath in options.infiles:
+        build(ufopath, options.flavor, options.debug, options.verbose)
 
 
 if __name__ == "__main__":
-    family = "Deck Slab"
-    styles = ["Regular"]
-    build(family, styles)
+    main()
