@@ -1,0 +1,266 @@
+[
+    {
+        "l": "en",
+        "f": "case",
+        "t": "@(){}[]•—–¡«»‹›-‐‑·¿\\/",
+        "e": "at.case|parenleft.case|parenright.case|braceleft.case|braceright.case|bracketleft.case|bracketright.case|bullet.case|emdash.case|endash.case|exclamdown.case|guillemotleft.case|guillemotright.case|guilsinglleft.case|guilsinglright.case|hyphen.case|hyphentwo.case|nbhyphen.case|periodcentered.case|questiondown.case|backslash.case|slash.case",
+        "d": "Case variants"
+    },
+    {
+        "l": "en",
+        "f": "tnum,lnum",
+        "t": "0123456789",
+        "e": "zero.tnum.lnum|one.tnum.lnum|two.tnum.lnum|three.tnum.lnum|four.tnum.lnum|five.tnum.lnum|six.tnum.lnum|seven.tnum.lnum|eight.tnum.lnum|nine.tnum.lnum",
+        "d": "Tabular line numerals"
+    },
+    {
+        "l": "en",
+        "f": "lnum,tnum",
+        "t": "0123456789",
+        "e": "zero.tnum.lnum|one.tnum.lnum|two.tnum.lnum|three.tnum.lnum|four.tnum.lnum|five.tnum.lnum|six.tnum.lnum|seven.tnum.lnum|eight.tnum.lnum|nine.tnum.lnum",
+        "d": "Line tabular numerals"
+    },
+    {
+        "l": "en",
+        "f": "tnum,onum",
+        "t": "0123456789",
+        "e": "zero.tnum.onum|one.tnum.onum|two.tnum.onum|three.tnum.onum|four.tnum.onum|five.tnum.onum|six.tnum.onum|seven.tnum.onum|eight.tnum.onum|nine.tnum.onum",
+        "d": "Tabular oldstyle numerals"
+    },
+    {
+        "l": "en",
+        "f": "pnum,lnum",
+        "t": "0123456789",
+        "e": "zero|one|two|three|four|five|six|seven|eight|nine",
+        "d": "Proportional line numerals"
+    },
+    {
+        "l": "en",
+        "f": "pnum,onum",
+        "t": "0123456789",
+        "e": "zero.pnum.onum|one.pnum.onum|two.pnum.onum|three.pnum.onum|four.pnum.onum|five.pnum.onum|six.pnum.onum|seven.pnum.onum|eight.pnum.onum|nine.pnum.onum",
+        "d": "Proportional oldstyle numerals"
+    },
+    {
+        "l": "en",
+        "f": "onum",
+        "t": "0123456789",
+        "e": "zero.pnum.onum|one.pnum.onum|two.pnum.onum|three.pnum.onum|four.pnum.onum|five.pnum.onum|six.pnum.onum|seven.pnum.onum|eight.pnum.onum|nine.pnum.onum",
+        "d": "Oldstyle numerals"
+    },
+    {
+        "l": "en",
+        "f": "pnum",
+        "t": "0123456789",
+        "e": "zero|one|two|three|four|five|six|seven|eight|nine",
+        "d": "Proportional numerals"
+    },
+    {
+        "l": "en",
+        "f": "tnum",
+        "t": "0123456789",
+        "e": "zero.tnum.lnum|one.tnum.lnum|two.tnum.lnum|three.tnum.lnum|four.tnum.lnum|five.tnum.lnum|six.tnum.lnum|seven.tnum.lnum|eight.tnum.lnum|nine.tnum.lnum",
+        "d": "Tabular numerals"
+    },
+    {
+        "l": "en",
+        "f": "pnum",
+        "t": "0123456789",
+        "e": "zero|one|two|three|four|five|six|seven|eight|nine",
+        "d": "Line numerals"
+    },
+    {
+        "l": "en",
+        "f": "",
+        "t": "0123456789",
+        "e": "zero|one|two|three|four|five|six|seven|eight|nine",
+        "d": "Default numerals"
+    },
+    {
+        "l": "en",
+        "f": "frac",
+        "t": "/\u2215",
+        "e": "fraction|fraction",
+        "d": "Fraction signs slash and divisionslash"
+    },
+    {
+        "l": "en",
+        "f": "sups",
+        "t": "0123456789",
+        "e": "zerosuperior|onesuperior|twosuperior|threesuperior|foursuperior|fivesuperior|sixsuperior|sevensuperior|eightsuperior|ninesuperior",
+        "d": "Superscripts 0123456789"
+    },
+    {
+        "l": "en",
+        "f": "subs",
+        "t": "0123456789",
+        "e": "zeroinferior|oneinferior|twoinferior|threeinferior|fourinferior|fiveinferior|sixinferior|seveninferior|eightinferior|nineinferior",
+        "d": "Subscripts 0123456789"
+    },
+    {
+        "l": "en",
+        "f": "sinf",
+        "t": "0123456789",
+        "e": "zeroinferior|oneinferior|twoinferior|threeinferior|fourinferior|fiveinferior|sixinferior|seveninferior|eightinferior|nineinferior",
+        "d": "Scientific inferiors 0123456789"
+    },
+    {
+        "l": "en",
+        "f": "dnom",
+        "t": "1234567890",
+        "e": "one.dnom|two.dnom|three.dnom|four.dnom|five.dnom|six.dnom|seven.dnom|eight.dnom|nine.dnom|zero.dnom",
+        "d": "Denominators"
+    },
+    {
+        "l": "en",
+        "f": "numr",
+        "t": "1234567890",
+        "e": "one.numr|two.numr|three.numr|four.numr|five.numr|six.numr|seven.numr|eight.numr|nine.numr|zero.numr",
+        "d": "Numerators"
+    },
+    {
+        "l": "en",
+        "f": "liga",
+        "t": "fifl",
+        "e": "fi|fl",
+        "d": "Ligatures fi and fl"
+    },
+    {
+        "l": "tr",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Turkish"
+    },
+    {
+        "l": "az",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Azeri"
+    },
+    {
+        "l": "crh",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Crimean Tatar"
+    },
+    {
+        "l": "gag",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Gagauz"
+    },
+    {
+        "l": "kk",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Kazakh"
+    },
+    {
+        "l": "tt",
+        "f": "liga",
+        "t": "fi",
+        "e": "f|i",
+        "d": "Locale i variants preventing ligature fi for Tatar"
+    },
+    {
+        "l": "en",
+        "f": "locl",
+        "t": "L\u00B7Ll\u00B7l",
+        "e": "L|periodcentered|L|l|periodcentered|l",
+        "d": "Normal periodcentered in non Catalan"
+    },
+    {
+        "l": "ca",
+        "f": "locl",
+        "t": "L\u00B7Ll\u00B7l",
+        "e": "L|periodcentered.loclCAT.cap|L|l|periodcentered.loclCAT|l",
+        "d": "Locale periodcentered variants in Catalan"
+    },
+    {
+        "l": "en",
+        "f": "",
+        "t": "IJijIj",
+        "e": "I|J|i|j|I|j",
+        "d": "No substitution for ij in non Dutch"
+    },
+    {
+        "l": "en",
+        "f": "",
+        "t": "ÍJ\u0301íj\u0301Íj\u0301ÍJíjÍj",
+        "e": "Iacute|J|acutecomb.cap|iacute|dotlessj|acutecomb|Iacute|dotlessj|acutecomb|Iacute|J|iacute|j|Iacute|j",
+        "d": "No substitution for ij-acute in non Dutch"
+    },
+    {
+        "l": "nl",
+        "f": "locl",
+        "t": "\u0132\u0301\u0133\u0301",
+        "e": "IJacute|ijacute",
+        "d": "IJ-acute variants in Dutch"
+    },
+    {
+        "l": "en",
+        "t": "\u015E\u015F\u0162\u0163",
+        "e": "Scedilla|scedilla|Tcedilla|tcedilla",
+        "d": "Normal Scedilla and Tcedilla for non Romanian/Moldavian"
+    },
+    {
+        "l": "ro",
+        "t": "\u015E\u015F\u0162\u0163",
+        "e": "Scommabelow|scommabelow|Tcommabelow|tcommabelow",
+        "d": "Locale cedilla variants for Romanian/Moldavian"
+    },
+    {
+        "l": "en",
+        "t": "X\u0300X\u0301X\u0302X\u0303X\u0304X\u0306X\u0307X\u0308X\u030AX\u030BX\u030C",
+        "e": "X|gravecomb.cap|X|acutecomb.cap|X|circumflexcomb.cap|X|tildecomb.cap|X|macroncomb.cap|X|brevecomb.cap|X|dotaccentcomb.cap|X|dieresiscomb.cap|X|ringcomb.cap|X|hungarumlautcomb.cap|X|caroncomb.cap",
+        "d": "Cap diacritics above with uppercase"
+    },
+    {
+        "l": "en",
+        "t": "X\u0326X\u0327",
+        "e": "X|commabelowcomb.cap|X|cedillacomb.cap",
+        "d": "Cap diacritics below with uppercase"
+    },
+    {
+        "l": "en",
+        "t": "b\u0300b\u0301b\u0302b\u0303b\u0304b\u0306b\u0307b\u0308b\u030Ab\u030Bb\u030C",
+        "e": "b|gravecomb.asc|b|acutecomb.asc|b|circumflexcomb.asc|b|tildecomb.asc|b|macroncomb.asc|b|brevecomb.asc|b|dotaccentcomb.asc|b|dieresiscomb.asc|b|ringcomb.asc|b|hungarumlautcomb.asc|b|caroncomb.asc",
+        "d": "Ascender diacritics above with ascender"
+    },
+    {
+        "l": "en",
+        "t": "a\u0328e\u0328i\u0328u\u0328",
+        "e": "aogonek|eogonek|iogonek|uogonek",
+        "d": "Ogoneks with lowercase"
+    },
+    {
+        "l": "en",
+        "t": "A\u0328E\u0328I\u0328U\u0328",
+        "e": "Aogonek|Eogonek|Iogonek|Uogonek",
+        "d": "Cap ogoneks with uppercase"
+    },
+    {
+        "l": "en",
+        "t": "À\u0327à\u0327",
+        "e": "A|gravecomb.cap|cedillacomb.cap|a|gravecomb|cedillacomb",
+        "d": "Decompose diacritics above when followed by diacritic below"
+    },
+    {
+        "l": "en",
+        "t": "Ç\u030Aç\u030A",
+        "e": "C|cedillacomb.cap|ringcomb.cap|c|cedillacomb|ringcomb",
+        "d": "Decompose diacritics below when followed by diacritic above"
+    },
+    {
+        "l": "en",
+        "f": "",
+        "t": "i\u030Aj\u030A",
+        "e": "dotlessi|ringcomb|dotlessj|ringcomb",
+        "d": "Dotless Latin basic letters"
+    }
+]
