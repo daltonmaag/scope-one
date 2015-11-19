@@ -1,5 +1,4 @@
 from __future__ import print_function, division, absolute_import
-from cu2qu import fonts_to_quadratic
 from cu2qu.geometry import (
     cubic_approx_spline, curve_spline_dist, Point as CPoint)
 from defcon import Font, Glyph
@@ -166,14 +165,6 @@ def glyph_to_quadratic(glyph, max_n, max_err, correctDirection=True,
     new.drawPoints(writerPen)
 
 
-def rmtree(path):
-    for root, directories, files in os.walk(path):
-        for f in files:
-            os.remove(os.path.join(root, f))
-        for d in directories:
-            shutil.rmtree(os.path.join(root, d))
-
-
 def font_to_quadratic(font, max_n=MAX_N, max_err=MAX_ERR):
     for glyph in font:
         glyph_to_quadratic(glyph, max_n=MAX_N, max_err=MAX_ERR)
@@ -197,8 +188,7 @@ def main():
     else:
         source = source[:-1] if source.endswith('/') else source
         dest = os.path.splitext(source)[0] + '_quad.ufo'
-    report = convert_to_quadratic(source, dest)
-    print(report)
+    convert_to_quadratic(source, dest)
 
 
 if __name__ == '__main__':
