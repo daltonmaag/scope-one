@@ -1,9 +1,11 @@
-test:
-  stage: build
-  script:
+before_script:
     - python3.5 -m virtualenv buildenv
     - source buildenv/bin/activate
     - pip install -v -r requirements.txt
+
+test:
+  stage: build
+  script:
     - python3.5 build.py -v --debug --output-dir build source/ScopeOne_Rg.ufo
 
 staging:
@@ -12,8 +14,5 @@ staging:
     - master
     - gitlab-ci
   script:
-    - python3.5 -m virtualenv buildenv
-    - source buildenv/bin/activate
-    - pip install -v -r requirements.txt
     - python3.5 build.py -v --debug --output-dir build source/ScopeOne_Rg.ufo
     - scp -r build evergreen:/mnt/RAID/gitlab-builds/ScopeOne-$(git rev-parse --short=7 HEAD)/
