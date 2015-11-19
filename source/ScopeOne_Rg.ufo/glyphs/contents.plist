@@ -4,8 +4,6 @@
 	<dict>
 		<key>.notdef</key>
 		<string>_notdef.glif</string>
-		<key>.null</key>
-		<string>_null.glif</string>
 		<key>A</key>
 		<string>A_.glif</string>
 		<key>AE</key>
@@ -32,8 +30,6 @@
 		<string>B_.glif</string>
 		<key>C</key>
 		<string>C_.glif</string>
-		<key>CR</key>
-		<string>C_R_.glif</string>
 		<key>Cacute</key>
 		<string>C_acute.glif</string>
 		<key>Ccaron</key>
