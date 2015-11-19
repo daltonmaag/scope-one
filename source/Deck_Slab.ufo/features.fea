@@ -206,50 +206,45 @@ lookup DFLT_dflt_ccmp_decomp_bottom {
 lookup DFLT_dflt_ccmp_softdotted {
 	sub i by dotlessi;
 	sub j by dotlessj;
-} DFLT_dflt_ccmp_softdotted;feature ccmp {
-	lookup ccmp_decomposition {
-		sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
-		sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
-	}ccmp_decomposition;
-	lookup ccmp_softdotted {
-		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
-		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
-	} ccmp_softdotted;
-	lookup ccmp_mark_UC {
-		sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
-		sub @DFLT_UC @DFLT_mark_LC_bottom' by @DFLT_mark_UC_bottom;
-	} ccmp_mark_UC;
-	lookup ccmp_ogonek_UC {
-		sub @DFLT_ccmp_UC_ogonek ogonekcomb' by ogonekcomb.cap;
-		sub @DFLT_ccmp_UC_ogonek.round ogonekcomb' by ogonekcomb.round.cap;
-	} ccmp_ogonek_UC;
-	lookup ccmp_mark_UC_2 {
-		sub @DFLT_UC @DFLT_ccmp_mark_below_UC @DFLT_ccmp_mark_above' by @DFLT_ccmp_mark_above_UC;
-		sub @DFLT_UC @DFLT_ccmp_mark_above_UC @DFLT_ccmp_mark_below' by @DFLT_ccmp_mark_below_UC;
-	} ccmp_mark_UC_2;
-	
-} ccmp;feature lnum {
-	sub @DFLT_figPOnum by @DFLT_figPLnum;
+} DFLT_dflt_ccmp_softdotted;
+
+#----------------------#
+# Basic latin features #
+#----------------------#
+feature ccmp {
+    lookup ccmp_decomposition {
+        sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
+        sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
+    }ccmp_decomposition;
+    lookup ccmp_softdotted {
+        sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
+        sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
+    } ccmp_softdotted;
+    lookup ccmp_mark_UC {
+        sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
+        sub @DFLT_UC @DFLT_mark_LC_bottom' by @DFLT_mark_UC_bottom;
+    } ccmp_mark_UC;
+    lookup ccmp_ogonek_UC {
+        sub @DFLT_ccmp_UC_ogonek ogonekcomb' by ogonekcomb.cap;
+        sub @DFLT_ccmp_UC_ogonek.round ogonekcomb' by ogonekcomb.round.cap;
+    } ccmp_ogonek_UC;
+    lookup ccmp_mark_UC_2 {
+        sub @DFLT_UC @DFLT_ccmp_mark_below_UC @DFLT_ccmp_mark_above' by @DFLT_ccmp_mark_above_UC;
+        sub @DFLT_UC @DFLT_ccmp_mark_above_UC @DFLT_ccmp_mark_below' by @DFLT_ccmp_mark_below_UC;
+    } ccmp_mark_UC_2;
+} ccmp;
+feature lnum {
+    sub @DFLT_figPOnum by @DFLT_figPLnum;
 } lnum;
 feature onum {
-	sub @DFLT_figPLnum by @DFLT_figPOnum;
+    sub @DFLT_figPLnum by @DFLT_figPOnum;
 } onum;
 feature pnum {
-	sub @DFLT_figTLnum by @DFLT_figPLnum;
-	sub @DFLT_figTOnum by @DFLT_figPOnum;
-} pnum;feature tnum {
-	sub @DFLT_figPLnum by @DFLT_figTLnum;
-	sub @DFLT_figPOnum by @DFLT_figTOnum;
+    sub @DFLT_figTLnum by @DFLT_figPLnum;
+    sub @DFLT_figTOnum by @DFLT_figPOnum;
+} pnum;
+feature tnum {
+    sub @DFLT_figPLnum by @DFLT_figTLnum;
+    sub @DFLT_figPOnum by @DFLT_figTOnum;
 } tnum;
-
-
-
-
-
-
-
-
-
-
-
 
