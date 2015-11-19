@@ -1,16 +1,245 @@
-feature lnum {
-  sub @figPOnum by @figPLnum ;
+#------------------------------#
+# Language systems declaration #
+#------------------------------#
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn NLD;
+languagesystem latn ROM;
+languagesystem latn TRK;
+
+
+#---------------------#
+# Classes declaration #
+#---------------------#
+@DFLT_ccmp_decomp_top = [gcommaabove Aacute Cacute Eacute Iacute Lacute Nacute Oacute Racute Sacute Uacute Wacute Yacute Zacute Ohungarumlaut Uhungarumlaut aacute cacute eacute iacute lacute nacute oacute racute sacute uacute wacute yacute zacute ohungarumlaut uhungarumlaut Agrave Egrave Igrave Ograve Ugrave Wgrave Ygrave agrave egrave igrave ograve ugrave wgrave ygrave Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex Wcircumflex Ycircumflex Atilde Itilde Ntilde Otilde Utilde acircumflex ecircumflex icircumflex ocircumflex ucircumflex wcircumflex ycircumflex atilde itilde ntilde otilde utilde Ccaron Dcaron Ecaron Lcaron Ncaron Rcaron Scaron Tcaron Zcaron Amacron Emacron Imacron Omacron Umacron ccaron dcaron ecaron lcaron ncaron rcaron scaron tcaron zcaron amacron emacron imacron omacron umacron Adieresis Edieresis Idieresis Odieresis Udieresis Wdieresis Ydieresis Abreve Gbreve adieresis edieresis idieresis odieresis udieresis wdieresis ydieresis abreve gbreve Cdotaccent Edotaccent Gdotaccent Idotaccent Zdotaccent cdotaccent edotaccent gdotaccent zdotaccent Aring Uring aring uring];
+@DFLT_ccmp_decomp_bottom = [Scedilla Tcedilla Gcommabelow Kcommabelow Lcommabelow Ncommabelow Scommabelow Tcommabelow Aogonek Eogonek Iogonek Uogonek ccedilla scedilla tcedilla gcommaabove kcommabelow lcommabelow ncommabelow scommabelow tcommabelow aogonek eogonek iogonek uogonek];
+@DFLT_ccmp_softdotted = [i j];
+@DFLT_ccmp_UC_ogonek = [A E I];
+@DFLT_ccmp_UC_ogonek.round = [U];
+@DFLT_ccmp_LC_ogonek = [a i u];
+@DFLT_ccmp_LC_ogonek.round = [e];
+@DFLT_UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@DFLT_LC = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@DFLT_ccmp_mark_above = [acutecomb hungarumlautcomb gravecomb circumflexcomb tildecomb caroncomb macroncomb dieresiscomb brevecomb dotaccentcomb ringcomb];
+@DFLT_ccmp_mark_above_UC = [acutecomb.cap hungarumlautcomb.cap gravecomb.cap circumflexcomb.cap tildecomb.cap caroncomb.cap macroncomb.cap dieresiscomb.cap brevecomb.cap dotaccentcomb.cap ringcomb.cap];
+@DFLT_ccmp_mark_below = [cedillacomb commabelowcomb commaturnedabovecomb ogonekcomb ogonekcomb.round];
+@DFLT_ccmp_mark_below_UC = [cedillacomb.cap commabelowcomb.cap commabelowcomb.cap ogonekcomb.cap ogonekcomb.round.cap];
+@DFLT_mark_LC_top = [acutecomb hungarumlautcomb gravecomb circumflexcomb tildecomb caroncomb macroncomb dieresiscomb brevecomb dotaccentcomb ringcomb];
+@DFLT_mark_UC_top = [acutecomb.cap hungarumlautcomb.cap gravecomb.cap circumflexcomb.cap tildecomb.cap caroncomb.cap macroncomb.cap dieresiscomb.cap brevecomb.cap dotaccentcomb.cap ringcomb.cap];
+@DFLT_mark_LC_bottom = [cedillacomb commabelowcomb commaturnedabovecomb];
+@DFLT_mark_UC_bottom = [cedillacomb.cap commabelowcomb.cap commabelowcomb.cap];
+@DFLT_figPLnum = [zero one two three four five six seven eight nine];
+@DFLT_figPOnum = [zero.pnum.onum one.pnum.onum two.pnum.onum three.pnum.onum four.pnum.onum five.pnum.onum six.pnum.onum seven.pnum.onum eight.pnum.onum nine.pnum.onum];
+@DFLT_figTLnum = [zero.tnum.lnum one.tnum.lnum two.tnum.lnum three.tnum.lnum four.tnum.lnum five.tnum.lnum six.tnum.lnum seven.tnum.lnum eight.tnum.lnum nine.tnum.lnum];
+@DFLT_figTOnum = [zero.tnum.onum one.tnum.onum two.tnum.onum three.tnum.onum four.tnum.onum five.tnum.onum six.tnum.onum seven.tnum.onum eight.tnum.onum nine.tnum.onum];
+@COMBINING_MARKS = [cedillacomb cedillacomb.cap cedillacomb.dsc commabelowcomb commabelowcomb.cap commabelowcomb.dsc commaturnedabovecomb ogonekcomb ogonekcomb.cap ogonekcomb.round acutecomb acutecomb.cap acutecomb.asc hungarumlautcomb hungarumlautcomb.cap hungarumlautcomb.asc gravecomb gravecomb.cap gravecomb.asc circumflexcomb circumflexcomb.cap circumflexcomb.asc tildecomb tildecomb.cap tildecomb.asc caroncomb caroncomb.cap caroncomb.asc macroncomb macroncomb.cap macroncomb.asc dieresiscomb dieresiscomb.cap dieresiscomb.asc brevecomb brevecomb.cap brevecomb.asc dotaccentcomb dotaccentcomb.cap dotaccentcomb.asc ringcomb ringcomb.cap ringcomb.asc];
+
+table GDEF {
+	GlyphClassDef  , , @COMBINING_MARKS, ;
+} GDEF;
+
+#---------------------#
+# Lookups declaration #
+#---------------------#
+
+lookup DFLT_dflt_ccmp_decomp_top {
+	sub gcommaabove by g commaturnedabovecomb;
+	sub Aacute by A acutecomb;
+	sub Cacute by C acutecomb;
+	sub Eacute by E acutecomb;
+	sub Iacute by I acutecomb;
+	sub Lacute by L acutecomb;
+	sub Nacute by N acutecomb;
+	sub Oacute by O acutecomb;
+	sub Racute by R acutecomb;
+	sub Sacute by S acutecomb;
+	sub Uacute by U acutecomb;
+	sub Wacute by W acutecomb;
+	sub Yacute by Y acutecomb;
+	sub Zacute by Z acutecomb;
+	sub Ohungarumlaut by O hungarumlautcomb;
+	sub Uhungarumlaut by U hungarumlautcomb;
+	sub aacute by a acutecomb;
+	sub cacute by c acutecomb;
+	sub eacute by e acutecomb;
+	sub iacute by i acutecomb;
+	sub lacute by l acutecomb;
+	sub nacute by n acutecomb;
+	sub oacute by o acutecomb;
+	sub racute by r acutecomb;
+	sub sacute by s acutecomb;
+	sub uacute by u acutecomb;
+	sub wacute by w acutecomb;
+	sub yacute by y acutecomb;
+	sub zacute by z acutecomb;
+	sub ohungarumlaut by o hungarumlautcomb;
+	sub uhungarumlaut by u hungarumlautcomb;
+	sub Agrave by A gravecomb;
+	sub Egrave by E gravecomb;
+	sub Igrave by I gravecomb;
+	sub Ograve by O gravecomb;
+	sub Ugrave by U gravecomb;
+	sub Wgrave by W gravecomb;
+	sub Ygrave by Y gravecomb;
+	sub agrave by a gravecomb;
+	sub egrave by e gravecomb;
+	sub igrave by i gravecomb;
+	sub ograve by o gravecomb;
+	sub ugrave by u gravecomb;
+	sub wgrave by w gravecomb;
+	sub ygrave by y gravecomb;
+	sub Acircumflex by A circumflexcomb;
+	sub Ecircumflex by E circumflexcomb;
+	sub Icircumflex by I circumflexcomb;
+	sub Ocircumflex by O circumflexcomb;
+	sub Ucircumflex by U circumflexcomb;
+	sub Wcircumflex by W circumflexcomb;
+	sub Ycircumflex by Y circumflexcomb;
+	sub Atilde by A tildecomb;
+	sub Itilde by I tildecomb;
+	sub Ntilde by N tildecomb;
+	sub Otilde by O tildecomb;
+	sub Utilde by U tildecomb;
+	sub acircumflex by a circumflexcomb;
+	sub ecircumflex by e circumflexcomb;
+	sub icircumflex by i circumflexcomb;
+	sub ocircumflex by o circumflexcomb;
+	sub ucircumflex by u circumflexcomb;
+	sub wcircumflex by w circumflexcomb;
+	sub ycircumflex by y circumflexcomb;
+	sub atilde by a tildecomb;
+	sub itilde by i tildecomb;
+	sub ntilde by n tildecomb;
+	sub otilde by o tildecomb;
+	sub utilde by u tildecomb;
+	sub Ccaron by C caroncomb;
+	sub Dcaron by D caroncomb;
+	sub Ecaron by E caroncomb;
+	sub Lcaron by L commaaboverightcomb;
+	sub Ncaron by N caroncomb;
+	sub Rcaron by R caroncomb;
+	sub Scaron by S caroncomb;
+	sub Tcaron by T caroncomb;
+	sub Zcaron by Z caroncomb;
+	sub Amacron by A macroncomb;
+	sub Emacron by E macroncomb;
+	sub Imacron by I macroncomb;
+	sub Omacron by O macroncomb;
+	sub Umacron by U macroncomb;
+	sub ccaron by c caroncomb;
+	sub dcaron by d commaaboverightcomb;
+	sub ecaron by e caroncomb;
+	sub lcaron by l commaaboverightcomb;
+	sub ncaron by n caroncomb;
+	sub rcaron by r caroncomb;
+	sub scaron by s caroncomb;
+	sub tcaron by t commaaboverightcomb.short;
+	sub zcaron by z caroncomb;
+	sub amacron by a macroncomb;
+	sub emacron by e macroncomb;
+	sub imacron by i macroncomb;
+	sub omacron by o macroncomb;
+	sub umacron by u macroncomb;
+	sub Adieresis by A dieresiscomb;
+	sub Edieresis by E dieresiscomb;
+	sub Idieresis by I dieresiscomb;
+	sub Odieresis by O dieresiscomb;
+	sub Udieresis by U dieresiscomb;
+	sub Wdieresis by W dieresiscomb;
+	sub Ydieresis by Y dieresiscomb;
+	sub Abreve by A brevecomb;
+	sub Gbreve by G brevecomb;
+	sub adieresis by a dieresiscomb;
+	sub edieresis by e dieresiscomb;
+	sub idieresis by i dieresiscomb;
+	sub odieresis by o dieresiscomb;
+	sub udieresis by u dieresiscomb;
+	sub wdieresis by w dieresiscomb;
+	sub ydieresis by y dieresiscomb;
+	sub abreve by a brevecomb;
+	sub gbreve by g brevecomb;
+	sub Cdotaccent by C dotaccentcomb;
+	sub Edotaccent by E dotaccentcomb;
+	sub Gdotaccent by G dotaccentcomb;
+	sub Idotaccent by I dotaccentcomb;
+	sub Zdotaccent by Z dotaccentcomb;
+	sub cdotaccent by c dotaccentcomb;
+	sub edotaccent by e dotaccentcomb;
+	sub gdotaccent by g dotaccentcomb;
+	sub zdotaccent by z dotaccentcomb;
+	sub Aring by A ringcomb;
+	sub Uring by U ringcomb;
+	sub aring by a ringcomb;
+	sub uring by u ringcomb;
+} DFLT_dflt_ccmp_decomp_top;
+
+lookup DFLT_dflt_ccmp_decomp_bottom {
+	sub Ccedilla by C cedillacomb;
+	sub Scedilla by S cedillacomb;
+	sub Tcedilla by T cedillacomb;
+	sub Gcommabelow by G commabelowcomb;
+	sub Kcommabelow by K commabelowcomb;
+	sub Lcommabelow by L commabelowcomb;
+	sub Ncommabelow by N commabelowcomb;
+	sub Scommabelow by S commabelowcomb;
+	sub Tcommabelow by T commabelowcomb;
+	sub Aogonek by A ogonekcomb;
+	sub Eogonek by E ogonekcomb;
+	sub Iogonek by I ogonekcomb;
+	sub Uogonek by U ogonekcomb;
+	sub ccedilla by c cedillacomb;
+	sub scedilla by s cedillacomb;
+	sub tcedilla by t cedillacomb;
+	sub kcommabelow by k commabelowcomb;
+	sub lcommabelow by l commabelowcomb;
+	sub ncommabelow by n commabelowcomb;
+	sub scommabelow by s commabelowcomb;
+	sub tcommabelow by t commabelowcomb;
+	sub aogonek by a ogonekcomb;
+	sub eogonek by e ogonekcomb;
+	sub iogonek by i ogonekcomb;
+	sub uogonek by u ogonekcomb;
+} DFLT_dflt_ccmp_decomp_bottom;
+
+lookup DFLT_dflt_ccmp_softdotted {
+	sub i by dotlessi;
+	sub j by dotlessj;
+} DFLT_dflt_ccmp_softdotted;feature ccmp {
+	lookup ccmp_decomposition {
+		sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
+		sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
+	}ccmp_decomposition;
+	lookup ccmp_softdotted {
+		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
+		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
+	} ccmp_softdotted;
+	lookup ccmp_mark_UC {
+		sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
+		sub @DFLT_UC @DFLT_mark_LC_bottom' by @DFLT_mark_UC_bottom;
+	} ccmp_mark_UC;
+	lookup ccmp_ogonek_UC {
+		sub @DFLT_ccmp_UC_ogonek ogonekcomb' by ogonekcomb.cap;
+		sub @DFLT_ccmp_UC_ogonek.round ogonekcomb' by ogonekcomb.round.cap;
+	} ccmp_ogonek_UC;
+	lookup ccmp_mark_UC_2 {
+		sub @DFLT_UC @DFLT_ccmp_mark_below_UC @DFLT_ccmp_mark_above' by @DFLT_ccmp_mark_above_UC;
+		sub @DFLT_UC @DFLT_ccmp_mark_above_UC @DFLT_ccmp_mark_below' by @DFLT_ccmp_mark_below_UC;
+	} ccmp_mark_UC_2;
+	
+} ccmp;feature lnum {
+	sub @DFLT_figPOnum by @DFLT_figPLnum;
 } lnum;
 feature onum {
-  sub @figPLnum by @figPOnum ;
+	sub @DFLT_figPLnum by @DFLT_figPOnum;
 } onum;
 feature pnum {
-  sub @figTLnum by @figPLnum ;
-  sub @figTOnum by @figPOnum ;
-} pnum;
-feature tnum {
-  sub @figPLnum by @figTLnum;
-  sub @figPOnum by @figTOnum;
+	sub @DFLT_figTLnum by @DFLT_figPLnum;
+	sub @DFLT_figTOnum by @DFLT_figPOnum;
+} pnum;feature tnum {
+	sub @DFLT_figPLnum by @DFLT_figTLnum;
+	sub @DFLT_figPOnum by @DFLT_figTOnum;
 } tnum;
 
 
