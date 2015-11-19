@@ -1,95 +1,22 @@
 from __future__ import print_function, unicode_literals
+import sys
 import os
 import errno
 from ufo2fdk import OTFCompiler
 from defcon import Font
-from collections import defaultdict
 import argparse
+import tempfile
+import shutil
+import logging
+from ufo2ft.outlineOTF import OutlineTTFCompiler
+from fontTools.ttLib import TTFont
 
-
-class MarkFeatureWriter(object):
-
-    tag = "mark"
-
-    def __init__(self, font):
-        self.font = font
-        self._setupAnchorGroups()
-
-    def _setupAnchorGroups(self):
-        anchorGroups = defaultdict(list)
-        anchorNames = set()
-        for glyph in self.font:
-            for anchor in glyph.anchors:
-                anchorNames.add(anchor.name)
-        for anchorName in sorted(anchorNames):
-            if not anchorName.startswith("_"):
-                break
-            baseName = anchorName[1:]
-            if baseName in anchorNames:
-                anchorGroupName = baseName.split(".", 1)[0]
-                anchorGroups[anchorGroupName].append(baseName)
-        self.anchorGroups = anchorGroups
-
-    def _createAccentAndBaseGlyphLists(self, anchorName):
-        """Return two lists of <glyphName, x, y> tuples: one for accent glyphs, and
-        one for base glyphs containing an anchor with the given name.
-        """
-        accentAnchorName = "_" + anchorName
-        accentGlyphs = []
-        for glyph in self.font:
-            for anchor in glyph.anchors:
-                if accentAnchorName == anchor.name:
-                    accentGlyphs.append((glyph.name, anchor.x, anchor.y))
-                    break
-        accentGlyphNames = set(glyphName for glyphName, _, _ in accentGlyphs)
-        baseGlyphs = []
-        for glyph in self.font:
-            # XXX handle mkmk?
-            if glyph.name in accentGlyphNames:
-                continue
-            for anchor in glyph.anchors:
-                if anchorName == anchor.name:
-                    baseGlyphs.append((glyph.name, anchor.x, anchor.y))
-                    break
-        return accentGlyphs, baseGlyphs
-
-    def _addMarkLookup(self, lines, lookupName, anchorGroup):
-        """Add a mark lookup for one group of anchors having the same name."""
-        anchorGroupName = anchorGroup[0].split(".", 1)[0]
-
-        lines.append("  lookup %s {" % lookupName)
-
-        className = "@MC_%s_%s" % (self.tag, anchorGroupName)
-
-        groupAccentGlyphs = []
-        groupBaseGlyphs = []
-        for anchorName in anchorGroup:
-            accents, bases = self._createAccentAndBaseGlyphLists(anchorName)
-            groupAccentGlyphs.extend(accents)
-            groupBaseGlyphs.extend(bases)
-
-        for accentName, x, y in sorted(groupAccentGlyphs):
-            lines.append(
-                "    markClass %s <anchor %d %d> %s;" %
-                (accentName, x, y, className))
-
-        for accentName, x, y in sorted(groupBaseGlyphs):
-            lines.append(
-                "    pos base %s <anchor %d %d> mark %s;" %
-                (accentName, x, y, className))
-
-        lines.append("  } %s;" % lookupName)
-
-    def write(self):
-        """Write the feature."""
-        lines = ["feature %s {" % self.tag]
-
-        for i, (name, group) in enumerate(sorted(self.anchorGroups.items())):
-            lookupName = "%s%d" % (self.tag, i + 1)
-            self._addMarkLookup(lines, lookupName, group)
-
-        lines.append("} %s;" % self.tag)
-        return "" if len([ln for ln in lines if ln]) == 2 else "\n".join(lines)
+CURR_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
+TOOLS_DIR = os.path.join(CURR_DIR, 'tools')
+sys.path.insert(0, TOOLS_DIR)
+from convert import font_to_quadratic
+from mark import MarkFeatureWriter
+from rename import GoadbManager
 
 
 def mkdir_p(path):
@@ -117,7 +44,35 @@ def make_output_name(ufopath, output_format, output_dir=None):
     return os.path.join(output_dir, ufoname + ext)
 
 
-def build(ufopath, output_dir=None, formats=['cff'], debug=False, verbose=True):
+def compile_otf(font, release_mode=False, debug=False):
+    """Compile UFO into a CFF TTFont instance."""
+    compiler = OTFCompiler(savePartsNextToUFO=debug)
+
+    with tempfile.NamedTemporaryFile() as tmp:
+        report = compiler.compile(
+            font, tmp.name, releaseMode=release_mode,
+            glyphOrder=font.glyphOrder)
+        ttFont = TTFont(tmp.name)
+
+    logging.info(report["makeotf"])
+    return ttFont
+
+
+def compile_ttf(font, max_err=1.0):
+    """Compile UFO into a TrueType TTFont instance."""
+    compiler = OutlineTTFCompiler(font, font.glyphOrder)
+    return compiler.compile()
+
+
+def rename_glyphs(goadb, fontfile):
+    manager = GoadbManager(goadb, fontfile)
+    manager.rename_glyphs()
+    manager.save(fontfile)
+    manager.close()
+
+
+def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
+          verbose=True):
     if ufopath.endswith(os.sep):
         # strip any trailing forward or backslash
         ufopath = ufopath[:-1]
@@ -127,16 +82,35 @@ def build(ufopath, output_dir=None, formats=['cff'], debug=False, verbose=True):
     mark_feature = MarkFeatureWriter(font).write()
     font.features.text += "\n\n" + mark_feature
 
+    otf = compile_otf(
+        font, release_mode=(True if 'cff' in formats else False),
+        debug=debug)
+
     for fmt in formats:
         outfile = make_output_name(ufopath, fmt, output_dir)
 
-        compiler = OTFCompiler(savePartsNextToUFO=debug)
-        reports = compiler.compile(font, outfile,
-                                   checkOutlines=False, autohint=False,
-                                   releaseMode=True,
-                                   glyphOrder=font.glyphOrder)
-        if verbose:
-            print(reports["makeotf"])
+        if fmt == 'ttf':
+            logging.info('Converting UFO to TrueType...')
+            font_to_quadratic(font, max_err=1.0)
+            if debug:
+                # save quadratic UFO (and overwrite existing)
+                quadpath = os.path.splitext(ufopath)[0] + '_quad.ufo'
+                if os.path.isdir(quadpath):
+                    shutil.rmtree(quadpath)
+                font.save(quadpath, formatVersion=font.ufoFormatVersion)
+
+            ttf = compile_ttf(font)
+            for tag in ('GDEF', 'GSUB', 'GPOS'):
+                ttf[tag] = otf[tag]
+            ttf.save(outfile)
+        else:
+            otf.save(outfile)
+
+    if goadb:
+        logging.info('Rename glyphs using "%s"...' % goadb)
+        rename_glyphs(goadb, outfile)
+
+    logging.info('Done!')
 
 
 def parse_options(args):
@@ -151,6 +125,8 @@ def parse_options(args):
                         const='ttf', help='save output as TTF/OTF.')
     parser.add_argument('--cff', dest='formats', action='append_const',
                         const='cff', help='save output as CFF/OTF (default)')
+    parser.add_argument('-g', '--goadb', metavar='GOADB.txt',
+                        help='Use GlyphOrderAndAliasDB to rename glyphs.')
     parser.add_argument('--debug', action='store_true',
                         help='keep temporary FDK files.')
     parser.add_argument('-v', '--verbose', action='store_true',
@@ -172,9 +148,14 @@ def parse_options(args):
 
 def main(args=None):
     options = parse_options(args)
+
+    logging.basicConfig(
+        format='%(message)s',
+        level=logging.DEBUG if options.verbose else logging.WARNING)
+
     for ufopath in options.infiles:
-        build(ufopath, options.output_dir, options.formats, options.debug,
-              options.verbose)
+        build(ufopath, options.output_dir, options.formats, options.goadb,
+              options.debug, options.verbose)
 
 
 if __name__ == "__main__":
