@@ -117,7 +117,7 @@ lookup DFLT_dflt_ccmp_decomp_top {
 	sub Ccaron by C caroncomb;
 	sub Dcaron by D caroncomb;
 	sub Ecaron by E caroncomb;
-	sub Lcaron by L commaaboverightcomb;
+	sub Lcaron by L caroncomb;
 	sub Ncaron by N caroncomb;
 	sub Rcaron by R caroncomb;
 	sub Scaron by S caroncomb;
@@ -129,13 +129,13 @@ lookup DFLT_dflt_ccmp_decomp_top {
 	sub Omacron by O macroncomb;
 	sub Umacron by U macroncomb;
 	sub ccaron by c caroncomb;
-	sub dcaron by d commaaboverightcomb;
+	sub dcaron by d caroncomb;
 	sub ecaron by e caroncomb;
-	sub lcaron by l commaaboverightcomb;
+	sub lcaron by l caroncomb;
 	sub ncaron by n caroncomb;
 	sub rcaron by r caroncomb;
 	sub scaron by s caroncomb;
-	sub tcaron by t commaaboverightcomb.short;
+	sub tcaron by t caroncomb;
 	sub zcaron by z caroncomb;
 	sub amacron by a macroncomb;
 	sub emacron by e macroncomb;
