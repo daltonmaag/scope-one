@@ -1,0 +1,26 @@
+# fonttools HEAD (DaMa fork is in sync with behdad's)
+-e git+https://github.com/daltonmaag/fonttools.git#egg=fonttools
+
+# cu2qu (DaMa fork has python 2/3 fixes)
+-e git+https://github.com/daltonmaag/cu2qu.git@2e2a3ea5a62963b8aada26557aa38696384aff02#egg=cu2qu
+
+# defcon (from python3-ufo3 branch on DaMa fork)
+-e git+https://github.com/daltonmaag/defcon.git@559c8f6bde1629d13f4e8a69e1f6f2494d977c32#egg=defcon
+
+# ufoLib (from master branch on DaMa fork, in sync with upstream)
+-e git+https://github.com/daltonmaag/ufoLib.git#egg=ufoLib
+
+# ufonormalizer (from master on DaMa fork, in sync with upstream)
+-e git+https://github.com/daltonmaag/ufoNormalizer.git#egg=ufonormalizer
+
+# ufo2fdk (from python3-ufo3 branch on DaMa fork)
+-e git+https://github.com/daltonmaag/ufo2fdk.git@0a57f2474ff65d5877b28bd063a249bee1a18ec6#egg=ufo2fdk
+
+# ufo2ft (from ufo2ft-py23 branch on DaMa fork)
+-e git+https://github.com/daltonmaag/ufo2fdk.git@b588e126af6e84bd5aea96b1816361ea0c71bd1b#egg=ufo2ft
+
+# robofab (from python3-ufo3-no-ufoLib branch on DaMa fork)
+-e git+https://github.com/daltonmaag/robofab.git@48337cb8f734c88c13574c1f121e33ce6ff1f6d7#egg=robofab
+
+# feaTools (from py23 branch on DaMa fork)
+-e git+https://github.com/daltonmaag/feaTools.git@98aae9d5d8f6748aaf9e80198b43bae7bed9c78b#egg=feaTools
