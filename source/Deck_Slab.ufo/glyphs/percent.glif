@@ -3,7 +3,7 @@
 	<unicode hex="0025"/>
 	<advance width="788"/>
 	<outline>
-		<component base="fraction" xOffset="394"/>
+		<component base="fraction" xOffset="337"/>
 		<component base="zeroinferior" xOffset="440" yOffset="100"/>
 		<component base="zeroinferior" yOffset="401"/>
 	</outline>
