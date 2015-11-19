@@ -103,12 +103,13 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
             for tag in ('GDEF', 'GSUB', 'GPOS'):
                 ttf[tag] = otf[tag]
             ttf.save(outfile)
+
+            if goadb:
+                logging.info('Rename glyphs using "%s"...' % goadb)
+                rename_glyphs(goadb, outfile)
         else:
             otf.save(outfile)
-
-    if goadb:
-        logging.info('Rename glyphs using "%s"...' % goadb)
-        rename_glyphs(goadb, outfile)
+            # XXX rename glyphs in CFF fonts?
 
     logging.info('Done!')
 
@@ -122,11 +123,12 @@ def parse_options(args):
                         help="output directory. If it doesn't exist, it will "
                         "be created (default: same as input UFO).")
     parser.add_argument('--ttf', dest='formats', action='append_const',
-                        const='ttf', help='save output as TTF/OTF.')
+                        const='ttf', help='save output as TTF/OTF (default).')
     parser.add_argument('--cff', dest='formats', action='append_const',
-                        const='cff', help='save output as CFF/OTF (default)')
+                        const='cff', help='save output as CFF/OTF.')
     parser.add_argument('-g', '--goadb', metavar='GOADB.txt',
-                        help='Use GlyphOrderAndAliasDB to rename glyphs.')
+                        help='Use GlyphOrderAndAliasDB to rename glyphs (TTF '
+                        'only).')
     parser.add_argument('--debug', action='store_true',
                         help='keep temporary FDK files.')
     parser.add_argument('-v', '--verbose', action='store_true',
@@ -138,8 +140,8 @@ def parse_options(args):
                 not os.path.exists(os.path.join(ufopath, 'metainfo.plist'))):
             parser.error('Invalid UFO font: "%s"' % ufopath)
     if not options.formats:
-        # default to CFF/OTF output
-        options.formats = ['cff']
+        # default to TTF/OTF output
+        options.formats = ['ttf']
     else:
         # prune duplicate format entries
         options.formats = list(set(options.formats))
