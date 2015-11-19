@@ -1,17 +1,10 @@
 from __future__ import print_function, unicode_literals
 import os
+import errno
 from ufo2fdk import OTFCompiler
 from defcon import Font
 from collections import defaultdict
 import argparse
-
-
-STYLE_MAP = {
-    "Regular": "Rg",
-    "Italic": "It",
-    "Bold": "Bd",
-    "Bold Italic": "BdIt",
-}
 
 
 class MarkFeatureWriter(object):
@@ -99,52 +92,89 @@ class MarkFeatureWriter(object):
         return "" if len([ln for ln in lines if ln]) == 2 else "\n".join(lines)
 
 
-def make_output_name(font, ext="otf"):
-    # strip spaces from family name
-    family = font.info.familyName.replace(" ", "")
-    # try to shorten the style name using default mapping
-    style = font.info.styleName
-    shortstyle = STYLE_MAP[style] if style in STYLE_MAP else style
-    return family + "_" + shortstyle + "." + ext
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
 
 
-def build(ufopath, flavor='otf', debug=False, verbose=True):
+def make_output_name(ufopath, output_format, output_dir=None):
+    if output_format not in ('ttf', 'cff'):
+        raise RuntimeError('invalid format: %s' % output_format)
+    dirname, basename = os.path.split(ufopath)
+    ufoname = os.path.splitext(basename)[0]
+    if output_dir is None:
+        # use same folder as ufopath
+        output_dir = dirname
+    else:
+        # create output_dir if it doesn't exist
+        mkdir_p(output_dir)
+    ext = ".otf" if output_format == 'cff' else '.ttf'
+    return os.path.join(output_dir, ufoname + ext)
+
+
+def build(ufopath, output_dir=None, formats=['cff'], debug=False, verbose=True):
+    if ufopath.endswith(os.sep):
+        # strip any trailing forward or backslash
+        ufopath = ufopath[:-1]
+
     font = Font(ufopath)
-
-    dirname = os.path.dirname(ufopath)
-    outfile = os.path.join(dirname, make_output_name(font, flavor))
 
     mark_feature = MarkFeatureWriter(font).write()
     font.features.text += "\n\n" + mark_feature
 
-    compiler = OTFCompiler(savePartsNextToUFO=debug)
-    reports = compiler.compile(font, outfile,
-                               checkOutlines=False, autohint=False,
-                               releaseMode=True,
-                               glyphOrder=font.glyphOrder)
-    if verbose:
-        print(reports["makeotf"])
+    for fmt in formats:
+        outfile = make_output_name(ufopath, fmt, output_dir)
+
+        compiler = OTFCompiler(savePartsNextToUFO=debug)
+        reports = compiler.compile(font, outfile,
+                                   checkOutlines=False, autohint=False,
+                                   releaseMode=True,
+                                   glyphOrder=font.glyphOrder)
+        if verbose:
+            print(reports["makeotf"])
 
 
 def parse_options(args):
     parser = argparse.ArgumentParser(
-        description="Compile UFO to OpenType font.")
+        description="Compile UFOs to OpenType fonts.")
     parser.add_argument('infiles', metavar='INPUT', nargs="+",
-                        help='input UFO font files.')
-    parser.add_argument('-f', '--flavor', default='otf',
-                        choices=['otf', 'ttf'],
-                        help='output font flavor ("otf" or "ttf").')
-    parser.add_argument('-d', '--debug', action='store_true',
+                        help='input UFO source files.')
+    parser.add_argument('-d', '--output-dir', metavar='DIR', nargs="?",
+                        help="output directory. If it doesn't exist, it will "
+                        "be created (default: same as input UFO).")
+    parser.add_argument('--ttf', dest='formats', action='append_const',
+                        const='ttf', help='save output as TTF/OTF.')
+    parser.add_argument('--cff', dest='formats', action='append_const',
+                        const='cff', help='save output as CFF/OTF (default)')
+    parser.add_argument('--debug', action='store_true',
                         help='keep temporary FDK files.')
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='print makeotf output to console.')
-    return parser.parse_args(args)
+    options = parser.parse_args(args)
+    for ufopath in options.infiles:
+        # make sure inputs are valid UFO directories
+        if (not os.path.isdir(ufopath) or
+                not os.path.exists(os.path.join(ufopath, 'metainfo.plist'))):
+            parser.error('Invalid UFO font: "%s"' % ufopath)
+    if not options.formats:
+        # default to CFF/OTF output
+        options.formats = ['cff']
+    else:
+        # prune duplicate format entries
+        options.formats = list(set(options.formats))
+    return options
 
 
 def main(args=None):
     options = parse_options(args)
     for ufopath in options.infiles:
-        build(ufopath, options.flavor, options.debug, options.verbose)
+        build(ufopath, options.output_dir, options.formats, options.debug,
+              options.verbose)
 
 
 if __name__ == "__main__":
