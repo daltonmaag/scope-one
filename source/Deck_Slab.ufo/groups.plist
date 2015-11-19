@@ -1283,57 +1283,5 @@
 		<array>
 			<string>yen</string>
 		</array>
-		<key>figPLnum</key>
-		<array>
-			<string>zero</string>
-			<string>one</string>
-			<string>two</string>
-			<string>three</string>
-			<string>four</string>
-			<string>five</string>
-			<string>six</string>
-			<string>seven</string>
-			<string>eight</string>
-			<string>nine</string>
-		</array>
-		<key>figPOnum</key>
-		<array>
-			<string>zero.pnum.onum</string>
-			<string>one.pnum.onum</string>
-			<string>two.pnum.onum</string>
-			<string>three.pnum.onum</string>
-			<string>four.pnum.onum</string>
-			<string>five.pnum.onum</string>
-			<string>six.pnum.onum</string>
-			<string>seven.pnum.onum</string>
-			<string>eight.pnum.onum</string>
-			<string>nine.pnum.onum</string>
-		</array>
-		<key>figTLnum</key>
-		<array>
-			<string>zero.tnum.lnum</string>
-			<string>one.tnum.lnum</string>
-			<string>two.tnum.lnum</string>
-			<string>three.tnum.lnum</string>
-			<string>four.tnum.lnum</string>
-			<string>five.tnum.lnum</string>
-			<string>six.tnum.lnum</string>
-			<string>seven.tnum.lnum</string>
-			<string>eight.tnum.lnum</string>
-			<string>nine.tnum.lnum</string>
-		</array>
-		<key>figTOnum</key>
-		<array>
-			<string>zero.tnum.onum</string>
-			<string>one.tnum.onum</string>
-			<string>two.tnum.onum</string>
-			<string>three.tnum.onum</string>
-			<string>four.tnum.onum</string>
-			<string>five.tnum.onum</string>
-			<string>six.tnum.onum</string>
-			<string>seven.tnum.onum</string>
-			<string>eight.tnum.onum</string>
-			<string>nine.tnum.onum</string>
-		</array>
 	</dict>
 </plist>

@@ -3,7 +3,7 @@
 	<unicode hex="2215"/>
 	<advance width="560"/>
 	<outline>
-		<component base="fraction" xOffset="280"/>
+		<component base="fraction" xOffset="223"/>
 	</outline>
 	<lib>
 		<dict>
