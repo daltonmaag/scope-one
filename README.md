@@ -19,16 +19,16 @@ scripts - build scripts
 ## Planned
 
 - [x] Concept
-- [ ] Design
+- [x] Design
   - [x] ASCII
   - [x] Full glyphset
-  - [ ] Kerning
-  - [ ] Design testing
+  - [x] Kerning
+  - [x] Design testing
 - [ ] OT Features
   - [ ] OT testing
 - [ ] Hinting
   - [ ] Hinting testing
 - [ ] Build
-  - [ ] Font info
+  - [x] Font info
   - [ ] Scripts
 - [ ] DONE!
