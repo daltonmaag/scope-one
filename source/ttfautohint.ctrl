@@ -3,89 +3,87 @@ plusminus touch 10-35 yshift 1 @ 13-15
 lessequal touch 10-23 yshift 1 @ 15
 greaterequal touch 10-23 yshift 1 @ 15
 
-dollar touch 56-58 yshift 0.125 @ 11-18
-dollar touch 19-21 yshift -0.125 @ 11-18
+dollar touch 57-59 yshift 0.125 @ 11-18
+dollar touch 20-22 yshift -0.125 @ 11-18
 
-yen touch 16-24 yshift 1 @ 11, 12
-yen touch 52-60 yshift 1 @ 11, 12
+yen touch 17-25 yshift 1 @ 11, 12
+yen touch 53-61 yshift 1 @ 11, 12
 
-eucurrency touch 6-10 yshift -1 @ 15, 16
+eucurrency touch 7-11 yshift -1 @ 15, 16
 
-lira touch 9-17 yshift -1@ 11, 12
-lira touch 64-72 yshift -1@ 11, 12
+lira touch 10-18 yshift -1@ 11, 12
+lira touch 65-73 yshift -1@ 11, 12
 
 dong touch 0-48 yshift 1 @ 11-13
 dong touch 49-62 yshift 1 @ 11-13
 
-hryvnia touch 30-38 yshift 1 @ 11, 12
-hryvnia touch 63-71 yshift 1 @ 11, 12
+Euro touch 58-66 yshift 1 @ 11, 12
+Euro touch 29-37 yshift 1 @ 11, 12
 
-liraturkish touch 15-23 yshift 1 @ 11, 12
-liraturkish touch 37-45 yshift 1 @ 11, 12
+hryvnia touch 31-39 yshift 1 @ 11, 12
+hryvnia touch 64-72 yshift 1 @ 11, 12
 
-bitcoin touch 69-70 yshift 1 @ 11, 12
-bitcoin touch 77 yshift 1 @ 11, 12
-bitcoin touch 65-67 yshift 1 @ 11, 12
+liraturkish touch 16-24 yshift 1 @ 11, 12
+liraturkish touch 38-46 yshift 1 @ 11, 12
 
-A touch 33 yshift -0.25 @ 17, 18
+bitcoin touch 69-71 yshift 1 @ 11, 12
+bitcoin touch 66-68 yshift 1 @ 11, 12
 
-B touch 33-35 yshift 1 @ 11, 12
-B touch 20 yshift 1 @ 11, 12
-B touch 37-38 yshift 1 @ 11, 12
-B touch 45 yshift 1 @ 11, 12
+A touch 34 yshift -0.25 @ 17, 18
 
-E touch 23-37 yshift 1 @ 11, 12
+B touch 34-36 yshift 1 @ 11, 12
+B touch 21 yshift 1 @ 11, 12
+B touch 37-39 yshift 1 @ 11, 12
 
-F touch 23-37 yshift 1 @ 11, 12
+E touch 24-38 yshift 1 @ 11, 12
 
-H touch 34-35 yshift 1 @ 11, 12
-H touch 6-7 yshift 1 @ 11, 12
+F touch 24-38 yshift 1 @ 11, 12
 
-S touch 40-42 yshift 0.125 @ 11-16
-S touch 13-15 yshift -0.125 @ 11-16
+H touch 35-36 yshift 1 @ 11, 12
+H touch 7-8 yshift 1 @ 11, 12
 
-g touch 40-41 yshift -1 @ 11, 12
-g touch 0-1 yshift -1 @ 11, 12
-g touch 42-44 yshift -1 @ 11, 12
-g touch 54-55 yshift -1 @ 11, 12
-g touch 11 yshift -1 @ 11, 12
+S touch 41-43 yshift 0.125 @ 11-16
+S touch 14-16 yshift -0.125 @ 11-16
 
-i right 12
-j right 6
-dotlessi right 12
-dotlessj right 6
+g touch 0-2 yshift -1 @ 11, 12
+g touch 41 yshift -1 @ 11, 12
+g touch 42-45 yshift -1 @ 11, 12
+g touch 55 yshift -1 @ 11, 12
+g touch 12 yshift -1 @ 11, 12
 
-s touch 38-40 yshift 0.125 @ 11-18
-s touch 12-14 yshift -0.125 @ 11-18
+i right 13
+j right 7
+dotlessi right 13
+dotlessj right 7
 
-registered touch 44-52 yshift -1 @ 16, 17
-registered touch 75-77 yshift -1 @ 16, 17
+s touch 39-41 yshift 0.125 @ 11-18
+s touch 13-15 yshift -0.125 @ 11-18
 
-Thorn touch 39 yshift 1 @ 11, 12
-Thorn touch 47 yshift 1 @ 11, 12
-Thorn touch 29-31 yshift 1 @ 11, 12
+registered touch 45-53 yshift -1 @ 16, 17
+registered touch 76-78 yshift -1 @ 16, 17
 
-AE touch 38-52 yshift 1 @ 11, 12
+Thorn touch 30-32 yshift 1 @ 11, 12
+Thorn touch 39-41 yshift 1 @ 11, 12
 
-OE touch 30-44 yshift 1 @ 11, 12
+AE touch 39-53 yshift 1 @ 11, 12
 
-Eth touch 6-12 yshift 1 @ 11, 12
-Eth touch 39-45 yshift 1 @ 11, 12
+OE touch 31-45 yshift 1 @ 11, 12
 
-Euro touch 57-65 yshift 1 @ 11, 12
-Euro touch 28-36 yshift 1 @ 11, 12
+Eth touch 7-13 yshift 1 @ 11, 12
+Eth touch 40-46 yshift 1 @ 11, 12
 
-one right 10
-four right 10
+one right 11
+four right 11
 six right 19
-seven right 13
+seven left 14
 nine left 22
 
 six touch 21-22 yshift -0.125 @ 15, 16
 
-oneinferior right 14
-fourinferior right 13
+oneinferior right 15
+fourinferior right 14
 sixinferior right 18
+seveninferior left 16
 nineinferior left 0
 
 ringcomb touch 0-23 yshift 1 @ 11, 12
@@ -98,5 +96,5 @@ tildecomb.cap touch 0-25 yshift 1 @ 11, 12
 caroncomb.cap touch 0-13 yshift 1 @ 11, 12
 brevecomb.cap touch 0-13 yshift 1 @ 11, 12
 
-pi right 0
-pi left 6
+pi right 1
+pi left 7
