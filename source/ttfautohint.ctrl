@@ -1,0 +1,102 @@
+plusminus touch 10-35 yshift 1 @ 13-15
+
+lessequal touch 10-23 yshift 1 @ 15
+greaterequal touch 10-23 yshift 1 @ 15
+
+dollar touch 56-58 yshift 0.125 @ 11-18
+dollar touch 19-21 yshift -0.125 @ 11-18
+
+yen touch 16-24 yshift 1 @ 11, 12
+yen touch 52-60 yshift 1 @ 11, 12
+
+eucurrency touch 6-10 yshift -1 @ 15, 16
+
+lira touch 9-17 yshift -1@ 11, 12
+lira touch 64-72 yshift -1@ 11, 12
+
+dong touch 0-48 yshift 1 @ 11-13
+dong touch 49-62 yshift 1 @ 11-13
+
+hryvnia touch 30-38 yshift 1 @ 11, 12
+hryvnia touch 63-71 yshift 1 @ 11, 12
+
+liraturkish touch 15-23 yshift 1 @ 11, 12
+liraturkish touch 37-45 yshift 1 @ 11, 12
+
+bitcoin touch 69-70 yshift 1 @ 11, 12
+bitcoin touch 77 yshift 1 @ 11, 12
+bitcoin touch 65-67 yshift 1 @ 11, 12
+
+A touch 33 yshift -0.25 @ 17, 18
+
+B touch 33-35 yshift 1 @ 11, 12
+B touch 20 yshift 1 @ 11, 12
+B touch 37-38 yshift 1 @ 11, 12
+B touch 45 yshift 1 @ 11, 12
+
+E touch 23-37 yshift 1 @ 11, 12
+
+F touch 23-37 yshift 1 @ 11, 12
+
+H touch 34-35 yshift 1 @ 11, 12
+H touch 6-7 yshift 1 @ 11, 12
+
+S touch 40-42 yshift 0.125 @ 11-16
+S touch 13-15 yshift -0.125 @ 11-16
+
+g touch 40-41 yshift -1 @ 11, 12
+g touch 0-1 yshift -1 @ 11, 12
+g touch 42-44 yshift -1 @ 11, 12
+g touch 54-55 yshift -1 @ 11, 12
+g touch 11 yshift -1 @ 11, 12
+
+i right 12
+j right 6
+dotlessi right 12
+dotlessj right 6
+
+s touch 38-40 yshift 0.125 @ 11-18
+s touch 12-14 yshift -0.125 @ 11-18
+
+registered touch 44-52 yshift -1 @ 16, 17
+registered touch 75-77 yshift -1 @ 16, 17
+
+Thorn touch 39 yshift 1 @ 11, 12
+Thorn touch 47 yshift 1 @ 11, 12
+Thorn touch 29-31 yshift 1 @ 11, 12
+
+AE touch 38-52 yshift 1 @ 11, 12
+
+OE touch 30-44 yshift 1 @ 11, 12
+
+Eth touch 6-12 yshift 1 @ 11, 12
+Eth touch 39-45 yshift 1 @ 11, 12
+
+Euro touch 57-65 yshift 1 @ 11, 12
+Euro touch 28-36 yshift 1 @ 11, 12
+
+one right 10
+four right 10
+six right 19
+seven right 13
+nine left 22
+
+six touch 21-22 yshift -0.125 @ 15, 16
+
+oneinferior right 14
+fourinferior right 13
+sixinferior right 18
+nineinferior left 0
+
+ringcomb touch 0-23 yshift 1 @ 11, 12
+circumflexcomb touch 0-14 yshift 1 @ 11, 12, 20, 21
+acutecomb.cap touch 0-8 yshift 1 @ 11, 12
+gravecomb.cap touch 0-8 yshift 1 @ 11, 12
+hungarumlautcomb.cap touch 0-17 yshift 1 @ 11, 12
+circumflexcomb.cap touch 0-13 yshift 1 @ 11-14, 19-22
+tildecomb.cap touch 0-25 yshift 1 @ 11, 12
+caroncomb.cap touch 0-13 yshift 1 @ 11, 12
+brevecomb.cap touch 0-13 yshift 1 @ 11, 12
+
+pi right 0
+pi left 6
