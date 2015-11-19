@@ -4,11 +4,16 @@
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem latn AZE;
 languagesystem latn CAT;
+languagesystem latn CRT;
+languagesystem latn GAG;
+languagesystem latn KAZ;
+languagesystem latn MOL;
 languagesystem latn NLD;
 languagesystem latn ROM;
+languagesystem latn TAT;
 languagesystem latn TRK;
-
 
 #---------------------#
 # Classes declaration #
@@ -16,24 +21,26 @@ languagesystem latn TRK;
 @DFLT_ccmp_decomp_top = [gcommaabove Aacute Cacute Eacute Iacute Lacute Nacute Oacute Racute Sacute Uacute Wacute Yacute Zacute Ohungarumlaut Uhungarumlaut aacute cacute eacute iacute lacute nacute oacute racute sacute uacute wacute yacute zacute ohungarumlaut uhungarumlaut Agrave Egrave Igrave Ograve Ugrave Wgrave Ygrave agrave egrave igrave ograve ugrave wgrave ygrave Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex Wcircumflex Ycircumflex Atilde Itilde Ntilde Otilde Utilde acircumflex ecircumflex icircumflex ocircumflex ucircumflex wcircumflex ycircumflex atilde itilde ntilde otilde utilde Ccaron Dcaron Ecaron Lcaron Ncaron Rcaron Scaron Tcaron Zcaron Amacron Emacron Imacron Omacron Umacron ccaron dcaron ecaron lcaron ncaron rcaron scaron tcaron zcaron amacron emacron imacron omacron umacron Adieresis Edieresis Idieresis Odieresis Udieresis Wdieresis Ydieresis Abreve Gbreve adieresis edieresis idieresis odieresis udieresis wdieresis ydieresis abreve gbreve Cdotaccent Edotaccent Gdotaccent Idotaccent Zdotaccent cdotaccent edotaccent gdotaccent zdotaccent Aring Uring aring uring];
 @DFLT_ccmp_decomp_bottom = [Ccedilla Scedilla Tcedilla Gcommabelow Kcommabelow Lcommabelow Ncommabelow Scommabelow Tcommabelow Aogonek Eogonek Iogonek Uogonek ccedilla scedilla tcedilla gcommaabove kcommabelow lcommabelow ncommabelow scommabelow tcommabelow aogonek eogonek iogonek uogonek];
 @DFLT_ccmp_softdotted = [i j];
-@DFLT_ccmp_UC_ogonek = [A E I];
-@DFLT_ccmp_UC_ogonek.round = [U];
-@DFLT_ccmp_LC_ogonek = [a i u];
-@DFLT_ccmp_LC_ogonek.round = [e];
 @DFLT_UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
 @DFLT_LC = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@DFLT_ASC = [b d f h i j k l];
+@DFLT_DSC = [g j p q y];
 @DFLT_ccmp_mark_above = [acutecomb hungarumlautcomb gravecomb circumflexcomb tildecomb caroncomb macroncomb dieresiscomb brevecomb dotaccentcomb ringcomb];
 @DFLT_ccmp_mark_above_UC = [acutecomb.cap hungarumlautcomb.cap gravecomb.cap circumflexcomb.cap tildecomb.cap caroncomb.cap macroncomb.cap dieresiscomb.cap brevecomb.cap dotaccentcomb.cap ringcomb.cap];
 @DFLT_ccmp_mark_below = [cedillacomb commabelowcomb commaturnedabovecomb ogonekcomb ogonekcomb.round];
 @DFLT_ccmp_mark_below_UC = [cedillacomb.cap commabelowcomb.cap commabelowcomb.cap ogonekcomb.cap ogonekcomb.round.cap];
 @DFLT_mark_LC_top = [acutecomb hungarumlautcomb gravecomb circumflexcomb tildecomb caroncomb macroncomb dieresiscomb brevecomb dotaccentcomb ringcomb];
+@DFLT_mark_LC_asc = [acutecomb.asc hungarumlautcomb.asc gravecomb.asc circumflexcomb.asc tildecomb.asc caroncomb.asc macroncomb.asc dieresiscomb.asc brevecomb.asc dotaccentcomb.asc ringcomb.asc];
 @DFLT_mark_UC_top = [acutecomb.cap hungarumlautcomb.cap gravecomb.cap circumflexcomb.cap tildecomb.cap caroncomb.cap macroncomb.cap dieresiscomb.cap brevecomb.cap dotaccentcomb.cap ringcomb.cap];
 @DFLT_mark_LC_bottom = [cedillacomb commabelowcomb commaturnedabovecomb];
 @DFLT_mark_UC_bottom = [cedillacomb.cap commabelowcomb.cap commabelowcomb.cap];
+@DFLT_mark_LC_dsc = [cedillacomb.dsc commabelowcomb.dsc commabelowcomb.dsc];
 @DFLT_figPLnum = [zero one two three four five six seven eight nine];
 @DFLT_figPOnum = [zero.pnum.onum one.pnum.onum two.pnum.onum three.pnum.onum four.pnum.onum five.pnum.onum six.pnum.onum seven.pnum.onum eight.pnum.onum nine.pnum.onum];
 @DFLT_figTLnum = [zero.tnum.lnum one.tnum.lnum two.tnum.lnum three.tnum.lnum four.tnum.lnum five.tnum.lnum six.tnum.lnum seven.tnum.lnum eight.tnum.lnum nine.tnum.lnum];
 @DFLT_figTOnum = [zero.tnum.onum one.tnum.onum two.tnum.onum three.tnum.onum four.tnum.onum five.tnum.onum six.tnum.onum seven.tnum.onum eight.tnum.onum nine.tnum.onum];
+@DFLT_numr = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+@DFLT_dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 @COMBINING_MARKS = [cedillacomb cedillacomb.cap cedillacomb.dsc commabelowcomb commabelowcomb.cap commabelowcomb.dsc commaturnedabovecomb ogonekcomb ogonekcomb.cap ogonekcomb.round acutecomb acutecomb.cap acutecomb.asc hungarumlautcomb hungarumlautcomb.cap hungarumlautcomb.asc gravecomb gravecomb.cap gravecomb.asc circumflexcomb circumflexcomb.cap circumflexcomb.asc tildecomb tildecomb.cap tildecomb.asc caroncomb caroncomb.cap caroncomb.asc macroncomb macroncomb.cap macroncomb.asc dieresiscomb dieresiscomb.cap dieresiscomb.asc brevecomb brevecomb.cap brevecomb.asc dotaccentcomb dotaccentcomb.cap dotaccentcomb.asc ringcomb ringcomb.cap ringcomb.asc];
 
 table GDEF {
@@ -208,43 +215,140 @@ lookup DFLT_dflt_ccmp_softdotted {
 	sub j by dotlessj;
 } DFLT_dflt_ccmp_softdotted;
 
+lookup locl_CAT {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' [L l] by periodcentered.loclCAT.cap;
+} locl_CAT;
+
+lookup locl_ROM {
+	sub [Scedilla Tcedilla scedilla tcedilla] by [Scommabelow Tcommabelow scommabelow tcommabelow];
+} locl_ROM;
+
+lookup locl_NLD {
+	ignore sub [B F b f] iacute' j';
+	ignore sub [B F b f] Iacute' J';
+	sub iacute' j' by ijacute;
+	sub Iacute' J' by IJacute;
+} locl_NLD;
+
+lookup fraction_bar {
+	ignore sub slash' @DFLT_figPLnum slash;
+	ignore sub slash @DFLT_figPLnum slash';
+	ignore sub slash' @DFLT_figPLnum @DFLT_figPLnum slash;
+	ignore sub slash @DFLT_figPLnum @DFLT_figPLnum slash';
+	sub slash' by fraction;
+} fraction_bar;
+
+lookup numerator {
+	sub @DFLT_figPLnum' fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
+} numerator;
+
+lookup denominator {
+	sub [fraction @DFLT_dnom] @DFLT_figPLnum' by @DFLT_dnom;
+} denominator;
+
+lookup liga_dflt {
+	sub f l by fl;
+} liga_dflt;
+
+lookup liga_i {
+	sub f i by fi;
+} liga_i;
+
 #----------------------#
 # Basic latin features #
 #----------------------#
+
+feature locl {
+	script latn;
+		language CAT exclude_dflt;
+		lookup locl_CAT;
+		language ROM exclude_dflt;
+		lookup locl_ROM;
+		language MOL exclude_dflt;
+		lookup locl_ROM;
+		language NLD exclude_dflt;
+		lookup locl_NLD;
+} locl;
 feature ccmp {
-    lookup ccmp_decomposition {
-        sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
-        sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
-    }ccmp_decomposition;
-    lookup ccmp_softdotted {
-        sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
-        sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
-    } ccmp_softdotted;
-    lookup ccmp_mark_UC {
-        sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
-        sub @DFLT_UC @DFLT_mark_LC_bottom' by @DFLT_mark_UC_bottom;
-    } ccmp_mark_UC;
-    lookup ccmp_ogonek_UC {
-        sub @DFLT_ccmp_UC_ogonek ogonekcomb' by ogonekcomb.cap;
-        sub @DFLT_ccmp_UC_ogonek.round ogonekcomb' by ogonekcomb.round.cap;
-    } ccmp_ogonek_UC;
-    lookup ccmp_mark_UC_2 {
-        sub @DFLT_UC @DFLT_ccmp_mark_below_UC @DFLT_ccmp_mark_above' by @DFLT_ccmp_mark_above_UC;
-        sub @DFLT_UC @DFLT_ccmp_mark_above_UC @DFLT_ccmp_mark_below' by @DFLT_ccmp_mark_below_UC;
-    } ccmp_mark_UC_2;
+	lookup ccmp_decomposition {
+		sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
+		sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
+	}ccmp_decomposition;
+	lookup ccmp_softdotted {
+		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
+		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
+	} ccmp_softdotted;
+	lookup ccmp_mark_UC {
+		sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
+		sub @DFLT_UC @DFLT_mark_LC_bottom' by @DFLT_mark_UC_bottom;
+	} ccmp_mark_UC;
+	lookup ccmp_ogonek_UC {
+		sub [A E I] ogonekcomb' by ogonekcomb.cap;
+		sub U ogonekcomb' by ogonekcomb.round.cap;
+	} ccmp_ogonek_UC;
+	lookup ccmp_mark_UC_2 {
+		sub @DFLT_UC @DFLT_ccmp_mark_below_UC @DFLT_ccmp_mark_above' by @DFLT_ccmp_mark_above_UC;
+		sub @DFLT_UC @DFLT_ccmp_mark_above_UC @DFLT_ccmp_mark_below' by @DFLT_ccmp_mark_below_UC;
+	} ccmp_mark_UC_2;
+	lookup ccmp_ogonek.round_LC {
+		sub e ogonekcomb' by ogonekcomb.round;
+	} ccmp_ogonek.round_LC;
+	lookup ccmp_mark_top_right {
+		sub [L d l] caroncomb' by commaaboverightcomb;
+		sub t caroncomb' by commaaboverightcomb.short;
+	} ccmp_mark_top_right;
+	lookup ccmp_mark_ASC {
+		sub @DFLT_ASC @DFLT_mark_LC_top' by @DFLT_mark_LC_asc;
+	} ccmp_mark_ASC;
+	lookup ccmp_mark_DSC {
+		sub @DFLT_DSC @DFLT_mark_LC_bottom' by @DFLT_mark_LC_dsc;
+	} ccmp_mark_DSC;
 } ccmp;
+feature frac {
+	lookup fraction_bar;
+	lookup numerator;
+	lookup denominator;
+} frac;
 feature lnum {
-    sub @DFLT_figPOnum by @DFLT_figPLnum;
+	sub @DFLT_figPOnum by @DFLT_figPLnum;
 } lnum;
 feature onum {
-    sub @DFLT_figPLnum by @DFLT_figPOnum;
+	sub @DFLT_figPLnum by @DFLT_figPOnum;
 } onum;
 feature pnum {
-    sub @DFLT_figTLnum by @DFLT_figPLnum;
-    sub @DFLT_figTOnum by @DFLT_figPOnum;
+	sub @DFLT_figTLnum by @DFLT_figPLnum;
+	sub @DFLT_figTOnum by @DFLT_figPOnum;
 } pnum;
 feature tnum {
-    sub @DFLT_figPLnum by @DFLT_figTLnum;
-    sub @DFLT_figPOnum by @DFLT_figTOnum;
+	sub @DFLT_figPLnum by @DFLT_figTLnum;
+	sub @DFLT_figPOnum by @DFLT_figTOnum;
 } tnum;
+feature liga {
+	lookup liga_dflt;
+	lookup liga_i;
+	script latn;
+		language AZE exclude_dflt;
+		lookup liga_dflt;
+		language CRT exclude_dflt;
+		lookup liga_dflt;
+		language GAG exclude_dflt;
+		lookup liga_dflt;
+		language KAZ exclude_dflt;
+		lookup liga_dflt;
+		language TAT exclude_dflt;
+		lookup liga_dflt;
+		language TRK exclude_dflt;
+		lookup liga_dflt;
+} liga;
+
 
