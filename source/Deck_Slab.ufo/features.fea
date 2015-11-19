@@ -39,8 +39,12 @@ languagesystem latn TRK;
 @DFLT_figPOnum = [zero.pnum.onum one.pnum.onum two.pnum.onum three.pnum.onum four.pnum.onum five.pnum.onum six.pnum.onum seven.pnum.onum eight.pnum.onum nine.pnum.onum];
 @DFLT_figTLnum = [zero.tnum.lnum one.tnum.lnum two.tnum.lnum three.tnum.lnum four.tnum.lnum five.tnum.lnum six.tnum.lnum seven.tnum.lnum eight.tnum.lnum nine.tnum.lnum];
 @DFLT_figTOnum = [zero.tnum.onum one.tnum.onum two.tnum.onum three.tnum.onum four.tnum.onum five.tnum.onum six.tnum.onum seven.tnum.onum eight.tnum.onum nine.tnum.onum];
+@DFLT_sups = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];
+@DFLT_subs = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
 @DFLT_numr = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
 @DFLT_dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+@DFLT_case_base = [questiondown exclamdown hyphen hyphentwo nbhyphen endash emdash parenleft parenright slash backslash bracketleft bracketright braceleft braceright bullet guilsinglleft guilsinglright guillemotleft guillemotright at periodcentered];
+@DFLT_case_alt = [questiondown.case exclamdown.case hyphen.case hyphentwo.case nbhyphen.case endash.case emdash.case parenleft.case parenright.case slash.case backslash.case bracketleft.case bracketright.case braceleft.case braceright.case bullet.case guilsinglleft.case guilsinglright.case guillemotleft.case guillemotright.case at.case periodcentered.case];
 @COMBINING_MARKS = [cedillacomb cedillacomb.cap cedillacomb.dsc commabelowcomb commabelowcomb.cap commabelowcomb.dsc commaturnedabovecomb ogonekcomb ogonekcomb.cap ogonekcomb.round acutecomb acutecomb.cap acutecomb.asc hungarumlautcomb hungarumlautcomb.cap hungarumlautcomb.asc gravecomb gravecomb.cap gravecomb.asc circumflexcomb circumflexcomb.cap circumflexcomb.asc tildecomb tildecomb.cap tildecomb.asc caroncomb caroncomb.cap caroncomb.asc macroncomb macroncomb.cap macroncomb.asc dieresiscomb dieresiscomb.cap dieresiscomb.asc brevecomb brevecomb.cap brevecomb.asc dotaccentcomb dotaccentcomb.cap dotaccentcomb.asc ringcomb ringcomb.cap ringcomb.asc];
 
 table GDEF {
@@ -231,15 +235,15 @@ lookup locl_NLD {
 	sub Iacute' J' by IJacute;
 } locl_NLD;
 
-lookup fraction_bar {
+lookup frac_bar {
 	ignore sub slash' @DFLT_figPLnum slash;
 	ignore sub slash @DFLT_figPLnum slash';
 	ignore sub slash' @DFLT_figPLnum @DFLT_figPLnum slash;
 	ignore sub slash @DFLT_figPLnum @DFLT_figPLnum slash';
 	sub slash' by fraction;
-} fraction_bar;
+} frac_bar;
 
-lookup numerator {
+lookup frac_numr {
 	sub @DFLT_figPLnum' fraction by @DFLT_numr;
 	sub @DFLT_figPLnum' @DFLT_figPLnum fraction by @DFLT_numr;
 	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
@@ -250,11 +254,11 @@ lookup numerator {
 	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
 	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
 	sub @DFLT_figPLnum' @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum @DFLT_figPLnum fraction by @DFLT_numr;
-} numerator;
+} frac_numr;
 
-lookup denominator {
+lookup frac_dnom {
 	sub [fraction @DFLT_dnom] @DFLT_figPLnum' by @DFLT_dnom;
-} denominator;
+} frac_dnom;
 
 lookup liga_dflt {
 	sub f l by fl;
@@ -315,10 +319,25 @@ feature ccmp {
 	} ccmp_mark_DSC;
 } ccmp;
 feature frac {
-	lookup fraction_bar;
-	lookup numerator;
-	lookup denominator;
+	lookup frac_bar;
+	lookup frac_numr;
+	lookup frac_dnom;
 } frac;
+feature sups {
+	sub @DFLT_figPLnum by @DFLT_sups;
+} sups;
+feature subs {
+	sub @DFLT_figPLnum by @DFLT_subs;
+} subs;
+feature sinf {
+	sub @DFLT_figPLnum by @DFLT_subs;
+} sinf;
+feature numr {
+	sub @DFLT_figPLnum by @DFLT_numr;
+} numr;
+feature dnom {
+	sub @DFLT_figPLnum by @DFLT_dnom;
+} dnom;
 feature lnum {
 	sub @DFLT_figPOnum by @DFLT_figPLnum;
 } lnum;
@@ -333,6 +352,12 @@ feature tnum {
 	sub @DFLT_figPLnum by @DFLT_figTLnum;
 	sub @DFLT_figPOnum by @DFLT_figTOnum;
 } tnum;
+feature ordn {
+	sub [a o] by [ordfeminine ordmasculine] ;
+} ordn;
+feature case {
+	sub @DFLT_case_base by @DFLT_case_alt ;
+} case;
 feature liga {
 	lookup liga_dflt;
 	lookup liga_i;
@@ -350,5 +375,6 @@ feature liga {
 		language TRK exclude_dflt;
 		lookup liga_dflt;
 } liga;
+
 
 
