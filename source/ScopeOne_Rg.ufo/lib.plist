@@ -5,8 +5,8 @@
 	<key>com.daltonmaag.fontlab.encoding</key>
 	<array>
 		<string>.notdef</string>
-		<string>.null</string>
-		<string>CR</string>
+		<string>glyph1</string>
+		<string>glyph2</string>
 		<string>space</string>
 		<string>period</string>
 		<string>colon</string>
@@ -2326,8 +2326,6 @@
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>
-		<string>.null</string>
-		<string>CR</string>
 		<string>space</string>
 		<string>period</string>
 		<string>colon</string>
