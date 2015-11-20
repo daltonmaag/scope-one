@@ -50,15 +50,15 @@ def compile_otf(font, release_mode=False, debug=False):
     """Compile UFO into a CFF TTFont instance."""
     compiler = OTFCompiler(savePartsNextToUFO=debug)
 
-    tmpdir = tempfile.mkdtemp()
-    tmpfile = os.path.join(tmpdir, 'font.otf')
+    fd, tmpfile = tempfile.mkstemp()
     try:
+        os.close(fd)
         report = compiler.compile(
             font, tmpfile, releaseMode=release_mode,
             glyphOrder=font.glyphOrder)
         ttFont = TTFont(tmpfile)
     finally:
-        shutil.rmtree(tmpdir)
+        os.remove(tmpfile)
 
     logging.info(report["makeotf"])
     return ttFont
