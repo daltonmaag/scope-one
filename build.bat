@@ -1,2 +1,7 @@
 @echo off
-python tools\build.py -v -d build source\ScopeOne_Rg.ufo
+
+python tools\build.py ^
+	--output-dir build ^
+	--autohint --tta-control-file source\ttfautohint.ctrl --tta-options "-D latn -f latn -l 11 -G 50" ^
+	--goadb source\GlyphOrderAndAliasDB.txt ^
+	source\ScopeOne_Rg.ufo %*
