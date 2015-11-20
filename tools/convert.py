@@ -1,12 +1,13 @@
 from __future__ import print_function, division, absolute_import
+import sys
+import os
+import shutil
+
 from cu2qu.geometry import (
     cubic_approx_spline, curve_spline_dist, Point as CPoint)
 from defcon import Font, Glyph
 from ufoLib.pointPen import AbstractPointPen
 from robofab.pens.reverseContourPointPen import ReverseContourPointPen
-import sys
-import os
-import shutil
 
 
 # Maximum number of quadratic sub-segments approximating a cubic bezier
@@ -14,15 +15,6 @@ MAX_N = 10
 
 # Maximum distance between cubic curve and quadratic approximation
 MAX_ERR = 1.0
-
-# print out the defect of approximation
-DEBUG = False
-
-# remove overlaps before converting outlines to TT
-DO_MERGE_CONTOURS = False
-
-# set path direction to TrueType (clockwise)
-DO_SET_TT_DIRECTION = True
 
 
 class Cu2QuPen(AbstractPointPen):
