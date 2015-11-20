@@ -4,17 +4,19 @@ from __future__ import print_function, unicode_literals
 import sys
 import os
 import errno
-from ufo2fdk import OTFCompiler
-from defcon import Font
 import argparse
 import tempfile
 import shutil
 import logging
+import subprocess
+import shlex
+
+from ufo2fdk import OTFCompiler
+from defcon import Font
 from ufo2ft.outlineOTF import OutlineTTFCompiler
 from ufo2ft.markFeatureWriter import MarkFeatureWriter
 from fontTools.ttLib import TTFont
-import subprocess
-import shlex
+
 
 CURR_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 TOOLS_DIR = os.path.join(CURR_DIR, 'tools')
