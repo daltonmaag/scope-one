@@ -106,8 +106,15 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
                 font.save(quadpath, formatVersion=font.ufoFormatVersion)
 
             ttf = compile_ttf(font)
+
+            # copy OpenType layout tables compiled by makeotf
             for tag in ('GDEF', 'GSUB', 'GPOS'):
                 ttf[tag] = otf[tag]
+
+            # copy makeotf-generated Mac Roman cmap subtable
+            cmap6_1_0 = otf['cmap'].getcmap(1, 0)
+            ttf['cmap'].tables.append(cmap6_1_0)
+
             ttf.save(outfile)
 
             if goadb:
