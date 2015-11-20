@@ -22,11 +22,11 @@ tools - build and test scripts
 ### Requirements
 
 - AFDKO (latest)
-- Python 3.x
+- Python 3.3+
 - pip
 - virtualenv
-- Harfbuzz (for testing only)
 - ttfautohint
+- Harfbuzz (for testing only)
 
 Make sure all the requirements are in your PATH.
 
@@ -52,23 +52,19 @@ Make sure all the requirements are in your PATH.
 
 - Build on OS X or Linux
 
-  `$ build.sh`
+  `$ ./build.sh`
 
 - Build on Windows
 
   `$ build.bat`
 
-The fonts can be found on the `build` folder.
+The fonts can be found in the `build` folder.
 
 ### Testing the font
 
-- Run test script on OS X and Linux
+- Run test script
 
   `$ python tools/featuretest.py test/test.json build/ScopeOne_Rg.ttf`
-
-- Run test script on Windows
-
-  `$ python tools\featuretest.py test\test.json build\ScopeOne_Rg.ttf`
 
 ### Deactivating Python virtual environment
 
