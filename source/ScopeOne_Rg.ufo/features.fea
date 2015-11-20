@@ -228,19 +228,22 @@ lookup locl_ROM {
 	sub [Scedilla Tcedilla scedilla tcedilla] by [Scommabelow Tcommabelow scommabelow tcommabelow];
 } locl_ROM;
 
-lookup locl_NLD {
-	ignore sub [B F b f] iacute' j';
-	ignore sub [B F b f] Iacute' J';
-	sub iacute' j' by ijacute;
-	sub Iacute' J' by IJacute;
-} locl_NLD;
+lookup locl_NLD_ijacute {
+	sub j by dotlessj acutecomb;
+	sub J by J acutecomb.cap;
+} locl_NLD_ijacute;
+
+lookup locl_NLD_liga_acute {
+	sub ij' acutecomb' by ijacute;
+	sub IJ' acutecomb' by IJacute;
+} locl_NLD_liga_acute;
 
 lookup frac_bar {
 	ignore sub slash' @DFLT_figPLnum slash;
 	ignore sub slash @DFLT_figPLnum slash';
 	ignore sub slash' @DFLT_figPLnum @DFLT_figPLnum slash;
 	ignore sub slash @DFLT_figPLnum @DFLT_figPLnum slash';
-	sub slash' by fraction;
+	sub @DFLT_figPLnum [slash divisionslash]' @DFLT_figPLnum by fraction;
 } frac_bar;
 
 lookup frac_numr {
@@ -281,7 +284,9 @@ feature locl {
 		language MOL exclude_dflt;
 		lookup locl_ROM;
 		language NLD exclude_dflt;
-		lookup locl_NLD;
+		sub Iacute J' lookup locl_NLD_ijacute;
+		sub iacute j' lookup locl_NLD_ijacute;
+		lookup locl_NLD_liga_acute;
 } locl;
 feature ccmp {
 	lookup ccmp_decomposition {
@@ -289,8 +294,8 @@ feature ccmp {
 		sub @DFLT_ccmp_decomp_bottom' lookup DFLT_dflt_ccmp_decomp_bottom @DFLT_ccmp_mark_above;
 	}ccmp_decomposition;
 	lookup ccmp_softdotted {
+		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_below @DFLT_ccmp_mark_above ;
 		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above;
-		sub @DFLT_ccmp_softdotted' lookup DFLT_dflt_ccmp_softdotted @DFLT_ccmp_mark_above @DFLT_ccmp_mark_below;
 	} ccmp_softdotted;
 	lookup ccmp_mark_UC {
 		sub @DFLT_UC @DFLT_mark_LC_top' by @DFLT_mark_UC_top;
