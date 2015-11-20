@@ -54,7 +54,7 @@ h right 33
 k right 22
 l right 13
 thorn right 13
-313 right 31 #dslash
+dcroat right 31 #dslash
 hbar right 40
 lslash right 19
 
@@ -104,8 +104,8 @@ hbar touch 8-10 yshift -1 @ 15-30
 hbar touch 27-33 yshift 1 @ 23-26, 35-43
 hbar touch 43-49 yshift 1 @ 23-26, 35-43
 
-313 touch 14-16 yshift -1 @ 15-30 #dslash
-313 touch 48-50 yshift -1 @ 15-30 #dslash
+dcroat touch 14-16 yshift -1 @ 15-30 #dslash
+dcroat touch 48-50 yshift -1 @ 15-30 #dslash
 
 one right 11
 four right 11
