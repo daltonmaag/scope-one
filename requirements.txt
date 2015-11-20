@@ -16,8 +16,8 @@
 # ufo2fdk (from python3-ufo3 branch on DaMa fork)
 -e git+https://github.com/daltonmaag/ufo2fdk.git@0a57f2474ff65d5877b28bd063a249bee1a18ec6#egg=ufo2fdk
 
-# ufo2ft (from ufo2ft-py23 branch on DaMa fork)
--e git+https://github.com/daltonmaag/ufo2fdk.git@b588e126af6e84bd5aea96b1816361ea0c71bd1b#egg=ufo2ft
+# ufo2ft (from ufo2ft-dama branch on DaMa fork)
+-e git+https://github.com/daltonmaag/ufo2fdk.git@33d3b99d2b620e7487a340e352ac602e3ea1748d#egg=ufo2ft
 
 # robofab (from python3-ufo3-no-ufoLib branch on DaMa fork)
 -e git+https://github.com/daltonmaag/robofab.git@48337cb8f734c88c13574c1f121e33ce6ff1f6d7#egg=robofab
