@@ -24,6 +24,9 @@ tools - build and test scripts
 - pip
 - virtualenv
 - Harfbuzz (for testing only)
+- ttfautohint
+
+Make sure all the requirements are in your PATH.
 
 ### Setting up Python virtual environment
 
