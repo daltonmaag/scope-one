@@ -88,6 +88,7 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
     mark_feature = MarkFeatureWriter(font).write()
     font.features.text += "\n\n" + mark_feature
 
+    logging.info('Compile OTF')
     otf = compile_otf(
         font, release_mode=(True if 'cff' in formats else False),
         debug=debug)
@@ -96,7 +97,7 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
         outfile = make_output_name(ufopath, fmt, output_dir)
 
         if fmt == 'ttf':
-            logging.info('Converting UFO to TrueType...')
+            logging.info('Convert UFO curves to quadratic splines')
             font_to_quadratic(font, max_err=1.0)
             if debug:
                 # save quadratic UFO (and overwrite existing)
@@ -105,9 +106,10 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
                     shutil.rmtree(quadpath)
                 font.save(quadpath, formatVersion=font.ufoFormatVersion)
 
+            logging.info('Compile UFO to TTF')
             ttf = compile_ttf(font)
 
-            # copy OpenType layout tables compiled by makeotf
+            logging.info('Copy OpenType layout tables from OTF to TTF')
             for tag in ('GDEF', 'GSUB', 'GPOS'):
                 ttf[tag] = otf[tag]
 
@@ -115,12 +117,14 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
             cmap6_1_0 = otf['cmap'].getcmap(1, 0)
             ttf['cmap'].tables.append(cmap6_1_0)
 
+            logging.info('Save font')
             ttf.save(outfile)
 
             if goadb:
-                logging.info('Rename glyphs using "%s"...' % goadb)
+                logging.info('Rename glyphs using "%s"' % goadb)
                 rename_glyphs(goadb, outfile)
         else:
+            logging.info('Save font')
             otf.save(outfile)
             # XXX rename glyphs in CFF fonts?
 
