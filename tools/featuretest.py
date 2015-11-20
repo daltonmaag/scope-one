@@ -81,9 +81,25 @@ def main(args):
         exit(1)
 
 
+usage = '''\
+Usage:
+  featuretest.py <test definition file> <font...>
+
+Use a JSON file with an array of test objects.
+Harfbuzz's hb-shape must be installed and in the PATH.
+Each test object must have:
+  't'  : Unicode input text
+  'e'  : expected hb-shape glyph output
+  'd'  : test description
+Optional:
+  'l'  : language code
+  'f'  : features (see hb-shape for format)
+  'p'  : enables positions in expected hb-shape output
+  'c'  : enables clusters info in expected hb-shape output
+'''
+
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print('Usage:')
-        print('  featuretest.py <test definition file> <font...>')
+        print(usage)
         exit(1)
     main(sys.argv[1:])
