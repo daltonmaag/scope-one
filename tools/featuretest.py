@@ -3,12 +3,22 @@ from __future__ import unicode_literals
 # import re
 import json
 import sys
+import os
+import argparse
 from io import open
 from subprocess import Popen, PIPE
 
+CURR_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
+TOOLS_DIR = os.path.join(CURR_DIR, 'tools')
+sys.path.insert(0, TOOLS_DIR)
+from rename import GoadbManager
+
+
+__version__ = '0.1'
+
 
 def run_hb_shape(font_file_name, test):
-    """Get hb-shape output give a font and a text"""
+    '''Get hb-shape output give a font and a text'''
     hb_parameters = [
         'hb-shape',
         "--output-format=json"
@@ -35,15 +45,16 @@ def run_hb_shape(font_file_name, test):
     return data
 
 
-def run_tests(font_file_name, test_definition):
+def run_tests(font_file_name, test_definition, goadb_file_name):
     """Run a series of given tests on a font file with Harbfuzz"""
     failed = []
     passed = []
+    glyph_dict = get_glyphs_names(goadb_file_name)
 
     for test in test_definition:
         expect = test['e']
         output = run_hb_shape(font_file_name, test)
-        test['result'] = '|'.join(glyph['g'] for glyph in output)
+        test['result'] = '|'.join(glyph_dict[glyph['g']] for glyph in output)
         if test['result'] != expect:
             failed.append(test)
         else:
@@ -62,30 +73,50 @@ def run_tests(font_file_name, test_definition):
     print('Failed ' + str(len(failed)) + ' test(s)')
 
     if len(failed) > 0:
-        return 1
+        return True
     else:
-        return 0
+        return False
+
+
+def get_glyphs_names(goadb_file_name):
+    name_dict, _ = GoadbManager.parse_goadb(goadb_file_name)
+    inv_name_dict = {v: k for k, v in name_dict.items()}
+    return inv_name_dict
+
+
+def parse_options(args):
+    parser = argparse.ArgumentParser(
+        description="Runs substition features tests on a font.",
+        usage=usage)
+    parser.add_argument('testjsonfile', metavar='TESTJSON',
+                        help='Input font file.')
+    parser.add_argument('fontfile', metavar='FONTFILE',
+                        help='Font file being tested')
+    parser.add_argument('-g', '--goadb', metavar='GOADB.txt',
+                        help='Use GlyphOrderAndAliasDB to rename glyphs.')
+    parser.add_argument('--version', action='version', version=__version__)
+    options = parser.parse_args(args)
+    return options
 
 
 def main(args):
-    import json
+    options = parse_options(args)
 
-    test_definition_file = args[0]
-    with open(test_definition_file, 'r', encoding='utf-8') as f:
+    with open(options.testjsonfile, 'r', encoding='utf-8') as f:
         test_definition = json.load(f)
-    font_files = args[1:]
-    failed = False
-    for font_file_name in font_files:
-        run_tests(font_file_name, test_definition)
+    failed = run_tests(options.fontfile, test_definition,
+                       options.goadb)
     if failed:
         exit(1)
 
 
 usage = '''\
 Usage:
-  featuretest.py <test definition file> <font...>
+  featuretest.py [-g <GOADB file>] <test definition file> <font...>
 
-Use a JSON file with an array of test objects.
+Runs substition features tests on a font.
+Use a test definition JSON file with an array of test objects,
+with an optional GlyphOrderAndAliasDB file if glyphs have been renamed.
 Harfbuzz's hb-shape must be installed and in the PATH.
 Each test object must have:
   't'  : Unicode input text
@@ -99,7 +130,7 @@ Optional:
 '''
 
 if __name__ == '__main__':
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 4:
         print(usage)
         exit(1)
     main(sys.argv[1:])
