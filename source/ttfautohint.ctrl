@@ -1,3 +1,6 @@
+# ttfautohint settings:
+# ttfautohint -D latn -f latn -l 11 -G 50 -m <control_file> <input> <output>
+
 plusminus touch 10-35 yshift 1 @ 13-15
 
 lessequal touch 10-23 yshift 1 @ 15
