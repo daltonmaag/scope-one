@@ -79,8 +79,8 @@
     {
         "l": "en",
         "f": "frac",
-        "t": "/\u2215",
-        "e": "fraction|fraction",
+        "t": "1/1 1\u22151",
+        "e": "one.numr|fraction|one.dnom|space|one.numr|fraction|one.dnom",
         "d": "Fraction signs slash and divisionslash"
     },
     {
@@ -89,6 +89,13 @@
         "t": "1/2 a/b",
         "e": "one.numr|fraction|two.dnom|space|a|slash|b",
         "d": "Fraction sign only between digits"
+    },
+    {
+        "l": "en",
+        "f": "frac",
+        "t": "2015/11/03",
+        "e": "two|zero|one|five|slash|one|one|slash|zero|three",
+        "d": "Dates don't convert into fractions"
     },
     {
         "l": "en",
@@ -207,7 +214,7 @@
         "f": "locl",
         "t": "ÍJ íj",
         "e": "Iacute|J|acutecomb.cap|space|iacute|dotlessj|acutecomb",
-        "d": "Locale ij acute monograph for Dutch"
+        "d": "Locale acute on j after iacute for Dutch"
     },
     {
         "l": "nl",
@@ -215,6 +222,13 @@
         "t": "\u0132\u0301 \u0133\u0301",
         "e": "IJacute|space|ijacute",
         "d": "Locale IJ-acute ligature variants in Dutch"
+    },
+    {
+        "l": "ca",
+        "f": "locl",
+        "t": "ÍJ íj",
+        "e": "Iacute|J|space|iacute|j",
+        "d": "Normal iacute j for non-Dutch"
     },
     {
         "l": "en",
