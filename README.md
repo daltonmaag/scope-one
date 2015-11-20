@@ -23,7 +23,6 @@ tools - build and test scripts
 - Python 3.x
 - pip
 - virtualenv
-- Harfbuzz (for testing only)
 - ttfautohint
 
 Make sure all the requirements are in your PATH.
@@ -58,15 +57,6 @@ Make sure all the requirements are in your PATH.
 
 The fonts can be found on the `build` folder.
 
-### Testing the font
-
-- Run test script on OS X and Linux
-
-  `$ python tools/featuretest.py test/test.json build/ScopeOne_Rg.ttf`
-
-- Run test script on Windows
-
-  `$ python tools\featuretest.py test\test.json build\ScopeOne_Rg.ttf`
 
 ### Deactivating Python virtual environment
 
