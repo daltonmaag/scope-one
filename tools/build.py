@@ -97,11 +97,12 @@ def ttfautohint(infile, outfile=None, ctrlfile=None, options=None):
     cmdline += [infile, outfile]
     logging.info("Run ttfautohint")
     logging.info("$ " + " ".join(cmdline))
+    if not shutil.which('ttfautohint'):
+        raise RuntimeError('ttfautohint: command not found')
     try:
         subprocess.check_call(cmdline)
     except:
-        import traceback
-        traceback.print_exc()
+        raise
     else:
         if overwrite:
             os.remove(infile)
