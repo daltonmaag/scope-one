@@ -13,6 +13,8 @@ import logging
 from ufo2ft.outlineOTF import OutlineTTFCompiler
 from ufo2ft.markFeatureWriter import MarkFeatureWriter
 from fontTools.ttLib import TTFont
+import subprocess
+import shlex
 
 CURR_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 TOOLS_DIR = os.path.join(CURR_DIR, 'tools')
@@ -46,7 +48,7 @@ def make_output_name(ufopath, output_format, output_dir=None):
     return os.path.join(output_dir, ufoname + ext)
 
 
-def compile_otf(font, release_mode=False, debug=False):
+def compile_otf(font, release_mode=False, autohint=False, debug=False):
     """Compile UFO into a CFF TTFont instance."""
     compiler = OTFCompiler(savePartsNextToUFO=debug)
 
@@ -55,11 +57,13 @@ def compile_otf(font, release_mode=False, debug=False):
         os.close(fd)
         report = compiler.compile(
             font, tmpfile, releaseMode=release_mode,
-            glyphOrder=font.glyphOrder)
+            autohint=autohint, glyphOrder=font.glyphOrder)
         ttFont = TTFont(tmpfile)
     finally:
         os.remove(tmpfile)
 
+    if autohint:
+        logging.info(report["autohint"])
     logging.info(report["makeotf"])
     return ttFont
 
@@ -77,8 +81,37 @@ def rename_glyphs(goadb, fontfile):
     manager.close()
 
 
+def ttfautohint(infile, outfile=None, ctrlfile=None, options=None):
+    overwrite = False
+    if not outfile:
+        fd, outfile = tempfile.mkstemp()
+        os.close(fd)
+        overwrite = True
+    cmdline = ["ttfautohint"]
+    if options is not None:
+        cmdline += shlex.split(options)
+    if ctrlfile is not None:
+        cmdline += ["-m", ctrlfile]
+    cmdline += [infile, outfile]
+    logging.info("Run ttfautohint")
+    logging.info("$ " + " ".join(cmdline))
+    try:
+        subprocess.check_call(cmdline)
+    except:
+        import traceback
+        traceback.print_exc()
+    else:
+        if overwrite:
+            os.remove(infile)
+            logging.info("$ mv %s %s" % (outfile, infile))
+            shutil.copyfile(outfile, infile)
+    finally:
+        if overwrite:
+            os.remove(outfile)
+
+
 def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
-          verbose=True):
+          autohint=False, tta_ctrlfile=None, tta_options=None, verbose=True):
     if ufopath.endswith(os.sep):
         # strip any trailing forward or backslash
         ufopath = ufopath[:-1]
@@ -91,7 +124,7 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
     logging.info('Compile OTF')
     otf = compile_otf(
         font, release_mode=(True if 'cff' in formats else False),
-        debug=debug)
+        autohint=(autohint if "cff" in formats else False), debug=debug)
 
     for fmt in formats:
         outfile = make_output_name(ufopath, fmt, output_dir)
@@ -120,6 +153,9 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
             logging.info('Save font')
             ttf.save(outfile)
 
+            if autohint:
+                ttfautohint(outfile, ctrlfile=tta_ctrlfile,
+                            options=tta_options)
             if goadb:
                 logging.info('Rename glyphs using "%s"' % goadb)
                 rename_glyphs(goadb, outfile)
@@ -148,6 +184,12 @@ def parse_options(args):
                         'only).')
     parser.add_argument('--debug', action='store_true',
                         help='keep temporary FDK files.')
+    parser.add_argument('--autohint', action='store_true',
+                        help="hint font using ttfautohint or Adobe autohint.")
+    parser.add_argument('--tta-control-file', metavar='FILE',
+                        help="get ttfautohint control instructions from FILE.")
+    parser.add_argument('--tta-options', metavar='STRING',
+                        help="options for ttfautohint.")
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='print makeotf output to console.')
     options = parser.parse_args(args)
@@ -174,7 +216,8 @@ def main(args=None):
 
     for ufopath in options.infiles:
         build(ufopath, options.output_dir, options.formats, options.goadb,
-              options.debug, options.verbose)
+              options.debug, options.autohint, options.tta_control_file,
+              options.tta_options, options.verbose)
 
 
 if __name__ == "__main__":
