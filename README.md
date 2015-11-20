@@ -1,6 +1,8 @@
 # Scope One
 
-Light weight, upright slab serif.
+Scope One is a light weight, slab serif font. It is designed to work well on display sizes, 14pt and upwards, for titling purposes. The short ascenders and descenders allowed to create an uppercase that imitates proportions closer to small capitals, ensuring that an all-caps setting works well without any extra refinement. It is optimised to work on screen but has also been tested for text usage both on screen and print.
+
+Display being its primary purpose the default figures are proportional lining, however the font also contains lining tabular and two sets of oldstyle figures (proportional and tabular). Anchors were positioned on the A-Z and a-z glyphs allowing accented characters to be built on the fly. A large set of currencies is provided, including the recent addition of the bitcoin symbol.
 
 ## License
 
