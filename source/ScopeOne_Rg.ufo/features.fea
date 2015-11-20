@@ -219,14 +219,14 @@ lookup DFLT_dflt_ccmp_softdotted {
 	sub j by dotlessj;
 } DFLT_dflt_ccmp_softdotted;
 
-lookup locl_CAT {
+lookup locl_CAT_periodcentered {
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' [L l] by periodcentered.loclCAT.cap;
-} locl_CAT;
+} locl_CAT_periodcentered;
 
-lookup locl_ROM {
+lookup locl_ROM_cedilla {
 	sub [Scedilla Tcedilla scedilla tcedilla] by [Scommabelow Tcommabelow scommabelow tcommabelow];
-} locl_ROM;
+} locl_ROM_cedilla;
 
 lookup locl_NLD_ijacute {
 	sub j by dotlessj acutecomb;
@@ -278,11 +278,11 @@ lookup liga_i {
 feature locl {
 	script latn;
 		language CAT exclude_dflt;
-		lookup locl_CAT;
+		lookup locl_CAT_periodcentered;
 		language ROM exclude_dflt;
-		lookup locl_ROM;
+		lookup locl_ROM_cedilla;
 		language MOL exclude_dflt;
-		lookup locl_ROM;
+		lookup locl_ROM_cedilla;
 		language NLD exclude_dflt;
 		sub Iacute J' lookup locl_NLD_ijacute;
 		sub iacute j' lookup locl_NLD_ijacute;
