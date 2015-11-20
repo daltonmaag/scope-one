@@ -41,53 +41,22 @@ def parse_options(args):
     return options
 
 
-def parse_goadb(goadbfile):
-    try:
-        goadb = goadbfile.read()
-    except AttributeError:
-        with open(goadbfile, 'r') as f:
-            goadb = f.read()
-    finalnames = {}
-    mapping = {}
-    for i, line in enumerate(goadb.splitlines()):
-        line = re.sub(r"#.*", "", line).strip()
-        if not line:
-            continue
-        names = line.split()
-        n = len(names)
-        assert len(names) in (2, 3)
-        if n == 2:
-            final, friendly = names
-        elif n == 3:
-            final, friendly, uniname = names
-            code = codepoint_from_uniname(uniname)
-            if code not in mapping:
-                mapping[code] = final
-            else:
-                raise AssertionError('uniname redefined: %s' % uniname)
-        else:
-            raise AssertionError(
-                "GOADB must have either 2 or 3 items per entry: "
-                "line %d: %s" % line)
-        finalnames[friendly] = final
-    return finalnames, mapping
-
-
 class GoadbManager(object):
 
     def __init__(self, goadbpath, fontpath):
-        self.parse_goadb(goadbpath)
+        self.names, self.mapping = self.parse_goadb(goadbpath)
         self.font = ttLib.TTFont(fontpath, recalcBBoxes=False,
                                  recalcTimestamp=False)
 
-    def parse_goadb(self, goadbfile):
+    @staticmethod
+    def parse_goadb(goadbfile):
         try:
             goadb = goadbfile.read()
         except AttributeError:
             with open(goadbfile, 'r') as f:
                 goadb = f.read()
-        self.names = names = OrderedDict()
-        self.mapping = mapping = {}
+        names = OrderedDict()
+        mapping = {}
         for i, line in enumerate(goadb.splitlines()):
             line = re.sub(r"#.*", "", line).strip()
             if not line:
@@ -109,7 +78,7 @@ class GoadbManager(object):
                     "GOADB must have either 2 or 3 items per entry: "
                     "line %d: %s" % line)
             names[friendly] = final
-        self.inv_mapping = {v: k for k, v in mapping.items()}
+        return names, mapping
 
     def rename_glyphs(self):
         # Do the renaming in newnames
