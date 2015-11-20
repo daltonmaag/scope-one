@@ -11,13 +11,13 @@ import tempfile
 import shutil
 import logging
 from ufo2ft.outlineOTF import OutlineTTFCompiler
+from ufo2ft.markFeatureWriter import MarkFeatureWriter
 from fontTools.ttLib import TTFont
 
 CURR_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 TOOLS_DIR = os.path.join(CURR_DIR, 'tools')
 sys.path.insert(0, TOOLS_DIR)
 from convert import font_to_quadratic
-from mark import MarkFeatureWriter
 from rename import GoadbManager
 
 
