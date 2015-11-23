@@ -64,7 +64,7 @@ The fonts can be found in the `build` folder.
 
 - Run test script
 
-  `$ python tools/featuretest.py test/test.json build/ScopeOne_Rg.ttf`
+  `$ python tools/featuretest.py -g source/GlyphOrderAndAliasDB.txt test/test.json build/ScopeOne_Rg.ttf`
 
 ### Deactivating Python virtual environment
 
