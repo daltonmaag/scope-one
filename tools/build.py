@@ -35,9 +35,7 @@ def mkdir_p(path):
             raise
 
 
-def make_output_name(ufopath, output_format, output_dir=None):
-    if output_format not in ('ttf', 'cff'):
-        raise RuntimeError('invalid format: %s' % output_format)
+def make_output_name(ufopath, extension, output_dir=None):
     dirname, basename = os.path.split(ufopath)
     ufoname = os.path.splitext(basename)[0]
     if output_dir is None:
@@ -46,8 +44,7 @@ def make_output_name(ufopath, output_format, output_dir=None):
     else:
         # create output_dir if it doesn't exist
         mkdir_p(output_dir)
-    ext = ".otf" if output_format == 'cff' else '.ttf'
-    return os.path.join(output_dir, ufoname + ext)
+    return os.path.join(output_dir, ufoname + extension)
 
 
 def compile_otf(font, release_mode=False, autohint=False, debug=False):
@@ -119,7 +116,23 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
         # strip any trailing forward or backslash
         ufopath = ufopath[:-1]
 
-    font = Font(ufopath)
+    dirname, ufoname = os.path.split(ufopath)
+
+    if output_dir is None:
+        # use the same folder as ufopath
+        output_dir = dirname
+
+    # create the output_dir if it doesn't exist
+    mkdir_p(output_dir)
+
+    # create a temporary build folder in the output_dir
+    build_dir = tempfile.mkdtemp(prefix='build-', dir=output_dir)
+
+    # make a temporary copy of ufo inside build_dir
+    tmpufo = os.path.join(build_dir, ufoname)
+    shutil.copytree(ufopath, tmpufo)
+
+    font = Font(tmpufo)
 
     mark_feature = MarkFeatureWriter(font).write()
     font.features.text += "\n\n" + mark_feature
@@ -130,16 +143,15 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
         autohint=(autohint if "cff" in formats else False), debug=debug)
 
     for fmt in formats:
-        outfile = make_output_name(ufopath, fmt, output_dir)
+        ext = ".otf" if fmt == 'cff' else '.ttf'
+        outfile = make_output_name(ufopath, ext, output_dir)
 
         if fmt == 'ttf':
             logging.info('Convert UFO curves to quadratic splines')
             font_to_quadratic(font, max_err=1.0)
             if debug:
-                # save quadratic UFO (and overwrite existing)
-                quadpath = os.path.splitext(ufopath)[0] + '_quad.ufo'
-                if os.path.isdir(quadpath):
-                    shutil.rmtree(quadpath)
+                # save quadratic UFO
+                quadpath = os.path.splitext(tmpufo)[0] + '_quad.ufo'
                 font.save(quadpath, formatVersion=font.ufoFormatVersion)
 
             logging.info('Compile UFO to TTF')
@@ -166,6 +178,12 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
             logging.info('Save font')
             otf.save(outfile)
             # XXX rename glyphs in CFF fonts?
+
+    # remove temp ufo copy
+    shutil.rmtree(tmpufo)
+    if not debug:
+        # unless --debug option is passed, also remove temp build_dir
+        shutil.rmtree(build_dir)
 
     logging.info('Done!')
 
