@@ -1,10 +1,16 @@
 before_script:
     - python3.5 -m venv buildenv
     - source buildenv/bin/activate
-    - pip install -v -r requirements.txt
+    - pip install -r requirements.txt
 
 test:
   script:
     - ./build.sh -v --debug
     - python tools/featuretest.py -g source/GlyphOrderAndAliasDB.txt test/test.json build/ScopeOne_Rg.ttf
-    - scp -r build evergreen:/mnt/RAID/gitlab-builds/ScopeOne-$(git rev-parse --short=7 HEAD)/
+    - CURR_REV=$(git rev-parse --short=7 HEAD)
+    - BUILD_TEMPDIR=$(echo build/build-*)
+    - mv $BUILD_TEMPDIR build/build-$CURR_REV
+    - cd build
+    - zip -qr build-$CURR_REV.zip build-$CURR_REV
+    - rm -rf build-$CURR_REV
+    - scp -r . evergreen:/mnt/RAID/gitlab-builds/ScopeOne-$CURR_REV/
