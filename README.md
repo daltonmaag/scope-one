@@ -23,8 +23,6 @@ tools - build and test scripts
 
 - AFDKO (latest)
 - Python 3.3+
-- pip
-- virtualenv
 - ttfautohint
 - Harfbuzz (for testing only)
 
@@ -32,17 +30,23 @@ Make sure all the requirements are in your PATH.
 
 ### Setting up Python virtual environment
 
-- create virtual environment in new 'venv' folder
+- create a new virtual environment by running the `pyvenv` script
 
-  `$ python3 -m virtualenv venv`
+  `$ pyvenv /path/to/new/virtual/environment`
 
-- activate venv on OS X or Linux
+- if you don't have `pyvenv` in your PATH, you can invoke it as follows
 
-  `$ source venv/bin/activate`
+  `python -m venv /path/to/new/virtual/environment`
 
-- activate venv on Win
+- activate virtual environment on OS X or Linux
 
-  `$ venv\Scripts\activate.bat`
+  `$ source <venv>/bin/activate`
+
+- activate virtual environment on Win
+
+  `$ <venv>\Scripts\activate.bat`
+
+More info on setting up virtual environments can be found at [Python docs](https://docs.python.org/3/library/venv.html).
 
 ### Installing dependencies via requirements.txt
 
