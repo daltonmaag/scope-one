@@ -45,9 +45,9 @@
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Regular</string>
 		<key>openTypeNameUniqueID</key>
-		<string>Scope One Regular Version 1.000</string>
+		<string>Scope One Regular Version 1.001</string>
 		<key>openTypeNameVersion</key>
-		<string>Version 1.000</string>
+		<string>Version 1.001</string>
 		<key>openTypeOS2CodePageRanges</key>
 		<array>
 			<integer>0</integer>
@@ -194,7 +194,7 @@
 		<key>versionMajor</key>
 		<integer>1</integer>
 		<key>versionMinor</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>xHeight</key>
 		<integer>500</integer>
 		<key>year</key>
