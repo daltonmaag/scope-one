@@ -6,6 +6,8 @@ Scope One supports a broad range of languages using the Latin alphabet and conta
 
 Scope One is a Dalton Maag original design, commissioned by Google.
 
+For a live font specimen you can go to [http://daltonmaag.github.io/scope-one/](http://daltonmaag.github.io/scope-one/)
+
 ## License
 
 Scope One is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL).
