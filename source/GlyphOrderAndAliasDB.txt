@@ -137,7 +137,7 @@ uni20B4 hryvnia uni20B4
 uni20B5 cedi uni20B5
 uni20B9 rupeeindian uni20B9
 uni20BA liraturkish uni20BA
-bitcoin bitcoin uni20BF
+uni20BF bitcoin uni20BF
 asciicircum asciicircum uni005E
 plus plus uni002B
 minus minus uni2212
