@@ -1,8 +1,10 @@
 # Scope One
 
-Scope One is a light weight, slab serif font. It is designed to work well on display sizes, 14pt and upwards, for titling purposes. The short ascenders and descenders allowed to create an uppercase that imitates proportions closer to small capitals, ensuring that an all-caps setting works well without any extra refinement. It is optimised to work on screen but has also been tested for text usage both on screen and print.
+Scope One is a design optimised for titling and display sizes, ideally used at 14 point and above. The vertical proportions of the typeface allow for all-caps setting that is more akin to using small caps, giving a more refined typographic impression. Scope One is a light slab serif typeface with an elegant expression for a wide range of usages. The font features four sets of numerals, lining and old style, proportional and tabular. The proportional lining numerals are placed on the default keyboard positions with the alternatives accessible via OpenType feature.
 
-Display being its primary purpose the default figures are proportional lining, however the font also contains lining tabular and two sets of oldstyle figures (proportional and tabular). Anchors were positioned on the A-Z and a-z glyphs allowing accented characters to be built on the fly. A large set of currencies is provided, including the recent addition of the bitcoin symbol.
+Scope One supports a broad range of languages using the Latin alphabet and contains a large set of currencies including the recent Unicode addition of the Bitcoin symbol. The font has been enhanced for good quality display on screen, and has been tested extensively in a variety of on-screen and print environments.
+
+Scope One is a Dalton Maag original design, commissioned by Google.
 
 ## License
 
