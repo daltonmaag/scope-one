@@ -8,16 +8,16 @@
 -e git+https://github.com/daltonmaag/defcon.git@559c8f6bde1629d13f4e8a69e1f6f2494d977c32#egg=defcon
 
 # ufoLib (from master branch on DaMa fork, in sync with upstream)
--e git+https://github.com/daltonmaag/ufoLib.git#egg=ufoLib
+-e git+https://github.com/daltonmaag/ufoLib.git@744423d267120681e85ad4efb73ff8df919d3c45#egg=ufoLib
 
 # ufonormalizer (from master on DaMa fork, in sync with upstream)
--e git+https://github.com/daltonmaag/ufoNormalizer.git#egg=ufonormalizer
+-e git+https://github.com/daltonmaag/ufoNormalizer.git@abc8393c608fdc1687e02df49a06768ff3d4e02c#egg=ufonormalizer
 
 # ufo2fdk (from python3-ufo3 branch on DaMa fork)
 -e git+https://github.com/daltonmaag/ufo2fdk.git@76e8516744e2b8738477335924453ef8a4a96f83#egg=ufo2fdk
 
 # ufo2ft (from ufo2ft-dama branch on DaMa fork)
--e git+https://github.com/daltonmaag/ufo2fdk.git@17ffa040debe6b2071a0f34a081802feace70eb4#egg=ufo2ft
+-e git+https://github.com/daltonmaag/ufo2fdk.git@4bdda79d6203e334ab37545d16cf6223435a517d#egg=ufo2ft
 
 # robofab (from python3-ufo3-no-ufoLib branch on DaMa fork)
 -e git+https://github.com/daltonmaag/robofab.git@48337cb8f734c88c13574c1f121e33ce6ff1f6d7#egg=robofab
