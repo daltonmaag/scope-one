@@ -174,6 +174,10 @@ def build(ufopath, output_dir=None, formats=['cff'], goadb=None, debug=False,
             if goadb:
                 logging.info('Rename glyphs using "%s"' % goadb)
                 rename_glyphs(goadb, outfile)
+
+            # as of v1.4.1, ttfautohint modifies the table order. So here I
+            # restore the 'optimal' TrueType table order
+            TTFont(outfile).save(outfile, reorderTables=True)
         else:
             logging.info('Save font')
             otf.save(outfile)
