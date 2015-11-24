@@ -1,5 +1,5 @@
-# fonttools HEAD (DaMa fork is in sync with behdad's)
--e git+https://github.com/daltonmaag/fonttools.git#egg=fonttools
+# fonttools (behdad's fork)
+-e git+https://github.com/daltonmaag/fonttools.git@6bd52a6f6d1f24c36e5d29f513556ef06472d397#egg=fonttools
 
 # cu2qu (DaMa fork has python 2/3 fixes)
 -e git+https://github.com/daltonmaag/cu2qu.git@2e2a3ea5a62963b8aada26557aa38696384aff02#egg=cu2qu
