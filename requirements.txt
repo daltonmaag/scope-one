@@ -14,7 +14,7 @@
 -e git+https://github.com/daltonmaag/ufoNormalizer.git#egg=ufonormalizer
 
 # ufo2fdk (from python3-ufo3 branch on DaMa fork)
--e git+https://github.com/daltonmaag/ufo2fdk.git@0a57f2474ff65d5877b28bd063a249bee1a18ec6#egg=ufo2fdk
+-e git+https://github.com/daltonmaag/ufo2fdk.git@76e8516744e2b8738477335924453ef8a4a96f83#egg=ufo2fdk
 
 # ufo2ft (from ufo2ft-dama branch on DaMa fork)
 -e git+https://github.com/daltonmaag/ufo2fdk.git@17ffa040debe6b2071a0f34a081802feace70eb4#egg=ufo2ft
