@@ -1,0 +1,503 @@
+/* --- stylesheet.css --- */
+
+/* --- WebFonts --- */
+
+@font-face {
+	font-family: ScopeOne;
+	font-weight: 400;
+	src: url(http://static.daltonmaag.com/opensource/ScopeOne_Rg.eot?#iefix;) format("embedded-opentype");
+	src: url(http://static.daltonmaag.com/opensource/ScopeOne_Rg.eot) format("embedded-opentype"),
+		url(http://static.daltonmaag.com/opensource/ScopeOne_Rg.woff) format("woff"),
+		url(http://static.daltonmaag.com/opensource/ScopeOne_Rg.woff2) format("woff2");
+	}
+
+/* --- Semantic Elements --- */
+
+section {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+h3{
+	font-family: ScopeOne;
+	font-weight: 400;
+	width: 960px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-family: ScopeOne;
+	font-weight: 400;
+	width: 960px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	margin: auto;
+}
+
+h5 {
+	font-family: ScopeOne;
+	font-weight: 400;
+	width: 960px;
+	padding-left: 10px;
+	margin: auto;
+	}
+
+nav {
+	font-family: ScopeOne;
+	font-weight: 400;
+	font-feature-settings: "kern" 1, "liga" 1,;
+	-moz-font-feature-settings: "kern" 1, "liga" 1,;
+	-webkit-font-feature-settings: "kern" 1, "liga" 1,;
+	-ms-font-feature-settings: "kern" 1, "liga" 1,;
+	-o-font-feature-settings: "kern" 1, "liga" 1,;
+	color: white;
+	padding-top: 10px;
+	width: 960px;
+	position: fixed;
+	margin: 0 0 0 -480px;
+	left: 50%;
+	background-color: #CBC9CF;
+}
+
+li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+a:hover {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.navbar-title {
+	float: left;
+	margin: auto;
+}
+
+.navbar-nav {
+	margin: auto;
+}
+
+p {
+	font-family: ScopeOne;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.5em;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* --- Headings --- */
+
+#subHeadings{
+	font-family: ScopeOne;
+	font-weight: 400;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: left;
+}
+
+#logo {
+	text-decoration: none;
+	color: white;
+}
+
+#logo:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#navElements{
+	padding-bottom: 15px;
+	float: right;
+}
+
+/* --- Sections --- */
+
+.SpaceTop {
+	margin-bottom: 60px;
+}
+
+.section {
+	padding-top: 10px;
+}
+
+.section:target {
+	padding-top: 80px;
+}
+
+.CharSupport:before, .CharSupport:after {
+	content: "";
+	display: block;
+}
+
+.CharSupport:after {
+	clear: both;
+}
+
+.CharSupport {
+	zoom:1;
+	padding-top: 10px;
+	margin: auto;
+	width: 960px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-spacing: 20px;
+}
+
+.sectionIntro {
+	width: 900px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.sectionLeft {
+	width: 450px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.sectionRight {
+	width: 450px;
+	float: right;
+	padding-bottom: 10px;
+}
+
+.sectionRastr {
+	width: 900px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.sectionMargin {
+	width: 100px;
+	margin-left: -110px;
+	float: left;
+	}
+
+.sectionFullWidth {
+	padding-top: 10px;
+	float: left;
+	}
+
+.sectionLanguages {
+	font-feature-settings: "locl" 1, "kern" 1;
+	-moz-font-feature-settings: "locl" 1, "kern" 1;
+	-webkit-font-feature-settings: "locl" 1, "kern" 1;
+	-ms-font-feature-settings: "locl" 1, "kern" 1;
+	-o-font-feature-settings: "locl" 1, "kern" 1;
+}
+
+p.languages {
+	font-size: 20px;
+}
+
+p.p1 {
+	font-size: 12px;
+	text-align: left;
+}
+/*.waterfall p span{
+	font-family: ScopeOne;
+	font-weight: 400;
+	font-size: 12px;
+	float: left;
+	margin-left: -92px;
+	margin-right: 0;
+	margin-top: 5px;
+	text-align: right;
+}*/
+
+/*
+p.margin32 { padding-top: 28px;}
+p.margin28 { padding-top: 316px;}
+p.margin24 { padding-top: 274px;}
+p.margin20 { padding-top: 198px;}
+p.margin18 { padding-top: 132px;}
+p.margin17 { padding-top: 115px;}
+p.margin16 { padding-top: 108px;}
+p.margin15 { padding-top: 100px;}
+p.margin14 { padding-top: 93px;}
+*/
+p.p3 {
+	font-size: 36px;
+	line-height: 1.2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p.paraTest48 {font-size: 48px}
+p.paraTest40 {font-size: 40px}
+p.paraTest32 {font-size: 32px}
+p.paraTest28 {font-size: 28px}
+p.paraTest24 {font-size: 24px}
+p.paraTest20 {font-size: 20px}
+p.paraTest18 {font-size: 18px}
+p.paraTest17 {font-size: 17px}
+p.paraTest16 {font-size: 16px}
+p.paraTest15 {font-size: 15px}
+p.paraTest14 {font-size: 14px}
+
+p.rawText {
+	font-size: 20px;
+	font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+	-moz-font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+	-webkit-font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+	-ms-font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+	-o-font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+}
+
+p.shapedTextFractions {
+	font-feature-settings: "frac" 1;
+	-moz-font-feature-settings: "frac" 1;
+	-webkit-font-feature-settings: "frac" 1;
+	-ms-font-feature-settings: "frac" 1;
+	-o-font-feature-settings: "frac" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextNumerators {
+	font-feature-settings: "numr" 1;
+	-moz-font-feature-settings: "numr" 1;
+	-webkit-font-feature-settings: "numr" 1;
+	-ms-font-feature-settings: "numr" 1;
+	-o-font-feature-settings: "numr" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextDenominators {
+	font-feature-settings: "dnom" 1;
+	-moz-font-feature-settings: "dnom" 1;
+	-webkit-font-feature-settings: "dnom" 1;
+	-ms-font-feature-settings: "dnom" 1;
+	-o-font-feature-settings: "dnom" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextSuperscript {
+	font-feature-settings: "sups" 1;
+	-moz-font-feature-settings: "sups" 1;
+	-webkit-font-feature-settings: "sups" 1;
+	-ms-font-feature-settings: "sups" 1;
+	-o-font-feature-settings: "sups" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextSubscript {
+	font-feature-settings: "subs" 1;
+	-moz-font-feature-settings: "subs" 1;
+	-webkit-font-feature-settings: "subs" 1;
+	-ms-font-feature-settings: "subs" 1;
+	-o-font-feature-settings: "subs" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextSInferiors {
+	font-feature-settings: "sinf" 1;
+	-moz-font-feature-settings: "sinf" 1;
+	-webkit-font-feature-settings: "sinf" 1;
+	-ms-font-feature-settings: "sinf" 1;
+	-o-font-feature-settings: "sinf" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextTnumLnum {
+	font-feature-settings: "tnum" 1, "lnum" 1;
+	-moz-font-feature-settings: "tnum" 1, "lnum" 1;
+	-webkit-font-feature-settings: "tnum" 1, "lnum" 1;
+	-ms-font-feature-settings: "tnum" 1, "lnum" 1;
+	-o-font-feature-settings: "tnum" 1, "lnum" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextTnumOnum {
+	font-feature-settings: "tnum" 1, "onum" 1;
+	-moz-font-feature-settings: "tnum" 1, "onum" 1;
+	-webkit-font-feature-settings: "tnum" 1, "onum" 1;
+	-ms-font-feature-settings: "tnum" 1, "onum" 1;
+	-o-font-feature-settings: "tnum" 1, "onum" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextPnumLnum {
+	font-feature-settings: "pnum" 1, "lnum" 1, "kern" 0;
+	-moz-font-feature-settings: "pnum" 1, "lnum" 1, "kern" 0;
+	-webkit-font-feature-settings: "tpum" 1, "olum" 1, "kern" 0;
+	-ms-font-feature-settings: "pnum" 1, "lnum" 1, "kern" 0;
+	-o-font-feature-settings: "pnum" 1, "lnum" 1, "kern" 0;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextPnumOnum {
+	font-feature-settings: "pnum" 1, "onum" 1;
+	-moz-font-feature-settings: "pnum" 1, "onum" 1;
+	-webkit-font-feature-settings: "pnum" 1, "onum" 1;
+	-ms-font-feature-settings: "pnum" 1, "onum" 1;
+	-o-font-feature-settings: "pnum" 1, "onum" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+/*p.shapedTextSlashedZero {
+	-webkit-font-feature-settings: "zero" 1;
+	font-size: 20px;
+
+	}*/
+
+p.shapedTextStandardLigs {
+	font-feature-settings: "liga" 1;
+	-moz-font-feature-settings: "liga" 1;
+	-webkit-font-feature-settings: "liga" 1;
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+/*p.shapedTextDiscreationaryLigs {
+	-webkit-font-feature-settings: "dlig" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextContextualAlts {
+	font-feature-settings: "calt" 1;
+	-moz-font-feature-settings: "calt" 1;
+	-webkit-font-feature-settings: "calt" 1;
+	-ms-font-feature-settings: "calt" 1;
+	-o-font-feature-settings: "calt" 1;
+	font-size: 20px;
+	color: red;
+	}*/
+
+p.shapedTextStylisticAlts {
+	font-feature-settings: "salt" 1;
+	-moz-font-feature-settings: "salt" 1;
+	-webkit-font-feature-settings: "salt" 1;
+	-ms-font-feature-settings: "salt" 1;
+	-o-font-feature-settings: "salt" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextOrdinals {
+	font-feature-settings: "ordn" 1;
+	-moz-font-feature-settings: "ordn" 1;
+	-webkit-font-feature-settings: "ordn" 1;
+	-ms-font-feature-settings: "ordn" 1;
+	-o-font-feature-settings: "ordn" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+/*p.shapedTextSS01 {
+	-webkit-font-feature-settings: "ss01" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS02 {
+	-webkit-font-feature-settings: "ss02" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS03 {
+	-webkit-font-feature-settings: "ss03" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS04 {
+	-webkit-font-feature-settings: "ss04" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS05 {
+	-webkit-font-feature-settings: "ss05" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS06 {
+	-webkit-font-feature-settings: "ss06" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS07 {
+	-webkit-font-feature-settings: "ss07" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS08 {
+	-webkit-font-feature-settings: "ss08" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS10 {
+	-webkit-font-feature-settings: "ss10" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSS11 {
+	-webkit-font-feature-settings: "ss11" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextC2SmallCaps {
+	-webkit-font-feature-settings: "c2sc" 1;
+	font-size: 20px;
+	}
+
+p.shapedTextSmallCaps {
+	-webkit-font-feature-settings: "smcp" 1;
+	font-size: 20px;
+	}
+*/
+p.shapedTextKerning {
+	font-feature-settings: "kern" 1;
+	-moz-font-feature-settings: "kern" 1;
+	-webkit-font-feature-settings: "kern" 1;
+	-ms-font-feature-settings: "kern" 1;
+	-o-font-feature-settings: "kern" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextLocl {
+	font-feature-settings: "locl" 1, "kern" 1;
+	-moz-font-feature-settings: "locl" 1, "kern" 1;
+	-webkit-font-feature-settings: "locl" 1, "kern" 1;
+	-ms-font-feature-settings: "locl" 1, "kern" 1;
+	-o-font-feature-settings: "locl" 1, "kern" 1;
+	font-size: 20px;
+	color: red;
+	}
+
+p.shapedTextCase{
+	font-feature-settings: "case" 1;
+	-moz-font-feature-settings: "case" 1;
+	-webkit-font-feature-settings: "case" 1;
+	-ms-font-feature-settings: "case" 1;
+	-o-font-feature-settings: "case" 1;
+	font-size: 20px;
+	color: red;
+	}
