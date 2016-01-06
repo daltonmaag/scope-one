@@ -224,7 +224,7 @@ def parse_options(args):
                 not os.path.exists(os.path.join(ufopath, 'metainfo.plist'))):
             parser.error('Invalid UFO font: "%s"' % ufopath)
     if not options.formats:
-        # default to TTF/OTF output
+        # default to TTF/OTF output
         options.formats = ['ttf']
     else:
         # prune duplicate format entries
