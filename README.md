@@ -27,7 +27,7 @@ tools - build and test scripts
 
 - AFDKO (latest)
 - Python 3.3+
-- ttfautohint
+- ttfautohint 1.4.1
 - Harfbuzz (for testing only)
 
 Make sure all the requirements are in your PATH.
