@@ -23,4 +23,4 @@
 -e git+https://github.com/daltonmaag/robofab.git@48337cb8f734c88c13574c1f121e33ce6ff1f6d7#egg=robofab
 
 # feaTools (from py23 branch on DaMa fork)
--e git+https://github.com/daltonmaag/feaTools.git@98aae9d5d8f6748aaf9e80198b43bae7bed9c78b#egg=feaTools
+-e git+https://github.com/daltonmaag/feaTools.git@ccabd8f3b8f63368783fd19e97dddbcbf461bbcc#egg=feaTools
