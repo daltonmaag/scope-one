@@ -68,7 +68,7 @@
 				<array>
 					<dict>
 						<key>angle</key>
-						<real>0</real>
+						<integer>0</integer>
 						<key>position</key>
 						<integer>233</integer>
 					</dict>

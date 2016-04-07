@@ -107,19 +107,19 @@
 				<array>
 					<dict>
 						<key>angle</key>
-						<real>0</real>
+						<integer>0</integer>
 						<key>position</key>
 						<integer>244</integer>
 					</dict>
 					<dict>
 						<key>angle</key>
-						<real>0</real>
+						<integer>0</integer>
 						<key>position</key>
 						<integer>413</integer>
 					</dict>
 					<dict>
 						<key>angle</key>
-						<real>0</real>
+						<integer>0</integer>
 						<key>position</key>
 						<integer>374</integer>
 					</dict>
