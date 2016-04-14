@@ -13,7 +13,7 @@
 		<key>familyName</key>
 		<string>Scope One</string>
 		<key>italicAngle</key>
-		<real>0</real>
+		<integer>0</integer>
 		<key>macintoshFONDFamilyID</key>
 		<integer>128</integer>
 		<key>macintoshFONDName</key>
@@ -164,7 +164,7 @@
 			<integer>0</integer>
 		</array>
 		<key>postscriptSlantAngle</key>
-		<real>0</real>
+		<integer>0</integer>
 		<key>postscriptStemSnapH</key>
 		<array>
 		</array>
