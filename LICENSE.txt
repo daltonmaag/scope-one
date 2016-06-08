@@ -1,5 +1,4 @@
-Copyright (c) 2015 Dalton Maag Ltd (info@daltonmaag.com),
-with Reserved Font Name Scope.
+Copyright (c) 2015 Dalton Maag Ltd (info@daltonmaag.com)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
