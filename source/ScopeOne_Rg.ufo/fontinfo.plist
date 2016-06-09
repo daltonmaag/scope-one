@@ -12,6 +12,57 @@
 		<integer>-185</integer>
 		<key>familyName</key>
 		<string>Scope One</string>
+		<key>guidelines</key>
+		<array>
+			<dict>
+				<key>y</key>
+				<integer>-10</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>510</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>655</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>680</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>980</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>980</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>981</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>981</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>984</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>989</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>1833</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>1839</integer>
+			</dict>
+		</array>
 		<key>italicAngle</key>
 		<integer>0</integer>
 		<key>macintoshFONDFamilyID</key>
@@ -199,56 +250,5 @@
 		<integer>500</integer>
 		<key>year</key>
 		<integer>2015</integer>
-		<key>guidelines</key>
-		<array>
-			<dict>
-				<key>y</key>
-				<integer>-10</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>510</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>655</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>680</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>980</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>980</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>981</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>981</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>984</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>989</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>1833</integer>
-			</dict>
-			<dict>
-				<key>y</key>
-				<integer>1839</integer>
-			</dict>
-		</array>
 	</dict>
 </plist>
