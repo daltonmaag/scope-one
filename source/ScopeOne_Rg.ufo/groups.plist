@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>@MMK_L_LAT_A_UC_1ST</key>
+		<key>public.kern1.LAT_A_UC_1ST</key>
 		<array>
 			<string>A</string>
 			<string>Aogonek</string>
@@ -15,11 +15,11 @@
 			<string>Abreve</string>
 			<string>Aring</string>
 		</array>
-		<key>@MMK_L_LAT_B_UC_1ST</key>
+		<key>public.kern1.LAT_B_UC_1ST</key>
 		<array>
 			<string>B</string>
 		</array>
-		<key>@MMK_L_LAT_C_UC_1ST</key>
+		<key>public.kern1.LAT_C_UC_1ST</key>
 		<array>
 			<string>C</string>
 			<string>Ccedilla</string>
@@ -27,7 +27,7 @@
 			<string>Ccaron</string>
 			<string>Cdotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_E_UC_1ST</key>
+		<key>public.kern1.LAT_E_UC_1ST</key>
 		<array>
 			<string>E</string>
 			<string>Eogonek</string>
@@ -41,22 +41,22 @@
 			<string>AE</string>
 			<string>OE</string>
 		</array>
-		<key>@MMK_L_LAT_F_UC_1ST</key>
+		<key>public.kern1.LAT_F_UC_1ST</key>
 		<array>
 			<string>F</string>
 		</array>
-		<key>@MMK_L_LAT_G_UC_1ST</key>
+		<key>public.kern1.LAT_G_UC_1ST</key>
 		<array>
 			<string>G</string>
 			<string>Gcommabelow</string>
 			<string>Gbreve</string>
 			<string>Gdotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_Germandbls_UC_1ST</key>
+		<key>public.kern1.LAT_Germandbls_UC_1ST</key>
 		<array>
 			<string>Germandbls</string>
 		</array>
-		<key>@MMK_L_LAT_H_UC_1ST</key>
+		<key>public.kern1.LAT_H_UC_1ST</key>
 		<array>
 			<string>H</string>
 			<string>M</string>
@@ -71,18 +71,18 @@
 			<string>Idieresis</string>
 			<string>Idotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_J_UC_1ST</key>
+		<key>public.kern1.LAT_J_UC_1ST</key>
 		<array>
 			<string>J</string>
 			<string>IJ</string>
 			<string>IJacute</string>
 		</array>
-		<key>@MMK_L_LAT_K_UC_1ST</key>
+		<key>public.kern1.LAT_K_UC_1ST</key>
 		<array>
 			<string>K</string>
 			<string>Kcommabelow</string>
 		</array>
-		<key>@MMK_L_LAT_L_UC_1ST</key>
+		<key>public.kern1.LAT_L_UC_1ST</key>
 		<array>
 			<string>L</string>
 			<string>Lcommabelow</string>
@@ -90,7 +90,7 @@
 			<string>Lcaron</string>
 			<string>Lslash</string>
 		</array>
-		<key>@MMK_L_LAT_N_UC_1ST</key>
+		<key>public.kern1.LAT_N_UC_1ST</key>
 		<array>
 			<string>N</string>
 			<string>Ncommabelow</string>
@@ -98,7 +98,7 @@
 			<string>Ntilde</string>
 			<string>Ncaron</string>
 		</array>
-		<key>@MMK_L_LAT_O_UC_1ST</key>
+		<key>public.kern1.LAT_O_UC_1ST</key>
 		<array>
 			<string>O</string>
 			<string>Q</string>
@@ -115,17 +115,17 @@
 			<string>Dcroat</string>
 			<string>Dcaron</string>
 		</array>
-		<key>@MMK_L_LAT_P_UC_1ST</key>
+		<key>public.kern1.LAT_P_UC_1ST</key>
 		<array>
 			<string>P</string>
 		</array>
-		<key>@MMK_L_LAT_R_UC_1ST</key>
+		<key>public.kern1.LAT_R_UC_1ST</key>
 		<array>
 			<string>R</string>
 			<string>Racute</string>
 			<string>Rcaron</string>
 		</array>
-		<key>@MMK_L_LAT_S_UC_1ST</key>
+		<key>public.kern1.LAT_S_UC_1ST</key>
 		<array>
 			<string>S</string>
 			<string>Scedilla</string>
@@ -133,18 +133,18 @@
 			<string>Sacute</string>
 			<string>Scaron</string>
 		</array>
-		<key>@MMK_L_LAT_T_UC_1ST</key>
+		<key>public.kern1.LAT_T_UC_1ST</key>
 		<array>
 			<string>T</string>
 			<string>Tcedilla</string>
 			<string>Tcommabelow</string>
 			<string>Tcaron</string>
 		</array>
-		<key>@MMK_L_LAT_Thorn_UC_1ST</key>
+		<key>public.kern1.LAT_Thorn_UC_1ST</key>
 		<array>
 			<string>Thorn</string>
 		</array>
-		<key>@MMK_L_LAT_U_UC_1ST</key>
+		<key>public.kern1.LAT_U_UC_1ST</key>
 		<array>
 			<string>U</string>
 			<string>Uacute</string>
@@ -157,11 +157,11 @@
 			<string>Uring</string>
 			<string>Uogonek</string>
 		</array>
-		<key>@MMK_L_LAT_V_UC_1ST</key>
+		<key>public.kern1.LAT_V_UC_1ST</key>
 		<array>
 			<string>V</string>
 		</array>
-		<key>@MMK_L_LAT_W_UC_1ST</key>
+		<key>public.kern1.LAT_W_UC_1ST</key>
 		<array>
 			<string>W</string>
 			<string>Wacute</string>
@@ -169,11 +169,11 @@
 			<string>Wcircumflex</string>
 			<string>Wdieresis</string>
 		</array>
-		<key>@MMK_L_LAT_X_UC_1ST</key>
+		<key>public.kern1.LAT_X_UC_1ST</key>
 		<array>
 			<string>X</string>
 		</array>
-		<key>@MMK_L_LAT_Y_UC_1ST</key>
+		<key>public.kern1.LAT_Y_UC_1ST</key>
 		<array>
 			<string>Y</string>
 			<string>Yacute</string>
@@ -181,14 +181,14 @@
 			<string>Ycircumflex</string>
 			<string>Ydieresis</string>
 		</array>
-		<key>@MMK_L_LAT_Z_UC_1ST</key>
+		<key>public.kern1.LAT_Z_UC_1ST</key>
 		<array>
 			<string>Z</string>
 			<string>Zacute</string>
 			<string>Zcaron</string>
 			<string>Zdotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_c_LC_1ST</key>
+		<key>public.kern1.LAT_c_LC_1ST</key>
 		<array>
 			<string>c</string>
 			<string>ccedilla</string>
@@ -196,7 +196,7 @@
 			<string>ccaron</string>
 			<string>cdotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_d_LC_1ST</key>
+		<key>public.kern1.LAT_d_LC_1ST</key>
 		<array>
 			<string>d</string>
 			<string>dcroat</string>
@@ -211,16 +211,16 @@
 			<string>fl</string>
 			<string>lslash</string>
 		</array>
-		<key>@MMK_L_LAT_dcaron_LC_1ST</key>
+		<key>public.kern1.LAT_dcaron_LC_1ST</key>
 		<array>
 			<string>dcaron</string>
 			<string>lcaron</string>
 		</array>
-		<key>@MMK_L_LAT_dotlessj_LC_1ST</key>
+		<key>public.kern1.LAT_dotlessj_LC_1ST</key>
 		<array>
 			<string>dotlessj</string>
 		</array>
-		<key>@MMK_L_LAT_e_LC_1ST</key>
+		<key>public.kern1.LAT_e_LC_1ST</key>
 		<array>
 			<string>e</string>
 			<string>eogonek</string>
@@ -234,42 +234,42 @@
 			<string>ae</string>
 			<string>oe</string>
 		</array>
-		<key>@MMK_L_LAT_f_LC_1ST</key>
+		<key>public.kern1.LAT_f_LC_1ST</key>
 		<array>
 			<string>f</string>
 			<string>longs</string>
 		</array>
-		<key>@MMK_L_LAT_g_LC_1ST</key>
+		<key>public.kern1.LAT_g_LC_1ST</key>
 		<array>
 			<string>g</string>
 			<string>gcommaabove</string>
 			<string>gbreve</string>
 			<string>gdotaccent</string>
 		</array>
-		<key>@MMK_L_LAT_germandbls_LC_1ST</key>
+		<key>public.kern1.LAT_germandbls_LC_1ST</key>
 		<array>
 			<string>germandbls</string>
 		</array>
-		<key>@MMK_L_LAT_idieresis_LC_1ST</key>
+		<key>public.kern1.LAT_idieresis_LC_1ST</key>
 		<array>
 			<string>idieresis</string>
 			<string>icircumflex</string>
 			<string>itilde</string>
 			<string>imacron</string>
 		</array>
-		<key>@MMK_L_LAT_j_LC_1ST</key>
+		<key>public.kern1.LAT_j_LC_1ST</key>
 		<array>
 			<string>j</string>
 			<string>ij</string>
 			<string>ijacute</string>
 		</array>
-		<key>@MMK_L_LAT_k_LC_1ST</key>
+		<key>public.kern1.LAT_k_LC_1ST</key>
 		<array>
 			<string>k</string>
 			<string>kcommabelow</string>
 			<string>kgreenlandic</string>
 		</array>
-		<key>@MMK_L_LAT_n_LC_1ST</key>
+		<key>public.kern1.LAT_n_LC_1ST</key>
 		<array>
 			<string>n</string>
 			<string>m</string>
@@ -290,7 +290,7 @@
 			<string>abreve</string>
 			<string>aring</string>
 		</array>
-		<key>@MMK_L_LAT_o_LC_1ST</key>
+		<key>public.kern1.LAT_o_LC_1ST</key>
 		<array>
 			<string>o</string>
 			<string>eth</string>
@@ -306,17 +306,17 @@
 			<string>p</string>
 			<string>thorn</string>
 		</array>
-		<key>@MMK_L_LAT_q_LC_1ST</key>
+		<key>public.kern1.LAT_q_LC_1ST</key>
 		<array>
 			<string>q</string>
 		</array>
-		<key>@MMK_L_LAT_r_LC_1ST</key>
+		<key>public.kern1.LAT_r_LC_1ST</key>
 		<array>
 			<string>r</string>
 			<string>racute</string>
 			<string>rcaron</string>
 		</array>
-		<key>@MMK_L_LAT_s_LC_1ST</key>
+		<key>public.kern1.LAT_s_LC_1ST</key>
 		<array>
 			<string>s</string>
 			<string>scedilla</string>
@@ -324,14 +324,14 @@
 			<string>sacute</string>
 			<string>scaron</string>
 		</array>
-		<key>@MMK_L_LAT_t_LC_1ST</key>
+		<key>public.kern1.LAT_t_LC_1ST</key>
 		<array>
 			<string>t</string>
 			<string>tcedilla</string>
 			<string>tcommabelow</string>
 			<string>tcaron</string>
 		</array>
-		<key>@MMK_L_LAT_u_LC_1ST</key>
+		<key>public.kern1.LAT_u_LC_1ST</key>
 		<array>
 			<string>u</string>
 			<string>uogonek</string>
@@ -345,7 +345,7 @@
 			<string>uring</string>
 			<string>dotlessi</string>
 		</array>
-		<key>@MMK_L_LAT_v_LC_1ST</key>
+		<key>public.kern1.LAT_v_LC_1ST</key>
 		<array>
 			<string>v</string>
 			<string>y</string>
@@ -354,7 +354,7 @@
 			<string>ycircumflex</string>
 			<string>ydieresis</string>
 		</array>
-		<key>@MMK_L_LAT_w_LC_1ST</key>
+		<key>public.kern1.LAT_w_LC_1ST</key>
 		<array>
 			<string>w</string>
 			<string>wacute</string>
@@ -362,206 +362,206 @@
 			<string>wcircumflex</string>
 			<string>wdieresis</string>
 		</array>
-		<key>@MMK_L_LAT_x_LC_1ST</key>
+		<key>public.kern1.LAT_x_LC_1ST</key>
 		<array>
 			<string>x</string>
 		</array>
-		<key>@MMK_L_LAT_z_LC_1ST</key>
+		<key>public.kern1.LAT_z_LC_1ST</key>
 		<array>
 			<string>z</string>
 			<string>zacute</string>
 			<string>zcaron</string>
 			<string>zdotaccent</string>
 		</array>
-		<key>@MMK_L_NUM_eight.onum_1ST</key>
+		<key>public.kern1.NUM_eight.onum_1ST</key>
 		<array>
 			<string>eight.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_eight_1ST</key>
+		<key>public.kern1.NUM_eight_1ST</key>
 		<array>
 			<string>eight</string>
 		</array>
-		<key>@MMK_L_NUM_five.onum_1ST</key>
+		<key>public.kern1.NUM_five.onum_1ST</key>
 		<array>
 			<string>five.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_five_1ST</key>
+		<key>public.kern1.NUM_five_1ST</key>
 		<array>
 			<string>five</string>
 		</array>
-		<key>@MMK_L_NUM_four.onum_1ST</key>
+		<key>public.kern1.NUM_four.onum_1ST</key>
 		<array>
 			<string>four.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_four_1ST</key>
+		<key>public.kern1.NUM_four_1ST</key>
 		<array>
 			<string>four</string>
 		</array>
-		<key>@MMK_L_NUM_nine.onum_1ST</key>
+		<key>public.kern1.NUM_nine.onum_1ST</key>
 		<array>
 			<string>nine.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_nine_1ST</key>
+		<key>public.kern1.NUM_nine_1ST</key>
 		<array>
 			<string>nine</string>
 		</array>
-		<key>@MMK_L_NUM_one.onum_1ST</key>
+		<key>public.kern1.NUM_one.onum_1ST</key>
 		<array>
 			<string>one.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_one_1ST</key>
+		<key>public.kern1.NUM_one_1ST</key>
 		<array>
 			<string>one</string>
 		</array>
-		<key>@MMK_L_NUM_seven.onum_1ST</key>
+		<key>public.kern1.NUM_seven.onum_1ST</key>
 		<array>
 			<string>seven.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_seven_1ST</key>
+		<key>public.kern1.NUM_seven_1ST</key>
 		<array>
 			<string>seven</string>
 		</array>
-		<key>@MMK_L_NUM_six.onum_1ST</key>
+		<key>public.kern1.NUM_six.onum_1ST</key>
 		<array>
 			<string>six.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_six_1ST</key>
+		<key>public.kern1.NUM_six_1ST</key>
 		<array>
 			<string>six</string>
 		</array>
-		<key>@MMK_L_NUM_three.onum_1ST</key>
+		<key>public.kern1.NUM_three.onum_1ST</key>
 		<array>
 			<string>three.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_three_1ST</key>
+		<key>public.kern1.NUM_three_1ST</key>
 		<array>
 			<string>three</string>
 		</array>
-		<key>@MMK_L_NUM_two.onum_1ST</key>
+		<key>public.kern1.NUM_two.onum_1ST</key>
 		<array>
 			<string>two.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_two_1ST</key>
+		<key>public.kern1.NUM_two_1ST</key>
 		<array>
 			<string>two</string>
 		</array>
-		<key>@MMK_L_NUM_zero.onum_1ST</key>
+		<key>public.kern1.NUM_zero.onum_1ST</key>
 		<array>
 			<string>zero.pnum.onum</string>
 		</array>
-		<key>@MMK_L_NUM_zero_1ST</key>
+		<key>public.kern1.NUM_zero_1ST</key>
 		<array>
 			<string>zero</string>
 		</array>
-		<key>@MMK_L_PUNCT__periodcentered_1ST</key>
+		<key>public.kern1.PUNCT__periodcentered_1ST</key>
 		<array>
 			<string>periodcentered.loclCAT.cap</string>
 		</array>
-		<key>@MMK_L_PUNCT_ampersand_1ST</key>
+		<key>public.kern1.PUNCT_ampersand_1ST</key>
 		<array>
 			<string>ampersand</string>
 		</array>
-		<key>@MMK_L_PUNCT_asterisk_1ST</key>
+		<key>public.kern1.PUNCT_asterisk_1ST</key>
 		<array>
 			<string>asterisk</string>
 		</array>
-		<key>@MMK_L_PUNCT_at_1ST</key>
+		<key>public.kern1.PUNCT_at_1ST</key>
 		<array>
 			<string>at</string>
 			<string>at.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_austral_1ST</key>
+		<key>public.kern1.PUNCT_austral_1ST</key>
 		<array>
 			<string>austral</string>
 		</array>
-		<key>@MMK_L_PUNCT_backslash_1ST</key>
+		<key>public.kern1.PUNCT_backslash_1ST</key>
 		<array>
 			<string>backslash</string>
 			<string>backslash.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_bitcoin_1ST</key>
+		<key>public.kern1.PUNCT_bitcoin_1ST</key>
 		<array>
 			<string>bitcoin</string>
 		</array>
-		<key>@MMK_L_PUNCT_cent_1ST</key>
+		<key>public.kern1.PUNCT_cent_1ST</key>
 		<array>
 			<string>cent</string>
 		</array>
-		<key>@MMK_L_PUNCT_colon_1ST</key>
+		<key>public.kern1.PUNCT_colon_1ST</key>
 		<array>
 			<string>colon</string>
 			<string>semicolon</string>
 		</array>
-		<key>@MMK_L_PUNCT_colonmonetary_1ST</key>
+		<key>public.kern1.PUNCT_colonmonetary_1ST</key>
 		<array>
 			<string>colonmonetary</string>
 			<string>Euro</string>
 			<string>cedi</string>
 			<string>cruzeiro</string>
 		</array>
-		<key>@MMK_L_PUNCT_currency_1ST</key>
+		<key>public.kern1.PUNCT_currency_1ST</key>
 		<array>
 			<string>currency</string>
 		</array>
-		<key>@MMK_L_PUNCT_degree_1ST</key>
+		<key>public.kern1.PUNCT_degree_1ST</key>
 		<array>
 			<string>degree</string>
 		</array>
-		<key>@MMK_L_PUNCT_dollar_1ST</key>
+		<key>public.kern1.PUNCT_dollar_1ST</key>
 		<array>
 			<string>dollar</string>
 		</array>
-		<key>@MMK_L_PUNCT_dong_1ST</key>
+		<key>public.kern1.PUNCT_dong_1ST</key>
 		<array>
 			<string>dong</string>
 		</array>
-		<key>@MMK_L_PUNCT_drachma_1ST</key>
+		<key>public.kern1.PUNCT_drachma_1ST</key>
 		<array>
 			<string>drachma</string>
 		</array>
-		<key>@MMK_L_PUNCT_eucurrency_1ST</key>
+		<key>public.kern1.PUNCT_eucurrency_1ST</key>
 		<array>
 			<string>eucurrency</string>
 		</array>
-		<key>@MMK_L_PUNCT_exclam_1ST</key>
+		<key>public.kern1.PUNCT_exclam_1ST</key>
 		<array>
 			<string>exclam</string>
 		</array>
-		<key>@MMK_L_PUNCT_exclamdown.case_1ST</key>
+		<key>public.kern1.PUNCT_exclamdown.case_1ST</key>
 		<array>
 			<string>exclamdown.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_exclamdown_1ST</key>
+		<key>public.kern1.PUNCT_exclamdown_1ST</key>
 		<array>
 			<string>exclamdown</string>
 		</array>
-		<key>@MMK_L_PUNCT_guarani_1ST</key>
+		<key>public.kern1.PUNCT_guarani_1ST</key>
 		<array>
 			<string>guarani</string>
 		</array>
-		<key>@MMK_L_PUNCT_guilsinglleft_1ST</key>
+		<key>public.kern1.PUNCT_guilsinglleft_1ST</key>
 		<array>
 			<string>guilsinglleft</string>
 			<string>guillemotleft</string>
 			<string>guilsinglleft.case</string>
 			<string>guillemotleft.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_guilsinglright_1ST</key>
+		<key>public.kern1.PUNCT_guilsinglright_1ST</key>
 		<array>
 			<string>guilsinglright</string>
 			<string>guillemotright</string>
 			<string>guilsinglright.case</string>
 			<string>guillemotright.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_hNewsheqel_1ST</key>
+		<key>public.kern1.PUNCT_hNewsheqel_1ST</key>
 		<array>
 			<string>hNewsheqel</string>
 		</array>
-		<key>@MMK_L_PUNCT_hryvnia_1ST</key>
+		<key>public.kern1.PUNCT_hryvnia_1ST</key>
 		<array>
 			<string>hryvnia</string>
 		</array>
-		<key>@MMK_L_PUNCT_hyphen_1ST</key>
+		<key>public.kern1.PUNCT_hyphen_1ST</key>
 		<array>
 			<string>hyphen</string>
 			<string>hyphentwo</string>
@@ -574,23 +574,23 @@
 			<string>endash.case</string>
 			<string>emdash.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_kip_1ST</key>
+		<key>public.kern1.PUNCT_kip_1ST</key>
 		<array>
 			<string>kip</string>
 		</array>
-		<key>@MMK_L_PUNCT_liraturkish_1ST</key>
+		<key>public.kern1.PUNCT_liraturkish_1ST</key>
 		<array>
 			<string>liraturkish</string>
 		</array>
-		<key>@MMK_L_PUNCT_mill_1ST</key>
+		<key>public.kern1.PUNCT_mill_1ST</key>
 		<array>
 			<string>mill</string>
 		</array>
-		<key>@MMK_L_PUNCT_naira_1ST</key>
+		<key>public.kern1.PUNCT_naira_1ST</key>
 		<array>
 			<string>naira</string>
 		</array>
-		<key>@MMK_L_PUNCT_parenleft_1ST</key>
+		<key>public.kern1.PUNCT_parenleft_1ST</key>
 		<array>
 			<string>parenleft</string>
 			<string></string>
@@ -600,7 +600,7 @@
 			<string>bracketleft.case</string>
 			<string>braceleft.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_period_1ST</key>
+		<key>public.kern1.PUNCT_period_1ST</key>
 		<array>
 			<string>period</string>
 			<string>comma</string>
@@ -608,32 +608,32 @@
 			<string>quotesinglbase</string>
 			<string>quotedblbase</string>
 		</array>
-		<key>@MMK_L_PUNCT_peseta_1ST</key>
+		<key>public.kern1.PUNCT_peseta_1ST</key>
 		<array>
 			<string>peseta</string>
 			<string>rupee</string>
 		</array>
-		<key>@MMK_L_PUNCT_peso_1ST</key>
+		<key>public.kern1.PUNCT_peso_1ST</key>
 		<array>
 			<string>peso</string>
 		</array>
-		<key>@MMK_L_PUNCT_pfenning_1ST</key>
+		<key>public.kern1.PUNCT_pfenning_1ST</key>
 		<array>
 			<string>pfennig</string>
 		</array>
-		<key>@MMK_L_PUNCT_question_1ST</key>
+		<key>public.kern1.PUNCT_question_1ST</key>
 		<array>
 			<string>question</string>
 		</array>
-		<key>@MMK_L_PUNCT_questiondown.case_1ST</key>
+		<key>public.kern1.PUNCT_questiondown.case_1ST</key>
 		<array>
 			<string>questiondown.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_questiondown_1ST</key>
+		<key>public.kern1.PUNCT_questiondown_1ST</key>
 		<array>
 			<string>questiondown</string>
 		</array>
-		<key>@MMK_L_PUNCT_quotesingle_1ST</key>
+		<key>public.kern1.PUNCT_quotesingle_1ST</key>
 		<array>
 			<string>quotesingle</string>
 			<string>quotedbl</string>
@@ -642,37 +642,37 @@
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
 		</array>
-		<key>@MMK_L_PUNCT_rupeeindian_1ST</key>
+		<key>public.kern1.PUNCT_rupeeindian_1ST</key>
 		<array>
 			<string>rupeeindian</string>
 		</array>
-		<key>@MMK_L_PUNCT_slash_1ST</key>
+		<key>public.kern1.PUNCT_slash_1ST</key>
 		<array>
 			<string>slash</string>
 			<string>slash.case</string>
 		</array>
-		<key>@MMK_L_PUNCT_sterling_1ST</key>
+		<key>public.kern1.PUNCT_sterling_1ST</key>
 		<array>
 			<string>sterling</string>
 			<string>lira</string>
 		</array>
-		<key>@MMK_L_PUNCT_tugrik_1ST</key>
+		<key>public.kern1.PUNCT_tugrik_1ST</key>
 		<array>
 			<string>tugrik</string>
 		</array>
-		<key>@MMK_L_PUNCT_won_1ST</key>
+		<key>public.kern1.PUNCT_won_1ST</key>
 		<array>
 			<string>won</string>
 		</array>
-		<key>@MMK_L_PUNCT_yen_1ST</key>
+		<key>public.kern1.PUNCT_yen_1ST</key>
 		<array>
 			<string>yen</string>
 		</array>
-		<key>@MMK_R_LAT_AE_UC_2ND</key>
+		<key>public.kern2.LAT_AE_UC_2ND</key>
 		<array>
 			<string>AE</string>
 		</array>
-		<key>@MMK_R_LAT_A_UC_2ND</key>
+		<key>public.kern2.LAT_A_UC_2ND</key>
 		<array>
 			<string>A</string>
 			<string>Aogonek</string>
@@ -685,11 +685,11 @@
 			<string>Abreve</string>
 			<string>Aring</string>
 		</array>
-		<key>@MMK_R_LAT_Germandbls_UC_2ND</key>
+		<key>public.kern2.LAT_Germandbls_UC_2ND</key>
 		<array>
 			<string>Germandbls</string>
 		</array>
-		<key>@MMK_R_LAT_H_UC_2ND</key>
+		<key>public.kern2.LAT_H_UC_2ND</key>
 		<array>
 			<string>H</string>
 			<string>M</string>
@@ -738,11 +738,11 @@
 			<string>IJ</string>
 			<string>IJacute</string>
 		</array>
-		<key>@MMK_R_LAT_J_UC_2ND</key>
+		<key>public.kern2.LAT_J_UC_2ND</key>
 		<array>
 			<string>J</string>
 		</array>
-		<key>@MMK_R_LAT_O_UC_2ND</key>
+		<key>public.kern2.LAT_O_UC_2ND</key>
 		<array>
 			<string>O</string>
 			<string>OE</string>
@@ -765,7 +765,7 @@
 			<string>Cdotaccent</string>
 			<string>Gdotaccent</string>
 		</array>
-		<key>@MMK_R_LAT_S_UC_2ND</key>
+		<key>public.kern2.LAT_S_UC_2ND</key>
 		<array>
 			<string>S</string>
 			<string>Scedilla</string>
@@ -773,14 +773,14 @@
 			<string>Sacute</string>
 			<string>Scaron</string>
 		</array>
-		<key>@MMK_R_LAT_T_UC_2ND</key>
+		<key>public.kern2.LAT_T_UC_2ND</key>
 		<array>
 			<string>T</string>
 			<string>Tcedilla</string>
 			<string>Tcommabelow</string>
 			<string>Tcaron</string>
 		</array>
-		<key>@MMK_R_LAT_U_UC_2ND</key>
+		<key>public.kern2.LAT_U_UC_2ND</key>
 		<array>
 			<string>U</string>
 			<string>Uacute</string>
@@ -793,11 +793,11 @@
 			<string>Uring</string>
 			<string>Uogonek</string>
 		</array>
-		<key>@MMK_R_LAT_V_UC_2ND</key>
+		<key>public.kern2.LAT_V_UC_2ND</key>
 		<array>
 			<string>V</string>
 		</array>
-		<key>@MMK_R_LAT_W_UC_2ND</key>
+		<key>public.kern2.LAT_W_UC_2ND</key>
 		<array>
 			<string>W</string>
 			<string>Wacute</string>
@@ -805,11 +805,11 @@
 			<string>Wcircumflex</string>
 			<string>Wdieresis</string>
 		</array>
-		<key>@MMK_R_LAT_X_UC_2ND</key>
+		<key>public.kern2.LAT_X_UC_2ND</key>
 		<array>
 			<string>X</string>
 		</array>
-		<key>@MMK_R_LAT_Y_UC_2ND</key>
+		<key>public.kern2.LAT_Y_UC_2ND</key>
 		<array>
 			<string>Y</string>
 			<string>Yacute</string>
@@ -817,14 +817,14 @@
 			<string>Ycircumflex</string>
 			<string>Ydieresis</string>
 		</array>
-		<key>@MMK_R_LAT_Z_UC_2ND</key>
+		<key>public.kern2.LAT_Z_UC_2ND</key>
 		<array>
 			<string>Z</string>
 			<string>Zacute</string>
 			<string>Zcaron</string>
 			<string>Zdotaccent</string>
 		</array>
-		<key>@MMK_R_LAT_a_LC_2ND</key>
+		<key>public.kern2.LAT_a_LC_2ND</key>
 		<array>
 			<string>a</string>
 			<string>aogonek</string>
@@ -838,30 +838,30 @@
 			<string>aring</string>
 			<string>ae</string>
 		</array>
-		<key>@MMK_R_LAT_b_LC_2ND</key>
+		<key>public.kern2.LAT_b_LC_2ND</key>
 		<array>
 			<string>b</string>
 			<string>thorn</string>
 		</array>
-		<key>@MMK_R_LAT_f_LC_2ND</key>
+		<key>public.kern2.LAT_f_LC_2ND</key>
 		<array>
 			<string>f</string>
 			<string>fi</string>
 			<string>fl</string>
 		</array>
-		<key>@MMK_R_LAT_g_LC_2ND</key>
+		<key>public.kern2.LAT_g_LC_2ND</key>
 		<array>
 			<string>g</string>
 			<string>gcommaabove</string>
 			<string>gbreve</string>
 			<string>gdotaccent</string>
 		</array>
-		<key>@MMK_R_LAT_germandbls_LC_2ND</key>
+		<key>public.kern2.LAT_germandbls_LC_2ND</key>
 		<array>
 			<string>germandbls</string>
 			<string>longs</string>
 		</array>
-		<key>@MMK_R_LAT_h_LC_2ND</key>
+		<key>public.kern2.LAT_h_LC_2ND</key>
 		<array>
 			<string>h</string>
 			<string>k</string>
@@ -873,7 +873,7 @@
 			<string>lcaron</string>
 			<string>lslash</string>
 		</array>
-		<key>@MMK_R_LAT_i_LC_2ND</key>
+		<key>public.kern2.LAT_i_LC_2ND</key>
 		<array>
 			<string>i</string>
 			<string>ij</string>
@@ -882,18 +882,18 @@
 			<string>ijacute</string>
 			<string>igrave</string>
 		</array>
-		<key>@MMK_R_LAT_idieresis_LC_2ND</key>
+		<key>public.kern2.LAT_idieresis_LC_2ND</key>
 		<array>
 			<string>idieresis</string>
 			<string>icircumflex</string>
 			<string>itilde</string>
 			<string>imacron</string>
 		</array>
-		<key>@MMK_R_LAT_j_LC_2ND</key>
+		<key>public.kern2.LAT_j_LC_2ND</key>
 		<array>
 			<string>j</string>
 		</array>
-		<key>@MMK_R_LAT_n_LC_2ND</key>
+		<key>public.kern2.LAT_n_LC_2ND</key>
 		<array>
 			<string>n</string>
 			<string>m</string>
@@ -908,7 +908,7 @@
 			<string>dotlessi</string>
 			<string>dotlessj</string>
 		</array>
-		<key>@MMK_R_LAT_o_LC_2ND</key>
+		<key>public.kern2.LAT_o_LC_2ND</key>
 		<array>
 			<string>o</string>
 			<string>eth</string>
@@ -940,11 +940,11 @@
 			<string>cdotaccent</string>
 			<string>edotaccent</string>
 		</array>
-		<key>@MMK_R_LAT_p_LC_2ND</key>
+		<key>public.kern2.LAT_p_LC_2ND</key>
 		<array>
 			<string>p</string>
 		</array>
-		<key>@MMK_R_LAT_s_LC_2ND</key>
+		<key>public.kern2.LAT_s_LC_2ND</key>
 		<array>
 			<string>s</string>
 			<string>scedilla</string>
@@ -952,14 +952,14 @@
 			<string>sacute</string>
 			<string>scaron</string>
 		</array>
-		<key>@MMK_R_LAT_t_LC_2ND</key>
+		<key>public.kern2.LAT_t_LC_2ND</key>
 		<array>
 			<string>t</string>
 			<string>tcedilla</string>
 			<string>tcommabelow</string>
 			<string>tcaron</string>
 		</array>
-		<key>@MMK_R_LAT_u_LC_2ND</key>
+		<key>public.kern2.LAT_u_LC_2ND</key>
 		<array>
 			<string>u</string>
 			<string>uogonek</string>
@@ -972,7 +972,7 @@
 			<string>udieresis</string>
 			<string>uring</string>
 		</array>
-		<key>@MMK_R_LAT_v_LC_2ND</key>
+		<key>public.kern2.LAT_v_LC_2ND</key>
 		<array>
 			<string>v</string>
 			<string>y</string>
@@ -981,7 +981,7 @@
 			<string>ycircumflex</string>
 			<string>ydieresis</string>
 		</array>
-		<key>@MMK_R_LAT_w_LC_2ND</key>
+		<key>public.kern2.LAT_w_LC_2ND</key>
 		<array>
 			<string>w</string>
 			<string>wacute</string>
@@ -989,202 +989,202 @@
 			<string>wcircumflex</string>
 			<string>wdieresis</string>
 		</array>
-		<key>@MMK_R_LAT_x_LC_2ND</key>
+		<key>public.kern2.LAT_x_LC_2ND</key>
 		<array>
 			<string>x</string>
 		</array>
-		<key>@MMK_R_LAT_z_LC_2ND</key>
+		<key>public.kern2.LAT_z_LC_2ND</key>
 		<array>
 			<string>z</string>
 			<string>zacute</string>
 			<string>zcaron</string>
 			<string>zdotaccent</string>
 		</array>
-		<key>@MMK_R_NUM_eight.onum_2ND</key>
+		<key>public.kern2.NUM_eight.onum_2ND</key>
 		<array>
 			<string>eight.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_eight_2ND</key>
+		<key>public.kern2.NUM_eight_2ND</key>
 		<array>
 			<string>eight</string>
 		</array>
-		<key>@MMK_R_NUM_five.onum_2ND</key>
+		<key>public.kern2.NUM_five.onum_2ND</key>
 		<array>
 			<string>five.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_five_2ND</key>
+		<key>public.kern2.NUM_five_2ND</key>
 		<array>
 			<string>five</string>
 		</array>
-		<key>@MMK_R_NUM_four.onum_2ND</key>
+		<key>public.kern2.NUM_four.onum_2ND</key>
 		<array>
 			<string>four.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_four_2ND</key>
+		<key>public.kern2.NUM_four_2ND</key>
 		<array>
 			<string>four</string>
 		</array>
-		<key>@MMK_R_NUM_nine.onum_2ND</key>
+		<key>public.kern2.NUM_nine.onum_2ND</key>
 		<array>
 			<string>nine.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_nine_2ND</key>
+		<key>public.kern2.NUM_nine_2ND</key>
 		<array>
 			<string>nine</string>
 		</array>
-		<key>@MMK_R_NUM_one.onum_2ND</key>
+		<key>public.kern2.NUM_one.onum_2ND</key>
 		<array>
 			<string>one.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_one_2ND</key>
+		<key>public.kern2.NUM_one_2ND</key>
 		<array>
 			<string>one</string>
 		</array>
-		<key>@MMK_R_NUM_seven.onum_2ND</key>
+		<key>public.kern2.NUM_seven.onum_2ND</key>
 		<array>
 			<string>seven.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_seven_2ND</key>
+		<key>public.kern2.NUM_seven_2ND</key>
 		<array>
 			<string>seven</string>
 		</array>
-		<key>@MMK_R_NUM_six.onum_2ND</key>
+		<key>public.kern2.NUM_six.onum_2ND</key>
 		<array>
 			<string>six.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_six_2ND</key>
+		<key>public.kern2.NUM_six_2ND</key>
 		<array>
 			<string>six</string>
 		</array>
-		<key>@MMK_R_NUM_three.onum_2ND</key>
+		<key>public.kern2.NUM_three.onum_2ND</key>
 		<array>
 			<string>three.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_three_2ND</key>
+		<key>public.kern2.NUM_three_2ND</key>
 		<array>
 			<string>three</string>
 		</array>
-		<key>@MMK_R_NUM_two.onum_2ND</key>
+		<key>public.kern2.NUM_two.onum_2ND</key>
 		<array>
 			<string>two.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_two_2ND</key>
+		<key>public.kern2.NUM_two_2ND</key>
 		<array>
 			<string>two</string>
 		</array>
-		<key>@MMK_R_NUM_zero.onum_2ND</key>
+		<key>public.kern2.NUM_zero.onum_2ND</key>
 		<array>
 			<string>zero.pnum.onum</string>
 		</array>
-		<key>@MMK_R_NUM_zero_2ND</key>
+		<key>public.kern2.NUM_zero_2ND</key>
 		<array>
 			<string>zero</string>
 		</array>
-		<key>@MMK_R_PUNCT_Euro_2ND</key>
+		<key>public.kern2.PUNCT_Euro_2ND</key>
 		<array>
 			<string>Euro</string>
 		</array>
-		<key>@MMK_R_PUNCT__periodcentered_2ND</key>
+		<key>public.kern2.PUNCT__periodcentered_2ND</key>
 		<array>
 			<string>periodcentered.loclCAT.cap</string>
 		</array>
-		<key>@MMK_R_PUNCT_ampersand_2ND</key>
+		<key>public.kern2.PUNCT_ampersand_2ND</key>
 		<array>
 			<string>ampersand</string>
 		</array>
-		<key>@MMK_R_PUNCT_asterisk_2ND</key>
+		<key>public.kern2.PUNCT_asterisk_2ND</key>
 		<array>
 			<string>asterisk</string>
 		</array>
-		<key>@MMK_R_PUNCT_at_2ND</key>
+		<key>public.kern2.PUNCT_at_2ND</key>
 		<array>
 			<string>at</string>
 			<string>at.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_austral_2ND</key>
+		<key>public.kern2.PUNCT_austral_2ND</key>
 		<array>
 			<string>austral</string>
 		</array>
-		<key>@MMK_R_PUNCT_backslash_2ND</key>
+		<key>public.kern2.PUNCT_backslash_2ND</key>
 		<array>
 			<string>backslash</string>
 			<string>backslash.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_cent_2ND</key>
+		<key>public.kern2.PUNCT_cent_2ND</key>
 		<array>
 			<string>cent</string>
 		</array>
-		<key>@MMK_R_PUNCT_colon_2ND</key>
+		<key>public.kern2.PUNCT_colon_2ND</key>
 		<array>
 			<string>colon</string>
 			<string>semicolon</string>
 		</array>
-		<key>@MMK_R_PUNCT_colonmonetary_2ND</key>
+		<key>public.kern2.PUNCT_colonmonetary_2ND</key>
 		<array>
 			<string>colonmonetary</string>
 			<string>cedi</string>
 			<string>cruzeiro</string>
 			<string>guarani</string>
 		</array>
-		<key>@MMK_R_PUNCT_currency_2ND</key>
+		<key>public.kern2.PUNCT_currency_2ND</key>
 		<array>
 			<string>currency</string>
 		</array>
-		<key>@MMK_R_PUNCT_degree_2ND</key>
+		<key>public.kern2.PUNCT_degree_2ND</key>
 		<array>
 			<string>degree</string>
 		</array>
-		<key>@MMK_R_PUNCT_dollar_2ND</key>
+		<key>public.kern2.PUNCT_dollar_2ND</key>
 		<array>
 			<string>dollar</string>
 		</array>
-		<key>@MMK_R_PUNCT_dong_2ND</key>
+		<key>public.kern2.PUNCT_dong_2ND</key>
 		<array>
 			<string>dong</string>
 		</array>
-		<key>@MMK_R_PUNCT_drachma_2ND</key>
+		<key>public.kern2.PUNCT_drachma_2ND</key>
 		<array>
 			<string>drachma</string>
 		</array>
-		<key>@MMK_R_PUNCT_eucurrency_2ND</key>
+		<key>public.kern2.PUNCT_eucurrency_2ND</key>
 		<array>
 			<string>eucurrency</string>
 		</array>
-		<key>@MMK_R_PUNCT_exclam_2ND</key>
+		<key>public.kern2.PUNCT_exclam_2ND</key>
 		<array>
 			<string>exclam</string>
 		</array>
-		<key>@MMK_R_PUNCT_exclamdown.case_2ND</key>
+		<key>public.kern2.PUNCT_exclamdown.case_2ND</key>
 		<array>
 			<string>exclamdown.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_exclamdown_2ND</key>
+		<key>public.kern2.PUNCT_exclamdown_2ND</key>
 		<array>
 			<string>exclamdown</string>
 		</array>
-		<key>@MMK_R_PUNCT_guilsinglleft_2ND</key>
+		<key>public.kern2.PUNCT_guilsinglleft_2ND</key>
 		<array>
 			<string>guilsinglleft</string>
 			<string>guillemotleft</string>
 			<string>guilsinglleft.case</string>
 			<string>guillemotleft.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_guilsinglright_2ND</key>
+		<key>public.kern2.PUNCT_guilsinglright_2ND</key>
 		<array>
 			<string>guilsinglright</string>
 			<string>guillemotright</string>
 			<string>guilsinglright.case</string>
 			<string>guillemotright.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_hNewsheqel_2ND</key>
+		<key>public.kern2.PUNCT_hNewsheqel_2ND</key>
 		<array>
 			<string>hNewsheqel</string>
 		</array>
-		<key>@MMK_R_PUNCT_hryvnia_2ND</key>
+		<key>public.kern2.PUNCT_hryvnia_2ND</key>
 		<array>
 			<string>hryvnia</string>
 		</array>
-		<key>@MMK_R_PUNCT_hyphen_2ND</key>
+		<key>public.kern2.PUNCT_hyphen_2ND</key>
 		<array>
 			<string>hyphen</string>
 			<string>hyphentwo</string>
@@ -1197,18 +1197,18 @@
 			<string>endash.case</string>
 			<string>emdash.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_mill_2ND</key>
+		<key>public.kern2.PUNCT_mill_2ND</key>
 		<array>
 			<string>mill</string>
 		</array>
-		<key>@MMK_R_PUNCT_naira_2ND</key>
+		<key>public.kern2.PUNCT_naira_2ND</key>
 		<array>
 			<string>naira</string>
 			<string>kip</string>
 			<string>liraturkish</string>
 			<string>peso</string>
 		</array>
-		<key>@MMK_R_PUNCT_parenright_2ND</key>
+		<key>public.kern2.PUNCT_parenright_2ND</key>
 		<array>
 			<string>parenright</string>
 			<string></string>
@@ -1218,7 +1218,7 @@
 			<string>bracketright.case</string>
 			<string>braceright.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_period_2ND</key>
+		<key>public.kern2.PUNCT_period_2ND</key>
 		<array>
 			<string>period</string>
 			<string>comma</string>
@@ -1226,29 +1226,29 @@
 			<string>quotesinglbase</string>
 			<string>quotedblbase</string>
 		</array>
-		<key>@MMK_R_PUNCT_peseta_2ND</key>
+		<key>public.kern2.PUNCT_peseta_2ND</key>
 		<array>
 			<string>peseta</string>
 			<string>rupee</string>
 			<string>bitcoin</string>
 		</array>
-		<key>@MMK_R_PUNCT_pfenning_2ND</key>
+		<key>public.kern2.PUNCT_pfenning_2ND</key>
 		<array>
 			<string>pfennig</string>
 		</array>
-		<key>@MMK_R_PUNCT_question_2ND</key>
+		<key>public.kern2.PUNCT_question_2ND</key>
 		<array>
 			<string>question</string>
 		</array>
-		<key>@MMK_R_PUNCT_questiondown.case_2ND</key>
+		<key>public.kern2.PUNCT_questiondown.case_2ND</key>
 		<array>
 			<string>questiondown.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_questiondown_2ND</key>
+		<key>public.kern2.PUNCT_questiondown_2ND</key>
 		<array>
 			<string>questiondown</string>
 		</array>
-		<key>@MMK_R_PUNCT_quotesingle_2ND</key>
+		<key>public.kern2.PUNCT_quotesingle_2ND</key>
 		<array>
 			<string>quotesingle</string>
 			<string>quotedbl</string>
@@ -1257,29 +1257,29 @@
 			<string>quotedblleft</string>
 			<string>quotedblright</string>
 		</array>
-		<key>@MMK_R_PUNCT_rupeeindian_2ND</key>
+		<key>public.kern2.PUNCT_rupeeindian_2ND</key>
 		<array>
 			<string>rupeeindian</string>
 		</array>
-		<key>@MMK_R_PUNCT_slash_2ND</key>
+		<key>public.kern2.PUNCT_slash_2ND</key>
 		<array>
 			<string>slash</string>
 			<string>slash.case</string>
 		</array>
-		<key>@MMK_R_PUNCT_sterling_2ND</key>
+		<key>public.kern2.PUNCT_sterling_2ND</key>
 		<array>
 			<string>sterling</string>
 			<string>lira</string>
 		</array>
-		<key>@MMK_R_PUNCT_tugrik_2ND</key>
+		<key>public.kern2.PUNCT_tugrik_2ND</key>
 		<array>
 			<string>tugrik</string>
 		</array>
-		<key>@MMK_R_PUNCT_won_2ND</key>
+		<key>public.kern2.PUNCT_won_2ND</key>
 		<array>
 			<string>won</string>
 		</array>
-		<key>@MMK_R_PUNCT_yen_2ND</key>
+		<key>public.kern2.PUNCT_yen_2ND</key>
 		<array>
 			<string>yen</string>
 		</array>
