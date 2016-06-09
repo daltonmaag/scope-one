@@ -90,7 +90,7 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.0234375,0.0,1</string>
+			<string>1,0.0234375,0.0,0.35</string>
 		</dict>
 	</lib>
 </glyph>
