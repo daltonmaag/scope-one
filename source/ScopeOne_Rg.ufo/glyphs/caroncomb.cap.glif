@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caroncomb.cap" format="1">
+<glyph name="caroncomb.cap" format="2">
 	<outline>
 		<contour>
 			<point x="140" y="803" type="line"/>
@@ -19,14 +19,12 @@
 			<point x="14" y="693"/>
 			<point x="20" y="694" type="curve"/>
 		</contour>
-		<contour>
-			<point name="_top.UC" x="0" y="670" type="move"/>
-		</contour>
 	</outline>
+	<anchor name="_top.UC" x="0" y="670"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.0234375,0.0,0.35</string>
+			<string>1,0.0234375,0,0.35</string>
 		</dict>
 	</lib>
 </glyph>

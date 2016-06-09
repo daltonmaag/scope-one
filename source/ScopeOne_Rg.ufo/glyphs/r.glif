@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="r" format="1">
+<glyph name="r" format="2">
 	<unicode hex="0072"/>
 	<advance width="446"/>
 	<outline>
@@ -58,17 +58,13 @@
 			<point x="42" y="5"/>
 			<point x="44" y="0" type="curve"/>
 		</contour>
-		<contour>
-			<point name="top.LC" x="240" y="530" type="move"/>
-		</contour>
-		<contour>
-			<point name="bottom.LC" x="162" y="-20" type="move"/>
-		</contour>
 	</outline>
+	<anchor name="top.LC" x="240" y="530"/>
+	<anchor name="bottom.LC" x="162" y="-20"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.0234375,0.0,0.35</string>
+			<string>1,0.0234375,0,0.35</string>
 		</dict>
 	</lib>
 </glyph>

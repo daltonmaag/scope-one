@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="u" format="1">
+<glyph name="u" format="2">
 	<unicode hex="0075"/>
 	<advance width="606"/>
 	<outline>
@@ -55,20 +55,14 @@
 			<point x="454" y="1"/>
 			<point x="465" y="-5" type="curve"/>
 		</contour>
-		<contour>
-			<point name="top.LC" x="270" y="530" type="move"/>
-		</contour>
-		<contour>
-			<point name="bottom.LC" x="312" y="-20" type="move"/>
-		</contour>
-		<contour>
-			<point name="ogonek.LC" x="546" y="-20" type="move"/>
-		</contour>
 	</outline>
+	<anchor name="top.LC" x="270" y="530"/>
+	<anchor name="bottom.LC" x="312" y="-20"/>
+	<anchor name="ogonek.LC" x="546" y="-20"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.0234375,0.0,0.35</string>
+			<string>1,0.0234375,0,0.35</string>
 		</dict>
 	</lib>
 </glyph>
