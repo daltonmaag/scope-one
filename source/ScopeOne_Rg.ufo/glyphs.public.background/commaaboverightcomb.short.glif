@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaboverightcomb.short" format="1">
+	<outline>
+		<contour>
+			<point x="69" y="567" type="line"/>
+			<point x="74" y="566"/>
+			<point x="80" y="565"/>
+			<point x="89" y="565" type="curve" smooth="yes"/>
+			<point x="94" y="565"/>
+			<point x="103" y="566"/>
+			<point x="106" y="567" type="curve"/>
+			<point x="125" y="723" type="line"/>
+			<point x="116" y="724"/>
+			<point x="104" y="725"/>
+			<point x="97" y="725" type="curve" smooth="yes"/>
+			<point x="90" y="725"/>
+			<point x="78" y="724"/>
+			<point x="69" y="723" type="curve"/>
+		</contour>
+	</outline>
+</glyph>
