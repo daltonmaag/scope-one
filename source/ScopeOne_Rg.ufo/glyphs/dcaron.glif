@@ -8,8 +8,8 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0.0,1</string>
 		</dict>
 	</lib>
 </glyph>
