@@ -5,10 +5,10 @@
 @font-face {
 	font-family: ScopeOne;
 	font-weight: 400;
-	src: url(http://static.daltonmaag.com/opensource/ScopeOne_W_Rg.eot?#iefix;) format("embedded-opentype");
-	src: url(http://static.daltonmaag.com/opensource/ScopeOne_W_Rg.eot) format("embedded-opentype"),
-		url(http://static.daltonmaag.com/opensource/ScopeOne_W_Rg.woff) format("woff"),
-		url(http://static.daltonmaag.com/opensource/ScopeOne_W_Rg.woff2) format("woff2");
+	src: url(https://daltonmaag.com/media/fonts/opensource/ScopeOne_W_Rg.eot?#iefix;) format("embedded-opentype");
+	src: url(https://daltonmaag.com/media/fonts/opensource/ScopeOne_W_Rg.eot) format("embedded-opentype"),
+		url(https://daltonmaag.com/media/fonts/opensource/ScopeOne_W_Rg.woff) format("woff"),
+		url(https://daltonmaag.com/media/fonts/opensource/ScopeOne_W_Rg.woff2) format("woff2");
 	}
 
 /* --- Semantic Elements --- */
