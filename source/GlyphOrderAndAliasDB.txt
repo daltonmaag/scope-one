@@ -1,4 +1,4 @@
-.notdef .notdef 
+.notdef .notdef
 space space uni0020
 period period uni002E
 colon colon uni003A
@@ -11,8 +11,8 @@ exclamdown exclamdown uni00A1
 quotesingle quotesingle uni0027
 quotedbl quotedbl uni0022
 ellipsis ellipsis uni2026
-questiondown.case questiondown.case 
-exclamdown.case exclamdown.case 
+questiondown.case questiondown.case
+exclamdown.case exclamdown.case
 uni00A0 nbspace uni00A0
 uni2000 enquad uni2000
 uni2001 emquad uni2001
@@ -37,36 +37,36 @@ six six uni0036
 seven seven uni0037
 eight eight uni0038
 nine nine uni0039
-zero.pnum.onum zero.pnum.onum 
-one.pnum.onum one.pnum.onum 
-two.pnum.onum two.pnum.onum 
-three.pnum.onum three.pnum.onum 
-four.pnum.onum four.pnum.onum 
-five.pnum.onum five.pnum.onum 
-six.pnum.onum six.pnum.onum 
-seven.pnum.onum seven.pnum.onum 
-eight.pnum.onum eight.pnum.onum 
-nine.pnum.onum nine.pnum.onum 
-zero.tnum.lnum zero.tnum.lnum 
-one.tnum.lnum one.tnum.lnum 
-two.tnum.lnum two.tnum.lnum 
-three.tnum.lnum three.tnum.lnum 
-four.tnum.lnum four.tnum.lnum 
-five.tnum.lnum five.tnum.lnum 
-six.tnum.lnum six.tnum.lnum 
-seven.tnum.lnum seven.tnum.lnum 
-eight.tnum.lnum eight.tnum.lnum 
-nine.tnum.lnum nine.tnum.lnum 
-zero.tnum.onum zero.tnum.onum 
-one.tnum.onum one.tnum.onum 
-two.tnum.onum two.tnum.onum 
-three.tnum.onum three.tnum.onum 
-four.tnum.onum four.tnum.onum 
-five.tnum.onum five.tnum.onum 
-six.tnum.onum six.tnum.onum 
-seven.tnum.onum seven.tnum.onum 
-eight.tnum.onum eight.tnum.onum 
-nine.tnum.onum nine.tnum.onum 
+zero.pnum.onum zero.pnum.onum
+one.pnum.onum one.pnum.onum
+two.pnum.onum two.pnum.onum
+three.pnum.onum three.pnum.onum
+four.pnum.onum four.pnum.onum
+five.pnum.onum five.pnum.onum
+six.pnum.onum six.pnum.onum
+seven.pnum.onum seven.pnum.onum
+eight.pnum.onum eight.pnum.onum
+nine.pnum.onum nine.pnum.onum
+zero.tnum.lnum zero.tnum.lnum
+one.tnum.lnum one.tnum.lnum
+two.tnum.lnum two.tnum.lnum
+three.tnum.lnum three.tnum.lnum
+four.tnum.lnum four.tnum.lnum
+five.tnum.lnum five.tnum.lnum
+six.tnum.lnum six.tnum.lnum
+seven.tnum.lnum seven.tnum.lnum
+eight.tnum.lnum eight.tnum.lnum
+nine.tnum.lnum nine.tnum.lnum
+zero.tnum.onum zero.tnum.onum
+one.tnum.onum one.tnum.onum
+two.tnum.onum two.tnum.onum
+three.tnum.onum three.tnum.onum
+four.tnum.onum four.tnum.onum
+five.tnum.onum five.tnum.onum
+six.tnum.onum six.tnum.onum
+seven.tnum.onum seven.tnum.onum
+eight.tnum.onum eight.tnum.onum
+nine.tnum.onum nine.tnum.onum
 uni2080 zeroinferior uni2080
 uni2081 oneinferior uni2081
 uni2082 twoinferior uni2082
@@ -87,26 +87,26 @@ uni2076 sixsuperior uni2076
 uni2077 sevensuperior uni2077
 uni2078 eightsuperior uni2078
 uni2079 ninesuperior uni2079
-zero.dnom zero.dnom 
-one.dnom one.dnom 
-two.dnom two.dnom 
-three.dnom three.dnom 
-four.dnom four.dnom 
-five.dnom five.dnom 
-six.dnom six.dnom 
-seven.dnom seven.dnom 
-eight.dnom eight.dnom 
-nine.dnom nine.dnom 
-zero.numr zero.numr 
-one.numr one.numr 
-two.numr two.numr 
-three.numr three.numr 
-four.numr four.numr 
-five.numr five.numr 
-six.numr six.numr 
-seven.numr seven.numr 
-eight.numr eight.numr 
-nine.numr nine.numr 
+zero.dnom zero.dnom
+one.dnom one.dnom
+two.dnom two.dnom
+three.dnom three.dnom
+four.dnom four.dnom
+five.dnom five.dnom
+six.dnom six.dnom
+seven.dnom seven.dnom
+eight.dnom eight.dnom
+nine.dnom nine.dnom
+zero.numr zero.numr
+one.numr one.numr
+two.numr two.numr
+three.numr three.numr
+four.numr four.numr
+five.numr five.numr
+six.numr six.numr
+seven.numr seven.numr
+eight.numr eight.numr
+nine.numr nine.numr
 fraction fraction uni2044
 percent percent uni0025
 dollar dollar uni0024
@@ -185,26 +185,26 @@ at at uni0040
 periodcentered periodcentered uni00B7
 ampersand ampersand uni0026
 asterisk asterisk uni002A
-hyphen.case hyphen.case 
-uni2010.case hyphentwo.case 
-uni2011.case nbhyphen.case 
-endash.case endash.case 
-emdash.case emdash.case 
-parenleft.case parenleft.case 
-parenright.case parenright.case 
-slash.case slash.case 
-backslash.case backslash.case 
-bracketleft.case bracketleft.case 
-bracketright.case bracketright.case 
-braceleft.case braceleft.case 
-braceright.case braceright.case 
-bullet.case bullet.case 
-guilsinglleft.case guilsinglleft.case 
-guilsinglright.case guilsinglright.case 
-guillemotleft.case guillemotleft.case 
-guillemotright.case guillemotright.case 
-at.case at.case 
-periodcentered.case periodcentered.case 
+hyphen.case hyphen.case
+uni2010.case hyphentwo.case
+uni2011.case nbhyphen.case
+endash.case endash.case
+emdash.case emdash.case
+parenleft.case parenleft.case
+parenright.case parenright.case
+slash.case slash.case
+backslash.case backslash.case
+bracketleft.case bracketleft.case
+bracketright.case bracketright.case
+braceleft.case braceleft.case
+braceright.case braceright.case
+bullet.case bullet.case
+guilsinglleft.case guilsinglleft.case
+guilsinglright.case guilsinglright.case
+guillemotleft.case guillemotleft.case
+guillemotright.case guillemotright.case
+at.case at.case
+periodcentered.case periodcentered.case
 uni00AD softhyphen uni00AD
 figuredash figuredash uni2012
 uni2015 horizontalbar uni2015
@@ -287,8 +287,8 @@ quotesinglbase quotesinglbase uni201A
 quotedblleft quotedblleft uni201C
 quotedblright quotedblright uni201D
 quotedblbase quotedblbase uni201E
-periodcentered.loclCAT periodcentered.loclCAT 
-periodcentered.loclCAT.cap periodcentered.loclCAT.cap 
+periodcentered.loclCAT periodcentered.loclCAT
+periodcentered.loclCAT.cap periodcentered.loclCAT.cap
 dotlessi dotlessi uni0131
 uni0237 dotlessj uni0237
 IJ IJ uni0132
@@ -316,17 +316,17 @@ hbar hbar uni0127
 lslash lslash uni0142
 oslash oslash uni00F8
 uni0327 cedillacomb uni0327
-uni0327.cap cedillacomb.cap 
-uni0327.dsc cedillacomb.dsc 
+uni0327.cap cedillacomb.cap
+uni0327.dsc cedillacomb.dsc
 cedilla cedilla uni00B8
 uni0326 commabelowcomb uni0326
-uni0326.cap commabelowcomb.cap 
-uni0326.dsc commabelowcomb.dsc 
+uni0326.cap commabelowcomb.cap
+uni0326.dsc commabelowcomb.dsc
 uni0312 commaturnedabovecomb uni0312
 uni0328 ogonekcomb uni0328
-uni0328.cap ogonekcomb.cap 
-uni0328.round ogonekcomb.round 
-uni0328.round.cap ogonekcomb.round.cap 
+uni0328.cap ogonekcomb.cap
+uni0328.round ogonekcomb.round
+uni0328.round.cap ogonekcomb.round.cap
 ogonek ogonek uni02DB
 Ccedilla Ccedilla uni00C7
 Scedilla Scedilla uni015E
@@ -355,12 +355,12 @@ eogonek eogonek uni0119
 iogonek iogonek uni012F
 uogonek uogonek uni0173
 acutecomb acutecomb uni0301
-acutecomb.cap acutecomb.cap 
-acutecomb.asc acutecomb.asc 
+acutecomb.cap acutecomb.cap
+acutecomb.asc acutecomb.asc
 acute acute uni00B4
 uni030B hungarumlautcomb uni030B
-uni030B.cap hungarumlautcomb.cap 
-uni030B.asc hungarumlautcomb.asc 
+uni030B.cap hungarumlautcomb.cap
+uni030B.asc hungarumlautcomb.asc
 hungarumlaut hungarumlaut uni02DD
 Aacute Aacute uni00C1
 Cacute Cacute uni0106
@@ -375,7 +375,7 @@ Uacute Uacute uni00DA
 Wacute Wacute uni1E82
 Yacute Yacute uni00DD
 Zacute Zacute uni0179
-IJacute IJacute 
+IJacute IJacute
 Ohungarumlaut Ohungarumlaut uni0150
 Uhungarumlaut Uhungarumlaut uni0170
 aacute aacute uni00E1
@@ -391,12 +391,12 @@ uacute uacute uni00FA
 wacute wacute uni1E83
 yacute yacute uni00FD
 zacute zacute uni017A
-ijacute ijacute 
+ijacute ijacute
 ohungarumlaut ohungarumlaut uni0151
 uhungarumlaut uhungarumlaut uni0171
 gravecomb gravecomb uni0300
-gravecomb.cap gravecomb.cap 
-gravecomb.asc gravecomb.asc 
+gravecomb.cap gravecomb.cap
+gravecomb.asc gravecomb.asc
 uni02CB gravemod uni02CB
 grave grave uni0060
 Agrave Agrave uni00C0
@@ -414,12 +414,12 @@ ugrave ugrave uni00F9
 wgrave wgrave uni1E81
 ygrave ygrave uni1EF3
 uni0302 circumflexcomb uni0302
-uni0302.cap circumflexcomb.cap 
-uni0302.asc circumflexcomb.asc 
+uni0302.cap circumflexcomb.cap
+uni0302.asc circumflexcomb.asc
 circumflex circumflex uni02C6
 tildecomb tildecomb uni0303
-tildecomb.cap tildecomb.cap 
-tildecomb.asc tildecomb.asc 
+tildecomb.cap tildecomb.cap
+tildecomb.asc tildecomb.asc
 tilde tilde uni02DC
 Acircumflex Acircumflex uni00C2
 Ecircumflex Ecircumflex uni00CA
@@ -446,14 +446,14 @@ ntilde ntilde uni00F1
 otilde otilde uni00F5
 utilde utilde uni0169
 uni030C caroncomb uni030C
-uni030C.cap caroncomb.cap 
-uni030C.asc caroncomb.asc 
+uni030C.cap caroncomb.cap
+uni030C.asc caroncomb.asc
 caron caron uni02C7
 uni0315 commaaboverightcomb uni0315
-uni0315.short commaaboverightcomb.short 
+uni0315.short commaaboverightcomb.short
 uni0304 macroncomb uni0304
-uni0304.cap macroncomb.cap 
-uni0304.asc macroncomb.asc 
+uni0304.cap macroncomb.cap
+uni0304.asc macroncomb.asc
 macron macron uni00AF
 Ccaron Ccaron uni010C
 Dcaron Dcaron uni010E
@@ -484,12 +484,12 @@ imacron imacron uni012B
 omacron omacron uni014D
 umacron umacron uni016B
 uni0308 dieresiscomb uni0308
-uni0308.cap dieresiscomb.cap 
-uni0308.asc dieresiscomb.asc 
+uni0308.cap dieresiscomb.cap
+uni0308.asc dieresiscomb.asc
 dieresis dieresis uni00A8
 uni0306 brevecomb uni0306
-uni0306.cap brevecomb.cap 
-uni0306.asc brevecomb.asc 
+uni0306.cap brevecomb.cap
+uni0306.asc brevecomb.asc
 breve breve uni02D8
 Adieresis Adieresis uni00C4
 Edieresis Edieresis uni00CB
@@ -510,8 +510,8 @@ ydieresis ydieresis uni00FF
 abreve abreve uni0103
 gbreve gbreve uni011F
 uni0307 dotaccentcomb uni0307
-uni0307.cap dotaccentcomb.cap 
-uni0307.asc dotaccentcomb.asc 
+uni0307.cap dotaccentcomb.cap
+uni0307.asc dotaccentcomb.asc
 dotaccent dotaccent uni02D9
 Cdotaccent Cdotaccent uni010A
 Edotaccent Edotaccent uni0116
@@ -523,8 +523,8 @@ edotaccent edotaccent uni0117
 gdotaccent gdotaccent uni0121
 zdotaccent zdotaccent uni017C
 uni030A ringcomb uni030A
-uni030A.cap ringcomb.cap 
-uni030A.asc ringcomb.asc 
+uni030A.cap ringcomb.cap
+uni030A.asc ringcomb.asc
 ring ring uni02DA
 Aring Aring uni00C5
 Uring Uring uni016E
