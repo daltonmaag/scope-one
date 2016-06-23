@@ -593,7 +593,6 @@
 		<key>public.kern1.PUNCT_parenleft_1ST</key>
 		<array>
 			<string>parenleft</string>
-			<string></string>
 			<string>bracketleft</string>
 			<string>braceleft</string>
 			<string>parenleft.case</string>
@@ -1211,7 +1210,6 @@
 		<key>public.kern2.PUNCT_parenright_2ND</key>
 		<array>
 			<string>parenright</string>
-			<string></string>
 			<string>bracketright</string>
 			<string>braceright</string>
 			<string>parenright.case</string>
