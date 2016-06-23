@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dong" format="2">
-	<unicode hex="20AB"/>
-	<advance width="560"/>
 	<outline>
 		<contour>
 			<point x="491" y="136" type="line"/>

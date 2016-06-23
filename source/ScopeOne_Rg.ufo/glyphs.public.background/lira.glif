@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lira" format="2">
-	<unicode hex="20A4"/>
-	<advance width="560"/>
 	<outline>
 		<contour>
 			<point x="482" y="0" type="line"/>
@@ -99,32 +97,4 @@
 			<point x="83" y="0" type="curve"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>org.robofab.fontlab.guides</key>
-			<dict>
-				<key>hguides</key>
-				<array>
-					<dict>
-						<key>angle</key>
-						<integer>0</integer>
-						<key>position</key>
-						<integer>244</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<integer>0</integer>
-						<key>position</key>
-						<integer>413</integer>
-					</dict>
-					<dict>
-						<key>angle</key>
-						<integer>0</integer>
-						<key>position</key>
-						<integer>374</integer>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-	</lib>
 </glyph>

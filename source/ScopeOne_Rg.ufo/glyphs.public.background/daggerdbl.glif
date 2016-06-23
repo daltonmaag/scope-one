@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="daggerdbl" format="2">
-	<unicode hex="2021"/>
-	<advance width="468"/>
 	<outline>
 		<contour>
 			<point x="426" y="69" type="line"/>

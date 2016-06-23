@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pfennig" format="2">
-	<unicode hex="20B0"/>
-	<advance width="560"/>
 	<outline>
 		<contour>
 			<point x="250" y="17" type="line"/>

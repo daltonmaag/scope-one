@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="2">
-	<unicode hex="203A"/>
-	<advance width="339"/>
 	<outline>
 		<contour>
 			<point x="286" y="224" type="line"/>
