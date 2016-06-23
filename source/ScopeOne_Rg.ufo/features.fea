@@ -288,6 +288,7 @@ feature locl {
 		sub iacute j' lookup locl_NLD_ijacute;
 		lookup locl_NLD_liga_acute;
 } locl;
+
 feature ccmp {
 	lookup ccmp_decomposition {
 		sub @DFLT_ccmp_decomp_top' lookup DFLT_dflt_ccmp_decomp_top @DFLT_ccmp_mark_below;
@@ -323,46 +324,59 @@ feature ccmp {
 		sub @DFLT_DSC @DFLT_mark_LC_bottom' by @DFLT_mark_LC_dsc;
 	} ccmp_mark_DSC;
 } ccmp;
+
 feature frac {
 	lookup frac_bar;
 	lookup frac_numr;
 	lookup frac_dnom;
 } frac;
+
 feature sups {
 	sub @DFLT_figPLnum by @DFLT_sups;
 } sups;
+
 feature subs {
 	sub @DFLT_figPLnum by @DFLT_subs;
 } subs;
+
 feature sinf {
 	sub @DFLT_figPLnum by @DFLT_subs;
 } sinf;
+
 feature numr {
 	sub @DFLT_figPLnum by @DFLT_numr;
 } numr;
+
 feature dnom {
 	sub @DFLT_figPLnum by @DFLT_dnom;
 } dnom;
+
 feature lnum {
 	sub @DFLT_figPOnum by @DFLT_figPLnum;
 } lnum;
+
 feature onum {
 	sub @DFLT_figPLnum by @DFLT_figPOnum;
 } onum;
+
 feature pnum {
 	sub @DFLT_figTLnum by @DFLT_figPLnum;
 	sub @DFLT_figTOnum by @DFLT_figPOnum;
 } pnum;
+
 feature tnum {
 	sub @DFLT_figPLnum by @DFLT_figTLnum;
 	sub @DFLT_figPOnum by @DFLT_figTOnum;
 } tnum;
+
 feature ordn {
 	sub [a o] by [ordfeminine ordmasculine] ;
 } ordn;
+
 feature case {
 	sub @DFLT_case_base by @DFLT_case_alt ;
 } case;
+
 feature liga {
 	lookup liga_dflt;
 	lookup liga_i;
@@ -380,6 +394,3 @@ feature liga {
 		language TRK exclude_dflt;
 		lookup liga_dflt;
 } liga;
-
-
-
