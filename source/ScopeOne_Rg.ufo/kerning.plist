@@ -2,6 +2,91 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>Aogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>80</integer>
+			<key>public.kern2.LAT_J_UC_2ND</key>
+			<integer>60</integer>
+			<key>public.kern2.LAT_g_LC_2ND</key>
+			<integer>20</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>80</integer>
+		</dict>
+		<key>Eogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>40</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>40</integer>
+		</dict>
+		<key>I</key>
+		<dict>
+			<key>public.kern2.LAT_v_LC_2ND</key>
+			<integer>-10</integer>
+			<key>public.kern2.LAT_w_LC_2ND</key>
+			<integer>-10</integer>
+		</dict>
+		<key>Iogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>50</integer>
+			<key>public.kern2.LAT_J_UC_2ND</key>
+			<integer>25</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>50</integer>
+		</dict>
+		<key>Oslash</key>
+		<dict>
+			<key>public.kern2.LAT_Y_UC_2ND</key>
+			<integer>20</integer>
+		</dict>
+		<key>Q</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>40</integer>
+			<key>public.kern2.LAT_J_UC_2ND</key>
+			<integer>35</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>40</integer>
+		</dict>
+		<key>aogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>65</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>65</integer>
+		</dict>
+		<key>eogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>30</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>30</integer>
+		</dict>
+		<key>iogonek</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>50</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>50</integer>
+		</dict>
+		<key>lcommabelow</key>
+		<dict>
+			<key>dotlessj</key>
+			<integer>30</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
+			<integer>30</integer>
+		</dict>
+		<key>lslash</key>
+		<dict>
+			<key>public.kern2.LAT_u_LC_2ND</key>
+			<integer>15</integer>
+			<key>public.kern2.LAT_v_LC_2ND</key>
+			<integer>10</integer>
+			<key>public.kern2.LAT_w_LC_2ND</key>
+			<integer>10</integer>
+		</dict>
 		<key>public.kern1.LAT_A_UC_1ST</key>
 		<dict>
 			<key>public.kern2.LAT_AE_UC_2ND</key>
@@ -926,6 +1011,8 @@
 		</dict>
 		<key>public.kern1.LAT_f_LC_1ST</key>
 		<dict>
+			<key>igrave</key>
+			<integer>40</integer>
 			<key>public.kern2.LAT_a_LC_2ND</key>
 			<integer>-20</integer>
 			<key>public.kern2.LAT_b_LC_2ND</key>
@@ -962,11 +1049,11 @@
 			<integer>35</integer>
 			<key>public.kern2.PUNCT_quotesingle_2ND</key>
 			<integer>50</integer>
-			<key>igrave</key>
-			<integer>40</integer>
 		</dict>
 		<key>public.kern1.LAT_g_LC_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>30</integer>
 			<key>public.kern2.LAT_a_LC_2ND</key>
 			<integer>-15</integer>
 			<key>public.kern2.LAT_germandbls_LC_2ND</key>
@@ -983,8 +1070,6 @@
 			<integer>30</integer>
 			<key>public.kern2.PUNCT_backslash_2ND</key>
 			<integer>-30</integer>
-			<key>dotlessj</key>
-			<integer>30</integer>
 		</dict>
 		<key>public.kern1.LAT_germandbls_LC_1ST</key>
 		<dict>
@@ -1090,6 +1175,8 @@
 		</dict>
 		<key>public.kern1.LAT_q_LC_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>70</integer>
 			<key>public.kern2.LAT_b_LC_2ND</key>
 			<integer>-20</integer>
 			<key>public.kern2.LAT_germandbls_LC_2ND</key>
@@ -1110,8 +1197,6 @@
 			<integer>-40</integer>
 			<key>public.kern2.PUNCT_quotesingle_2ND</key>
 			<integer>-30</integer>
-			<key>dotlessj</key>
-			<integer>70</integer>
 		</dict>
 		<key>public.kern1.LAT_r_LC_1ST</key>
 		<dict>
@@ -1189,6 +1274,8 @@
 		</dict>
 		<key>public.kern1.LAT_v_LC_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>10</integer>
 			<key>public.kern2.LAT_a_LC_2ND</key>
 			<integer>-10</integer>
 			<key>public.kern2.LAT_g_LC_2ND</key>
@@ -1223,11 +1310,11 @@
 			<integer>20</integer>
 			<key>public.kern2.PUNCT_slash_2ND</key>
 			<integer>-60</integer>
-			<key>dotlessj</key>
-			<integer>10</integer>
 		</dict>
 		<key>public.kern1.LAT_w_LC_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>15</integer>
 			<key>public.kern2.LAT_g_LC_2ND</key>
 			<integer>-40</integer>
 			<key>public.kern2.LAT_germandbls_LC_2ND</key>
@@ -1262,8 +1349,6 @@
 			<integer>10</integer>
 			<key>public.kern2.PUNCT_slash_2ND</key>
 			<integer>-50</integer>
-			<key>dotlessj</key>
-			<integer>15</integer>
 		</dict>
 		<key>public.kern1.LAT_x_LC_1ST</key>
 		<dict>
@@ -1802,6 +1887,8 @@
 		</dict>
 		<key>public.kern1.PUNCT_parenleft_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>60</integer>
 			<key>public.kern2.LAT_J_UC_2ND</key>
 			<integer>70</integer>
 			<key>public.kern2.LAT_V_UC_2ND</key>
@@ -1820,8 +1907,6 @@
 			<integer>30</integer>
 			<key>public.kern2.NUM_three.onum_2ND</key>
 			<integer>30</integer>
-			<key>dotlessj</key>
-			<integer>60</integer>
 		</dict>
 		<key>public.kern1.PUNCT_period_1ST</key>
 		<dict>
@@ -1889,6 +1974,8 @@
 		</dict>
 		<key>public.kern1.PUNCT_questiondown_1ST</key>
 		<dict>
+			<key>dotlessj</key>
+			<integer>40</integer>
 			<key>public.kern2.LAT_J_UC_2ND</key>
 			<integer>30</integer>
 			<key>public.kern2.LAT_O_UC_2ND</key>
@@ -1919,8 +2006,6 @@
 			<integer>-70</integer>
 			<key>public.kern2.LAT_w_LC_2ND</key>
 			<integer>-60</integer>
-			<key>dotlessj</key>
-			<integer>40</integer>
 		</dict>
 		<key>public.kern1.PUNCT_quotesingle_1ST</key>
 		<dict>
@@ -2023,110 +2108,25 @@
 			<key>public.kern2.NUM_one.onum_2ND</key>
 			<integer>-20</integer>
 		</dict>
-		<key>Aogonek</key>
-		<dict>
-			<key>public.kern2.LAT_J_UC_2ND</key>
-			<integer>60</integer>
-			<key>public.kern2.LAT_g_LC_2ND</key>
-			<integer>20</integer>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>80</integer>
-			<key>dotlessj</key>
-			<integer>80</integer>
-		</dict>
-		<key>Eogonek</key>
-		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>40</integer>
-			<key>dotlessj</key>
-			<integer>40</integer>
-		</dict>
-		<key>I</key>
-		<dict>
-			<key>public.kern2.LAT_v_LC_2ND</key>
-			<integer>-10</integer>
-			<key>public.kern2.LAT_w_LC_2ND</key>
-			<integer>-10</integer>
-		</dict>
-		<key>Iogonek</key>
-		<dict>
-			<key>public.kern2.LAT_J_UC_2ND</key>
-			<integer>25</integer>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>50</integer>
-			<key>dotlessj</key>
-			<integer>50</integer>
-		</dict>
-		<key>Oslash</key>
-		<dict>
-			<key>public.kern2.LAT_Y_UC_2ND</key>
-			<integer>20</integer>
-		</dict>
-		<key>Q</key>
-		<dict>
-			<key>public.kern2.LAT_J_UC_2ND</key>
-			<integer>35</integer>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>40</integer>
-			<key>dotlessj</key>
-			<integer>40</integer>
-		</dict>
-		<key>aogonek</key>
-		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>65</integer>
-			<key>dotlessj</key>
-			<integer>65</integer>
-		</dict>
-		<key>eogonek</key>
-		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>30</integer>
-			<key>dotlessj</key>
-			<integer>30</integer>
-		</dict>
-		<key>iogonek</key>
-		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>50</integer>
-			<key>dotlessj</key>
-			<integer>50</integer>
-		</dict>
-		<key>lcommabelow</key>
-		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>30</integer>
-			<key>dotlessj</key>
-			<integer>30</integer>
-		</dict>
-		<key>lslash</key>
-		<dict>
-			<key>public.kern2.LAT_u_LC_2ND</key>
-			<integer>15</integer>
-			<key>public.kern2.LAT_v_LC_2ND</key>
-			<integer>10</integer>
-			<key>public.kern2.LAT_w_LC_2ND</key>
-			<integer>10</integer>
-		</dict>
 		<key>tcedilla</key>
 		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>40</integer>
 			<key>dotlessj</key>
+			<integer>40</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
 			<integer>40</integer>
 		</dict>
 		<key>tcommabelow</key>
 		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>30</integer>
 			<key>dotlessj</key>
+			<integer>30</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
 			<integer>30</integer>
 		</dict>
 		<key>uogonek</key>
 		<dict>
-			<key>public.kern2.LAT_j_LC_2ND</key>
-			<integer>50</integer>
 			<key>dotlessj</key>
+			<integer>50</integer>
+			<key>public.kern2.LAT_j_LC_2ND</key>
 			<integer>50</integer>
 		</dict>
 	</dict>
