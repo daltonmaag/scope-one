@@ -45,16 +45,23 @@ def run_hb_shape(font_file_name, test):
     return data
 
 
-def run_tests(font_file_name, test_definition, goadb_file_name):
+def run_tests(font_file_name, test_definition, goadb_file_name=None):
     """Run a series of given tests on a font file with Harbfuzz"""
     failed = []
     passed = []
-    glyph_dict = get_glyphs_names(goadb_file_name)
+    if goadb_file_name:
+        glyph_dict = get_glyphs_names(goadb_file_name)
+    else:
+        glyph_dict = None
 
     for test in test_definition:
         expect = test['e']
         output = run_hb_shape(font_file_name, test)
-        test['result'] = '|'.join(glyph_dict[glyph['g']] for glyph in output)
+        if glyph_dict:
+            test['result'] = '|'.join(glyph_dict[glyph['g']] for glyph in output)
+        else:
+            test['result'] = '|'.join(glyph['g'] for glyph in output)
+
         if test['result'] != expect:
             failed.append(test)
         else:
