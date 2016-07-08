@@ -92,12 +92,10 @@ def get_glyphs_names(goadb_file_name):
 
 
 def parse_options(args):
-    parser = argparse.ArgumentParser(
-        description="Runs substition features tests on a font.",
-        usage=usage)
-    parser.add_argument('testjsonfile', metavar='TESTJSON',
+    parser = argparse.ArgumentParser(description=USAGE)
+    parser.add_argument('testjsonfile', metavar='test.json',
                         help='Input font file.')
-    parser.add_argument('fontfile', metavar='FONTFILE',
+    parser.add_argument('fontfile', metavar='font.ttf',
                         help='Font file being tested')
     parser.add_argument('-g', '--goadb', metavar='GOADB.txt',
                         help='Use GlyphOrderAndAliasDB to rename glyphs.')
@@ -117,12 +115,9 @@ def main(args):
         exit(1)
 
 
-usage = '''\
-Usage:
-  featuretest.py [-g <GOADB file>] <test definition file> <font...>
-
+USAGE = '''\
 Runs substition features tests on a font.
-Use a test definition JSON file with an array of test objects,
+Use a test definition test.json file with an array of test objects,
 with an optional GlyphOrderAndAliasDB file if glyphs have been renamed.
 Harfbuzz's hb-shape must be installed and in the PATH.
 Each test object must have:
@@ -137,7 +132,4 @@ Optional:
 '''
 
 if __name__ == '__main__':
-    if len(sys.argv) < 4:
-        print(usage)
-        exit(1)
     main(sys.argv[1:])
