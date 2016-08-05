@@ -8,6 +8,8 @@
 		<dict>
 			<key>public.markColor</key>
 			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>zero.numr</string>
 		</dict>
 	</lib>
 </glyph>
