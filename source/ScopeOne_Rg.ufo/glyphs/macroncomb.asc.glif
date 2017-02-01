@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macroncomb.asc" format="1">
+<glyph name="macroncomb.asc" format="2">
 	<outline>
 		<contour>
 			<point x="129" y="780" type="line"/>
@@ -17,175 +17,14 @@
 			<point x="-133" y="788"/>
 			<point x="-131" y="780" type="curve"/>
 		</contour>
-		<contour>
-			<point name="_top.ASC" x="0" y="700" type="move"/>
-		</contour>
 	</outline>
+	<anchor name="_top.ASC" x="0" y="700"/>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
-			<key>org.robofab.fontlab.maskData</key>
-			<array>
-				<dict>
-					<key>method</key>
-					<string>beginPath</string>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>129</integer>
-						<integer>780</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>132</integer>
-						<integer>789</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>134</integer>
-						<integer>798</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>134</integer>
-						<integer>804</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>134</integer>
-						<integer>810</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>133</integer>
-						<integer>817</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>131</integer>
-						<integer>825</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-129</integer>
-						<integer>825</integer>
-					</array>
-					<key>segmentType</key>
-					<string>line</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-132</integer>
-						<integer>816</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-134</integer>
-						<integer>807</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-134</integer>
-						<integer>801</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-134</integer>
-						<integer>795</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-133</integer>
-						<integer>788</integer>
-					</array>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>addPoint</string>
-					<key>pt</key>
-					<array>
-						<integer>-131</integer>
-						<integer>780</integer>
-					</array>
-					<key>segmentType</key>
-					<string>curve</string>
-					<key>smooth</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>method</key>
-					<string>endPath</string>
-				</dict>
-			</array>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>uni0304.asc</string>
 		</dict>
 	</lib>
 </glyph>

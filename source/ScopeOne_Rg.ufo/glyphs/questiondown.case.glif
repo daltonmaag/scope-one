@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="questiondown.case" format="1">
+<glyph name="questiondown.case" format="2">
 	<advance width="471"/>
 	<outline>
 		<component base="questiondown" yOffset="145"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>questiondown.case</string>
 		</dict>
 	</lib>
 </glyph>

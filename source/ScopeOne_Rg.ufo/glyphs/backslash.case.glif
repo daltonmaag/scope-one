@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="backslash.case" format="1">
+<glyph name="backslash.case" format="2">
 	<advance width="381"/>
 	<outline>
 		<component base="backslash"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>backslash.case</string>
 		</dict>
 	</lib>
 </glyph>

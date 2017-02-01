@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight.numr" format="1">
+<glyph name="eight.numr" format="2">
 	<advance width="348"/>
 	<outline>
 		<component base="eightinferior" yOffset="401"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>eight.numr</string>
 		</dict>
 	</lib>
 </glyph>

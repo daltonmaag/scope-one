@@ -54,9 +54,10 @@ def compile_otf(font, release_mode=False, autohint=False, debug=False):
     fd, tmpfile = tempfile.mkstemp()
     try:
         os.close(fd)
+        glyphOrder = [n for n in font.glyphOrder if n in font]
         report = compiler.compile(
             font, tmpfile, releaseMode=release_mode,
-            autohint=autohint, glyphOrder=font.glyphOrder)
+            autohint=autohint, glyphOrder=glyphOrder)
         ttFont = TTFont(tmpfile)
     finally:
         os.remove(tmpfile)
@@ -69,7 +70,8 @@ def compile_otf(font, release_mode=False, autohint=False, debug=False):
 
 def compile_ttf(font, max_err=1.0):
     """Compile UFO into a TrueType TTFont instance."""
-    compiler = OutlineTTFCompiler(font, font.glyphOrder)
+    glyphOrder = [n for n in font.glyphOrder if n in font]
+    compiler = OutlineTTFCompiler(font, glyphOrder)
     return compiler.compile()
 
 

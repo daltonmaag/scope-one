@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seven.dnom" format="1">
+<glyph name="seven.dnom" format="2">
 	<advance width="348"/>
 	<outline>
 		<component base="seveninferior" yOffset="100"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>seven.dnom</string>
 		</dict>
 	</lib>
 </glyph>

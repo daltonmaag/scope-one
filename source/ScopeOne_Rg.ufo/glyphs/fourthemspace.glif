@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fourthemspace" format="1">
+<glyph name="fourthemspace" format="2">
 	<unicode hex="2005"/>
 	<advance width="250"/>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>uni2005</string>
 		</dict>
 	</lib>
 </glyph>

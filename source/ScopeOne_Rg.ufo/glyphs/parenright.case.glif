@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="parenright.case" format="1">
+<glyph name="parenright.case" format="2">
 	<advance width="304"/>
 	<outline>
 		<component base="parenright" yOffset="44"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>parenright.case</string>
 		</dict>
 	</lib>
 </glyph>

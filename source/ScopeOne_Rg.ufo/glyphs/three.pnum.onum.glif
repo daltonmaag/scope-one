@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="three.pnum.onum" format="1">
+<glyph name="three.pnum.onum" format="2">
 	<advance width="505"/>
 	<outline>
 		<component base="three" xOffset="-5" yOffset="-115"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>three.pnum.onum</string>
 		</dict>
 	</lib>
 </glyph>

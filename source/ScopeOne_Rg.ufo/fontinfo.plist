@@ -12,12 +12,68 @@
 		<integer>-185</integer>
 		<key>familyName</key>
 		<string>Scope One</string>
+		<key>guidelines</key>
+		<array>
+			<dict>
+				<key>y</key>
+				<integer>-10</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>510</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>655</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>680</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>980</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>980</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>981</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>981</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>984</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>989</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>1833</integer>
+			</dict>
+			<dict>
+				<key>y</key>
+				<integer>1839</integer>
+			</dict>
+		</array>
 		<key>italicAngle</key>
 		<integer>0</integer>
 		<key>macintoshFONDFamilyID</key>
 		<integer>128</integer>
 		<key>macintoshFONDName</key>
 		<string>Scope One</string>
+		<key>openTypeHeadFlags</key>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+		</array>
 		<key>openTypeHeadLowestRecPPEM</key>
 		<integer>9</integer>
 		<key>openTypeHheaAscender</key>
@@ -44,6 +100,9 @@
 		<string>Scope One</string>
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Regular</string>
+		<key>openTypeNameRecords</key>
+		<array>
+		</array>
 		<key>openTypeNameUniqueID</key>
 		<string>Scope One Regular Version 1.001</string>
 		<key>openTypeNameVersion</key>
@@ -72,6 +131,9 @@
 			<integer>2</integer>
 			<integer>2</integer>
 			<integer>4</integer>
+		</array>
+		<key>openTypeOS2Selection</key>
+		<array>
 		</array>
 		<key>openTypeOS2StrikeoutPosition</key>
 		<integer>274</integer>

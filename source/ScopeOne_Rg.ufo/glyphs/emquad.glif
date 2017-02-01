@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="emquad" format="1">
+<glyph name="emquad" format="2">
 	<unicode hex="2001"/>
 	<advance width="1000"/>
 	<lib>
 		<dict>
-			<key>org.robofab.fontlab.mark</key>
-			<integer>1</integer>
+			<key>public.markColor</key>
+			<string>1,0.0234375,0,0.35</string>
+			<key>public.postscriptName</key>
+			<string>uni2001</string>
 		</dict>
 	</lib>
 </glyph>
